@@ -38,3 +38,7 @@
     font-family: 'black';
     src: url('/font/Pretendard-Black.otf');
 }
+
+nav {
+    transform: translate(-50%, 0);
+}
