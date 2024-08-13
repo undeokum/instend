@@ -9,7 +9,7 @@ const User = () => {
             <div className='space-y-16'>
                 <div className='flex flex-col items-center space-y-8'>
                     <div className='space-y-4'>
-                        <div className='flex items-center space-x-10'>
+                        <div className='flex items-center space-x-12'>
                             <div className='w-24 h-24 bg-black bg-opacity-10 rounded-full flex items-center justify-center'>
                                 <FontAwesomeIcon icon={faUser} className='h-8 w-8 opacity-40' />
                             </div>
@@ -26,7 +26,7 @@ const User = () => {
                     </div>
                     <button className='bg-instend text-white w-[52%] py-1 rounded-md text-lg'>내 정보 수정하기</button>
                 </div>
-                <div className='space-y-5'>
+                <div className='space-y-5 px-10'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
                         <div className='relative'>

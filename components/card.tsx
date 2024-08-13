@@ -1,9 +1,10 @@
-import { faComment } from "@fortawesome/free-regular-svg-icons"
-import { faHeart } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faComment } from '@fortawesome/free-regular-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Key } from 'react'
 
 interface CardType {
-    key?: React.Key
+    id?: Key
     title: string
     writer: string | null
     region: [string, string] // [~시, ~동]
@@ -12,7 +13,7 @@ interface CardType {
 
 const Card = (props: CardType) => {
     return (
-        <div key={props.key} className='border border-black border-opacity-20 px-8 rounded-md py-5 space-y-2'>
+        <div key={props.id} className='border border-black border-opacity-20 px-8 rounded-md py-5 space-y-2'>
             <h1 className='font-bold text-xl'>{props.title}</h1>
             <div className='flex space-x-1'>
                 <span className='text-instend'>{props.writer != null ? props.writer : '익명'}</span>
