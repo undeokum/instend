@@ -6,7 +6,7 @@ const SignUp = () => {
         <div className='pt-20 flex flex-col items-center space-y-10'>
             <h1 className='text-4xl font-bold'>회원가입</h1>
             <form className='w-full px-14 space-y-4'>
-                <input type='text' className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none' placeholder='아이디를 입력하세요.' />
+                <input type='text' className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none' placeholder='이메일을 입력하세요.' />
                 <input type='text' className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none' placeholder='이름을 입력하세요.' />
                 <input type='password' className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none' placeholder='비밀번호를 입력하세요.' />
                 <input type='password' className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none' placeholder='비밀번호를 다시 입력하세요.' />
