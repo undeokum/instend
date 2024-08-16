@@ -10,8 +10,8 @@ interface SignInFormType {
 
 const SignIn = () => {
     const { register, handleSubmit, formState: { errors } } = useForm<SignInFormType>()
-    const onValid = (data: SignInFormType) => {
-        console.log(data.email)
+    const onValid = async (data: SignInFormType) => {
+        // firebase
     }
     const onInValid = (errors: FieldErrors) => {
         console.log(errors)

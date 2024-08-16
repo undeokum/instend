@@ -1,6 +1,9 @@
 'use client'
+import { auth } from '@/app/firebase'
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { FieldErrors, useForm } from 'react-hook-form'
 
 interface SignUpFormType {
@@ -11,9 +14,18 @@ interface SignUpFormType {
 }
 
 const SignUp = () => {
+    const router = useRouter()
     const { register, handleSubmit, watch,formState: { errors } } = useForm<SignUpFormType>()
-    const onValid = (data: SignUpFormType) => {
-        // firebase
+    const onValid = async (data: SignUpFormType) => {
+        try {
+            const credentials = await createUserWithEmailAndPassword(auth, data.email, data.password)
+            console.log(credentials.user)
+            await updateProfile(credentials.user, {
+                displayName: data.name
+            })
+            router.push('/')
+        }
+        catch(e) {}
     }
     const onInValid = (errors: FieldErrors) => {
         console.log(errors)
