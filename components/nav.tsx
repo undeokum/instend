@@ -3,7 +3,6 @@ import { auth } from '@/app/firebase'
 import { faEarth, faHome, faSchool, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 
 const navIcon = [faHome, faEarth, faSchool, faUser]
 const navName = ['홈', '동네', '학교', '내 정보']
@@ -14,7 +13,6 @@ interface navbarType {
 }
 
 const NavBar = (props: navbarType) => {
-    const router = useRouter()
     console.log(auth.currentUser)
     return (
         <nav className='fixed max-w-screen-sm flex border border-black border-opacity-20 w-full bottom-0 py-4 space-x-20 justify-center bg-white left-[50%]'>

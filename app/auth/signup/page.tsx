@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FieldErrors, useForm } from 'react-hook-form'
 import { ErrorCode, ErrorMessage } from '../error-code'
 
@@ -18,6 +18,11 @@ interface SignUpFormType {
 
 const SignUp = () => {
     const router = useRouter()
+    useEffect(() => {
+        if(auth.currentUser != null){
+            router.push('/')
+        }
+    }, [])
     const [error, setError] = useState('')
     const { register, handleSubmit, watch,formState: { errors } } = useForm<SignUpFormType>()
     const onValid = async (data: SignUpFormType) => {

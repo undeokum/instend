@@ -5,7 +5,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FieldErrors, useForm } from 'react-hook-form'
 import { ErrorCode, ErrorMessage } from '../error-code'
 
@@ -17,6 +17,11 @@ interface SignInFormType {
 const SignIn = () => {
     const [error, setError] = useState('')
     const router = useRouter()
+    useEffect(() => {
+        if(auth.currentUser != null){
+            router.push('/')
+        }
+    }, [])
     const { register, handleSubmit, formState: { errors } } = useForm<SignInFormType>()
     const onValid = async (data: SignInFormType) => {
         try {
