@@ -1,10 +1,13 @@
 'use client'
 import { auth } from '@/app/firebase'
+import { FirebaseError } from 'firebase/app'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 import { FieldErrors, useForm } from 'react-hook-form'
+import { ErrorCode, ErrorMessage } from '../error-code'
 
 interface SignInFormType {
     email: string
@@ -12,6 +15,7 @@ interface SignInFormType {
 }
 
 const SignIn = () => {
+    const [error, setError] = useState('')
     const router = useRouter()
     const { register, handleSubmit, formState: { errors } } = useForm<SignInFormType>()
     const onValid = async (data: SignInFormType) => {
@@ -19,7 +23,11 @@ const SignIn = () => {
             const credentials = await signInWithEmailAndPassword(auth, data.email, data.password)
             router.push('/')
         }
-        catch(e) {}
+        catch(e) {
+            if(e instanceof FirebaseError) {
+                setError(ErrorMessage[ErrorCode.indexOf(e.code)])
+            }
+        }
     }
     const onInValid = (errors: FieldErrors) => {
         console.log(errors)
@@ -54,6 +62,7 @@ const SignIn = () => {
                     placeholder='비밀번호를 입력하세요.'
                 />
                 <span className='text-red-600'>{errors.password?.message}</span>
+                <span className='text-red-600'>{error}</span>
                 <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>로그인</button>
                 <div className='flex space-x-1 justify-center items-center'>
                     <Link href='/auth/signup' className='opacity-50 hover:opacity-70'>회원가입</Link>

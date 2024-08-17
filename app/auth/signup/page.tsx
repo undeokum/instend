@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { FieldErrors, useForm } from 'react-hook-form'
+import { ErrorCode, ErrorMessage } from '../error-code'
 
 interface SignUpFormType {
     email: string
@@ -17,7 +18,7 @@ interface SignUpFormType {
 
 const SignUp = () => {
     const router = useRouter()
-    const [error, setError] = useState<any | unknown>()
+    const [error, setError] = useState('')
     const { register, handleSubmit, watch,formState: { errors } } = useForm<SignUpFormType>()
     const onValid = async (data: SignUpFormType) => {
         try {
@@ -29,15 +30,13 @@ const SignUp = () => {
             router.push('/')
         }
         catch(e) {
-            if(e instanceof FirebaseError){
-                setError(e.message)
-            }
+            if(e instanceof FirebaseError) setError(ErrorMessage[ErrorCode.indexOf(e.code)])
         }
     }
     const onInValid = (errors: FieldErrors) => {
         console.log(errors)
     }
-    return (
+    return(
         <div className='pt-20 flex flex-col items-center space-y-10'>
             <h1 className='text-4xl font-bold'>회원가입</h1>
             <form className='w-full px-14 space-y-4' onSubmit={handleSubmit(onValid, onInValid)}>
