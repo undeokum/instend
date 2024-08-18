@@ -18,11 +18,11 @@ interface SignUpFormType {
 
 const SignUp = () => {
     const router = useRouter()
-    useEffect(() => {
-        if(auth.currentUser != null){
-            router.push('/')
-        }
-    }, [])
+    // useEffect(() => {
+    //     if(auth.currentUser != null){
+    //         router.push('/')
+    //     }
+    // }, [router])
     const [error, setError] = useState('')
     const { register, handleSubmit, watch,formState: { errors } } = useForm<SignUpFormType>()
     const onValid = async (data: SignUpFormType) => {

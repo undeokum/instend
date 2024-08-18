@@ -7,16 +7,10 @@ const User = () => {
     return (
         <div>
             <div className='space-y-16'>
-                <div className='flex flex-col items-center space-y-8'>
+                <div className='flex flex-col items-center space-y-8 border border-black border-opacity-20 w-full py-10 rounded-md'>
                     <div className='space-y-4'>
-                        <div className='flex items-center space-x-12'>
-                            <div className='w-24 h-24 bg-black bg-opacity-10 rounded-full flex items-center justify-center'>
-                                <FontAwesomeIcon icon={faUser} className='h-8 w-8 opacity-40' />
-                            </div>
-                            <div className='space-y-2 text-lg'>
-                                <p className='opacity-50 text-lg'>@chul.su_kim</p>
-                                <h1 className='text-3xl font-semi_bold'>김철수</h1>
-                            </div>
+                        <div className='space-y-2 text-lg text-center'>
+                            <h1 className='text-4xl font-semi_bold'>김철수</h1>
                         </div>
                         <div className='flex space-x-2 text-black text-opacity-50 justify-center items-center'>
                             <span>서울특별시 대치동</span>
@@ -26,7 +20,7 @@ const User = () => {
                     </div>
                     <button className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg'>내 정보 수정하기</button>
                 </div>
-                <div className='space-y-5 px-10'>
+                <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
                         <div className='relative'>
