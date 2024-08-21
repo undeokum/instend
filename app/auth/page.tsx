@@ -1,7 +1,20 @@
+'use client'
+import { onAuthStateChanged } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+import { useEffect } from 'react'
+import { auth } from '../firebase'
 
 const Auth = () => {
+    const router = useRouter()
+    useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                router.push('/')
+            }
+        })
+    }, [auth])
     return (
         <div className='flex flex-col items-center pt-20 space-y-14'>
             <div className='flex flex-col items-center space-y-3'>

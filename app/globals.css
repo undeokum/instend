@@ -39,6 +39,19 @@
     src: url('/font/Pretendard-Black.otf');
 }
 
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
 nav {
     transform: translate(-50%, 0);
+}
+
+.loader {
+    animation: rotate 1s linear infinite;
 }
