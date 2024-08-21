@@ -25,16 +25,24 @@ const NavBar = (props: navbarType) => {
         })
     }, [auth])
     return (
-        <nav className='fixed max-w-screen-sm flex border border-black border-opacity-20 w-full bottom-0 py-4 space-x-20 justify-center bg-white left-[50%]'>
+        <header>
             {
-                navIcon.map((icon, i) => (
-                    <Link href={`/${navHref[i]}`} key={i} className={`flex flex-col items-center space-y-1 ${props.route == navHref[i] ? 'text-instend' : 'opacity-50 hover:opacity-60 transition-opacity'}`}>
-                        <FontAwesomeIcon icon={icon} className='w-6 h-6' />
-                        <div>{navName[i]}</div>
-                    </Link>
-                ))
+                props.route == 'un'
+                ?
+                <></>
+                :
+                <nav className='fixed max-w-screen-sm flex border border-black border-opacity-20 w-full bottom-0 py-4 space-x-20 justify-center bg-white left-[50%]'>
+                    {
+                        navIcon.map((icon, i) => (
+                            <Link href={`/${navHref[i]}`} key={i} className={`flex flex-col items-center space-y-1 ${props.route == navHref[i] ? 'text-instend' : 'opacity-50 hover:opacity-60 transition-opacity'}`}>
+                                <FontAwesomeIcon icon={icon} className='w-6 h-6' />
+                                <div>{navName[i]}</div>
+                            </Link>
+                        ))
+                    }
+                </nav>
             }
-        </nav>
+        </header>
     )
 }
 
