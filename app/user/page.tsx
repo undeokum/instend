@@ -1,16 +1,23 @@
+'use client'
 import Card from '@/components/card'
 import NavBar from '@/components/nav'
 import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { auth } from '../firebase'
+import { useEffect, useState } from 'react'
 
 const User = () => {
+    const [name, setName] = useState<string | null>()
+    useEffect(() => {
+        setName(auth.currentUser?.displayName)
+    }, [])
     return (
         <div>
             <div className='space-y-16'>
                 <div className='flex flex-col items-center space-y-8 border border-black border-opacity-20 w-full py-10 rounded-md'>
                     <div className='space-y-4'>
                         <div className='space-y-2 text-lg text-center'>
-                            <h1 className='text-4xl font-semi_bold'>김철수</h1>
+                            <h1 className='text-4xl font-semi_bold'>{name}</h1>
                         </div>
                         <div className='flex space-x-2 text-black text-opacity-50 justify-center items-center'>
                             <span>서울특별시 대치동</span>
