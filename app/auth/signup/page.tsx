@@ -24,7 +24,7 @@ const SignUp = () => {
                 router.push('/')
             }
         })
-    }, [auth])
+    })
     const [error, setError] = useState('')
     const { register, handleSubmit, watch,formState: { errors } } = useForm<SignUpFormType>()
     const onValid = async (data: SignUpFormType) => {

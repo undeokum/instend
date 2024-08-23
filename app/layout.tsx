@@ -27,7 +27,7 @@ export default function RootLayout({
           <h1 className='text-2xl'>페이지 로딩중...</h1>
         </div>
         :
-        <div className='px-10 pt-16 pb-32'>{children}</div>
+        <div className='px-8 pt-16 pb-32'>{children}</div>
       }
     </body>
   </html>

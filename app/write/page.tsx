@@ -2,51 +2,64 @@
 import NavBar from '@/components/nav'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FirebaseError } from 'firebase/app'
 import { addDoc, collection } from 'firebase/firestore'
-import { useRouter } from 'next/navigation'
-import { FieldErrors, useForm } from 'react-hook-form'
-import { auth, db } from '../firebase'
-import { useEffect, useState } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { useForm } from 'react-hook-form'
+import { auth, db, storage } from '../firebase'
+import React, { useEffect, useState } from 'react'
 import { User } from 'firebase/auth'
+import { ref, uploadBytes } from 'firebase/storage'
 
 interface PostType {
     content: string
 }
 
+const params = ['', 'school', 'neighbor']
+
 const Write = () => {
     const router = useRouter()
+    const searchParams = useSearchParams().get('where')
     const { register, formState: { errors }, handleSubmit } = useForm<PostType>()
-    const [user, setUser] = useState<User | null>()
+    const [user, setUser] = useState<User | null>(null)
+    const [file, setFile] = useState<File | null>(null)
+
     useEffect(() => {
         setUser(auth.currentUser)
-    }, [])
+        if(!params.includes(searchParams!)) router.push('/write?where=')
+    }, [router, searchParams])
+
+    const onFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { files } = e.target
+        if(files && files.length == 1) setFile(files[0])
+    }
     const onValid = async (data: PostType) => {
         const content = data.content
         const date = new Date()
-        await addDoc(collection(db, 'posts'), {
+        const setFolder = searchParams == '' ? 'all' : searchParams!
+        const doc = await addDoc(collection(db, setFolder), {
             content,
             createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
             userName: user?.displayName || '익명',
             userId: user?.uid,
             heart: 0
         })
-    }
-    const onInValid = (errors: FieldErrors) => {
-        console.log(errors)
+        if(file){
+            const locationRef = ref(storage, `${setFolder}/${user?.uid}/${doc.id}`)
+            await uploadBytes(locationRef, file)
+        }
     }
     return (
         <div className='space-y-5'>
             <div className='flex justify-between'>
-                <button onClick={() => router.back()}>
+                <button onClick={() => router.push(`/${searchParams}`)}>
                     <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
                 </button>
                 <select name='anonable' id='anonable' className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'>
                     <option value='anon'>익명</option>
-                    <option value='name'>김철수</option>
+                    <option value='name'>{auth.currentUser?.displayName}</option>
                 </select>
             </div>
-            <form className='flex flex-col space-y-5' onSubmit={handleSubmit(onValid, onInValid)}>
+            <form className='flex flex-col space-y-5' onSubmit={handleSubmit(onValid)}>
                 <textarea
                     {
                         ...register('content', {
@@ -66,7 +79,7 @@ const Write = () => {
                 />
                 <span className='text-red-600'>{errors.content?.message}</span>
                 <div className='flex'>
-                    <input type='file' accept='image/*' className='hidden' id='file' />
+                    <input type='file' accept='image/*' className='hidden' id='file' onChange={onFileChange} />
                     <label htmlFor='file' className='text-instend border border-instend px-5 py-2 rounded-md bg-white hover:bg-black hover:bg-opacity-5'>이미지 업로드</label>
                 </div>
                 <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>

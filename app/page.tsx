@@ -2,6 +2,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NavBar from '@/components/nav'
 import Card from '@/components/card'
+import WriteBtn from '@/components/write-btn'
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
                     ))
                 }
             </div>
+            <WriteBtn query='' />
             <NavBar route='' />
         </div>
     )
