@@ -12,6 +12,8 @@ import { ref, uploadBytes } from 'firebase/storage'
 
 interface PostType {
     content: string
+    image: FileList
+    select: string
 }
 
 const params = ['', 'school', 'neighbor']
@@ -21,31 +23,34 @@ const Write = () => {
     const searchParams = useSearchParams().get('where')
     const { register, formState: { errors }, handleSubmit } = useForm<PostType>()
     const [user, setUser] = useState<User | null>(null)
-    const [file, setFile] = useState<File | null>(null)
+    const [posting, setPosting] = useState(false)
 
     useEffect(() => {
         setUser(auth.currentUser)
         if(!params.includes(searchParams!)) router.push('/write?where=')
     }, [router, searchParams])
 
-    const onFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const { files } = e.target
-        if(files && files.length == 1) setFile(files[0])
-    }
     const onValid = async (data: PostType) => {
-        const content = data.content
-        const date = new Date()
-        const setFolder = searchParams == '' ? 'all' : searchParams!
-        const doc = await addDoc(collection(db, setFolder), {
-            content,
-            createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
-            userName: user?.displayName || '익명',
-            userId: user?.uid,
-            heart: 0
-        })
-        if(file){
-            const locationRef = ref(storage, `${setFolder}/${user?.uid}/${doc.id}`)
-            await uploadBytes(locationRef, file)
+        if(!posting){
+            setPosting(true)
+            const content = data.content
+            const img = data.image && data.image.length == 1 ? data.image[0] : null
+            const select = data.select
+            const date = new Date()
+            const setFolder = searchParams == '' ? 'all' : searchParams!
+            const doc = await addDoc(collection(db, setFolder), {
+                content,
+                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
+                userName: select == 'anon' ? '익명' : user?.displayName,
+                userId: user?.uid,
+                heart: 0
+            })
+            if(img != null) {
+                console.log(img)
+                const locationRef = ref(storage, `${setFolder}/${user!.uid}/${doc.id}`)
+                await uploadBytes(locationRef, img)
+            }
+            router.push(`/${searchParams}`)
         }
     }
     return (
@@ -54,7 +59,12 @@ const Write = () => {
                 <button onClick={() => router.push(`/${searchParams}`)}>
                     <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
                 </button>
-                <select name='anonable' id='anonable' className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'>
+                <select
+                    {...register('select')}
+                    name='anonable'
+                    id='anonable'
+                    className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
+                >
                     <option value='anon'>익명</option>
                     <option value='name'>{auth.currentUser?.displayName}</option>
                 </select>
@@ -79,7 +89,15 @@ const Write = () => {
                 />
                 <span className='text-red-600'>{errors.content?.message}</span>
                 <div className='flex'>
-                    <input type='file' accept='image/*' className='hidden' id='file' onChange={onFileChange} />
+                    <input
+                        {
+                            ...register('image')
+                        }
+                        type='file'
+                        accept='image/*'
+                        className='hidden'
+                        id='file'
+                    />
                     <label htmlFor='file' className='text-instend border border-instend px-5 py-2 rounded-md bg-white hover:bg-black hover:bg-opacity-5'>이미지 업로드</label>
                 </div>
                 <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
