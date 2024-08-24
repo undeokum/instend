@@ -2,13 +2,13 @@
 import NavBar from '@/components/nav'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { addDoc, collection } from 'firebase/firestore'
+import { addDoc, collection, updateDoc } from 'firebase/firestore'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { auth, db, storage } from '../firebase'
 import React, { useEffect, useState } from 'react'
 import { User } from 'firebase/auth'
-import { ref, uploadBytes } from 'firebase/storage'
+import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
 
 interface PostType {
     content: string
@@ -43,41 +43,46 @@ const onValid = async (data: PostType) => {
             createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
             userName: select == 'anon' ? '익명' : user?.displayName,
             userId: user?.uid,
-            heart: 0
+            heart: 0,
+            mm: Date.now()
         })
         if(img != null) {
             console.log(img)
             const locationRef = ref(storage, `${setFolder}/${user!.uid}/${doc.id}`)
-            await uploadBytes(locationRef, img)
+            const result = await uploadBytes(locationRef, img)
+            const url = await getDownloadURL(result.ref)
+            await updateDoc(doc, {
+              image: url,
+            })
         }
         router.push(`/${searchParams}`)
     }
 }
     return (
-        <div>
+        <div className='space-y-5'>
+            <div className='flex justify-between'>
+                <button onClick={() => router.push(`/${searchParams}`)}>
+                    <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
+                </button>
+                <select
+                    {...register('select')}
+                    className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
+                >
+                    <option value='anon' selected>익명</option>
+                    <option value='name'>{user?.displayName}</option>
+                </select>
+            </div>
             <form className='flex flex-col space-y-5' onSubmit={handleSubmit(onValid)}>
-                <div className='flex justify-between'>
-                    <button onClick={() => router.push(`/${searchParams}`)}>
-                        <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
-                    </button>
-                    <select
-                        {...register('select')}
-                        className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
-                    >
-                        <option value='anon'>익명</option>
-                        <option value='name'>{user?.displayName}</option>
-                    </select>
-                </div>
                 <textarea
                     {
                         ...register('content', {
                             required: '내용을 입력해주세요.',
                             minLength: {
-                                value: 10,
-                                message: '최소 10자는 입력해야합니다.'
+                                value: 5,
+                                message: '최소 5자는 입력해야합니다.'
                             },
                             maxLength: {
-                                value: 200,
+                                value: 30,
                                 message: '최대 200자 까지만 작성 가능합니다.'
                             }
                         })
