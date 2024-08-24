@@ -30,46 +30,44 @@ const Write = () => {
         if(!params.includes(searchParams!)) router.push('/write?where=')
     }, [router, searchParams])
 
-    const onValid = async (data: PostType) => {
-        if(!posting){
-            setPosting(true)
-            const content = data.content
-            const img = data.image && data.image.length == 1 ? data.image[0] : null
-            const select = data.select
-            const date = new Date()
-            const setFolder = searchParams == '' ? 'all' : searchParams!
-            const doc = await addDoc(collection(db, setFolder), {
-                content,
-                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
-                userName: select == 'anon' ? '익명' : user?.displayName,
-                userId: user?.uid,
-                heart: 0
-            })
-            if(img != null) {
-                console.log(img)
-                const locationRef = ref(storage, `${setFolder}/${user!.uid}/${doc.id}`)
-                await uploadBytes(locationRef, img)
-            }
-            router.push(`/${searchParams}`)
+const onValid = async (data: PostType) => {
+    if(!posting){
+        setPosting(true)
+        const content = data.content
+        const img = data.image && data.image.length == 1 ? data.image[0] : null
+        const select = data.select
+        const date = new Date()
+        const setFolder = searchParams == '' ? 'all' : searchParams!
+        const doc = await addDoc(collection(db, setFolder), {
+            content,
+            createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
+            userName: select == 'anon' ? '익명' : user?.displayName,
+            userId: user?.uid,
+            heart: 0
+        })
+        if(img != null) {
+            console.log(img)
+            const locationRef = ref(storage, `${setFolder}/${user!.uid}/${doc.id}`)
+            await uploadBytes(locationRef, img)
         }
+        router.push(`/${searchParams}`)
     }
+}
     return (
-        <div className='space-y-5'>
-            <div className='flex justify-between'>
-                <button onClick={() => router.push(`/${searchParams}`)}>
-                    <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
-                </button>
-                <select
-                    {...register('select')}
-                    name='anonable'
-                    id='anonable'
-                    className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
-                >
-                    <option value='anon'>익명</option>
-                    <option value='name'>{auth.currentUser?.displayName}</option>
-                </select>
-            </div>
+        <div>
             <form className='flex flex-col space-y-5' onSubmit={handleSubmit(onValid)}>
+                <div className='flex justify-between'>
+                    <button onClick={() => router.push(`/${searchParams}`)}>
+                        <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
+                    </button>
+                    <select
+                        {...register('select')}
+                        className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
+                    >
+                        <option value='anon'>익명</option>
+                        <option value='name'>{user?.displayName}</option>
+                    </select>
+                </div>
                 <textarea
                     {
                         ...register('content', {
