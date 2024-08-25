@@ -4,12 +4,13 @@ import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
-import { useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 
 const Card = (props: PostInstructure) => {
     const router = useRouter()
+    const path = usePathname()
     return (
-        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?id=${props.id}`)}>
+        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${path.slice(1, path.length)}&id=${props.id}`)}>
             <div className='space-y-3'>
                 <h1 className='font-bold text-xl'>{props.content}</h1>
                 <div className='flex space-x-1'>

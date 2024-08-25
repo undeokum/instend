@@ -68,7 +68,7 @@ const onValid = async (data: PostType) => {
                     {...register('select')}
                     className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
                 >
-                    <option value='anon' selected>익명</option>
+                    <option value='anon'>익명</option>
                     <option value='name'>{user?.displayName}</option>
                 </select>
             </div>
