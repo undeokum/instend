@@ -44,20 +44,28 @@ const Read = () => {
     return (
         <div className='space-y-10'>
             <div className='space-y-16'>
-                <h1 className='text-3xl font-bold'>{postData?.content}</h1>
-                <div className='space-y-3'>
+                <div className='space-y-5'>
                     <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
                         <div className='text-instend'>{postData?.userName}</div>
                         <div>&#183;</div>
                         <div>{postData?.createdAt}</div>
                     </div>
-                    <div className='flex space-x-2 items-center'>
-                        <FontAwesomeIcon icon={faHeart} className='w-6 h-6' />
-                        <div className='text-lg'>{postData?.heart}</div>
-                    </div>
+                    <h1 className='text-3xl font-bold'>{postData?.content}</h1>
+                </div>
+                <div className='items-center justify-center flex'>
+                    <button className='flex items-center space-x-5 text-instend border-instend border py-2 rounded hover:bg-black hover:bg-opacity-5 transition-colors'>
+                        <div className='flex items-center space-x-2 px-5 border-r border-instend'>
+                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5' />
+                            <div>좋아요</div>
+                        </div>
+                        <div className='text-lg pr-5'>{postData?.heart}</div>
+                    </button>
                 </div>
             </div>
             <div className='border-b border-black border-opacity-20' />
+            <form>
+                <h1 className='text-2xl font-bold'>댓글</h1>
+            </form>
         </div>
     )
 }
