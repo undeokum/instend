@@ -31,8 +31,8 @@ const Card = (props: PostInstructure) => {
             </div>
             {
                 props.image &&
-                <div>
-                    <Image src={props.image} width={100} height={100} alt='image' className='rounded-md border border-black border-opacity-20' />
+                <div className='flex flex-col items-center justify-center relative w-24 h-24'>
+                    <Image src={props.image} width={100} height={100} alt='image' className='rounded-md border border-black border-opacity-20 absolute top-0 left-0 w-full h-full object-cover' />
                 </div>
             }
         </div>

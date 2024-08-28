@@ -23,7 +23,7 @@ const NavBar = (props: navbarType) => {
                 router.push('/auth')
             }
         })
-    }, [auth])
+    })
     return (
         <header>
             {
