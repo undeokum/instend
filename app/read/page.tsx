@@ -1,17 +1,20 @@
 'use client'
-import { doc, getDoc } from 'firebase/firestore'
+import { addDoc, collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { db } from '../firebase'
-import { useEffect, useState } from 'react'
+import { auth, db } from '../firebase'
+import { useCallback, useEffect, useState } from 'react'
 import { PostInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
-import { faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
 import { useForm } from 'react-hook-form'
 import NavBar from '@/components/nav'
+import Image from 'next/image'
+import { FOLDER } from '../folder'
+import { User } from 'firebase/auth'
 
 interface CommentType {
     content: string
+    select: string
 }
 
 const Read = () => {
@@ -20,12 +23,71 @@ const Read = () => {
     const getID = useSearchParams().get('id')
 
     const [postData, setPostData] = useState<PostInstructure>()
-    const { register } = useForm<CommentType>()
+    const { register, handleSubmit } = useForm<CommentType>()
 
-    const readDocInfo = async () => {
+    const [notFound, setNotFound] = useState(false)
+    const [user, setUser] = useState<User | null>(null)
+    const [posting, setPosting] = useState(false)
+    const [commentData, setCommentData] = useState<PostInstructure[]>([])
+
+    const setCollection = `${getFolder == '' ? 'all' : getFolder!}/${getID!}/comment`
+
+    const readDocInfo = useCallback(async () => {
         const ref = doc(db, getFolder == '' ? 'all' : getFolder!, getID!)
         const docSnap = await getDoc(ref)
-        if(docSnap.exists()){
+        if(FOLDER.includes(getFolder!)){
+            if(docSnap.exists()){
+                const {
+                    image,
+                    content,
+                    createdAt,
+                    heart,
+                    userId,
+                    userName,
+                    mm,
+                } = docSnap.data()
+                setPostData({
+                    image,
+                    content,
+                    createdAt,
+                    heart,
+                    userId,
+                    userName,
+                    mm,
+                    id: getID!
+                })
+            }
+            else {
+                setNotFound(true)
+            }
+        }
+        else {
+            setNotFound(true)
+        }
+    }, [getFolder, getID])
+
+    const onValid = async (data: CommentType) => {
+        if(!posting) {
+            setPosting(true)
+            const date = new Date()
+            await addDoc(collection(db, setCollection), {
+                content: data.content,
+                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
+                userName: data.select == 'anon' ? '익명' : user?.displayName,
+                userId: user?.uid,
+                heart: 0,
+                mm: Date.now()
+            })
+        }
+    }
+
+    const fetchComments = useCallback(async () => {
+        const postsQuery = query(
+            collection(db, setCollection),
+            orderBy('mm', 'desc')
+        )
+        const snapshop = await getDocs(postsQuery)
+        const comments = snapshop.docs.map(doc => {
             const {
                 image,
                 content,
@@ -34,8 +96,8 @@ const Read = () => {
                 userId,
                 userName,
                 mm,
-            } = docSnap.data()
-            setPostData({
+            } = doc.data()
+            return {
                 image,
                 content,
                 createdAt,
@@ -43,77 +105,102 @@ const Read = () => {
                 userId,
                 userName,
                 mm,
-                id: getID!
-            })
-        }
-        else {
-            console.error('err')
-        }
-    }
+                id: doc.id
+            }
+        })
+        setCommentData(comments)
+    }, [setCollection])
+
     useEffect(() => {
+        setUser(auth.currentUser)
         readDocInfo()
-    })
+        fetchComments()
+    }, [setUser, readDocInfo, fetchComments])
     return (
-        <div className='space-y-10'>
-            <div className='space-y-16'>
-                <div className='space-y-5'>
-                    <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                        <div className='text-instend'>{postData?.userName}</div>
-                        <div>&#183;</div>
-                        <div>{postData?.createdAt}</div>
-                    </div>
-                    <h1 className='text-3xl font-bold'>{postData?.content}</h1>
+        <div>
+            {
+                notFound
+                ?
+                <div className='flex flex-col items-center justify-center space-y-3'>
+                    <h1 className='text-7xl font-bold text-instend'>404</h1>
+                    <h1 className='text-3xl font-medium'>게시글을 찾을 수 없습니다.</h1>
                 </div>
-                <div className='items-center justify-center flex'>
-                    <button className='flex items-center space-x-5 text-instend border-instend border py-2 rounded hover:bg-black hover:bg-opacity-5 transition-colors'>
-                        <div className='flex items-center space-x-2 px-5 border-r border-instend'>
-                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5' />
-                            <div>좋아요</div>
-                        </div>
-                        <div className='text-lg pr-5'>{postData?.heart}</div>
-                    </button>
-                </div>
-            </div>
-            <div className='border-b border-black border-opacity-20' />
-            <div className='space-y-10'>
-                <h1 className='text-2xl font-bold'>댓글 (0)</h1>
-                <form className='space-y-3'>
-                    <textarea
-                        {
-                            ...register('content', {
-                                required: '댓글을 입력해주세요.',
-                                maxLength: {
-                                    value: 30,
-                                    message: '최대 30자 까지만 작성 가능합니다.'
-                                }
-                            })
-                        }
-                        placeholder='내용을 입력하세요.'
-                        className='w-full border border-black border-opacity-20 px-5 pt-2 pb-16 rounded-md focus:ring-2 focus:ring-instend focus:outline-none resize-none'
-                    />
-                    <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
-                </form>
-                <div>
-                    {
-                        [...Array(5)].map((_, i) => (
-                            <div key={i} className='w-full py-5 border-t space-y-5'>
-                                <div className='space-y-1'>
-                                    <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                        <div className='text-instend'>{postData?.userName}</div>
-                                        <div>&#183;</div>
-                                        <div>{postData?.createdAt}</div>
-                                    </div>
-                                    <h1 className='text-xl'>ㅋㅋㅋㅋㅋ</h1>
-                                </div>
-                                <div className='flex items-center space-x-3'>
-                                    <FontAwesomeIcon icon={sHeart} className='w-5 h-5 text-[#FF4E4E]' />
-                                    <div>15</div>
-                                </div>
+                :
+                <div className='space-y-10'>
+                    <div className='space-y-16'>
+                        <div className='space-y-5'>
+                            <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
+                                <div className='text-instend'>{postData?.userName}</div>
+                                <div>&#183;</div>
+                                <div>{postData?.createdAt}</div>
                             </div>
-                        ))
-                    }
+                            <h1 className='text-3xl font-bold'>{postData?.content}</h1>
+                        </div>
+                        <div>
+                            {
+                                postData?.image
+                                &&
+                                <Image src={postData?.image} alt='image' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
+                            }
+                        </div>
+                        <div className='items-center justify-center flex'>
+                            <button className='flex items-center space-x-4 px-5 text-instend_red border-instend_red border py-2 rounded hover:bg-black hover:bg-opacity-5 transition-colors'>
+                                <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
+                                <div className='text-lg'>{postData?.heart}</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div className='border-b border-black border-opacity-20' />
+                    <div className='space-y-10'>
+                        <div className='flex justify-between'>
+                            <h1 className='text-2xl font-semi_bold'>댓글 ({commentData.length})</h1>
+                            <select
+                                {...register('select')}
+                                className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
+                            >
+                                <option value='anon'>익명</option>
+                                <option value='name'>{user?.displayName}</option>
+                            </select>
+                        </div>
+                        <form className='space-y-3' onSubmit={handleSubmit(onValid)}>
+                            <textarea
+                                {
+                                    ...register('content', {
+                                        required: '댓글을 입력해주세요.',
+                                        maxLength: {
+                                            value: 30,
+                                            message: '최대 30자 까지만 작성 가능합니다.'
+                                        }
+                                    })
+                                }
+                                placeholder='내용을 입력하세요.'
+                                className='w-full border border-black border-opacity-20 px-5 pt-2 pb-16 rounded-md focus:ring-2 focus:ring-instend focus:outline-none resize-none'
+                            />
+                            <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
+                        </form>
+                        <div className='border-b border-black border-opacity-10'>
+                            {
+                                commentData.map(commentInfo => (
+                                    <div key={commentInfo.id} className='w-full py-5 border-t space-y-5'>
+                                        <div className='space-y-1'>
+                                            <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
+                                                <div className='text-instend'>{commentInfo.userName}</div>
+                                                <div>&#183;</div>
+                                                <div>{commentInfo.createdAt}</div>
+                                            </div>
+                                            <h1 className='text-xl'>{commentInfo.content}</h1>
+                                        </div>
+                                        <div className='flex items-center space-x-3'>
+                                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
+                                            <div>{commentInfo.heart}</div>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    </div>
                 </div>
-            </div>
+            }
             <NavBar route='s' />
         </div>
     )

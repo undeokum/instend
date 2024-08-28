@@ -20,7 +20,7 @@ const Card = (props: PostInstructure) => {
                 </div>
                 <div className='flex space-x-8'>
                     <div className='space-x-3 flex items-center'>
-                        <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-[#FF4E4E]' />
+                        <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
                         <span>{props.heart}</span>
                     </div>
                     <div className='space-x-3 flex items-center'>

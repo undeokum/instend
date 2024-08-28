@@ -114,7 +114,7 @@ const Write = () => {
                     {
                         image && image.length > 0
                         &&
-                        <Image src={imgURL} alt='preview' width={100} height={100} className='w-64 border border-black border-opacity-20 rounded-md' />
+                        <Image src={imgURL} alt='preview' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
                     }
                 </div>
                 <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>

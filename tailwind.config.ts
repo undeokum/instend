@@ -40,7 +40,8 @@ const config: Config = {
       orange: colors.orange,
       blue: colors.blue,
       instend: '#30B800',
-      hover: '#2AA100'
+      hover: '#2AA100',
+      instend_red: '#FF4E4E'
     }
   },
   plugins: [],
