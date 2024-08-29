@@ -1,11 +1,12 @@
 'use client'
-import { addDoc, collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useCallback, useEffect, useState } from 'react'
 import { PostInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
+import { faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
 import { useForm } from 'react-hook-form'
 import NavBar from '@/components/nav'
 import Image from 'next/image'
@@ -29,8 +30,10 @@ const Read = () => {
     const [user, setUser] = useState<User | null>(null)
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
+    const [heartData, setHeartData] = useState<{userId: string, id: string}[]>([])
+    const [heart, setHeart] = useState(false)
 
-    const setCollection = `${getFolder == '' ? 'all' : getFolder!}/${getID!}/comment`
+    const setCollection = `${getFolder == '' ? 'all' : getFolder!}/${getID!}`
 
     const readDocInfo = useCallback(async () => {
         const ref = doc(db, getFolder == '' ? 'all' : getFolder!, getID!)
@@ -66,24 +69,9 @@ const Read = () => {
         }
     }, [getFolder, getID])
 
-    const onValid = async (data: CommentType) => {
-        if(!posting) {
-            setPosting(true)
-            const date = new Date()
-            await addDoc(collection(db, setCollection), {
-                content: data.content,
-                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
-                userName: data.select == 'anon' ? '익명' : user?.displayName,
-                userId: user?.uid,
-                heart: 0,
-                mm: Date.now()
-            })
-        }
-    }
-
     const fetchComments = useCallback(async () => {
         const postsQuery = query(
-            collection(db, setCollection),
+            collection(db, `${setCollection}/comments`),
             orderBy('mm', 'desc')
         )
         const snapshop = await getDocs(postsQuery)
@@ -111,11 +99,57 @@ const Read = () => {
         setCommentData(comments)
     }, [setCollection])
 
+    const fetchHearts = useCallback(async () => {
+        heartData.map(heartInfo => {
+            if(heartInfo.userId == user?.uid) setHeart(true)
+        })
+        const heartsQuery = query(
+            collection(db, `${setCollection}/hearts`)
+        )
+        const snapshop = await getDocs(heartsQuery)
+        const hearts = snapshop.docs.map(doc => {
+            const { userId } = doc.data()
+            return { userId, id: doc.id }
+        })
+        setHeartData(hearts)
+    }, [setCollection, heartData, user])
+
+    const onValid = async (data: CommentType) => {
+        if(!posting) {
+            setPosting(true)
+            const date = new Date()
+            await addDoc(collection(db, `${setCollection}/comments`), {
+                content: data.content,
+                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
+                userName: data.select == 'anon' ? '익명' : user?.displayName,
+                userId: user?.uid,
+                heart: 0,
+                mm: Date.now()
+            })
+        }
+    }
+
+    const Heart = async () => {
+        if(heart){
+            let heartId
+            heartData.map(heartInfo => {
+                heartId = heartInfo.id
+            })
+            await deleteDoc(doc(db, `${setCollection}/hearts`, heartId))
+        }
+        else {
+            await addDoc(collection(db, `${setCollection}/hearts`), {
+                userId: user?.uid
+            })
+        }
+    }
+
     useEffect(() => {
         setUser(auth.currentUser)
         readDocInfo()
         fetchComments()
-    }, [setUser, readDocInfo, fetchComments])
+        fetchHearts()
+    }, [setUser, readDocInfo, fetchComments, fetchHearts])
     return (
         <div>
             {
@@ -144,9 +178,9 @@ const Read = () => {
                             }
                         </div>
                         <div className='items-center justify-center flex'>
-                            <button className='flex items-center space-x-4 px-5 text-instend_red border-instend_red border py-2 rounded hover:bg-black hover:bg-opacity-5 transition-colors'>
-                                <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
-                                <div className='text-lg'>{postData?.heart}</div>
+                            <button className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors ${heart ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red border border-instend_red hover:bg-black hover:bg-opacity-5'}`} onClick={Heart}>
+                                <FontAwesomeIcon icon={heart ? sHeart : faHeart} className='w-5 h-5' />
+                                <div className='text-lg'>{heartData.length}</div>
                             </button>
                         </div>
                     </div>
@@ -178,7 +212,7 @@ const Read = () => {
                             />
                             <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
                         </form>
-                        <div className='border-b border-black border-opacity-10'>
+                        <div>
                             {
                                 commentData.map(commentInfo => (
                                     <div key={commentInfo.id} className='w-full py-5 border-t space-y-5'>
