@@ -77,6 +77,10 @@ const SignUp = () => {
                                     value: 6,
                                     message: '이름은 6글자 이하여야 합니다.'
                                 },
+                                pattern: {
+                                    value: /^[가-힣]{2,4}$/,
+                                    message: '본명을 입력해주세요.'
+                                }
                             }
                         )
                     }

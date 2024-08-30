@@ -21,7 +21,6 @@ const Home = () => {
                 image,
                 content,
                 createdAt,
-                heart,
                 userId,
                 userName,
                 mm,
@@ -30,7 +29,6 @@ const Home = () => {
                 image,
                 content,
                 createdAt,
-                heart,
                 userId,
                 userName,
                 mm,
@@ -47,7 +45,7 @@ const Home = () => {
             <SearchBar />
             <div className='space-y-8'>
                 {
-                    posts.map(postInfo => <Card key={postInfo.id} {...postInfo} />)
+                    posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)
                 }
             </div>
             <WriteBtn query='' />

@@ -1,14 +1,75 @@
 'use client'
 import { PostInstructure } from '@/app'
+import { auth, db } from '@/app/firebase'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
+import { faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { collection, getDocs, query } from 'firebase/firestore'
 import Image from 'next/image'
 import { useRouter, usePathname } from 'next/navigation'
+import { useCallback, useEffect, useState } from 'react'
 
-const Card = (props: PostInstructure) => {
+interface ReadType extends PostInstructure {
+    folder: 'all' | 'neighbor' | 'school'
+}
+
+const Card = (props: ReadType) => {
     const router = useRouter()
     const path = usePathname()
+    const setCollection = `${props.folder}/${props.id}`
+    const user = auth.currentUser
+
+    const [commentData, setCommentData] = useState<PostInstructure[]>([])
+    const [heartData, setHeartData] = useState<{userId: string, id: string}[]>([])
+    const [heart, setHeart] = useState(false)
+
+    const fetchComments = useCallback(async () => {
+        const postsQuery = query(collection(db, `${setCollection}/comments`))
+        const snapshop = await getDocs(postsQuery)
+        const comments = snapshop.docs.map(doc => {
+            const {
+                image,
+                content,
+                createdAt,
+                heart,
+                userId,
+                userName,
+                mm,
+            } = doc.data()
+            return {
+                image,
+                content,
+                createdAt,
+                heart,
+                userId,
+                userName,
+                mm,
+                id: doc.id
+            }
+        })
+        setCommentData(comments)
+    }, [setCollection])
+
+    const fetchHearts = useCallback(async () => {
+        heartData.map(heartInfo => {
+            if(heartInfo.userId == user?.uid) setHeart(true)
+        })
+        const heartsQuery = query(
+            collection(db, `${setCollection}/hearts`)
+        )
+        const snapshop = await getDocs(heartsQuery)
+        const hearts = snapshop.docs.map(doc => {
+            const { userId } = doc.data()
+            return { userId, id: doc.id }
+        })
+        setHeartData(hearts)
+    }, [setCollection, setHeart, user, heartData])
+
+    useEffect(() => {
+        fetchComments()
+        fetchHearts()
+    })
     return (
         <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${path.slice(1, path.length)}&id=${props.id}`)}>
             <div className='space-y-3'>
@@ -20,12 +81,12 @@ const Card = (props: PostInstructure) => {
                 </div>
                 <div className='flex space-x-8'>
                     <div className='space-x-3 flex items-center'>
-                        <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
-                        <span>{props.heart}</span>
+                        <FontAwesomeIcon icon={heart ? faHeart : rHeart} className='w-5 h-5 text-instend_red' />
+                        <span>{heartData.length}</span>
                     </div>
                     <div className='space-x-3 flex items-center'>
                         <FontAwesomeIcon icon={faComment} className='w-5 h-5' />
-                        <span>15</span>
+                        <span>{commentData.length}</span>
                     </div>
                 </div>
             </div>

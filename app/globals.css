@@ -51,7 +51,3 @@
 nav {
     transform: translate(-50%, 0);
 }
-
-.loader {
-    animation: rotate 1s linear infinite;
-}

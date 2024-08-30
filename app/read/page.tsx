@@ -1,6 +1,6 @@
 'use client'
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useCallback, useEffect, useState } from 'react'
 import { PostInstructure } from '..'
@@ -19,12 +19,11 @@ interface CommentType {
 }
 
 const Read = () => {
-    const router = useRouter()
     const getFolder = useSearchParams().get('folder')
     const getID = useSearchParams().get('id')
 
     const [postData, setPostData] = useState<PostInstructure>()
-    const { register, handleSubmit } = useForm<CommentType>()
+    const { register, handleSubmit, reset } = useForm<CommentType>()
 
     const [notFound, setNotFound] = useState(false)
     const [user, setUser] = useState<User | null>(null)
@@ -44,7 +43,6 @@ const Read = () => {
                     image,
                     content,
                     createdAt,
-                    heart,
                     userId,
                     userName,
                     mm,
@@ -53,7 +51,6 @@ const Read = () => {
                     image,
                     content,
                     createdAt,
-                    heart,
                     userId,
                     userName,
                     mm,
@@ -126,21 +123,24 @@ const Read = () => {
                 heart: 0,
                 mm: Date.now()
             })
+            reset({content: ''})
         }
     }
 
     const Heart = async () => {
         if(heart){
-            let heartId
+            let heartId: string
             heartData.map(heartInfo => {
                 heartId = heartInfo.id
             })
-            await deleteDoc(doc(db, `${setCollection}/hearts`, heartId))
+            await deleteDoc(doc(db, `${setCollection}/hearts`, heartId!))
+            setHeart(false)
         }
         else {
             await addDoc(collection(db, `${setCollection}/hearts`), {
                 userId: user?.uid
             })
+            setHeart(true)
         }
     }
 
@@ -178,7 +178,7 @@ const Read = () => {
                             }
                         </div>
                         <div className='items-center justify-center flex'>
-                            <button className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors ${heart ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red border border-instend_red hover:bg-black hover:bg-opacity-5'}`} onClick={Heart}>
+                            <button className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${heart ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`} onClick={Heart}>
                                 <FontAwesomeIcon icon={heart ? sHeart : faHeart} className='w-5 h-5' />
                                 <div className='text-lg'>{heartData.length}</div>
                             </button>
@@ -226,7 +226,7 @@ const Read = () => {
                                         </div>
                                         <div className='flex items-center space-x-3'>
                                             <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
-                                            <div>{commentInfo.heart}</div>
+                                            <div>15</div>
                                         </div>
                                     </div>
                                 ))
