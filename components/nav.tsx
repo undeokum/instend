@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 
 const navIcon = [faHome, faEarth, faSchool, faUser]
-const navName = ['홈', '동네', '학교', '내 정보']
+const navName = ['전체', '동네', '학교', '내 정보']
 const navHref = ['', 'neighbor', 'school', 'user']
 
 interface navbarType {

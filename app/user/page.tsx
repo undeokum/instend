@@ -5,8 +5,15 @@ import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { auth } from '../firebase'
 import { useEffect, useState } from 'react'
+import SearchBar from '@/components/search'
+import { useForm } from 'react-hook-form'
+
+interface RadioType {
+    folder: string
+}
 
 const User = () => {
+    const { register } = useForm<RadioType>()
     const [name, setName] = useState<string | null>()
     useEffect(() => {
         setName(auth.currentUser?.displayName)
@@ -30,15 +37,45 @@ const User = () => {
                 <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
-                        <div className='relative'>
-                            <div className='absolute top-3 left-4'>
-                                <FontAwesomeIcon icon={faSearch} className='w-4 h-4 text-black opacity-50' />
-                            </div>
-                            <input
-                                type='text'
-                                placeholder='검색어를 입력하세요.'
-                                className='bg-black bg-opacity-10 placeholder:text-black placeholder:opacity-50 w-full py-2 pl-12 pr-5 rounded-full focus:outline-none focus:ring-2 focus:ring-instend'
-                            />
+                        <SearchBar />
+                        <div className='flex items-center space-x-16'>
+                            <label>
+                                <input
+                                    {
+                                        ...register('folder')
+                                    }
+                                    checked
+                                    type='radio'
+                                    value='all'
+                                    id='radio'
+                                    className='hidden'
+                                />
+                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>전체</div>
+                            </label>
+                            <label>
+                                <input
+                                    {
+                                        ...register('folder')
+                                    }
+                                    type='radio'
+                                    value='neighbor'
+                                    id='radio'
+                                    className='hidden'
+                                />
+                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>동네</div>
+                            </label>
+                            <label>
+                                <input
+                                    {
+                                        ...register('folder')
+                                    }
+                                    type='radio'
+                                    value='school'
+                                    id='radio'
+                                    className='hidden'
+                                />
+                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>학교</div>
+                            </label>
                         </div>
                         <div className='space-y-8'>
                             {
