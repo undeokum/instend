@@ -48,7 +48,7 @@ const Home = () => {
                     posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)
                 }
             </div>
-            <WriteBtn query='' />
+            <WriteBtn query='all' />
             <NavBar route='' />
         </div>
     )

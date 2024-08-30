@@ -3,7 +3,7 @@ import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query } f
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useCallback, useEffect, useState } from 'react'
-import { PostInstructure } from '..'
+import { HeartInstructure, PostInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
@@ -29,13 +29,15 @@ const Read = () => {
     const [user, setUser] = useState<User | null>(null)
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
-    const [heartData, setHeartData] = useState<{userId: string, id: string}[]>([])
+    const [heartData, setHeartData] = useState<HeartInstructure[]>([])
+    const [commentHeartData, setCommentHeartData] = useState<HeartInstructure[]>([])
     const [heart, setHeart] = useState(false)
+    const [commentHeart, setCommentHeart] = useState(false)
 
-    const setCollection = `${getFolder == '' ? 'all' : getFolder!}/${getID!}`
+    const setCollection = `${getFolder!}/${getID!}`
 
     const readDocInfo = useCallback(async () => {
-        const ref = doc(db, getFolder == '' ? 'all' : getFolder!, getID!)
+        const ref = doc(db, getFolder!, getID!)
         const docSnap = await getDoc(ref)
         if(FOLDER.includes(getFolder!)){
             if(docSnap.exists()){
@@ -111,6 +113,21 @@ const Read = () => {
         setHeartData(hearts)
     }, [setCollection, heartData, user])
 
+    const fetchCommentHearts = useCallback(async () => {
+        heartData.map(heartInfo => {
+            if(heartInfo.userId == user?.uid) setCommentHeart(true)
+        })
+        const heartsQuery = query(
+            collection(db, `${setCollection}/comments/hearts`)
+        )
+        const snapshop = await getDocs(heartsQuery)
+        const hearts = snapshop.docs.map(doc => {
+            const { userId } = doc.data()
+            return { userId, id: doc.id }
+        })
+        setCommentHeartData(hearts)
+    }, [setCollection, heartData, user])
+
     const onValid = async (data: CommentType) => {
         if(!posting) {
             setPosting(true)
@@ -144,12 +161,30 @@ const Read = () => {
         }
     }
 
+    const CommentHeart = async () => {
+        if(commentHeart){
+            let heartId: string
+            commentHeartData.map(heartInfo => {
+                heartId = heartInfo.id
+            })
+            await deleteDoc(doc(db, `${setCollection}/comments/hearts`, heartId!))
+            setCommentHeart(false)
+        }
+        else {
+            await addDoc(collection(db, `${setCollection}/comments/hearts`), {
+                userId: user?.uid
+            })
+            setCommentHeart(true)
+        }
+    }
+
     useEffect(() => {
         setUser(auth.currentUser)
         readDocInfo()
         fetchComments()
         fetchHearts()
-    }, [setUser, readDocInfo, fetchComments, fetchHearts])
+        fetchCommentHearts
+    }, [setUser, readDocInfo, fetchComments, fetchHearts, fetchCommentHearts])
     return (
         <div>
             {
@@ -224,8 +259,8 @@ const Read = () => {
                                             </div>
                                             <h1 className='text-xl'>{commentInfo.content}</h1>
                                         </div>
-                                        <div className='flex items-center space-x-3'>
-                                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
+                                        <div className='flex items-center space-x-3' onClick={CommentHeart}>
+                                            <FontAwesomeIcon icon={commentHeart ? sHeart : faHeart} className='w-5 h-5 text-instend_red' />
                                             <div>15</div>
                                         </div>
                                     </div>

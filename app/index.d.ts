@@ -7,3 +7,7 @@ export interface PostInstructure {
     mm: number
     id: string
 }
+
+export interface HeartInstructure {
+    userId: string, id: string
+}

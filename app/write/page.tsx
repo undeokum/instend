@@ -10,14 +10,13 @@ import React, { useEffect, useState } from 'react'
 import { User } from 'firebase/auth'
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
 import Image from 'next/image'
+import { FOLDER } from '../folder'
 
 interface PostType {
     content: string
     image: FileList
     select: string
 }
-
-const params = ['', 'school', 'neighbor']
 
 const Write = () => {
     const router = useRouter()
@@ -36,8 +35,7 @@ const Write = () => {
             const img = data.image && data.image.length == 1 ? data.image[0] : null
             const select = data.select
             const date = new Date()
-            const setFolder = searchParams == '' ? 'all' : searchParams!
-            const doc = await addDoc(collection(db, setFolder), {
+            const doc = await addDoc(collection(db, searchParams!), {
                 content,
                 createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
                 userName: select == 'anon' ? '익명' : user?.displayName,
@@ -47,7 +45,7 @@ const Write = () => {
             })
             if(img != null) {
                 console.log(img)
-                const locationRef = ref(storage, `${setFolder}/${user!.uid}/${doc.id}`)
+                const locationRef = ref(storage, `${searchParams!}/${user!.uid}/${doc.id}`)
                 const result = await uploadBytes(locationRef, img)
                 const url = await getDownloadURL(result.ref)
                 await updateDoc(doc, {
@@ -60,7 +58,7 @@ const Write = () => {
 
     useEffect(() => {
         setUser(auth.currentUser)
-        if(!params.includes(searchParams!)) router.push('/write?where=')
+        if(!FOLDER.includes(searchParams!)) router.push('/write?where=all')
 
         if(image && image.length > 0) setImgURL(URL.createObjectURL(image[0]))
     }, [router, searchParams, image])
@@ -68,7 +66,7 @@ const Write = () => {
     return (
         <div className='space-y-5'>
             <div className='flex justify-between'>
-                <button onClick={() => router.push(`/${searchParams}`)}>
+                <button onClick={() => router.push(`/${searchParams == 'all' ? '' : searchParams}`)}>
                     <FontAwesomeIcon icon={faChevronLeft} className='w-6 h-6 opacity-50 hover:bg-black hover:bg-opacity-10 p-2.5 rounded-full' />
                 </button>
                 <select

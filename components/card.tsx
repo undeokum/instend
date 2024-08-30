@@ -1,5 +1,5 @@
 'use client'
-import { PostInstructure } from '@/app'
+import { HeartInstructure, PostInstructure } from '@/app'
 import { auth, db } from '@/app/firebase'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
@@ -17,11 +17,12 @@ interface ReadType extends PostInstructure {
 const Card = (props: ReadType) => {
     const router = useRouter()
     const path = usePathname()
+    const setPath = path.slice(1) || 'all'
     const setCollection = `${props.folder}/${props.id}`
     const user = auth.currentUser
 
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
-    const [heartData, setHeartData] = useState<{userId: string, id: string}[]>([])
+    const [heartData, setHeartData] = useState<HeartInstructure[]>([])
     const [heart, setHeart] = useState(false)
 
     const fetchComments = useCallback(async () => {
@@ -71,7 +72,7 @@ const Card = (props: ReadType) => {
         fetchHearts()
     })
     return (
-        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${path.slice(1, path.length)}&id=${props.id}`)}>
+        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${setPath}&id=${props.id}`)}>
             <div className='space-y-3'>
                 <h1 className='font-bold text-xl'>{props.content}</h1>
                 <div className='flex space-x-1'>
