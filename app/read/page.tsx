@@ -33,8 +33,7 @@ const Read = () => {
     const [commentHeartData, setCommentHeartData] = useState<HeartInstructure[]>([])
     const [heart, setHeart] = useState(false)
     const [commentHeart, setCommentHeart] = useState(false)
-
-    const setCollection = `${getFolder!}/${getID!}`
+    const [commentID, setCommentID] = useState('')
 
     const readDocInfo = useCallback(async () => {
         const ref = doc(db, getFolder!, getID!)
@@ -70,7 +69,7 @@ const Read = () => {
 
     const fetchComments = useCallback(async () => {
         const postsQuery = query(
-            collection(db, `${setCollection}/comments`),
+            collection(db, getFolder!, getID!, 'comments'),
             orderBy('mm', 'desc')
         )
         const snapshop = await getDocs(postsQuery)
@@ -96,14 +95,14 @@ const Read = () => {
             }
         })
         setCommentData(comments)
-    }, [setCollection])
+    }, [getFolder, getID])
 
     const fetchHearts = useCallback(async () => {
         heartData.map(heartInfo => {
             if(heartInfo.userId == user?.uid) setHeart(true)
         })
         const heartsQuery = query(
-            collection(db, `${setCollection}/hearts`)
+            collection(db, getFolder!, getID!, 'hearts')
         )
         const snapshop = await getDocs(heartsQuery)
         const hearts = snapshop.docs.map(doc => {
@@ -111,14 +110,14 @@ const Read = () => {
             return { userId, id: doc.id }
         })
         setHeartData(hearts)
-    }, [setCollection, heartData, user])
+    }, [heartData, user, getFolder, getID])
 
     const fetchCommentHearts = useCallback(async () => {
         heartData.map(heartInfo => {
             if(heartInfo.userId == user?.uid) setCommentHeart(true)
         })
         const heartsQuery = query(
-            collection(db, `${setCollection}/comments/hearts`)
+            collection(db, getFolder!, getID!, 'comments', commentID, 'hearts')
         )
         const snapshop = await getDocs(heartsQuery)
         const hearts = snapshop.docs.map(doc => {
@@ -126,13 +125,13 @@ const Read = () => {
             return { userId, id: doc.id }
         })
         setCommentHeartData(hearts)
-    }, [setCollection, heartData, user])
+    }, [heartData, user, getFolder, getID, commentID])
 
     const onValid = async (data: CommentType) => {
         if(!posting) {
             setPosting(true)
             const date = new Date()
-            await addDoc(collection(db, `${setCollection}/comments`), {
+            await addDoc(collection(db, getFolder!, getID!, 'comments'), {
                 content: data.content,
                 createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
                 userName: data.select == 'anon' ? '익명' : user?.displayName,
@@ -150,11 +149,11 @@ const Read = () => {
             heartData.map(heartInfo => {
                 heartId = heartInfo.id
             })
-            await deleteDoc(doc(db, `${setCollection}/hearts`, heartId!))
+            await deleteDoc(doc(db, getFolder!, getID!, 'hearts', heartId!))
             setHeart(false)
         }
         else {
-            await addDoc(collection(db, `${setCollection}/hearts`), {
+            await addDoc(collection(db, getFolder!, getID!, 'hearts'), {
                 userId: user?.uid
             })
             setHeart(true)
@@ -167,11 +166,11 @@ const Read = () => {
             commentHeartData.map(heartInfo => {
                 heartId = heartInfo.id
             })
-            await deleteDoc(doc(db, `${setCollection}/comments/hearts`, heartId!))
+            await deleteDoc(doc(db, getFolder!, getID!, 'comments', commentID, 'hearts', heartId!))
             setCommentHeart(false)
         }
         else {
-            await addDoc(collection(db, `${setCollection}/comments/hearts`), {
+            await addDoc(collection(db, getFolder!, getID!, 'comments', commentID, 'hearts'), {
                 userId: user?.uid
             })
             setCommentHeart(true)
@@ -182,9 +181,10 @@ const Read = () => {
         setUser(auth.currentUser)
         readDocInfo()
         fetchComments()
+        commentData.map(c => setCommentID(c.id))
         fetchHearts()
         fetchCommentHearts
-    }, [setUser, readDocInfo, fetchComments, fetchHearts, fetchCommentHearts])
+    }, [setUser, readDocInfo, fetchComments, fetchHearts, fetchCommentHearts, commentID, commentData])
     return (
         <div>
             {

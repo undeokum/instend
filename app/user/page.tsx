@@ -13,7 +13,11 @@ interface RadioType {
 }
 
 const User = () => {
-    const { register } = useForm<RadioType>()
+    const { register } = useForm<RadioType>({
+        defaultValues: {
+            folder: 'all'
+        }
+    })
     const [name, setName] = useState<string | null>()
     useEffect(() => {
         setName(auth.currentUser?.displayName)
@@ -38,45 +42,53 @@ const User = () => {
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
                         <SearchBar />
-                        <div className='flex items-center space-x-16'>
+                        <form className='flex items-center space-x-16'>
                             <label>
-                                <input
-                                    {
-                                        ...register('folder')
-                                    }
-                                    checked
-                                    type='radio'
-                                    value='all'
-                                    id='radio'
-                                    className='hidden'
-                                />
-                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>전체</div>
+                                <div>
+                                    <input
+                                        {
+                                            ...register('folder')
+                                        }
+                                        className='hidden peer'
+                                        type='radio'
+                                        value='all'
+                                    />
+                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
+                                        전체
+                                    </div>
+                                </div>
                             </label>
                             <label>
-                                <input
-                                    {
-                                        ...register('folder')
-                                    }
-                                    type='radio'
-                                    value='neighbor'
-                                    id='radio'
-                                    className='hidden'
-                                />
-                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>동네</div>
+                                <div>
+                                    <input
+                                        {
+                                            ...register('folder')
+                                        }
+                                        className='hidden peer'
+                                        type='radio'
+                                        value='neighbor'
+                                    />
+                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
+                                        동네
+                                    </div>
+                                </div>
                             </label>
                             <label>
-                                <input
-                                    {
-                                        ...register('folder')
-                                    }
-                                    type='radio'
-                                    value='school'
-                                    id='radio'
-                                    className='hidden'
-                                />
-                                <div className={`flex items-center justify-center rounded-full checked:bg-instend chcked:text-white checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg`}>학교</div>
+                                <div>
+                                    <input
+                                        {
+                                            ...register('folder')
+                                        }
+                                        className='hidden peer'
+                                        type='radio'
+                                        value='school'
+                                    />
+                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
+                                        학교
+                                    </div>
+                                </div>
                             </label>
-                        </div>
+                        </form>
                         <div className='space-y-8'>
                             {
                                 [...Array(50)].map((_, i) => (
