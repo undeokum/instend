@@ -98,9 +98,6 @@ const Read = () => {
     }, [getFolder, getID])
 
     const fetchHearts = useCallback(async () => {
-        heartData.map(heartInfo => {
-            if(heartInfo.userId == user?.uid) setHeart(true)
-        })
         const heartsQuery = query(
             collection(db, getFolder!, getID!, 'hearts')
         )
@@ -110,22 +107,23 @@ const Read = () => {
             return { userId, id: doc.id }
         })
         setHeartData(hearts)
-    }, [heartData, user, getFolder, getID])
+        setHeart(hearts.some(heartInfo => heartInfo.userId == user?.uid))
+    }, [user, getFolder, getID])
 
     const fetchCommentHearts = useCallback(async () => {
-        heartData.map(heartInfo => {
-            if(heartInfo.userId == user?.uid) setCommentHeart(true)
-        })
-        const heartsQuery = query(
-            collection(db, getFolder!, getID!, 'comments', commentID, 'hearts')
-        )
-        const snapshop = await getDocs(heartsQuery)
-        const hearts = snapshop.docs.map(doc => {
-            const { userId } = doc.data()
-            return { userId, id: doc.id }
-        })
-        setCommentHeartData(hearts)
-    }, [heartData, user, getFolder, getID, commentID])
+        if(commentID) {
+            const heartsQuery = query(
+                collection(db, getFolder!, getID!, 'comments', commentID, 'hearts')
+            )
+            const snapshop = await getDocs(heartsQuery)
+            const hearts = snapshop.docs.map(doc => {
+                const { userId } = doc.data()
+                return { userId, id: doc.id }
+            })
+            setCommentHeartData(hearts)
+            setCommentHeart(hearts.some(heartInfo => heartInfo.userId == user?.uid))
+        }
+    }, [user, getFolder, getID, commentID])
 
     const onValid = async (data: CommentType) => {
         if(!posting) {
@@ -145,10 +143,7 @@ const Read = () => {
 
     const Heart = async () => {
         if(heart){
-            let heartId: string
-            heartData.map(heartInfo => {
-                heartId = heartInfo.id
-            })
+            const heartId = heartData.find(heartInfo => heartInfo.userId === user?.uid)?.id
             await deleteDoc(doc(db, getFolder!, getID!, 'hearts', heartId!))
             setHeart(false)
         }
@@ -162,10 +157,7 @@ const Read = () => {
 
     const CommentHeart = async () => {
         if(commentHeart){
-            let heartId: string
-            commentHeartData.map(heartInfo => {
-                heartId = heartInfo.id
-            })
+            const heartId = commentHeartData.find(heartInfo => heartInfo.userId === user?.uid)?.id
             await deleteDoc(doc(db, getFolder!, getID!, 'comments', commentID, 'hearts', heartId!))
             setCommentHeart(false)
         }
@@ -181,10 +173,18 @@ const Read = () => {
         setUser(auth.currentUser)
         readDocInfo()
         fetchComments()
-        commentData.map(c => setCommentID(c.id))
         fetchHearts()
-        fetchCommentHearts
-    }, [setUser, readDocInfo, fetchComments, fetchHearts, fetchCommentHearts, commentID, commentData])
+    }, [readDocInfo, fetchComments, fetchHearts])
+
+    useEffect(() => {
+        if (commentData.length > 0) {
+            setCommentID(commentData[0].id)
+        }
+    }, [commentData])
+
+    useEffect(() => {
+        fetchCommentHearts()
+    }, [fetchCommentHearts])
     return (
         <div>
             {
