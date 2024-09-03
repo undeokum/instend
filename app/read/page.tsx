@@ -107,8 +107,8 @@ const Read = () => {
             return { userId, id: doc.id }
         })
         setHeartData(hearts)
-        setHeart(hearts.some(heartInfo => heartInfo.userId == user?.uid))
-    }, [user, getFolder, getID])
+        setHeart(heartData.some(heartInfo => heartInfo.userId == user?.uid))
+    }, [user, getFolder, getID, heartData])
 
     const fetchCommentHearts = useCallback(async () => {
         if(commentID) {
@@ -121,9 +121,9 @@ const Read = () => {
                 return { userId, id: doc.id }
             })
             setCommentHeartData(hearts)
-            setCommentHeart(hearts.some(heartInfo => heartInfo.userId == user?.uid))
+            setCommentHeart(commentHeartData.some(heartInfo => heartInfo.userId == user?.uid))
         }
-    }, [user, getFolder, getID, commentID])
+    }, [user, getFolder, getID, commentID, commentHeartData])
 
     const onValid = async (data: CommentType) => {
         if(!posting) {
@@ -170,17 +170,17 @@ const Read = () => {
     }
 
     useEffect(() => {
+        if (commentData.length > 0) {
+            setCommentID(commentData[0].id)
+        }
+    }, [commentData])
+
+    useEffect(() => {
         setUser(auth.currentUser)
         readDocInfo()
         fetchComments()
         fetchHearts()
     }, [readDocInfo, fetchComments, fetchHearts])
-
-    useEffect(() => {
-        if (commentData.length > 0) {
-            setCommentID(commentData[0].id)
-        }
-    }, [commentData])
 
     useEffect(() => {
         fetchCommentHearts()
@@ -259,9 +259,9 @@ const Read = () => {
                                             </div>
                                             <h1 className='text-xl'>{commentInfo.content}</h1>
                                         </div>
-                                        <div className='flex items-center space-x-3' onClick={CommentHeart}>
+                                        <div className='flex items-center space-x-3 cursor-pointer w-' onClick={CommentHeart}>
                                             <FontAwesomeIcon icon={commentHeart ? sHeart : faHeart} className='w-5 h-5 text-instend_red' />
-                                            <div>15</div>
+                                            <div>{commentHeartData.length}</div>
                                         </div>
                                     </div>
                                 ))
