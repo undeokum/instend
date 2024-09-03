@@ -53,9 +53,6 @@ const Card = (props: ReadType) => {
     }, [setCollection])
 
     const fetchHearts = useCallback(async () => {
-        heartData.map(heartInfo => {
-            if(heartInfo.userId == user?.uid) setHeart(true)
-        })
         const heartsQuery = query(
             collection(db, `${setCollection}/hearts`)
         )
@@ -65,6 +62,7 @@ const Card = (props: ReadType) => {
             return { userId, id: doc.id }
         })
         setHeartData(hearts)
+        setHeart(heartData.some(heartInfo => heartInfo.userId == user?.uid))
     }, [setCollection, setHeart, user, heartData])
 
     useEffect(() => {

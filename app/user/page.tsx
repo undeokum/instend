@@ -1,34 +1,66 @@
 'use client'
 import Card from '@/components/card'
 import NavBar from '@/components/nav'
-import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { auth } from '../firebase'
-import { useEffect, useState } from 'react'
+import { auth, db } from '../firebase'
+import { useCallback, useEffect, useState } from 'react'
 import SearchBar from '@/components/search'
 import { useForm } from 'react-hook-form'
+import { collection, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { PostInstructure } from '..'
+import { User } from 'firebase/auth'
 
-interface RadioType {
-    folder: string
-}
-
-const User = () => {
-    const { register } = useForm<RadioType>({
+const UserPage = () => {
+    const { register, watch } = useForm<{folder: 'all' | 'neighbor' | 'school'}>({
         defaultValues: {
             folder: 'all'
         }
     })
-    const [name, setName] = useState<string | null>()
+
+    const [posts, setPosts] = useState<PostInstructure[]>([])
+    const [user, setUser] = useState<User | null>(null)
+
+    const fetchPosts = useCallback(async () => {
+        const postsQuery = query(
+            collection(db, watch('folder')),
+            where('userId', '==', user?.uid),
+            orderBy('mm', 'desc')
+        )
+        const snapshop = await getDocs(postsQuery)
+        const posts = snapshop.docs.map(doc => {
+            const {
+                image,
+                content,
+                createdAt,
+                userId,
+                userName,
+                mm,
+            } = doc.data()
+            return {
+                image,
+                content,
+                createdAt,
+                userId,
+                userName,
+                mm,
+                id: doc.id
+            }
+        })
+        setPosts(posts)
+    }, [user, watch])
+
     useEffect(() => {
-        setName(auth.currentUser?.displayName)
-    }, [])
+        setUser(auth.currentUser)
+        if(user){
+            fetchPosts()
+        }
+    }, [watch('folder'), user, fetchPosts])
     return (
         <div>
             <div className='space-y-16'>
                 <div className='flex flex-col items-center space-y-8 border border-black border-opacity-20 w-full py-10 rounded-md'>
                     <div className='space-y-4'>
                         <div className='space-y-2 text-lg text-center'>
-                            <h1 className='text-4xl font-semi_bold'>{name}</h1>
+                            <h1 className='text-4xl font-semi_bold'>{user?.displayName}</h1>
                         </div>
                         <div className='flex space-x-2 text-black text-opacity-50 justify-center items-center'>
                             <span>서울특별시 대치동</span>
@@ -91,15 +123,7 @@ const User = () => {
                         </form>
                         <div className='space-y-8'>
                             {
-                                [...Array(50)].map((_, i) => (
-                                    <Card
-                                        key={i}
-                                        title='내일 위버스콘 가시는 분 계신가요??'
-                                        writer={null}
-                                        region={['서울특별시', '대치동']}
-                                        reaction={[4, 15]}    
-                                    />
-                                ))
+                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={watch('folder')} />)
                             }
                         </div>
                         <NavBar route='school' />
@@ -111,4 +135,4 @@ const User = () => {
     )
 }
 
-export default User
+export default UserPage
