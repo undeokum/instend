@@ -8,20 +8,18 @@ import { useForm } from 'react-hook-form'
 import { collection, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { PostInstructure } from '..'
 import { User } from 'firebase/auth'
+import Link from 'next/link'
+import { useSearchParams } from 'next/navigation'
 
 const UserPage = () => {
-    const { register, watch } = useForm<{folder: 'all' | 'neighbor' | 'school'}>({
-        defaultValues: {
-            folder: 'all'
-        }
-    })
+    const searchParams = useSearchParams().get('folder')
 
     const [posts, setPosts] = useState<PostInstructure[]>([])
     const [user, setUser] = useState<User | null>(null)
 
-    const fetchPosts = useCallback(async () => {
+    const fetchPosts = async () => {
         const postsQuery = query(
-            collection(db, watch('folder')),
+            collection(db, searchParams!),
             where('userId', '==', user?.uid),
             orderBy('mm', 'desc')
         )
@@ -46,14 +44,14 @@ const UserPage = () => {
             }
         })
         setPosts(posts)
-    }, [user, watch])
+    }
 
     useEffect(() => {
         setUser(auth.currentUser)
         if(user){
             fetchPosts()
         }
-    }, [watch('folder'), user, fetchPosts])
+    }, [user])
     return (
         <div>
             <div className='space-y-16'>
@@ -75,55 +73,21 @@ const UserPage = () => {
                     <div className='space-y-10'>
                         <SearchBar />
                         <form className='flex items-center space-x-16'>
-                            <label>
-                                <div>
-                                    <input
-                                        {
-                                            ...register('folder')
-                                        }
-                                        className='hidden peer'
-                                        type='radio'
-                                        value='all'
-                                    />
-                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
-                                        전체
-                                    </div>
-                                </div>
-                            </label>
-                            <label>
-                                <div>
-                                    <input
-                                        {
-                                            ...register('folder')
-                                        }
-                                        className='hidden peer'
-                                        type='radio'
-                                        value='neighbor'
-                                    />
-                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
-                                        동네
-                                    </div>
-                                </div>
-                            </label>
-                            <label>
-                                <div>
-                                    <input
-                                        {
-                                            ...register('folder')
-                                        }
-                                        className='hidden peer'
-                                        type='radio'
-                                        value='school'
-                                    />
-                                    <div className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
-                                        학교
-                                    </div>
-                                </div>
-                            </label>
+                            {
+                                [
+                                    ['전체', 'all'],
+                                    ['이웃', 'neighbor'],
+                                    ['학교', 'school']
+                                ].map(([name, path], i) => (
+                                    <Link href={`/user?folder=${path}`} key={i} className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
+                                        {name}
+                                    </Link>
+                                ))
+                            }
                         </form>
                         <div className='space-y-8'>
                             {
-                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={watch('folder')} />)
+                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)
                             }
                         </div>
                         <NavBar route='school' />
