@@ -57,9 +57,15 @@ const Write = () => {
     }
 
     useEffect(() => {
-        setUser(auth.currentUser)
-        if(!FOLDER.includes(searchParams!)) router.push('/write?where=all')
+        const unsubscribe = auth.onAuthStateChanged(user => {
+            setUser(user)
+        })
+        
+        return () => unsubscribe()
+    }, [])
 
+    useEffect(() => {
+        if(!FOLDER.includes(searchParams!)) router.push('/write?where=all')
         if(image && image.length > 0) setImgURL(URL.createObjectURL(image[0]))
     }, [router, searchParams, image])
 

@@ -11,7 +11,7 @@ import { useRouter, usePathname } from 'next/navigation'
 import { useCallback, useEffect, useState } from 'react'
 
 interface ReadType extends PostInstructure {
-    folder: 'all' | 'neighbor' | 'school'
+    folder: string
 }
 
 const Card = (props: ReadType) => {

@@ -2,9 +2,8 @@
 import Card from '@/components/card'
 import NavBar from '@/components/nav'
 import { auth, db } from '../firebase'
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import SearchBar from '@/components/search'
-import { useForm } from 'react-hook-form'
 import { collection, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { PostInstructure } from '..'
 import { User } from 'firebase/auth'
@@ -47,11 +46,18 @@ const UserPage = () => {
     }
 
     useEffect(() => {
-        setUser(auth.currentUser)
-        if(user){
+        const userSet = auth.onAuthStateChanged(user => {
+            setUser(user)
+        })
+        
+        return () => userSet()
+    }, [])
+
+    useEffect(() => {
+        if (user) {
             fetchPosts()
         }
-    }, [user])
+    }, [user, searchParams])
     return (
         <div>
             <div className='space-y-16'>
@@ -79,7 +85,7 @@ const UserPage = () => {
                                     ['이웃', 'neighbor'],
                                     ['학교', 'school']
                                 ].map(([name, path], i) => (
-                                    <Link href={`/user?folder=${path}`} key={i} className='flex items-center justify-center rounded-full peer-checked:bg-instend peer-checked:text-white peer-checked:border-instend hover:brightness-90 transition-all bg-white text-black border border-black border-opacity-20 px-5 py-2 text-lg'>
+                                    <Link href={`/user?folder=${path}`} key={i} className={`flex items-center justify-center rounded-full hover:brightness-90 transition-all ${searchParams == path ? 'bg-instend text-white border-instend' : 'bg-white text-black border border-black border-opacity-20'} px-5 py-2 text-lg`}>
                                         {name}
                                     </Link>
                                 ))
@@ -87,7 +93,7 @@ const UserPage = () => {
                         </form>
                         <div className='space-y-8'>
                             {
-                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)
+                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={searchParams!} />)
                             }
                         </div>
                         <NavBar route='school' />
