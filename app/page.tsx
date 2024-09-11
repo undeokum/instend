@@ -37,11 +37,13 @@ const Home = () => {
         })
         setPosts(posts)
     }
+
     useEffect(() => {
         fetchPosts()
     }, [])
+
     return (
-        <div className='space-y-10'>
+        <div className='relative space-y-10'>
             <SearchBar />
             <div className='space-y-8'>
                 {
