@@ -108,7 +108,7 @@ const Write = () => {
                             ...register('image')
                         }
                         type='file'
-                        accept='.png .jpg .jpeg'
+                        accept='image/*'
                         className='hidden'
                         id='file'
                     />

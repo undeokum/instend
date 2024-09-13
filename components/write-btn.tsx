@@ -8,12 +8,10 @@ interface BtnType {
 
 const WriteBtn = (props: BtnType) => {
     return (
-        <div className='relative max-w-screen-sm mx-auto w-full'>
-            <div className='absolute bottom-5 right-5'>
-                <Link href={`/write?where=${props.query}`} className='p-5 rounded-full text-white bg-instend hover:bg-hover transition-colors flex items-center justify-center shadow-md'>
-                    <FontAwesomeIcon icon={faPenToSquare} className='w-5 h-5' />
-                </Link>
-            </div>
+        <div className='fixed bottom-32 right-0 max-w-screen-sm w-full z-50 flex'>
+            <Link href={`/write?where=${props.query}`} className='p-5 rounded-full text-white bg-instend hover:bg-hover transition-colors flex items-center justify-center shadow-md'>
+                <FontAwesomeIcon icon={faPenToSquare} className='w-5 h-5' />
+            </Link>
         </div>
     )
 }

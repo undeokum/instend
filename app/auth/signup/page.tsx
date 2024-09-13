@@ -40,13 +40,10 @@ const SignUp = () => {
             if(e instanceof FirebaseError) setError(ErrorMessage[ErrorCode.indexOf(e.code)])
         }
     }
-    const onInValid = (errors: FieldErrors) => {
-        console.log(errors)
-    }
     return(
         <div className='pt-20 flex flex-col items-center space-y-10'>
             <h1 className='text-4xl font-bold'>회원가입</h1>
-            <form className='w-full px-14 space-y-4' onSubmit={handleSubmit(onValid, onInValid)}>
+            <form className='w-full px-14 space-y-4' onSubmit={handleSubmit(onValid)}>
                 <input
                     {
                         ...register('email',

@@ -43,7 +43,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='relative space-y-10'>
+        <div className='space-y-10'>
             <SearchBar />
             <div className='space-y-8'>
                 {

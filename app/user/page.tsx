@@ -72,7 +72,7 @@ const UserPage = () => {
                             <span>휘문고등학교</span>
                         </div>
                     </div>
-                    <button className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg'>내 정보 수정하기</button>
+                    <Link href='/edit' className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg flex items-center justify-center'>내 정보 수정하기</Link>
                 </div>
                 <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
