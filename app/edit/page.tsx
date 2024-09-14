@@ -21,10 +21,11 @@ const Edit = () => {
 
     const email = watch('email')
     const name = watch('name')
-    const password = watch('password_new')
+    const password = watch('password')
+    const password_new = watch('password_new')
 
     const onValid = () => {
-        console.log('haha')
+        if(password){}
     }
 
     useEffect(() => {
@@ -43,12 +44,12 @@ const Edit = () => {
     }, [user, setValue])
     useEffect(() => {
         if (user) {
-            const currentValues = [email, name, password]
+            const currentValues = [email, name, password_new]
             const allValuesMatch = currentValues.every((value, i) => value == firstValues[i])
 
             setChanged(!allValuesMatch)
         }
-    }, [email, name, password, firstValues, user])
+    }, [email, name, password_new, firstValues, user])
     return (
         <div>
             <form className='space-y-5' onSubmit={handleSubmit(onValid)}>

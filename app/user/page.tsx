@@ -57,7 +57,7 @@ const UserPage = () => {
         if (user) {
             fetchPosts()
         }
-    }, [user, searchParams])
+    }, [user])
     return (
         <div>
             <div className='space-y-16'>

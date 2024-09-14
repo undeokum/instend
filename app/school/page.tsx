@@ -50,9 +50,7 @@ const School = () => {
                 <FontAwesomeIcon icon={faArrowsRotate} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all' />
             </div>
             <div className='space-y-8'>
-                {
-                    posts.map(postInfo => <Card key={postInfo.id} {...postInfo} />)
-                }
+                
             </div>
             <WriteBtn query='school' />
             <NavBar route='school' />

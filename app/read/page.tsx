@@ -35,7 +35,7 @@ const Read = () => {
     const [commentHeart, setCommentHeart] = useState(false)
     const [commentID, setCommentID] = useState('')
 
-    const readDocInfo = useCallback(async () => {
+    const readDocInfo = async () => {
         const ref = doc(db, getFolder!, getID!)
         const docSnap = await getDoc(ref)
         if(FOLDER.includes(getFolder!)){
@@ -65,9 +65,9 @@ const Read = () => {
         else {
             setNotFound(true)
         }
-    }, [getFolder, getID])
+    }
 
-    const fetchComments = useCallback(async () => {
+    const fetchComments = async () => {
         const postsQuery = query(
             collection(db, getFolder!, getID!, 'comments'),
             orderBy('mm', 'desc')
@@ -95,9 +95,9 @@ const Read = () => {
             }
         })
         setCommentData(comments)
-    }, [getFolder, getID])
+    }
 
-    const fetchHearts = useCallback(async () => {
+    const fetchHearts = async () => {
         const heartsQuery = query(
             collection(db, getFolder!, getID!, 'hearts')
         )
@@ -108,9 +108,9 @@ const Read = () => {
         })
         setHeartData(hearts)
         setHeart(heartData.some(heartInfo => heartInfo.userId == user?.uid))
-    }, [user, getFolder, getID, heartData])
+    }
 
-    const fetchCommentHearts = useCallback(async () => {
+    const fetchCommentHearts = async () => {
         if(commentID) {
             const heartsQuery = query(
                 collection(db, getFolder!, getID!, 'comments', commentID, 'hearts')
@@ -123,7 +123,7 @@ const Read = () => {
             setCommentHeartData(hearts)
             setCommentHeart(commentHeartData.some(heartInfo => heartInfo.userId == user?.uid))
         }
-    }, [user, getFolder, getID, commentID, commentHeartData])
+    }
 
     const onValid = async (data: CommentType) => {
         if(!posting) {
@@ -174,17 +174,32 @@ const Read = () => {
             setCommentID(commentData[0].id)
         }
     }, [commentData])
-
     useEffect(() => {
-        setUser(auth.currentUser)
+        const userSet = auth.onAuthStateChanged(user => {
+            setUser(user)
+        })
+        
+        return () => userSet()
+    }, [])
+    useEffect(() => {
         readDocInfo()
         fetchComments()
         fetchHearts()
-    }, [readDocInfo, fetchComments, fetchHearts])
-
+        fetchCommentHearts()
+        console.log('he')
+    }, [])
+    useEffect(() => {
+        fetchComments()
+        console.log('he')
+    }, [posting])
+    useEffect(() => {
+        fetchHearts()
+        console.log('he')
+    }, [heart])
     useEffect(() => {
         fetchCommentHearts()
-    }, [fetchCommentHearts])
+        console.log('he')
+    }, [commentHeart])
     return (
         <div>
             {
