@@ -93,7 +93,7 @@ const Edit = () => {
                             }
                         )
                         }
-                        type='text' 
+                        type='text'
                         className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none'
                     />
                     <span className='text-red-600'>{errors.name?.message}</span>
