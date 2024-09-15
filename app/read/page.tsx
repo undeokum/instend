@@ -98,9 +98,7 @@ const Read = () => {
     }
 
     const fetchHearts = async () => {
-        const heartsQuery = query(
-            collection(db, getFolder!, getID!, 'hearts')
-        )
+        const heartsQuery = query(collection(db, getFolder!, getID!, 'hearts'))
         const snapshop = await getDocs(heartsQuery)
         const hearts = snapshop.docs.map(doc => {
             const { userId } = doc.data()
