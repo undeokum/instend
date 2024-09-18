@@ -48,11 +48,9 @@ const Write = () => {
                 const locationRef = ref(storage, `${searchParams!}/${user!.uid}/${doc.id}`)
                 const result = await uploadBytes(locationRef, img)
                 const url = await getDownloadURL(result.ref)
-                await updateDoc(doc, {
-                image: url,
-                })
+                await updateDoc(doc, {image: url,})
             }
-            router.push(`/${searchParams}`)
+            router.push(`/${searchParams == 'all' && ''}`)
         }
     }
 

@@ -1,5 +1,5 @@
 'use client'
-import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useCallback, useEffect, useState } from 'react'
@@ -29,11 +29,6 @@ const Read = () => {
     const [user, setUser] = useState<User | null>(null)
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
-    const [heartData, setHeartData] = useState<HeartInstructure[]>([])
-    const [commentHeartData, setCommentHeartData] = useState<HeartInstructure[]>([])
-    const [heart, setHeart] = useState(false)
-    const [commentHeart, setCommentHeart] = useState(false)
-    const [commentID, setCommentID] = useState('')
 
     const readDocInfo = async () => {
         const ref = doc(db, getFolder!, getID!)
@@ -97,32 +92,6 @@ const Read = () => {
         setCommentData(comments)
     }
 
-    const fetchHearts = async () => {
-        const heartsQuery = query(collection(db, getFolder!, getID!, 'hearts'))
-        const snapshop = await getDocs(heartsQuery)
-        const hearts = snapshop.docs.map(doc => {
-            const { userId } = doc.data()
-            return { userId, id: doc.id }
-        })
-        setHeartData(hearts)
-        setHeart(heartData.some(heartInfo => heartInfo.userId == user?.uid))
-    }
-
-    const fetchCommentHearts = async () => {
-        if(commentID) {
-            const heartsQuery = query(
-                collection(db, getFolder!, getID!, 'comments', commentID, 'hearts')
-            )
-            const snapshop = await getDocs(heartsQuery)
-            const hearts = snapshop.docs.map(doc => {
-                const { userId } = doc.data()
-                return { userId, id: doc.id }
-            })
-            setCommentHeartData(hearts)
-            setCommentHeart(commentHeartData.some(heartInfo => heartInfo.userId == user?.uid))
-        }
-    }
-
     const onValid = async (data: CommentType) => {
         if(!posting) {
             setPosting(true)
@@ -139,39 +108,6 @@ const Read = () => {
         }
     }
 
-    const Heart = async () => {
-        if(heart){
-            const heartId = heartData.find(heartInfo => heartInfo.userId === user?.uid)?.id
-            await deleteDoc(doc(db, getFolder!, getID!, 'hearts', heartId!))
-            setHeart(false)
-        }
-        else {
-            await addDoc(collection(db, getFolder!, getID!, 'hearts'), {
-                userId: user?.uid
-            })
-            setHeart(true)
-        }
-    }
-
-    const CommentHeart = async () => {
-        if(commentHeart){
-            const heartId = commentHeartData.find(heartInfo => heartInfo.userId === user?.uid)?.id
-            await deleteDoc(doc(db, getFolder!, getID!, 'comments', commentID, 'hearts', heartId!))
-            setCommentHeart(false)
-        }
-        else {
-            await addDoc(collection(db, getFolder!, getID!, 'comments', commentID, 'hearts'), {
-                userId: user?.uid
-            })
-            setCommentHeart(true)
-        }
-    }
-
-    useEffect(() => {
-        if (commentData.length > 0) {
-            setCommentID(commentData[0].id)
-        }
-    }, [commentData])
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
             setUser(user)
@@ -182,22 +118,8 @@ const Read = () => {
     useEffect(() => {
         readDocInfo()
         fetchComments()
-        fetchHearts()
-        fetchCommentHearts()
-        console.log('he')
+        console.log('n')
     }, [])
-    useEffect(() => {
-        fetchComments()
-        console.log('he')
-    }, [posting])
-    useEffect(() => {
-        fetchHearts()
-        console.log('he')
-    }, [heart])
-    useEffect(() => {
-        fetchCommentHearts()
-        console.log('he')
-    }, [commentHeart])
     return (
         <div>
             {
@@ -226,9 +148,9 @@ const Read = () => {
                             }
                         </div>
                         <div className='items-center justify-center flex'>
-                            <button className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${heart ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`} onClick={Heart}>
-                                <FontAwesomeIcon icon={heart ? sHeart : faHeart} className='w-5 h-5' />
-                                <div className='text-lg'>{heartData.length}</div>
+                            <button className={'flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${heart ? "text-white bg-instend_red hover:brightness-90 transition-all" : "text-instend_red hover:bg-black hover:bg-opacity-5"}'}>
+                                <FontAwesomeIcon icon={faHeart} className='w-5 h-5' />
+                                <div className='text-lg'>15</div>
                             </button>
                         </div>
                     </div>
@@ -272,9 +194,9 @@ const Read = () => {
                                             </div>
                                             <h1 className='text-xl'>{commentInfo.content}</h1>
                                         </div>
-                                        <div className='flex items-center space-x-3 cursor-pointer w-' onClick={CommentHeart}>
-                                            <FontAwesomeIcon icon={commentHeart ? sHeart : faHeart} className='w-5 h-5 text-instend_red' />
-                                            <div>{commentHeartData.length}</div>
+                                        <div className='flex items-center space-x-3 cursor-pointer w-'>
+                                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
+                                            <div>15</div>
                                         </div>
                                     </div>
                                 ))
