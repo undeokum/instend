@@ -2,7 +2,7 @@
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
-import { useCallback, useEffect, useState } from 'react'
+import { Dispatch, SetStateAction, useEffect, useState } from 'react'
 import { HeartInstructure, PostInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
@@ -29,6 +29,7 @@ const Read = () => {
     const [user, setUser] = useState<User | null>(null)
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
+    const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
 
     const readDocInfo = async () => {
         const ref = doc(db, getFolder!, getID!)
@@ -108,6 +109,51 @@ const Read = () => {
         }
     }
 
+    class Heart {
+        private folder: string
+        private heartRef: any
+        private id: string
+        private setData: React.Dispatch<React.SetStateAction<HeartInstructure[] | null>>
+        constructor(folder: string, id: string, setData: React.Dispatch<React.SetStateAction<HeartInstructure[] | null>>){
+            this.folder = folder
+            this.heartRef = collection(db, folder)
+            this.id = id
+            this.setData = setData
+        }
+
+        heartCheck = hearts?.find(heart => heart.userId == user?.uid)
+        
+        countHearts = async () => {
+            const data = await getDocs(query(this.heartRef, where('postId', '==', this.id)))
+            const heartMap: HeartInstructure[] = data.docs.map(doc => {
+                const heartData = doc.data() as HeartInstructure
+                return { userId: heartData.userId, heartId: doc.id }
+            })
+            this.setData(heartMap)
+        }
+
+        heartChange = async () => {
+            if(this.heartCheck){
+                const heartData = await getDocs(query(
+                    this.heartRef,
+                    where('userId', '==', user?.uid),
+                    where('postId', '==', getID!)
+                ))
+                await deleteDoc(doc(db, this.folder, heartData.docs[0].id))
+                if(user) this.setData((prev) => prev && prev.filter(h => h.heartId != heartData.docs[0].id))
+            }
+            else {
+                const heart = await addDoc(this.heartRef, {
+                    userId: user?.uid,
+                    postId: this.id
+                })
+                if(user) this.setData((prev) => prev ? [...prev, { userId: user?.uid, heartId: heart.id }] : [{ userId: user.uid, heartId: heart.id }])
+            }
+        }
+    }
+
+    const postHeart = new Heart('hearts', getID!, setHearts)
+
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
             setUser(user)
@@ -118,7 +164,7 @@ const Read = () => {
     useEffect(() => {
         readDocInfo()
         fetchComments()
-        console.log('n')
+        postHeart.countHearts()
     }, [])
     return (
         <div>
@@ -148,9 +194,9 @@ const Read = () => {
                             }
                         </div>
                         <div className='items-center justify-center flex'>
-                            <button className={'flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${heart ? "text-white bg-instend_red hover:brightness-90 transition-all" : "text-instend_red hover:bg-black hover:bg-opacity-5"}'}>
+                            <button onClick={postHeart.heartChange} className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${postHeart.heartCheck ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`}>
                                 <FontAwesomeIcon icon={faHeart} className='w-5 h-5' />
-                                <div className='text-lg'>15</div>
+                                <div className='text-lg'>{hearts?.length}</div>
                             </button>
                         </div>
                     </div>

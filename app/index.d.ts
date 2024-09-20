@@ -9,5 +9,6 @@ export interface PostInstructure {
 }
 
 export interface HeartInstructure {
-    userId: string, id: string
+    userId: string
+    heartId: string
 }
