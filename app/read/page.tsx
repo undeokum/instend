@@ -30,6 +30,7 @@ const Read = () => {
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
     const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
+    const [commentHearts, setCommentHearts] = useState<void[] | null>([])
 
     const readDocInfo = async () => {
         const ref = doc(db, getFolder!, getID!)
@@ -91,6 +92,11 @@ const Read = () => {
             }
         })
         setCommentData(comments)
+
+        const ch = snapshop.docs.map(doc => {
+            commentHeart(doc.id)
+        })
+        setCommentHearts(ch)
     }
 
     const onValid = async (data: CommentType) => {
@@ -137,7 +143,7 @@ const Read = () => {
                 const heartData = await getDocs(query(
                     this.heartRef,
                     where('userId', '==', user?.uid),
-                    where('postId', '==', getID!)
+                    where('postId', '==', this.id)
                 ))
                 await deleteDoc(doc(db, this.folder, heartData.docs[0].id))
                 if(user) this.setData((prev) => prev && prev.filter(h => h.heartId != heartData.docs[0].id))
@@ -153,6 +159,9 @@ const Read = () => {
     }
 
     const postHeart = new Heart('hearts', getID!, setHearts)
+    const commentHeart = (commentId: string) => {
+        // return new Heart('commentHearts', commentId, setCommentHearts)
+    }
 
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
@@ -165,6 +174,8 @@ const Read = () => {
         readDocInfo()
         fetchComments()
         postHeart.countHearts()
+
+        console.log('he')
     }, [])
     return (
         <div>
@@ -195,7 +206,7 @@ const Read = () => {
                         </div>
                         <div className='items-center justify-center flex'>
                             <button onClick={postHeart.heartChange} className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${postHeart.heartCheck ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`}>
-                                <FontAwesomeIcon icon={faHeart} className='w-5 h-5' />
+                                <FontAwesomeIcon icon={postHeart.heartCheck ? sHeart : faHeart} className='w-5 h-5' />
                                 <div className='text-lg'>{hearts?.length}</div>
                             </button>
                         </div>
