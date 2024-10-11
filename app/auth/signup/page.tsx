@@ -1,13 +1,14 @@
 'use client'
-import { auth } from '@/app/firebase'
+import { auth, db } from '@/app/firebase'
 import { FirebaseError } from 'firebase/app'
 import { createUserWithEmailAndPassword, onAuthStateChanged, updateProfile } from 'firebase/auth'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { FieldErrors, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import { ErrorCode, ErrorMessage } from '../error-code'
+import { doc, setDoc } from 'firebase/firestore'
 
 interface SignUpFormType {
     email: string
@@ -30,9 +31,12 @@ const SignUp = () => {
     const onValid = async (data: SignUpFormType) => {
         try {
             const credentials = await createUserWithEmailAndPassword(auth, data.email, data.password)
-            console.log(credentials.user)
             await updateProfile(credentials.user, {
-                displayName: data.name
+                displayName: data.name,
+            })
+            await setDoc(doc(db, 'userData', credentials.user.uid), {
+                neighbor: '',
+                school: ''
             })
             router.push('/')
         }

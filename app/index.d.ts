@@ -12,3 +12,8 @@ export interface HeartInstructure {
     userId: string
     heartId: string
 }
+
+export interface UserDataInstructure {
+    neighbor: string
+    school: string
+}

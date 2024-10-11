@@ -30,7 +30,6 @@ const Read = () => {
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
     const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
-    const [commentHearts, setCommentHearts] = useState<void[] | null>([])
 
     const readDocInfo = async () => {
         const ref = doc(db, getFolder!, getID!)
@@ -92,11 +91,6 @@ const Read = () => {
             }
         })
         setCommentData(comments)
-
-        const ch = snapshop.docs.map(doc => {
-            commentHeart(doc.id)
-        })
-        setCommentHearts(ch)
     }
 
     const onValid = async (data: CommentType) => {
@@ -105,8 +99,8 @@ const Read = () => {
             const date = new Date()
             await addDoc(collection(db, getFolder!, getID!, 'comments'), {
                 content: data.content,
-                createdAt: `${date.getFullYear()}-${date.getMonth() < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}-${date.getDate() < 10 ? '0' + date.getDate() : date.getDate()} ${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`,
-                userName: data.select == 'anon' ? '익명' : user?.displayName,
+                createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
+                userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId && '(글쓴이)'}`,
                 userId: user?.uid,
                 heart: 0,
                 mm: Date.now()
@@ -159,9 +153,6 @@ const Read = () => {
     }
 
     const postHeart = new Heart('hearts', getID!, setHearts)
-    const commentHeart = (commentId: string) => {
-        // return new Heart('commentHearts', commentId, setCommentHearts)
-    }
 
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
@@ -239,22 +230,16 @@ const Read = () => {
                             />
                             <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
                         </form>
-                        <div>
+                        <div className='border-b'>
                             {
                                 commentData.map(commentInfo => (
-                                    <div key={commentInfo.id} className='w-full py-5 border-t space-y-5'>
-                                        <div className='space-y-1'>
-                                            <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                                <div className='text-instend'>{commentInfo.userName}</div>
-                                                <div>&#183;</div>
-                                                <div>{commentInfo.createdAt}</div>
-                                            </div>
-                                            <h1 className='text-xl'>{commentInfo.content}</h1>
+                                    <div key={commentInfo.id} className='w-full py-5 border-t space-y-1'>
+                                        <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
+                                            <div className='text-instend'>{commentInfo.userName}</div>
+                                            <div>&#183;</div>
+                                            <div>{commentInfo.createdAt}</div>
                                         </div>
-                                        <div className='flex items-center space-x-3 cursor-pointer w-'>
-                                            <FontAwesomeIcon icon={faHeart} className='w-5 h-5 text-instend_red' />
-                                            <div>15</div>
-                                        </div>
+                                        <h1 className='text-xl'>{commentInfo.content}</h1>
                                     </div>
                                 ))
                             }
