@@ -4,28 +4,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NavBar from '@/components/nav'
 import Card from '@/components/card'
 import { useEffect, useState } from 'react'
-import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc, where } from 'firebase/firestore'
 import { auth, db } from '../firebase'
-import { PostInstructure, UserDataInstructure } from '..'
+import { NeighborPostInstructure, UserDataInstructure } from '..'
 import WriteBtn from '@/components/write-btn'
 import SearchBar from '@/components/search'
 import { onAuthStateChanged, User } from 'firebase/auth'
 import { useForm } from 'react-hook-form'
 
-const location = ['서울특별시', '부산광역시', '대구광역시', '인천광역시', '광주광역시', '대전광역시', '울산광역시', '세종특별자치시', '경기도', '강원도', '충청북도', '충청남도', '전라북도', '전라남도', '경상북도', '경상남도', '제주특별자치도']
+const location = ['서울특별시', '부산광역시', '대구광역시', '인천광역시', '광주광역시', '대전광역시', '울산광역시', '세종특별자치시', '경기도', '강원도', '충청북도', '충청남도', '전라북도', '전라남도', '경상북도', '경상남도', '제주특별자치도', '해외']
 
 interface LocationSelect { select: string }
 
 const Neighbor = () => {
-    const [posts, setPosts] = useState<PostInstructure[]>([])
+    const [posts, setPosts] = useState<NeighborPostInstructure[]>([])
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [user, setUser] = useState<User | null>(null)
+    const [changed, setChanged] = useState(false)
 
     const { register, handleSubmit } = useForm<LocationSelect>()
 
 
     const fetchPosts = async () => {
-        const postsQuery = query(collection(db, 'neighbor'), orderBy('mm', 'desc'))
+        const postsQuery = query(collection(db, 'neighbor'), orderBy('mm', 'desc'), where('location', '==', userData?.neighbor))
         const snapshop = await getDocs(postsQuery)
         const posts = snapshop.docs.map(doc => {
             const {
@@ -35,6 +36,7 @@ const Neighbor = () => {
                 userId,
                 userName,
                 mm,
+                location
             } = doc.data()
             return {
                 image,
@@ -43,6 +45,7 @@ const Neighbor = () => {
                 userId,
                 userName,
                 mm,
+                location,
                 id: doc.id
             }
         })
@@ -59,6 +62,16 @@ const Neighbor = () => {
         }
     }
 
+    const onValid = async (data: LocationSelect) => {
+        if(user?.uid){
+            await updateDoc(doc(db, 'userData', user?.uid), {
+                neighbor: data.select,
+                school: userData?.school
+            })
+        }
+        setChanged(true)
+    }
+
     useEffect(() => {
         onAuthStateChanged(auth, userr => {
             setUser(userr)
@@ -69,7 +82,8 @@ const Neighbor = () => {
             fetchPosts()
             fetchUserData()
         }
-    }, [user])
+    }, [user, changed])
+
     return (
         <div>
             {
@@ -78,7 +92,7 @@ const Neighbor = () => {
                 <div className='flex flex-col items-center justify-center pt-20 font-semi_bold space-y-10'>
                     <h1 className='text-3xl'>동네 설정이 필요합니다.</h1>
                     
-                    <form className='flex flex-col space-y-3'>
+                    <form className='flex flex-col space-y-3' onSubmit={handleSubmit(onValid)}>
                         <h1 className='text-xl'>동네 설정 하기</h1>
                         <select {...register('select')} className='border border-black border-opacity-20 px-20 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'>
                             {
@@ -92,7 +106,7 @@ const Neighbor = () => {
                 <div className='space-y-10'>
                     <SearchBar />
                     <div className='flex items-center space-x-5'>
-                        <h1 className='text-2xl font-bold'>서울특별시 삼성동</h1>
+                        <h1 className='text-2xl font-bold'>{userData?.neighbor}</h1>
                         <FontAwesomeIcon icon={faArrowsRotate} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all' />
                     </div>
                     <div className='space-y-8'>

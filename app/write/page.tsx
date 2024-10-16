@@ -2,7 +2,7 @@
 import NavBar from '@/components/nav'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { addDoc, collection, updateDoc } from 'firebase/firestore'
+import { addDoc, collection, doc, getDoc, updateDoc } from 'firebase/firestore'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { auth, db, storage } from '../firebase'
@@ -11,6 +11,7 @@ import { User } from 'firebase/auth'
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
 import Image from 'next/image'
 import { FOLDER } from '../folder'
+import { UserDataInstructure } from '..'
 
 interface PostType {
     content: string
@@ -27,6 +28,18 @@ const Write = () => {
     const [user, setUser] = useState<User | null>(null)
     const [posting, setPosting] = useState(false)
     const [imgURL, setImgURL] = useState('')
+    const [userData, setUserData] = useState<UserDataInstructure>()
+
+    const fetchUserData = async () => {
+        if(user?.uid){
+            const userDataRef = doc(db, 'userData', user?.uid)
+            const userDataSnap = await getDoc(userDataRef)
+            if(userDataSnap.exists()){
+                const { neighbor, school } = userDataSnap.data()
+                setUserData({ neighbor, school })
+            }
+        }
+    }
 
     const onValid = async (data: PostType) => {
         if(!posting){
@@ -41,6 +54,8 @@ const Write = () => {
                 userName: select == 'anon' ? '익명' : user?.displayName,
                 userId: user?.uid,
                 heart: 0,
+                location: userData?.neighbor,
+                school: userData?.school,
                 mm: Date.now()
             })
             if(img != null) {
@@ -50,7 +65,7 @@ const Write = () => {
                 const url = await getDownloadURL(result.ref)
                 await updateDoc(doc, {image: url,})
             }
-            router.push(`/${searchParams == 'all' && ''}`)
+            router.push(`/${searchParams == 'all' ? '' : searchParams}`)
         }
     }
 
@@ -61,6 +76,10 @@ const Write = () => {
         
         return () => unsubscribe()
     }, [])
+
+    useEffect(() => {
+        fetchUserData()
+    }, [user])
 
     useEffect(() => {
         if(!FOLDER.includes(searchParams!)) router.push('/write?where=all')
