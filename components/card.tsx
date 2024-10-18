@@ -1,6 +1,7 @@
 'use client'
 import { HeartInstructure, PostInstructure } from '@/app'
 import { auth, db } from '@/app/firebase'
+import Heart from '@/utils/heart'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -21,9 +22,8 @@ const Card = (props: ReadType) => {
     const setCollection = `${props.folder}/${props.id}`
     const user = auth.currentUser
 
+    const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
-    const [heartData, setHeartData] = useState<HeartInstructure[]>([])
-    const [heart, setHeart] = useState(false)
 
     const fetchComments = useCallback(async () => {
         const postsQuery = query(collection(db, `${setCollection}/comments`))
@@ -33,7 +33,6 @@ const Card = (props: ReadType) => {
                 image,
                 content,
                 createdAt,
-                heart,
                 userId,
                 userName,
                 mm,
@@ -42,7 +41,6 @@ const Card = (props: ReadType) => {
                 image,
                 content,
                 createdAt,
-                heart,
                 userId,
                 userName,
                 mm,
@@ -52,22 +50,11 @@ const Card = (props: ReadType) => {
         setCommentData(comments)
     }, [setCollection])
 
-    const fetchHearts = useCallback(async () => {
-        const heartsQuery = query(
-            collection(db, `${setCollection}/hearts`)
-        )
-        const snapshop = await getDocs(heartsQuery)
-        const hearts = snapshop.docs.map(doc => {
-            const { userId } = doc.data()
-            return { userId, id: doc.id }
-        })
-        setHeartData(hearts)
-        setHeart(heartData.some(heartInfo => heartInfo.userId == user?.uid))
-    }, [setCollection, setHeart, user, heartData])
+    const heart = new Heart(props.id, hearts, setHearts, user)
 
     useEffect(() => {
         fetchComments()
-        fetchHearts()
+        heart.countHearts()
     })
     return (
         <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${setPath}&id=${props.id}`)}>
@@ -80,8 +67,8 @@ const Card = (props: ReadType) => {
                 </div>
                 <div className='flex space-x-8'>
                     <div className='space-x-3 flex items-center'>
-                        <FontAwesomeIcon icon={heart ? faHeart : rHeart} className='w-5 h-5 text-instend_red' />
-                        <span>{heartData.length}</span>
+                        <FontAwesomeIcon icon={heart.heartCheck ? faHeart : rHeart} className='w-5 h-5 text-instend_red' />
+                        <span>{hearts?.length}</span>
                     </div>
                     <div className='space-x-3 flex items-center'>
                         <FontAwesomeIcon icon={faComment} className='w-5 h-5' />

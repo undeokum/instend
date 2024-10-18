@@ -1,8 +1,8 @@
 'use client'
-import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { addDoc, collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
-import { Dispatch, SetStateAction, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { HeartInstructure, PostInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
@@ -12,6 +12,7 @@ import NavBar from '@/components/nav'
 import Image from 'next/image'
 import { FOLDER } from '../folder'
 import { User } from 'firebase/auth'
+import Heart from '@/utils/heart'
 
 interface CommentType {
     content: string
@@ -109,50 +110,7 @@ const Read = () => {
         }
     }
 
-    class Heart {
-        private folder: string
-        private heartRef: any
-        private id: string
-        private setData: React.Dispatch<React.SetStateAction<HeartInstructure[] | null>>
-        constructor(folder: string, id: string, setData: React.Dispatch<React.SetStateAction<HeartInstructure[] | null>>){
-            this.folder = folder
-            this.heartRef = collection(db, folder)
-            this.id = id
-            this.setData = setData
-        }
-
-        heartCheck = hearts?.find(heart => heart.userId == user?.uid)
-        
-        countHearts = async () => {
-            const data = await getDocs(query(this.heartRef, where('postId', '==', this.id)))
-            const heartMap: HeartInstructure[] = data.docs.map(doc => {
-                const heartData = doc.data() as HeartInstructure
-                return { userId: heartData.userId, heartId: doc.id }
-            })
-            this.setData(heartMap)
-        }
-
-        heartChange = async () => {
-            if(this.heartCheck){
-                const heartData = await getDocs(query(
-                    this.heartRef,
-                    where('userId', '==', user?.uid),
-                    where('postId', '==', this.id)
-                ))
-                await deleteDoc(doc(db, this.folder, heartData.docs[0].id))
-                if(user) this.setData((prev) => prev && prev.filter(h => h.heartId != heartData.docs[0].id))
-            }
-            else {
-                const heart = await addDoc(this.heartRef, {
-                    userId: user?.uid,
-                    postId: this.id
-                })
-                if(user) this.setData((prev) => prev ? [...prev, { userId: user?.uid, heartId: heart.id }] : [{ userId: user.uid, heartId: heart.id }])
-            }
-        }
-    }
-
-    const postHeart = new Heart('hearts', getID!, setHearts)
+    const postHeart = new Heart(getID!, hearts, setHearts, user)
 
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
