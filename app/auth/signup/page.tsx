@@ -125,13 +125,6 @@ const SignUp = () => {
                     <Link href='/auth/signin' className='opacity-50 hover:opacity-70'>로그인</Link>
                 </div>
             </form>
-            <div className='flex justify-between w-full px-24'>
-                {['google', 'apple', 'facebook'].map((name, i) => (
-                    <div key={i} className='border border-black border-opacity-20 flex justify-center items-center w-14 h-14 rounded-full'>
-                        <Image src={`/img/logo/${name}.svg`} alt={name} width={100} height={100} className={name == 'apple' ? 'w-7' : 'w-8'} />
-                    </div>
-                ))}
-            </div>
         </div>
     )
 }
