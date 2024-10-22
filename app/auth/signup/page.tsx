@@ -2,7 +2,6 @@
 import { auth, db } from '@/app/firebase'
 import { FirebaseError } from 'firebase/app'
 import { createUserWithEmailAndPassword, onAuthStateChanged, updateProfile } from 'firebase/auth'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
