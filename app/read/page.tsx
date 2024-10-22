@@ -3,7 +3,7 @@ import { addDoc, collection, doc, getDoc, getDocs, orderBy, query, where } from 
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
-import { HeartInstructure, PostInstructure } from '..'
+import { HeartInstructure, PostInstructure, UserDataInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import { faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
@@ -20,7 +20,6 @@ interface CommentType {
 }
 
 const Read = () => {
-    const getFolder = useSearchParams().get('folder')
     const getID = useSearchParams().get('id')
 
     const [postData, setPostData] = useState<PostInstructure>()
@@ -31,74 +30,92 @@ const Read = () => {
     const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
     const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
+    const [userData, setUserData] = useState<UserDataInstructure>()
+
+    const getFolder = useSearchParams().get('folder') == 'neighbor' ? `neighbor${userData?.neighbor}` : useSearchParams().get('folder')!
+
+    const fetchUserData = async () => {
+        if(user?.uid){
+            const userDataRef = doc(db, 'userData', user?.uid)
+            const userDataSnap = await getDoc(userDataRef)
+            if(userDataSnap.exists()){
+                const { neighbor, school } = userDataSnap.data()
+                setUserData({ neighbor, school })
+            }
+        }
+    }
 
     const readDocInfo = async () => {
-        const ref = doc(db, getFolder!, getID!)
-        const docSnap = await getDoc(ref)
-        if(FOLDER.includes(getFolder!)){
-            if(docSnap.exists()){
-                const {
-                    image,
-                    content,
-                    createdAt,
-                    userId,
-                    userName,
-                    mm,
-                } = docSnap.data()
-                setPostData({
-                    image,
-                    content,
-                    createdAt,
-                    userId,
-                    userName,
-                    mm,
-                    id: getID!
-                })
+        if(userData){
+            const ref = doc(db, getFolder, getID!)
+            const docSnap = await getDoc(ref)
+            if(FOLDER.includes(getFolder.startsWith('neighbor') ? 'neighbor' : getFolder)){
+                if(docSnap.exists()){
+                    const {
+                        image,
+                        content,
+                        createdAt,
+                        userId,
+                        userName,
+                        mm,
+                    } = docSnap.data()
+                    setPostData({
+                        image,
+                        content,
+                        createdAt,
+                        userId,
+                        userName,
+                        mm,
+                        id: getID!
+                    })
+                }
+                else {
+                    setNotFound(true)
+                }
             }
             else {
                 setNotFound(true)
             }
         }
-        else {
-            setNotFound(true)
-        }
     }
 
     const fetchComments = async () => {
-        const postsQuery = query(
-            collection(db, getFolder!, getID!, 'comments'),
-            orderBy('mm', 'desc')
-        )
-        const snapshop = await getDocs(postsQuery)
-        const comments = snapshop.docs.map(doc => {
-            const {
-                image,
-                content,
-                createdAt,
-                heart,
-                userId,
-                userName,
-                mm,
-            } = doc.data()
-            return {
-                image,
-                content,
-                createdAt,
-                heart,
-                userId,
-                userName,
-                mm,
-                id: doc.id
-            }
-        })
-        setCommentData(comments)
+        if(userData){
+            const postsQuery = query(
+                collection(db, getFolder, getID!, 'comments'),
+                orderBy('mm', 'desc')
+            )
+            const snapshop = await getDocs(postsQuery)
+            const comments = snapshop.docs.map(doc => {
+                const {
+                    image,
+                    content,
+                    createdAt,
+                    heart,
+                    userId,
+                    userName,
+                    mm,
+                } = doc.data()
+                return {
+                    image,
+                    content,
+                    createdAt,
+                    heart,
+                    userId,
+                    userName,
+                    mm,
+                    id: doc.id
+                }
+            })
+            setCommentData(comments)
+        }
     }
 
     const onValid = async (data: CommentType) => {
-        if(!posting) {
+        if(!posting && userData) {
             setPosting(true)
             const date = new Date()
-            await addDoc(collection(db, getFolder!, getID!, 'comments'), {
+            await addDoc(collection(db, getFolder, getID!, 'comments'), {
                 content: data.content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
                 userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId && '(글쓴이)'}`,
@@ -119,13 +136,18 @@ const Read = () => {
         
         return () => userSet()
     }, [])
+
+    useEffect(() => {
+        if(user){
+            fetchUserData()
+        }
+    }, [user])
+
     useEffect(() => {
         readDocInfo()
         fetchComments()
         postHeart.countHearts()
-
-        console.log('he')
-    }, [])
+    }, [userData])
     return (
         <div>
             {

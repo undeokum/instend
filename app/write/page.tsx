@@ -42,13 +42,13 @@ const Write = () => {
     }
 
     const onValid = async (data: PostType) => {
-        if(!posting){
+        if(!posting && user){
             setPosting(true)
             const content = data.content
             const img = data.image && data.image.length == 1 ? data.image[0] : null
             const select = data.select
             const date = new Date()
-            const doc = await addDoc(collection(db, searchParams!), {
+            const doc = await addDoc(collection(db, searchParams != 'neighbor' ? searchParams! : `neighbor${userData?.neighbor}`), {
                 content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
                 userName: select == 'anon' ? '익명' : user?.displayName,
@@ -78,7 +78,7 @@ const Write = () => {
     }, [])
 
     useEffect(() => {
-        fetchUserData()
+        if(user) fetchUserData()
     }, [user])
 
     useEffect(() => {

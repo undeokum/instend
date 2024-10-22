@@ -17,5 +17,3 @@ export interface UserDataInstructure {
     neighbor: string
     school: string
 }
-
-export interface NeighborPostInstructure extends PostInstructure { location: string }

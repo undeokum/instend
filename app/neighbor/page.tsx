@@ -6,7 +6,7 @@ import Card from '@/components/card'
 import { useEffect, useState } from 'react'
 import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc, where } from 'firebase/firestore'
 import { auth, db } from '../firebase'
-import { NeighborPostInstructure, UserDataInstructure } from '..'
+import { PostInstructure, UserDataInstructure } from '..'
 import WriteBtn from '@/components/write-btn'
 import SearchBar from '@/components/search'
 import { onAuthStateChanged, User } from 'firebase/auth'
@@ -17,7 +17,7 @@ const location = ['서울특별시', '부산광역시', '대구광역시', '인�
 interface LocationSelect { select: string }
 
 const Neighbor = () => {
-    const [posts, setPosts] = useState<NeighborPostInstructure[]>([])
+    const [posts, setPosts] = useState<PostInstructure[]>([])
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [user, setUser] = useState<User | null>(null)
     const [changed, setChanged] = useState(false)
@@ -26,31 +26,35 @@ const Neighbor = () => {
 
 
     const fetchPosts = async () => {
-        const postsQuery = query(collection(db, 'neighbor'), orderBy('mm', 'desc'), where('location', '==', userData?.neighbor))
-        const snapshop = await getDocs(postsQuery)
-        const posts = snapshop.docs.map(doc => {
-            const {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-                location
-            } = doc.data()
-            return {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-                location,
-                id: doc.id
-            }
-        })
-        setPosts(posts)
+        if(userData){
+            const postsQuery = query(
+                collection(db, `neighbor${userData?.neighbor}`),
+                orderBy('mm', 'desc')
+            )
+            const snapshop = await getDocs(postsQuery)
+            const posts = snapshop.docs.map(doc => {
+                const {
+                    image,
+                    content,
+                    createdAt,
+                    userId,
+                    userName,
+                    mm,
+                } = doc.data()
+                return {
+                    image,
+                    content,
+                    createdAt,
+                    userId,
+                    userName,
+                    mm,
+                    id: doc.id
+                }
+            })
+            setPosts(posts)
+        }
     }
+
     const fetchUserData = async () => {
         if(user?.uid){
             const userDataRef = doc(db, 'userData', user?.uid)
@@ -69,20 +73,26 @@ const Neighbor = () => {
                 school: userData?.school
             })
         }
-        setChanged(true)
+        setChanged(!changed)
     }
 
     useEffect(() => {
-        onAuthStateChanged(auth, userr => {
+        const unsubscribe = auth.onAuthStateChanged(userr => {
             setUser(userr)
         })
-    })
+        
+        return () => unsubscribe()
+    }, [])
+
     useEffect(() => {
         if(user){
-            fetchPosts()
             fetchUserData()
         }
     }, [user, changed])
+
+    useEffect(() => {
+        fetchPosts()
+    }, [userData])
 
     return (
         <div>
@@ -111,7 +121,7 @@ const Neighbor = () => {
                     </div>
                     <div className='space-y-8'>
                         {
-                            posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='neighbor' />)
+                            posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={`neighbor${userData?.neighbor}`} />)
                         }
                     </div>
                     <WriteBtn query='neighbor' />
