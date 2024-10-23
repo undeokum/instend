@@ -3,17 +3,19 @@ import { useForm } from 'react-hook-form'
 import { auth } from '../firebase'
 import NavBar from '@/components/nav'
 import { useEffect, useState } from 'react'
-import { User } from 'firebase/auth'
+import { updateEmail, updatePassword, updateProfile, User } from 'firebase/auth'
+import { useRouter } from 'next/navigation'
 
 interface FormType {
     email: string
     name: string
-    password: string
     password_new: string
 }
 
 const Edit = () => {
     const { register, setValue, watch, formState: { errors }, handleSubmit } = useForm<FormType>()
+
+    const router = useRouter()
 
     const [user, setUser] = useState<User | null>(null)
     const [firstValues, setFirstValues] = useState<string[]>([])
@@ -21,11 +23,17 @@ const Edit = () => {
 
     const email = watch('email')
     const name = watch('name')
-    const password = watch('password')
     const password_new = watch('password_new')
 
-    const onValid = () => {
-        if(password){}
+    const onValid = async () => {
+        if(user){
+            await updateEmail(user, email)
+            await updateProfile(user, {
+                displayName: name
+            })
+            if(password_new != '') await updatePassword(user, password_new)
+        }
+        router.push('/user')
     }
 
     useEffect(() => {
@@ -41,7 +49,7 @@ const Edit = () => {
             setValue('name', user.displayName || '')
         }
         setFirstValues([user?.email || '', user?.displayName || '', ''])
-    }, [user, setValue])
+    }, [user])
     useEffect(() => {
         if (user) {
             const currentValues = [email, name, password_new]
@@ -104,7 +112,6 @@ const Edit = () => {
                     <input
                         {
                             ...register('password_new', {
-                                required: '새로운 비밀번호를 입력해주세요.',
                                 pattern: {
                                     value: /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,20}$/,
                                       message: '영문, 숫자, 특수문자 포함 8 ~ 20자로 입력해주세요'
@@ -116,21 +123,6 @@ const Edit = () => {
                         className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none'
                     />
                     <span className='text-red-600'>{errors.password_new?.message}</span>
-                </div>
-                <div className='space-y-1'>
-                    <p className='text-lg'>기존 비밀번호</p>
-                    <input
-                        {
-                            ...register('password',
-                                {
-                                    required: '기존 비밀번호를 입력해주세요.',
-                                }
-                            )
-                        }
-                        type='password'
-                        className='w-full border border-black border-opacity-20 px-5 py-1.5 rounded-md focus:ring-2 focus:ring-instend focus:outline-none'
-                    />
-                    <span className='text-red-600'>{errors.password?.message}</span>
                 </div>
                 <button type={changed ? 'submit' : 'button'} className={`w-full py-1.5 text-lg text-white text-center bg-instend transition-colors rounded-md ${changed ? 'hover:bg-hover' : 'opacity-60 cursor-not-allowed'}`}>정보 수정</button>
             </form>
