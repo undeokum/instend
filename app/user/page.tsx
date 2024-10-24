@@ -4,8 +4,8 @@ import NavBar from '@/components/nav'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
 import SearchBar from '@/components/search'
-import { collection, getDocs, orderBy, query, where } from 'firebase/firestore'
-import { PostInstructure } from '..'
+import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { PostInstructure, UserDataInstructure } from '..'
 import { User } from 'firebase/auth'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
@@ -14,6 +14,7 @@ const UserPage = () => {
     const searchParams = useSearchParams().get('folder')
 
     const [posts, setPosts] = useState<PostInstructure[]>([])
+    const [userData, setUserData] = useState<UserDataInstructure>()
     const [user, setUser] = useState<User | null>(null)
 
     const fetchPosts = async () => {
@@ -45,6 +46,17 @@ const UserPage = () => {
         setPosts(posts)
     }
 
+    const fetchUserData = async () => {
+        if(user?.uid){
+            const userDataRef = doc(db, 'userData', user?.uid)
+            const userDataSnap = await getDoc(userDataRef)
+            if(userDataSnap.exists()){
+                const { neighbor, school } = userDataSnap.data()
+                setUserData({ neighbor, school })
+            }
+        }
+    }
+
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
             setUser(user)
@@ -55,9 +67,15 @@ const UserPage = () => {
 
     useEffect(() => {
         if (user) {
-            fetchPosts()
+            fetchUserData()
         }
     }, [user])
+
+    useEffect(() => {
+        if (user) {
+            fetchPosts()
+        }
+    }, [user, searchParams])
     return (
         <div>
             <div className='space-y-16'>
@@ -67,9 +85,9 @@ const UserPage = () => {
                             <h1 className='text-4xl font-semi_bold'>{user?.displayName}</h1>
                         </div>
                         <div className='flex space-x-2 text-black text-opacity-50 justify-center items-center'>
-                            <span>서울특별시 대치동</span>
+                            <span>{userData?.neighbor || '동네 정보 미설정'}</span>
                             <div>&#183;</div>
-                            <span>휘문고등학교</span>
+                            <span>{userData?.school || '학교 정보 미설정'}</span>
                         </div>
                     </div>
                     <Link href='/edit' className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg flex items-center justify-center'>내 정보 수정하기</Link>

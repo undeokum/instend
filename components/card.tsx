@@ -17,8 +17,6 @@ interface ReadType extends PostInstructure {
 
 const Card = (props: ReadType) => {
     const router = useRouter()
-    const path = usePathname()
-    const setPath = path.slice(1) || 'all'
     const setCollection = `${props.folder}/${props.id}`
     const user = auth.currentUser
 
@@ -57,7 +55,7 @@ const Card = (props: ReadType) => {
         heart.countHearts()
     })
     return (
-        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${setPath}&id=${props.id}`)}>
+        <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${props.folder}&id=${props.id}`)}>
             <div className='space-y-3'>
                 <h1 className='font-bold text-xl'>{props.content}</h1>
                 <div className='flex space-x-1'>
