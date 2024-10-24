@@ -48,14 +48,12 @@ const Write = () => {
             const img = data.image && data.image.length == 1 ? data.image[0] : null
             const select = data.select
             const date = new Date()
-            const doc = await addDoc(collection(db, searchParams != 'neighbor' ? searchParams! : `neighbor${userData?.neighbor}`), {
+            const doc = await addDoc(collection(db, searchParams != 'neighbor' ? (searchParams != 'school' ? searchParams! : `school${userData?.school}`) : `neighbor${userData?.neighbor}`), {
                 content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
                 userName: select == 'anon' ? '익명' : user?.displayName,
                 userId: user?.uid,
                 heart: 0,
-                location: userData?.neighbor,
-                school: userData?.school,
                 mm: Date.now()
             })
             if(img != null) {
@@ -84,7 +82,7 @@ const Write = () => {
     useEffect(() => {
         if(!FOLDER.includes(searchParams!)) router.push('/write?where=all')
         if(image && image.length > 0) setImgURL(URL.createObjectURL(image[0]))
-    }, [router, searchParams, image])
+    }, [searchParams, image])
 
     return (
         <div className='space-y-5'>

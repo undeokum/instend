@@ -57,6 +57,7 @@ const Edit = () => {
 
             setChanged(!allValuesMatch)
         }
+        console.log("ho")
     }, [email, name, password_new, firstValues, user])
     return (
         <div>

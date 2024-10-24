@@ -22,7 +22,7 @@ const SignIn = () => {
                 router.push('/')
             }
         })
-    }, [router])
+    }, [])
     const { register, handleSubmit, formState: { errors } } = useForm<SignInFormType>()
     const onValid = async (data: SignInFormType) => {
         try {

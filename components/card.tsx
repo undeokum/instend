@@ -53,7 +53,7 @@ const Card = (props: ReadType) => {
     useEffect(() => {
         fetchComments()
         heart.countHearts()
-    })
+    }, [])
     return (
         <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${props.folder}&id=${props.id}`)}>
             <div className='space-y-3'>

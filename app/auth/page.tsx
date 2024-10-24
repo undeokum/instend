@@ -14,7 +14,7 @@ const Auth = () => {
                 router.push('/')
             }
         })
-    })
+    }, [])
     return (
         <div className='flex flex-col items-center pt-20 space-y-14'>
             <div className='flex flex-col items-center space-y-3'>

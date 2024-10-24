@@ -87,7 +87,7 @@ const UserPage = () => {
                         <div className='flex space-x-2 text-black text-opacity-50 justify-center items-center'>
                             <span>{userData?.neighbor || '동네 정보 미설정'}</span>
                             <div>&#183;</div>
-                            <span>{userData?.school || '학교 정보 미설정'}</span>
+                            <span>{userData?.school || '학교/회사 정보 미설정'}</span>
                         </div>
                     </div>
                     <Link href='/edit' className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg flex items-center justify-center'>내 정보 수정하기</Link>
