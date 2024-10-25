@@ -6,11 +6,12 @@ import { useEffect, useState } from 'react'
 import SearchBar from '@/components/search'
 import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { PostInstructure, UserDataInstructure } from '..'
-import { User } from 'firebase/auth'
+import { signOut, User } from 'firebase/auth'
 import Link from 'next/link'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 
 const UserPage = () => {
+    const router = useRouter()
     const searchParams = useSearchParams().get('folder')
 
     const [posts, setPosts] = useState<PostInstructure[]>([])
@@ -47,13 +48,20 @@ const UserPage = () => {
     }
 
     const fetchUserData = async () => {
-        if(user?.uid){
+        if(user){
             const userDataRef = doc(db, 'userData', user?.uid)
             const userDataSnap = await getDoc(userDataRef)
             if(userDataSnap.exists()){
                 const { neighbor, school } = userDataSnap.data()
                 setUserData({ neighbor, school })
             }
+        }
+    }
+
+    const onClick = async () => {
+        if(user){
+            await signOut(auth)
+            router.push('/auth')
         }
     }
 
@@ -90,7 +98,10 @@ const UserPage = () => {
                             <span>{userData?.school || '학교/회사 정보 미설정'}</span>
                         </div>
                     </div>
-                    <Link href='/edit' className='bg-instend hover:bg-hover transition-colors text-white w-[52%] py-1.5 rounded-md text-lg flex items-center justify-center'>내 정보 수정하기</Link>
+                    <div className='w-[52%] space-y-4'>
+                        <Link href='/edit' className='bg-instend hover:bg-hover transition-colors text-white py-1.5 rounded-md text-lg flex items-center justify-center'>내 정보 수정하기</Link>
+                        <div onClick={onClick} className='border border-instend text-instend bg-white py-1.5 rounded-md text-lg flex items-center justify-center hover:brightness-95 transition-all cursor-pointer'>로그아웃</div>
+                    </div>
                 </div>
                 <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>

@@ -2,7 +2,7 @@
 import { auth } from '@/app/firebase'
 import { faEarth, faHome, faSchool, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { onAuthStateChanged } from 'firebase/auth'
+import { onAuthStateChanged, User } from 'firebase/auth'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
@@ -18,8 +18,8 @@ interface navbarType {
 const NavBar = (props: navbarType) => {
     const router = useRouter()
     useEffect(() => {
-        onAuthStateChanged(auth, user => {
-            if (!user) {
+        onAuthStateChanged(auth, userr => {
+            if (!userr) {
                 router.push('/auth')
             }
         })
