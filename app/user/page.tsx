@@ -78,6 +78,7 @@ const UserPage = () => {
             fetchUserData()
         }
     }, [user])
+    
 
     useEffect(() => {
         if (user) {
