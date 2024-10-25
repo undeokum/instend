@@ -118,7 +118,7 @@ const Read = () => {
             await addDoc(collection(db, getFolder, getID!, 'comments'), {
                 content: data.content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
-                userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId && '(글쓴이)'}`,
+                userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId ? '(글쓴이)' : ''}`,
                 userId: user?.uid,
                 heart: 0,
                 mm: Date.now()

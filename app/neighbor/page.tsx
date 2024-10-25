@@ -67,9 +67,19 @@ const Neighbor = () => {
     }
 
     const onValid = async (data: LocationSelect) => {
-        if(user?.uid){
-            await updateDoc(doc(db, 'userData', user?.uid), {
+        if(user){
+            await updateDoc(doc(db, 'userData', user.uid), {
                 neighbor: data.select,
+                school: userData?.school
+            })
+        }
+        setChanged(!changed)
+    }
+
+    const reset = async () => {
+        if(user){
+            await updateDoc(doc(db, 'userData', user.uid), {
+                neighbor: '',
                 school: userData?.school
             })
         }
@@ -117,7 +127,7 @@ const Neighbor = () => {
                     <SearchBar />
                     <div className='flex items-center space-x-5'>
                         <h1 className='text-2xl font-bold'>{userData?.neighbor}</h1>
-                        <FontAwesomeIcon icon={faArrowsRotate} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all' />
+                        <FontAwesomeIcon icon={faArrowsRotate} onClick={reset} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all cursor-pointer' />
                     </div>
                     <div className='space-y-8'>
                         {

@@ -70,7 +70,17 @@ const School = () => {
         if(user?.uid){
             await updateDoc(doc(db, 'userData', user?.uid), {
                 neighbor: userData?.neighbor,
-                school: data.select
+                school: data.select.replaceAll(' ', '')
+            })
+        }
+        setChanged(!changed)
+    }
+
+    const reset = async () => {
+        if(user){
+            await updateDoc(doc(db, 'userData', user.uid), {
+                neighbor: userData?.neighbor,
+                school: ''
             })
         }
         setChanged(!changed)
@@ -124,7 +134,7 @@ const School = () => {
                     <SearchBar />
                     <div className='flex items-center space-x-5'>
                         <h1 className='text-2xl font-bold'>{userData?.school}</h1>
-                        <FontAwesomeIcon icon={faArrowsRotate} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all' />
+                        <FontAwesomeIcon icon={faArrowsRotate} onClick={reset} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all cursor-pointer' />
                     </div>
                     <div className='space-y-8'>
                         {
