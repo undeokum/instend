@@ -33,7 +33,7 @@ const Edit = () => {
             })
             if(password_new != '') await updatePassword(user, password_new)
         }
-        router.push('/user')
+        router.push('/user?folder=all')
     }
 
     useEffect(() => {
