@@ -50,6 +50,13 @@ const Card = (props: ReadType) => {
 
     const heart = new Heart(props.id, hearts, setHearts, user)
 
+    const getDisplayName = async (id: string) => {
+        try {}
+        catch {
+            return '삭제된 유저'
+        }
+    }
+
     useEffect(() => {
         fetchComments()
         heart.countHearts()
