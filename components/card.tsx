@@ -8,7 +8,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { collection, getDocs, query } from 'firebase/firestore'
 import Image from 'next/image'
-import { useRouter, usePathname } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { useCallback, useEffect, useState } from 'react'
 
 interface ReadType extends PostInstructure {
@@ -32,7 +32,7 @@ const Card = (props: ReadType) => {
                 content,
                 createdAt,
                 userId,
-                userName,
+                anon,
                 mm,
             } = doc.data()
             return {
@@ -40,7 +40,7 @@ const Card = (props: ReadType) => {
                 content,
                 createdAt,
                 userId,
-                userName,
+                anon,
                 mm,
                 id: doc.id
             }
@@ -59,7 +59,7 @@ const Card = (props: ReadType) => {
             <div className='space-y-3'>
                 <h1 className='font-bold text-xl'>{props.content}</h1>
                 <div className='flex space-x-1'>
-                    <span className='text-instend'>{props.userName}</span>
+                    <span className='text-instend'>{props.anon ? '익명' : ''}</span>
                     <div className='text-black text-opacity-50'>&#183;</div>
                     <span className='text-black text-opacity-50'>{props.createdAt}</span>
                 </div>

@@ -3,7 +3,7 @@ export interface PostInstructure {
     content: string
     createdAt: string
     userId: string
-    userName: string
+    anon: bool
     mm: number
     id: string
 }

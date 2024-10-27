@@ -1,5 +1,5 @@
 'use client'
-import { addDoc, collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
@@ -23,14 +23,14 @@ const Read = () => {
     const getID = useSearchParams().get('id')
 
     const [postData, setPostData] = useState<PostInstructure>()
-    const { register, handleSubmit, reset } = useForm<CommentType>()
+    const { register, handleSubmit, reset, setValue } = useForm<CommentType>()
 
     const [notFound, setNotFound] = useState(false)
     const [user, setUser] = useState<User | null>(null)
-    const [posting, setPosting] = useState(false)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
     const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
     const [userData, setUserData] = useState<UserDataInstructure>()
+    const [loading, setLoading] = useState(false)
 
     const getFolder = useSearchParams().get('folder') == 'neighbor' ? `neighbor${userData?.neighbor}` : useSearchParams().get('folder')!
 
@@ -80,58 +80,70 @@ const Read = () => {
     }
 
     const fetchComments = async () => {
-        if(userData){
-            const postsQuery = query(
-                collection(db, getFolder, getID!, 'comments'),
-                orderBy('mm', 'desc')
-            )
-            const snapshop = await getDocs(postsQuery)
-            const comments = snapshop.docs.map(doc => {
-                const {
-                    image,
-                    content,
-                    createdAt,
-                    heart,
-                    userId,
-                    userName,
-                    mm,
-                } = doc.data()
-                return {
-                    image,
-                    content,
-                    createdAt,
-                    heart,
-                    userId,
-                    userName,
-                    mm,
-                    id: doc.id
-                }
-            })
-            setCommentData(comments)
-        }
+        const postsQuery = query(
+            collection(db, getFolder, getID!, 'comments'),
+            orderBy('mm', 'desc')
+        )
+        const snapshop = await getDocs(postsQuery)
+        const comments = snapshop.docs.map(doc => {
+            const {
+                image,
+                content,
+                createdAt,
+                heart,
+                userId,
+                userName,
+                mm,
+            } = doc.data()
+            return {
+                image,
+                content,
+                createdAt,
+                heart,
+                userId,
+                userName,
+                mm,
+                id: doc.id
+            }
+        })
+        setCommentData(comments)
     }
 
     const onValid = async (data: CommentType) => {
-        if(!posting && userData) {
-            setPosting(true)
-            const date = new Date()
-            await addDoc(collection(db, getFolder, getID!, 'comments'), {
-                content: data.content,
-                createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
-                userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId ? '(글쓴이)' : ''}`,
-                userId: user?.uid,
-                heart: 0,
-                mm: Date.now()
-            })
-            reset({content: ''})
+        if(!loading){
+            setValue('content', '')
+            setLoading(true)
+            if(userData) {
+                const date = new Date()
+                await addDoc(collection(db, getFolder, getID!, 'comments'), {
+                    content: data.content,
+                    createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
+                    userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId ? '(글쓴이)' : ''}`,
+                    userId: user?.uid,
+                    heart: 0,
+                    mm: Date.now()
+                })
+                reset({content: ''})
+            }
+            setLoading(false)
         }
     }
 
     const postHeart = new Heart(getID!, hearts, setHearts, user)
 
+    const deleteComment = async (commentId: string) => {
+        if(!loading && postData){
+            setLoading(true)
+            if(confirm('댓글을 삭제하시겠습니까?')){
+                await deleteDoc(doc(db, getFolder, postData.id, 'comments', commentId))
+            }
+            setLoading(false)
+        }
+    }
+
     useEffect(() => {
-        const userSet = auth.onAuthStateChanged(user => {
-            setUser(user)
+        const userSet = auth.onAuthStateChanged(userr => {
+            setUser(userr)
         })
         
         return () => userSet()
@@ -145,9 +157,11 @@ const Read = () => {
 
     useEffect(() => {
         readDocInfo()
-        fetchComments()
         postHeart.countHearts()
     }, [userData])
+    useEffect(() => {
+        fetchComments()
+    }, [loading])
     return (
         <div>
             {
@@ -214,10 +228,17 @@ const Read = () => {
                             {
                                 commentData.map(commentInfo => (
                                     <div key={commentInfo.id} className='w-full py-5 border-t space-y-1'>
-                                        <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                            <div className='text-instend'>{commentInfo.userName}</div>
-                                            <div>&#183;</div>
-                                            <div>{commentInfo.createdAt}</div>
+                                        <div className='flex items-center justify-between text-black text-opacity-50 text-lg'>
+                                            <div className='flex space-x-1'>
+                                                <div className='text-instend'>{commentInfo.userName}</div>
+                                                <div>&#183;</div>
+                                                <div>{commentInfo.createdAt}</div>
+                                            </div>
+                                            {
+                                                commentInfo.userId == user?.uid
+                                                &&
+                                                <div onClick={() => deleteComment(commentInfo.id)} className='cursor-pointer hover:underline'>삭제</div>
+                                            }
                                         </div>
                                         <h1 className='text-xl'>{commentInfo.content}</h1>
                                     </div>
