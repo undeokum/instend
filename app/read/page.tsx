@@ -21,6 +21,7 @@ interface CommentType {
 
 const Read = () => {
     const getID = useSearchParams().get('id')
+    const folderName = useSearchParams().get('folder')
 
     const [postData, setPostData] = useState<PostInstructure>()
     const { register, handleSubmit, reset, setValue } = useForm<CommentType>()
@@ -32,7 +33,7 @@ const Read = () => {
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [loading, setLoading] = useState(false)
 
-    const getFolder = useSearchParams().get('folder') == 'neighbor' ? `neighbor${userData?.neighbor}` : useSearchParams().get('folder')!
+    const getFolder = folderName == 'neighbor' ? `neighbor${userData?.neighbor}` : folderName
 
     const fetchUserData = async () => {
         if(user?.uid){
@@ -46,7 +47,7 @@ const Read = () => {
     }
 
     const readDocInfo = async () => {
-        if(userData){
+        if(userData && getFolder){
             const ref = doc(db, getFolder, getID!)
             const docSnap = await getDoc(ref)
             if(FOLDER.includes(getFolder.startsWith('neighbor') ? 'neighbor' : getFolder)){
@@ -81,7 +82,7 @@ const Read = () => {
 
     const fetchComments = async () => {
         const postsQuery = query(
-            collection(db, getFolder, getID!, 'comments'),
+            collection(db, getFolder!, getID!, 'comments'),
             orderBy('mm', 'desc')
         )
         const snapshop = await getDocs(postsQuery)
@@ -115,7 +116,7 @@ const Read = () => {
             setLoading(true)
             if(userData) {
                 const date = new Date()
-                await addDoc(collection(db, getFolder, getID!, 'comments'), {
+                await addDoc(collection(db, getFolder!, getID!, 'comments'), {
                     content: data.content,
                     createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
                     userName: `${data.select == 'anon' ? '익명' : user?.displayName}${user?.uid == postData?.userId ? '(글쓴이)' : ''}`,
@@ -135,7 +136,7 @@ const Read = () => {
         if(!loading && postData){
             setLoading(true)
             if(confirm('댓글을 삭제하시겠습니까?')){
-                await deleteDoc(doc(db, getFolder, postData.id, 'comments', commentId))
+                await deleteDoc(doc(db, getFolder!, postData.id, 'comments', commentId))
             }
             setLoading(false)
         }
