@@ -2,7 +2,7 @@
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { HeartInstructure, PostInstructure, UserDataInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
@@ -164,7 +164,7 @@ const Read = () => {
         fetchComments()
     }, [loading])
     return (
-        <div>
+        <Suspense>
             {
                 notFound
                 ?
@@ -250,7 +250,7 @@ const Read = () => {
                 </div>
             }
             <NavBar route='s' />
-        </div>
+        </Suspense>
     )
 }
 

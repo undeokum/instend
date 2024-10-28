@@ -2,7 +2,7 @@
 import Card from '@/components/card'
 import NavBar from '@/components/nav'
 import { auth, db } from '../firebase'
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import SearchBar from '@/components/search'
 import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { PostInstructure, UserDataInstructure } from '..'
@@ -86,7 +86,7 @@ const UserPage = () => {
         }
     }, [user, searchParams])
     return (
-        <div>
+        <Suspense>
             <div className='space-y-16'>
                 <div className='flex flex-col items-center space-y-8 border border-black border-opacity-20 w-full py-10 rounded-md'>
                     <div className='space-y-4'>
@@ -131,7 +131,7 @@ const UserPage = () => {
                 </div>
             </div>
             <NavBar route='user' />
-        </div>
+        </Suspense>
     )
 }
 
