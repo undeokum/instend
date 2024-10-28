@@ -31,7 +31,7 @@ const UserPage = () => {
                 content,
                 createdAt,
                 userId,
-                anon,
+                userName,
                 mm,
             } = doc.data()
             return {
@@ -39,7 +39,7 @@ const UserPage = () => {
                 content,
                 createdAt,
                 userId,
-                anon,
+                userName,
                 mm,
                 id: doc.id
             }
