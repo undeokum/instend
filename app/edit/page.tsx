@@ -30,20 +30,6 @@ const Edit = () => {
     const password = watch('password')
     const password_new = watch('password_new')
 
-    const userRecertification = async () => {
-        try {
-            const currentUser = auth.currentUser
-            if(currentUser){
-                const credential = EmailAuthProvider.credential(email, password)
-                await reauthenticateWithCredential(currentUser, credential)
-            }
-            setConfirmed(true)
-        }
-        catch(e) {
-            if(e instanceof FirebaseError) setError(true)
-        }
-    }
-
     const onValid = async () => {
         if(user){
             await updateEmail(user, email)
@@ -55,10 +41,6 @@ const Edit = () => {
         router.push('/user?folder=all')
     }
 
-    const onValid_ = async () => {
-        userRecertification()
-    }
-
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(user => {
             setUser(user)
@@ -66,10 +48,28 @@ const Edit = () => {
         
         return () => userSet()
     }, [])
+
+    const userRecertification = async () => {
+        try {
+            const currentUser = auth.currentUser
+            if(currentUser){
+                const credential = EmailAuthProvider.credential(email, password)
+                await reauthenticateWithCredential(currentUser, credential)
+            }
+            setValue('password', '')
+            setConfirmed(true)
+        }
+        catch(e) {
+            if(e instanceof FirebaseError) setError(true)
+        }
+    }
+
     useEffect(() => {
         if (user) {
             setValue('email', user.email || '')
             setValue('name', user.displayName || '')
+            setValue('password', '')
+            setValue('password_new', '')
             setFirstValues([user.email || '', user.displayName || '', '',''])
         }
     }, [user])
@@ -156,7 +156,7 @@ const Edit = () => {
                     <NavBar route='s' />
                 </div>
                 :
-                <form className='space-y-5' onSubmit={handleSubmit(onValid_)}>
+                <form className='space-y-5' onSubmit={handleSubmit(userRecertification)}>
                     <input
                         {
                             ...register('password',
@@ -171,7 +171,7 @@ const Edit = () => {
                     />
                     <div className='text-red-600'>{errors.password?.message}</div>
                     <div className='text-red-600'>{error && '비밀번호가 틀렸습니다.'}</div>
-                    <button type={changed ? 'submit' : 'button'} className={`w-full py-1.5 text-lg text-white text-center bg-instend transition-colors rounded-md ${changed ? 'hover:bg-hover' : 'opacity-60 cursor-not-allowed'}`}>정보 수정</button>
+                    <button type={changed ? 'submit' : 'button'} className={`w-full py-1.5 text-lg text-white text-center bg-instend transition-colors rounded-md ${changed ? 'hover:bg-hover' : 'opacity-60 cursor-not-allowed'}`}>입력하기</button>
                 </form>
             }
         </div>
