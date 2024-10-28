@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react'
 import { collection, getDocs, orderBy, query } from 'firebase/firestore'
 import { db } from './firebase'
 import { PostInstructure } from '.'
-import SearchBar from '@/components/search'
 
 const Home = () => {
     const [posts, setPosts] = useState<PostInstructure[]>([])
@@ -45,7 +44,6 @@ const Home = () => {
 
     return (
         <div className='space-y-10'>
-            <SearchBar />
             <div className='space-y-8'>
                 {
                     posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)

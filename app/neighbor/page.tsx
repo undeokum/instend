@@ -8,7 +8,6 @@ import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc, where } fr
 import { auth, db } from '../firebase'
 import { PostInstructure, UserDataInstructure } from '..'
 import WriteBtn from '@/components/write-btn'
-import SearchBar from '@/components/search'
 import { onAuthStateChanged, User } from 'firebase/auth'
 import { useForm } from 'react-hook-form'
 
@@ -124,7 +123,6 @@ const Neighbor = () => {
                 </div>
                 :
                 <div className='space-y-10'>
-                    <SearchBar />
                     <div className='flex items-center space-x-5'>
                         <h1 className='text-2xl font-bold'>{userData?.neighbor}</h1>
                         <FontAwesomeIcon icon={faArrowsRotate} onClick={reset} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all cursor-pointer' />

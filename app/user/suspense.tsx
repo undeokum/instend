@@ -3,7 +3,6 @@ import Card from '@/components/card'
 import NavBar from '@/components/nav'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
-import SearchBar from '@/components/search'
 import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
 import { PostInstructure, UserDataInstructure } from '..'
 import { signOut, User } from 'firebase/auth'
@@ -107,7 +106,6 @@ const UserSuspense = () => {
                 <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
-                        <SearchBar />
                         <form className='flex items-center space-x-16'>
                             {
                                 [
