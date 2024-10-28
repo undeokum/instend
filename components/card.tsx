@@ -32,7 +32,7 @@ const Card = (props: ReadType) => {
                 content,
                 createdAt,
                 userId,
-                anon,
+                userName,
                 mm,
             } = doc.data()
             return {
@@ -40,7 +40,7 @@ const Card = (props: ReadType) => {
                 content,
                 createdAt,
                 userId,
-                anon,
+                userName,
                 mm,
                 id: doc.id
             }
@@ -49,13 +49,6 @@ const Card = (props: ReadType) => {
     }, [setCollection])
 
     const heart = new Heart(props.id, hearts, setHearts, user)
-
-    const getDisplayName = async (id: string) => {
-        try {}
-        catch {
-            return '삭제된 유저'
-        }
-    }
 
     useEffect(() => {
         fetchComments()
@@ -66,7 +59,7 @@ const Card = (props: ReadType) => {
             <div className='space-y-3'>
                 <h1 className='font-bold text-xl'>{props.content}</h1>
                 <div className='flex space-x-1'>
-                    <span className='text-instend'>{props.anon ? '익명' : ''}</span>
+                    <span className='text-instend'>{props.userName}</span>
                     <div className='text-black text-opacity-50'>&#183;</div>
                     <span className='text-black text-opacity-50'>{props.createdAt}</span>
                 </div>
