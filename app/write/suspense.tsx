@@ -51,7 +51,7 @@ const WriteSuspense = () => {
             const doc = await addDoc(collection(db, searchParams != 'neighbor' ? (searchParams != 'school' ? searchParams! : `school${userData?.school}`) : `neighbor${userData?.neighbor}`), {
                 content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
-                userName: select == 'anon' ? '익명' : select,
+                userName: select == 'anon' ? '익명' : user.displayName,
                 userId: user?.uid,
                 mm: Date.now()
             })
