@@ -56,7 +56,6 @@ const WriteSuspense = () => {
                 mm: Date.now()
             })
             if(img != null) {
-                console.log(img)
                 const locationRef = ref(storage, `${searchParams!}/${user!.uid}/${doc.id}`)
                 const result = await uploadBytes(locationRef, img)
                 const url = await getDownloadURL(result.ref)

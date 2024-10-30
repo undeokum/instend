@@ -50,7 +50,7 @@ const ReadSuspense = () => {
         if(userData && getFolder){
             const ref = doc(db, getFolder, getID!)
             const docSnap = await getDoc(ref)
-            if(FOLDER.includes(getFolder.startsWith('neighbor') ? 'neighbor' : getFolder)){
+            if(FOLDER.includes(getFolder.startsWith('neighbor') ? 'neighbor' : getFolder.startsWith('school') ? 'school' : getFolder)){
                 if(docSnap.exists()){
                     const {
                         image,
