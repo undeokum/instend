@@ -174,6 +174,7 @@ const Edit = () => {
                     <button type={changed ? 'submit' : 'button'} className={`w-full py-1.5 text-lg text-white text-center bg-instend transition-colors rounded-md ${changed ? 'hover:bg-hover' : 'opacity-60 cursor-not-allowed'}`}>입력하기</button>
                 </form>
             }
+            <NavBar route='c' />
         </div>
     )
 }
