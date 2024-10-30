@@ -39,7 +39,6 @@ const Home = () => {
 
     useEffect(() => {
         fetchPosts()
-        console.log(posts)
     }, [])
 
     return (
