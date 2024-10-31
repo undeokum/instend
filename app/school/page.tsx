@@ -136,7 +136,7 @@ const School = () => {
                     </div>
                     <div className='space-y-8'>
                         {
-                            posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={`school${userData?.neighbor}`} />)
+                            posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={`school${userData?.school}`} />)
                         }
                     </div>
                     <WriteBtn query='school' />
