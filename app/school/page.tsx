@@ -4,16 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NavBar from '@/components/nav'
 import Card from '@/components/card'
 import { useEffect, useState } from 'react'
-import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc, where } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc } from 'firebase/firestore'
 import { auth, db } from '../firebase'
 import { PostInstructure, UserDataInstructure } from '..'
 import WriteBtn from '@/components/write-btn'
 import { User } from 'firebase/auth'
 import { useForm } from 'react-hook-form'
 
-const location = ['서울특별시', '부산광역시', '대구광역시', '인천광역시', '광주광역시', '대전광역시', '울산광역시', '세종특별자치시', '경기도', '강원도', '충청북도', '충청남도', '전라북도', '전라남도', '경상북도', '경상남도', '제주특별자치도', '해외']
-
-interface LocationSelect { select: string }
+interface SchoolSelect { select: string }
 
 const School = () => {
     const [posts, setPosts] = useState<PostInstructure[]>([])
@@ -21,7 +19,7 @@ const School = () => {
     const [user, setUser] = useState<User | null>(null)
     const [changed, setChanged] = useState(false)
 
-    const { register, handleSubmit } = useForm<LocationSelect>()
+    const { register, handleSubmit } = useForm<SchoolSelect>()
 
 
     const fetchPosts = async () => {
@@ -65,7 +63,7 @@ const School = () => {
         }
     }
 
-    const onValid = async (data: LocationSelect) => {
+    const onValid = async (data: SchoolSelect) => {
         if(user?.uid){
             await updateDoc(doc(db, 'userData', user?.uid), {
                 neighbor: userData?.neighbor,
