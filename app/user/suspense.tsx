@@ -18,32 +18,35 @@ const UserSuspense = () => {
     const [user, setUser] = useState<User | null>(null)
 
     const fetchPosts = async () => {
-        const postsQuery = query(
-            collection(db, searchParams!),
-            where('userId', '==', user?.uid),
-            orderBy('mm', 'desc')
-        )
-        const snapshop = await getDocs(postsQuery)
-        const posts = snapshop.docs.map(doc => {
-            const {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-            } = doc.data()
-            return {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-                id: doc.id
-            }
-        })
-        setPosts(posts)
+        if(userData){
+            console.log(searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all'))
+            const postsQuery = query(
+                collection(db, searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all')),
+                where('userId', '==', user?.uid),
+                orderBy('mm', 'desc')
+            )
+            const snapshop = await getDocs(postsQuery)
+            const posts = snapshop.docs.map(doc => {
+                const {
+                    image,
+                    content,
+                    createdAt,
+                    userId,
+                    userName,
+                    mm,
+                } = doc.data()
+                return {
+                    image,
+                    content,
+                    createdAt,
+                    userId,
+                    userName,
+                    mm,
+                    id: doc.id
+                }
+            })
+            setPosts(posts)
+        }
     }
 
     const fetchUserData = async () => {
@@ -121,7 +124,7 @@ const UserSuspense = () => {
                         </form>
                         <div className='space-y-8'>
                             {
-                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={searchParams!} />)
+                                posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder={searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all')} />)
                             }
                         </div>
                         <NavBar route='school' />
