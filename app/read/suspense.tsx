@@ -24,7 +24,7 @@ const ReadSuspense = () => {
 
     const getID = useSearchParams().get('id')
     const folderName = useSearchParams().get('folder')
-    const { register, handleSubmit, reset, setValue } = useForm<CommentType>()
+    const { register, handleSubmit, reset, setValue, formState: { errors } } = useForm<CommentType>()
 
     const [postData, setPostData] = useState<PostInstructure>()
     const [notFound, setNotFound] = useState(false)
@@ -148,9 +148,9 @@ const ReadSuspense = () => {
             setLoading(true)
             if(confirm('제보를 삭제하시겠습니까?')){
                 await deleteDoc(doc(db, getFolder!, postData.id))
+                router.push(`/${getFolder == 'all' ? '' : getFolder}`)
             }
             setLoading(false)
-            router.push(`/${getFolder == 'all' ? '' : getFolder}`)
         }
     }
 
@@ -234,14 +234,15 @@ const ReadSuspense = () => {
                                     ...register('content', {
                                         required: '댓글을 입력해주세요.',
                                         maxLength: {
-                                            value: 30,
-                                            message: '최대 30자 까지만 작성 가능합니다.'
+                                            value: 70,
+                                            message: '최대 70자 까지만 작성 가능합니다.'
                                         }
                                     })
                                 }
                                 placeholder='내용을 입력하세요.'
                                 className='w-full border border-black border-opacity-20 px-5 pt-2 pb-16 rounded-md focus:ring-2 focus:ring-instend focus:outline-none resize-none'
                             />
+                            <div className='text-red-600'>{errors.content?.message}</div>
                             <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
                         </form>
                         <div className='border-b'>
