@@ -150,8 +150,8 @@ const ReadSuspense = () => {
                 await deleteDoc(doc(db, getFolder!, postData.id))
             }
             setLoading(false)
+            router.push(`/${getFolder == 'all' ? '' : getFolder}`)
         }
-        router.push(`/${getFolder == 'all' ? '' : getFolder}`)
     }
 
     useEffect(() => {
