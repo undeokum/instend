@@ -1,6 +1,6 @@
 'use client'
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
 import { HeartInstructure, PostInstructure, UserDataInstructure } from '..'
@@ -20,12 +20,13 @@ interface CommentType {
 }
 
 const ReadSuspense = () => {
+    const router = useRouter()
+
     const getID = useSearchParams().get('id')
     const folderName = useSearchParams().get('folder')
-
-    const [postData, setPostData] = useState<PostInstructure>()
     const { register, handleSubmit, reset, setValue } = useForm<CommentType>()
 
+    const [postData, setPostData] = useState<PostInstructure>()
     const [notFound, setNotFound] = useState(false)
     const [user, setUser] = useState<User | null>(null)
     const [commentData, setCommentData] = useState<PostInstructure[]>([])
@@ -142,6 +143,17 @@ const ReadSuspense = () => {
         }
     }
 
+    const deletePost = async () => {
+        if(!loading && postData){
+            setLoading(true)
+            if(confirm('제보를 삭제하시겠습니까?')){
+                await deleteDoc(doc(db, getFolder!, postData.id))
+            }
+            setLoading(false)
+        }
+        router.push(`/${getFolder == 'all' ? '' : getFolder}`)
+    }
+
     useEffect(() => {
         const userSet = auth.onAuthStateChanged(userr => {
             setUser(userr)
@@ -176,10 +188,17 @@ const ReadSuspense = () => {
                 <div className='space-y-10'>
                     <div className='space-y-16'>
                         <div className='space-y-5'>
-                            <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                <div className='text-instend'>{postData?.userName}</div>
-                                <div>&#183;</div>
-                                <div>{postData?.createdAt}</div>
+                            <div className='flex justify-between items-center'>
+                                <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
+                                    <div className='text-instend'>{postData?.userName}</div>
+                                    <div>&#183;</div>
+                                    <div>{postData?.createdAt}</div>
+                                </div>
+                                {
+                                    postData?.userId == user?.uid
+                                    &&
+                                    <div onClick={deletePost} className='cursor-pointer hover:underline text-black text-opacity-50 text-lg'>삭제</div>
+                                }
                             </div>
                             <h1 className='text-3xl font-bold'>{postData?.content}</h1>
                         </div>

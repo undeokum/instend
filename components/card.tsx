@@ -57,7 +57,7 @@ const Card = (props: ReadType) => {
     return (
         <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${props.folder}&id=${props.id}`)}>
             <div className='space-y-3'>
-                <h1 className='font-bold text-xl'>{props.content.length > 15 ? `${props.content.slice(0, 15)}...` : props.content}</h1>
+                <h1 className='font-bold text-xl'>{props.content.length > 20 ? `${props.content.slice(0, 20)}...` : props.content}</h1>
                 <div className='flex space-x-1'>
                     <span className='text-instend'>{props.userName}</span>
                     <div className='text-black text-opacity-50'>&#183;</div>

@@ -18,7 +18,7 @@ const UserSuspense = () => {
     const [user, setUser] = useState<User | null>(null)
 
     const fetchPosts = async () => {
-        if(userData){
+        if(searchParams && user){
             console.log(searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all'))
             const postsQuery = query(
                 collection(db, searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all')),
@@ -83,10 +83,8 @@ const UserSuspense = () => {
     
 
     useEffect(() => {
-        if (user) {
-            fetchPosts()
-        }
-    }, [user, searchParams])
+        fetchPosts()
+    }, [userData, searchParams])
     return (
         <div>
             <div className='space-y-16'>
