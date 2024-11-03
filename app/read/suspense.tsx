@@ -200,7 +200,7 @@ const ReadSuspense = () => {
                                     <div onClick={deletePost} className='cursor-pointer hover:underline text-black text-opacity-50 text-lg'>삭제</div>
                                 }
                             </div>
-                            <h1 className='text-3xl font-bold'>{postData?.content}</h1>
+                            <h1 className='text-2xl font-medium'>{postData?.content}</h1>
                         </div>
                         <div>
                             {
