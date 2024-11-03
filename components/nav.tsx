@@ -2,7 +2,7 @@
 import { auth } from '@/app/firebase'
 import { faEarth, faHome, faSchool, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { onAuthStateChanged, User } from 'firebase/auth'
+import { onAuthStateChanged } from 'firebase/auth'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'

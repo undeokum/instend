@@ -1,5 +1,5 @@
 'use client'
-import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, orderBy, query } from 'firebase/firestore'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
