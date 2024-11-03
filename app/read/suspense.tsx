@@ -148,7 +148,7 @@ const ReadSuspense = () => {
             setLoading(true)
             if(confirm('제보를 삭제하시겠습니까?')){
                 await deleteDoc(doc(db, getFolder!, postData.id))
-                router.push(`/${getFolder == 'all' ? '' : getFolder}`)
+                router.push(`/${getFolder == 'all' ? '' : (getFolder?.startsWith('neighbor') ? 'neighbor' : 'school')}`)
             }
             setLoading(false)
         }
