@@ -106,8 +106,8 @@ const WriteSuspense = () => {
                                 message: '최소 5자는 입력해야합니다.'
                             },
                             maxLength: {
-                                value: 50,
-                                message: '최대 50자 까지만 작성 가능합니다.'
+                                value: 200,
+                                message: '최대 200자 까지만 작성 가능합니다.'
                             }
                         })
                     }

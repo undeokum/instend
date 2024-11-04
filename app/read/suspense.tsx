@@ -234,8 +234,8 @@ const ReadSuspense = () => {
                                     ...register('content', {
                                         required: '댓글을 입력해주세요.',
                                         maxLength: {
-                                            value: 70,
-                                            message: '최대 70자 까지만 작성 가능합니다.'
+                                            value: 200,
+                                            message: '최대 200자 까지만 작성 가능합니다.'
                                         }
                                     })
                                 }
