@@ -6,5 +6,7 @@
 - Firebase
 - React Hook Form
 
+![인스텐드](/public/img/instend.svg)
+
 Designed with Figma,
 Icons from Font Awesome
