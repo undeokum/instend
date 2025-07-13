@@ -1,5 +1,5 @@
 import OpenAI from 'openai'
-import { collection, getDocs, query, where, Timestamp, doc, setDoc } from 'firebase/firestore'
+import { collection, getDocs, query, where, Timestamp } from 'firebase/firestore'
 import { db } from '@/app/firebase'
 import { NextRequest, NextResponse } from 'next/server'
 
@@ -33,7 +33,7 @@ async function fetchCommunityPosts(): Promise<Post[]> {
   console.log(sevenDaysAgo.toMillis())
   const postsQuery = query(
     collection(db, 'posts'),
-    where('mm', '>=', sevenDaysAgo.toMillis())
+    where('createdAt', '>=', sevenDaysAgo.toMillis())
   )
   const postSnapshot = await getDocs(postsQuery)
   return postSnapshot.docs.map(doc => doc.data() as Post)
@@ -93,12 +93,6 @@ ${context}
     })
 
     const summary = completion.choices[0].message.content
-    const updatedAt = Date.now()
-
-    await setDoc(doc(db, 'posts', 'summary'), {
-      summary,
-      updatedAt,
-    })
 
     return NextResponse.json({ summary })
   } catch (error) {

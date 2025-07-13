@@ -6,12 +6,10 @@ import { useEffect, useRef, useState } from 'react'
 import { faComment, faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
-import { Timestamp } from 'firebase-admin/firestore'
 
 interface PostInstructure {
   content: string
-  createdAt: string
-  mm: number
+  createdAt: number
 }
 
 const RagTest = () => {
@@ -21,11 +19,11 @@ const RagTest = () => {
   const [loading, setLoading] = useState(false)
 
   const fetchPosts = async () => {
-    const postsQuery = query(collection(db, 'posts'), orderBy('mm', 'desc'))
+    const postsQuery = query(collection(db, 'posts'), orderBy('createdAt', 'desc'))
     const snapshop = await getDocs(postsQuery)
     const posts = snapshop.docs.map(doc => {
-      const { content, createdAt, mm } = doc.data()
-      return { content, createdAt, mm }
+      const { content, createdAt } = doc.data()
+      return { content, createdAt }
     })
     setPosts(posts)
   }
@@ -80,7 +78,7 @@ useEffect(() => {
       <div className='space-y-8'>
         {posts.map(postInfo => (
           <div
-            key={postInfo.mm}
+            key={postInfo.createdAt}
             className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity'
           >
             <div className='space-y-3'>
