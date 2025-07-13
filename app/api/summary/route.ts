@@ -95,8 +95,7 @@ ${context}
     const summary = completion.choices[0].message.content
     const updatedAt = Date.now()
 
-    const summaryRef = doc(collection(db, 'posts', 'summary'))
-    await setDoc(summaryRef, {
+    await setDoc(doc(db, 'posts', 'summary'), {
       summary,
       updatedAt,
     })
