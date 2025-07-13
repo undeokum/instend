@@ -1,5 +1,5 @@
 import OpenAI from 'openai'
-import { collection, getDocs, query, where, Timestamp } from 'firebase/firestore'
+import { collection, getDocs, query, where, Timestamp, doc, setDoc } from 'firebase/firestore'
 import { db } from '@/app/firebase'
 import { NextRequest, NextResponse } from 'next/server'
 
@@ -93,9 +93,15 @@ ${context}
     })
 
     const summary = completion.choices[0].message.content
-    const createdAt = Date.now()
+    const updatedAt = Date.now()
 
-    return NextResponse.json({ summary, createdAt })
+    const summaryRef = doc(collection(db, 'posts', 'summary'))
+    await setDoc(summaryRef, {
+      summary,
+      updatedAt,
+    })
+
+    return NextResponse.json({ summary })
   } catch (error) {
     console.error('API 에러:', error)
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 })

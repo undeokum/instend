@@ -14,11 +14,6 @@ interface PostInstructure {
   mm: number
 }
 
-interface SummaryType {
-    content: string
-    createdAt: Timestamp
-}
-
 const RagTest = () => {
   const [posts, setPosts] = useState<PostInstructure[]>([])
   const [opened, setOpened] = useState(false)
@@ -49,8 +44,6 @@ useEffect(() => {
   const fetchSummary = async () => {
     const res = await fetch('/api/summary')
     const data = await res.json()
-    // if(user) 넣기
-    // if(Timestamp.fromDate(new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)))
     setSummary(data.summary)
     setLoading(false)
   }
