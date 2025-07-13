@@ -1,12 +1,12 @@
 import OpenAI from 'openai'
-import { collection, getDocs } from 'firebase/firestore'
+import { collection, getDocs, query, where, Timestamp } from 'firebase/firestore'
 import { db } from '@/app/firebase'
 import { NextRequest, NextResponse } from 'next/server'
 
 interface Post {
   content: string
   createdAt: string
-  mm: number
+  mm: Timestamp
 }
 
 const openai = new OpenAI({
@@ -16,7 +16,7 @@ const openai = new OpenAI({
 function cosineSimilarity(vecA: number[], vecB: number[]) {
   const dot = vecA.reduce((sum, a, i) => sum + a * vecB[i], 0)
   const magA = Math.sqrt(vecA.reduce((sum, a) => sum + a * a, 0))
-  const magB = Math.sqrt(vecB.reduce((sum, b) => b * b, 0))
+  const magB = Math.sqrt(vecB.reduce((sum, b) => sum + b * b, 0))
   return dot / (magA * magB)
 }
 
@@ -29,31 +29,35 @@ async function getEmbedding(text: string) {
 }
 
 async function fetchCommunityPosts(): Promise<Post[]> {
-  const postSnapshot = await getDocs(collection(db, 'posts'))
+  const sevenDaysAgo = Timestamp.fromDate(new Date(Date.now() - 7 * 24 * 60 * 60 * 1000))
+  console.log(sevenDaysAgo.toMillis())
+  const postsQuery = query(
+    collection(db, 'posts'),
+    where('mm', '>=', sevenDaysAgo.toMillis())
+  )
+  const postSnapshot = await getDocs(postsQuery)
   return postSnapshot.docs.map(doc => doc.data() as Post)
 }
 
 export async function GET(_req: NextRequest) {
   try {
-    console.log('🔥 요약 API 시작')
-
     const posts = await fetchCommunityPosts()
-    console.log('📦 불러온 글 개수:', posts.length)
+
+    if (posts.length === 0) {
+      return NextResponse.json({ summary: '최근 7일간 작성된 게시물이 없습니다.' })
+    }
 
     const defaultQuery = '인천 커뮤니티 트렌드 분석'
     const queryEmbedding = await getEmbedding(defaultQuery)
-    console.log('🔢 쿼리 임베딩 완료')
 
     const postsWithEmbeddings = await Promise.all(
       posts.map(async post => {
-        console.log('📝 처리 중 글:', post.content.slice(0, 20))
         return {
           ...post,
           embedding: await getEmbedding(post.content),
         }
       })
     )
-    console.log('📊 모든 임베딩 완료')
 
     const topPosts = postsWithEmbeddings
       .map(post => ({
@@ -76,9 +80,9 @@ ${context}
 3. 🚧 불편 / 건의
 4. 🏠 생활 / 환경
 
-각 카테고리마다 1~2문장으로 핵심을 정리해줘.`
-
-    console.log('🧠 GPT에 전달할 프롬프트:', prompt)
+각 카테고리마다 1~2문장으로 핵심을 정리해주고, 정리 후 한 줄 띄어줘. 추가적인 요약이나 결론 문장은 작성하지 마.
+또 요약문장 안에 괄호 같은 문장부호는 쓰지 말아줘. 문장부호는 쉼표와 마침표만 허용돼.
+그리고 ~입니다 체로 문장을 작성해줘.`
 
     const completion = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
@@ -89,11 +93,11 @@ ${context}
     })
 
     const summary = completion.choices[0].message.content
-    console.log('✅ 요약 완료:', summary)
+    const createdAt = Date.now()
 
-    return NextResponse.json({ summary })
+    return NextResponse.json({ summary, createdAt })
   } catch (error) {
-    console.error('❌ 요약 API 에러:', error)
+    console.error('API 에러:', error)
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 })
   }
 }
