@@ -39,6 +39,7 @@ const Neighbor = () => {
                     userId,
                     userName,
                     mm,
+                    summary,
                 } = doc.data()
                 return {
                     image,
@@ -47,6 +48,7 @@ const Neighbor = () => {
                     userId,
                     userName,
                     mm,
+                    summary,
                     id: doc.id
                 }
             })

@@ -60,6 +60,7 @@ const ReadSuspense = () => {
                         userId,
                         userName,
                         mm,
+                        summary,
                     } = docSnap.data()
                     setPostData({
                         image,
@@ -68,6 +69,7 @@ const ReadSuspense = () => {
                         userId,
                         userName,
                         mm,
+                        summary,
                         id: getID!
                     })
                 }
@@ -96,6 +98,7 @@ const ReadSuspense = () => {
                 userId,
                 userName,
                 mm,
+                summary,
             } = doc.data()
             return {
                 image,
@@ -105,6 +108,7 @@ const ReadSuspense = () => {
                 userId,
                 userName,
                 mm,
+                summary,
                 id: doc.id
             }
         })
@@ -146,7 +150,7 @@ const ReadSuspense = () => {
     const deletePost = async () => {
         if(!loading && postData){
             setLoading(true)
-            if(confirm('제보를 삭제하시겠습니까?')){
+            if(confirm('게시글을 삭제하시겠습니까?')){
                 await deleteDoc(doc(db, getFolder!, postData.id))
                 router.push(`/${getFolder == 'all' ? '' : (getFolder?.startsWith('neighbor') ? 'neighbor' : 'school')}`)
             }
@@ -190,7 +194,7 @@ const ReadSuspense = () => {
                         <div className='space-y-5'>
                             <div className='flex justify-between items-center'>
                                 <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                    <div className='text-instend'>{postData?.userName}</div>
+                                    <div className='text-instend'>익명</div>
                                     <div>&#183;</div>
                                     <div>{postData?.createdAt}</div>
                                 </div>
@@ -199,6 +203,10 @@ const ReadSuspense = () => {
                                     &&
                                     <div onClick={deletePost} className='cursor-pointer hover:underline text-black text-opacity-50 text-lg'>삭제</div>
                                 }
+                            </div>
+                            <div className='px-8 rounded-md bg-[#DAD2E9] py-5 w-full flex flex-col gap-3'>
+                                <h1 className='text-lg font-semi_bold'>AI가 게시글을 간단하게 요약했어요 😎</h1>
+                                <p>{postData?.summary}</p>
                             </div>
                             <h1 className='text-2xl font-medium'>{postData?.content}</h1>
                         </div>

@@ -1,54 +1,29 @@
 'use client'
 import NavBar from '@/components/nav'
-import Card from '@/components/card'
-import WriteBtn from '@/components/write-btn'
+import { auth } from './firebase'
+import { User } from 'firebase/auth'
 import { useEffect, useState } from 'react'
-import { collection, getDocs, orderBy, query } from 'firebase/firestore'
-import { db } from './firebase'
-import { PostInstructure } from '.'
+import { UserDataInstructure } from '.'
 
 const Home = () => {
-    const [posts, setPosts] = useState<PostInstructure[]>([])
-    const fetchPosts = async () => {
-        const postsQuery = query(
-            collection(db, 'all'),
-            orderBy('mm', 'desc')
-        )
-        const snapshop = await getDocs(postsQuery)
-        const posts = snapshop.docs.map(doc => {
-            const {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-            } = doc.data()
-            return {
-                image,
-                content,
-                createdAt,
-                userId,
-                userName,
-                mm,
-                id: doc.id
-            }
-        })
-        setPosts(posts)
-    }
-
+    const [user, setUser] = useState<User | null>(null)
+    const [userData, setUserData] = useState<UserDataInstructure>()
     useEffect(() => {
-        fetchPosts()
+        const unsubscribe = auth.onAuthStateChanged(user => {
+            setUser(user)
+        })
+        
+        return () => unsubscribe()
     }, [])
-
     return (
-        <div className='space-y-10'>
-            <div className='space-y-8'>
-                {
-                    posts.map(postInfo => <Card key={postInfo.id} {...postInfo} folder='all' />)
-                }
+        <div>
+            <div>
+                <h1 className='text-2xl font-semi_bold'>{user?.displayName}님, 안녕하세요 👋</h1>
+                <div>
+                </div>
+                <div></div>
+                <div></div>
             </div>
-            <WriteBtn query='all' />
             <NavBar route='' />
         </div>
     )

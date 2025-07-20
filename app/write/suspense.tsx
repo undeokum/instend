@@ -48,12 +48,21 @@ const WriteSuspense = () => {
             const img = data.image && data.image.length == 1 ? data.image[0] : null
             const select = data.select
             const date = new Date()
+            const summaryRes = await fetch('/api/summary', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ content }),
+            })
+            const { summary } = await summaryRes.json()
             const doc = await addDoc(collection(db, searchParams != 'neighbor' ? (searchParams != 'school' ? searchParams! : `school${userData?.school}`) : `neighbor${userData?.neighbor}`), {
                 content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
                 userName: select == 'anon' ? '익명' : user.displayName,
                 userId: user?.uid,
-                mm: Date.now()
+                mm: Date.now(),
+                summary,
             })
             if(img != null) {
                 const locationRef = ref(storage, `${searchParams!}/${user!.uid}/${doc.id}`)
@@ -106,8 +115,8 @@ const WriteSuspense = () => {
                                 message: '최소 5자는 입력해야합니다.'
                             },
                             maxLength: {
-                                value: 200,
-                                message: '최대 200자 까지만 작성 가능합니다.'
+                                value: 500,
+                                message: '최대 500자 까지만 작성 가능합니다.'
                             }
                         })
                     }
@@ -134,7 +143,7 @@ const WriteSuspense = () => {
                         <Image src={imgURL} alt='preview' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
                     }
                 </div>
-                <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
+                <button type='submit' disabled={posting} className={`w-full py-1.5 text-lg text-white text-center transition-colors rounded-md ${posting ? 'bg-gray-400 hover:bg-gray-500 cursor-not-allowed' : 'bg-instend hover:bg-hover'}`}>작성하기</button>
             </form>
             <NavBar route='un' />
         </div>

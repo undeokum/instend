@@ -37,6 +37,7 @@ const School = () => {
                     userId,
                     userName,
                     mm,
+                    summary,
                 } = doc.data()
                 return {
                     image,
@@ -45,6 +46,7 @@ const School = () => {
                     userId,
                     userName,
                     mm,
+                    summary,
                     id: doc.id
                 }
             })

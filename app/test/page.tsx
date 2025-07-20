@@ -1,113 +1,75 @@
 'use client'
+import { useEffect, useState } from 'react';
+import { collection, addDoc } from 'firebase/firestore';
+import { auth, db } from '../firebase';
+import { PostInstructure } from '..';
+import { User } from 'firebase/auth';
 
-import { collection, getDocs, orderBy, query } from 'firebase/firestore'
-import { db } from '../firebase'
-import { useEffect, useRef, useState } from 'react'
-import { faComment, faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
+export default function Importer() {
+  const [user, setUser] = useState<User | null>(null)
+  const [isLoading, setIsLoading] = useState(false);
+  const [uploaded, setUploaded] = useState<number | null>(null);
 
-interface PostInstructure {
-  content: string
-  createdAt: number
-}
+    useEffect(() => {
+        const unsubscribe = auth.onAuthStateChanged(user => {
+            setUser(user)
+        })
+        
+        return () => unsubscribe()
+    }, [])
 
-const RagTest = () => {
-  const [posts, setPosts] = useState<PostInstructure[]>([])
-  const [opened, setOpened] = useState(false)
-  const [summary, setSummary] = useState('')
-  const [loading, setLoading] = useState(false)
+  const handleUpload = async () => {
+    setIsLoading(true);
+    try {
+      const res = await fetch('/fake_community_posts.json');
+      const data: PostInstructure[] = await res.json();
 
-  const fetchPosts = async () => {
-    const postsQuery = query(collection(db, 'posts'), orderBy('createdAt', 'desc'))
-    const snapshop = await getDocs(postsQuery)
-    const posts = snapshop.docs.map(doc => {
-      const { content, createdAt } = doc.data()
-      return { content, createdAt }
-    })
-    setPosts(posts)
-  }
+      let count = 0;
 
-  useEffect(() => {
-    fetchPosts()
-  }, [])
+      for (const post of data) {
+        const date = new Date(post.createdAt)
+        const content = post.content
+        const summaryRes = await fetch('/api/summary', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ content }),
+        })
+        const { summary } = await summaryRes.json()
+        await addDoc(collection(db, 'neighbor인천광역시'), {
+          content: content,
+          createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
+          mm: post.createdAt,
+          usernName: '익명',
+          userId: user?.uid,
+          summary
+        });
+        count++;
+      }
 
-const didFetch = useRef(false)
-
-useEffect(() => {
-  setLoading(true)
-  if (didFetch.current) return
-  didFetch.current = true
-
-  const fetchSummary = async () => {
-    const res = await fetch('/api/keyword')
-    const data = await res.json()
-    setSummary(data.summary)
-    setLoading(false)
-  }
-  fetchSummary()
-}, [])
+      setUploaded(count);
+    } catch (err) {
+      console.error('업로드 실패:', err);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
-    <div className='space-y-8'>
-      <div
-        className='px-8 rounded-md bg-[#DAD2E9] py-5 cursor-pointer flex items-center justify-between'
-        onClick={() => setOpened(!opened)}
+    <div className="p-10">
+      <h1 className="text-xl font-bold mb-4">📦 인천 글 JSON 업로드</h1>
+      <button
+        onClick={handleUpload}
+        disabled={isLoading}
+        className="bg-blue-600 text-white px-4 py-2 rounded"
       >
-        {opened ? (
-          <div className='pr-5 space-y-4'>
-            <div>AI가 지난 일주일 동안의 인천광역시의 트렌드를 정리해봤어요.</div>
-            {
-              loading
-              ?
-              <div className='felx items-center justify-center text-center py-5'>
-                <p>요약중...</p>
-              </div>
-              :
-              <pre className='whitespace-pre-wrap font-regular'>{summary}</pre>
-            }
-          </div>
-        ) : (
-          <span>AI가 인천광역시의 최신 트렌드를 정리해봤어요 🔥</span>
-        )}
-        <div>
-          <FontAwesomeIcon icon={opened ? faChevronUp : faChevronDown} />
-        </div>
-      </div>
+        {isLoading ? '업로드 중...' : 'Firebase로 업로드하기'}
+      </button>
 
-      <div className='space-y-8'>
-        {posts.map(postInfo => (
-          <div
-            key={postInfo.createdAt}
-            className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity'
-          >
-            <div className='space-y-3'>
-              <h1 className='font-medium text-xl'>
-                {postInfo.content.length > 20
-                  ? `${postInfo.content.slice(0, 20)}...`
-                  : postInfo.content}
-              </h1>
-              <div className='flex space-x-1'>
-                <span className='text-instend'>익명</span>
-                <div className='text-black text-opacity-50'>&#183;</div>
-                <span className='text-black text-opacity-50'>{postInfo.createdAt}</span>
-              </div>
-              <div className='flex space-x-8'>
-                <div className='space-x-3 flex items-center'>
-                  <FontAwesomeIcon icon={rHeart} className='w-5 h-5 text-instend_red' />
-                  <span>5</span>
-                </div>
-                <div className='space-x-3 flex items-center'>
-                  <FontAwesomeIcon icon={faComment} className='w-5 h-5' />
-                  <span>5</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      {uploaded !== null && (
+        <p className="mt-4 text-green-600">{uploaded}개의 글이 업로드되었습니다.</p>
+      )}
     </div>
-  )
+  );
 }
-
-export default RagTest

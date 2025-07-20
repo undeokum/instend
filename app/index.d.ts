@@ -6,6 +6,7 @@ export interface PostInstructure {
     userName: bool
     mm: number
     id: string
+    summary: string
 }
 
 export interface HeartInstructure {

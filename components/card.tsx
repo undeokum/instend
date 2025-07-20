@@ -34,6 +34,7 @@ const Card = (props: ReadType) => {
                 userId,
                 userName,
                 mm,
+                summary
             } = doc.data()
             return {
                 image,
@@ -42,6 +43,7 @@ const Card = (props: ReadType) => {
                 userId,
                 userName,
                 mm,
+                summary,
                 id: doc.id
             }
         })
@@ -59,7 +61,7 @@ const Card = (props: ReadType) => {
             <div className='space-y-3'>
                 <h1 className='font-medium text-xl'>{props.content.length > 20 ? `${props.content.slice(0, 20)}...` : props.content}</h1>
                 <div className='flex space-x-1'>
-                    <span className='text-instend'>{props.userName}</span>
+                    <span className='text-instend'>익명</span>
                     <div className='text-black text-opacity-50'>&#183;</div>
                     <span className='text-black text-opacity-50'>{props.createdAt}</span>
                 </div>
