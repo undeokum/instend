@@ -32,8 +32,8 @@ async function fetchCommunityPosts(): Promise<Post[]> {
   const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000
   console.log(sevenDaysAgo)
   const postsQuery = query(
-    collection(db, 'posts'),
-    where('createdAt', '>=', sevenDaysAgo)
+    collection(db, 'neighbor인천광역시'),
+    where('mm', '>=', sevenDaysAgo)
   )
   const postSnapshot = await getDocs(postsQuery)
   return postSnapshot.docs.map(doc => doc.data() as Post)
@@ -68,7 +68,6 @@ export async function GET(_req: NextRequest) {
       .slice(0, 5)
 
     const context = topPosts.map(p => `- ${p.content}`).join('\n')
-
     const prompt = `너는 지역 커뮤니티의 글들을 분석해서 트렌드를 요약하는 AI야.
 아래는 지난 일주일 동안 인천 커뮤니티에 올라온 글 목록이야:
 
