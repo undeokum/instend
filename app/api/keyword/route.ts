@@ -28,11 +28,11 @@ async function getEmbedding(text: string) {
   return response.data[0].embedding
 }
 
-async function fetchCommunityPosts(): Promise<Post[]> {
+async function fetchCommunityPosts(path: string): Promise<Post[]> {
   const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000
   console.log(sevenDaysAgo)
   const postsQuery = query(
-    collection(db, 'neighbor인천광역시'),
+    collection(db, path),
     where('mm', '>=', sevenDaysAgo)
   )
   const postSnapshot = await getDocs(postsQuery)
@@ -40,8 +40,11 @@ async function fetchCommunityPosts(): Promise<Post[]> {
 }
 
 export async function GET(_req: NextRequest) {
+  const { searchParams } = new URL(_req.url)
+  const path = searchParams.get('path')
+
   try {
-    const posts = await fetchCommunityPosts()
+    const posts = await fetchCommunityPosts(path!)
 
     if (posts.length === 0) {
       return NextResponse.json({ summary: '최근 7일간 작성된 게시물이 없습니다.' })
