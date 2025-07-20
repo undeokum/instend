@@ -40,7 +40,7 @@ useEffect(() => {
   didFetch.current = true
 
   const fetchSummary = async () => {
-    const res = await fetch('/api/summary')
+    const res = await fetch('/api/keyword')
     const data = await res.json()
     setSummary(data.summary)
     setLoading(false)
