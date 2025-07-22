@@ -34,7 +34,8 @@ const UserSuspense = () => {
                     userId,
                     userName,
                     mm,
-                    summary
+                    summary,
+                    danger,
                 } = doc.data()
                 return {
                     image,
@@ -44,6 +45,7 @@ const UserSuspense = () => {
                     userName,
                     mm,
                     summary,
+                    danger,
                     id: doc.id
                 }
             })
