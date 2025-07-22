@@ -3,7 +3,7 @@ import Card from '@/components/card'
 import NavBar from '@/components/nav'
 import { auth, db } from '../firebase'
 import { useEffect, useState } from 'react'
-import { collection, doc, getDoc, getDocs, orderBy, query, where } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs } from 'firebase/firestore'
 import { PostInstructure, UserDataInstructure } from '..'
 import { signOut, User } from 'firebase/auth'
 import Link from 'next/link'
@@ -18,15 +18,15 @@ const UserSuspense = () => {
     const [user, setUser] = useState<User | null>(null)
 
     const fetchPosts = async () => {
-        if(searchParams && user){
-            console.log(searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all'))
-            const postsQuery = query(
-                collection(db, searchParams == 'neighbor' ? `neighbor${userData?.neighbor}` : (searchParams == 'school' ? `school${userData?.school}` : 'all')),
-                where('userId', '==', user?.uid),
-                orderBy('mm', 'desc')
-            )
-            const snapshop = await getDocs(postsQuery)
-            const posts = snapshop.docs.map(doc => {
+        if (searchParams && user) {
+            const folder =
+            searchParams == '2'
+                ? `school${userData?.school}`
+                : `neighbor${userData?.neighbor}`
+
+            const snapshop = await getDocs(collection(db, folder))
+            const posts = snapshop.docs
+            .map(doc => {
                 const {
                     image,
                     content,
@@ -34,6 +34,7 @@ const UserSuspense = () => {
                     userId,
                     userName,
                     mm,
+                    summary
                 } = doc.data()
                 return {
                     image,
@@ -42,12 +43,17 @@ const UserSuspense = () => {
                     userId,
                     userName,
                     mm,
+                    summary,
                     id: doc.id
                 }
             })
+            .filter(post => post.userId === user?.uid)
+            .sort((a, b) => b.mm - a.mm)
+
             setPosts(posts)
         }
     }
+
 
     const fetchUserData = async () => {
         if(user){
@@ -107,12 +113,11 @@ const UserSuspense = () => {
                 <div className='space-y-5'>
                     <h1 className='text-2xl font-semi_bold'>내가 작성한 글들</h1>
                     <div className='space-y-10'>
-                        <form className='flex items-center space-x-16'>
+                        <form className='flex items-center space-x-10'>
                             {
                                 [
-                                    ['전체', 'all'],
-                                    ['이웃', 'neighbor'],
-                                    ['학교', 'school']
+                                    ['동네', '1'],
+                                    ['학교/회사', '2']
                                 ].map(([name, path], i) => (
                                     <Link href={`/user?folder=${path}`} key={i} className={`flex items-center justify-center rounded-full hover:brightness-90 transition-all ${searchParams == path ? 'bg-instend text-white border-instend' : 'bg-white text-black border border-black border-opacity-20'} px-5 py-2 text-lg`}>
                                         {name}

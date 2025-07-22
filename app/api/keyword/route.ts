@@ -1,13 +1,8 @@
 import OpenAI from 'openai'
-import { collection, getDocs, query, where, Timestamp } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, query, setDoc, where } from 'firebase/firestore'
 import { db } from '@/app/firebase'
 import { NextRequest, NextResponse } from 'next/server'
-
-interface Post {
-  content: string
-  createdAt: string
-  mm: Timestamp
-}
+import { PostInstructure } from '@/app'
 
 const openai = new OpenAI({
   apiKey: process.env.NEXT_OPENAI_API_KEY,
@@ -28,29 +23,36 @@ async function getEmbedding(text: string) {
   return response.data[0].embedding
 }
 
-async function fetchCommunityPosts(path: string): Promise<Post[]> {
+async function fetchCommunityPosts(path: string): Promise<PostInstructure[]> {
   const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000
-  console.log(sevenDaysAgo)
   const postsQuery = query(
     collection(db, path),
     where('mm', '>=', sevenDaysAgo)
   )
   const postSnapshot = await getDocs(postsQuery)
-  return postSnapshot.docs.map(doc => doc.data() as Post)
+  return postSnapshot.docs.map(doc => doc.data() as PostInstructure)
 }
 
-export async function GET(_req: NextRequest) {
-  console.log('✅ API 요청 도착')
-  const { searchParams } = new URL(_req.url)
+export async function GET(req: NextRequest) {
+  const { searchParams } = new URL(req.url)
   const path = searchParams.get('path')
-
-  console.log(path)
 
   try {
     const posts = await fetchCommunityPosts(path!)
 
     if (posts.length === 0) {
       return NextResponse.json({ summary: '최근 7일간 작성된 게시물이 없습니다.' })
+    }
+
+    const ref = doc(db, path!, 'keyword')
+
+    const docSnap = await getDoc(ref)
+    if(docSnap.exists()){
+      const { summary, updatedAt } = docSnap.data()
+      const today = new Date()
+      const last = new Date(updatedAt)
+      if(today.getFullYear() == last.getFullYear() && today.getMonth() == last.getMonth() && today.getDate() == last.getDate())
+        return NextResponse.json({ summary })
     }
 
     const defaultQuery = '인천 커뮤니티 트렌드 분석'
@@ -98,6 +100,10 @@ ${context}
     })
 
     const summary = completion.choices[0].message.content
+    await setDoc(ref, {
+      summary,
+      updatedAt: Date.now()
+    })
 
     return NextResponse.json({ summary })
   } catch (error) {

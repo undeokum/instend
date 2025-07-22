@@ -1,9 +1,9 @@
 'use client'
-import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
+import { faArrowsRotate, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NavBar from '@/components/nav'
 import Card from '@/components/card'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { collection, doc, getDoc, getDocs, orderBy, query, updateDoc } from 'firebase/firestore'
 import { auth, db } from '../firebase'
 import { PostInstructure, UserDataInstructure } from '..'
@@ -18,18 +18,20 @@ const School = () => {
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [user, setUser] = useState<User | null>(null)
     const [changed, setChanged] = useState(false)
+    const [summary, setSummary] = useState('')
+    const [loading, setLoading] = useState(false)
+    const [opened, setOpened] = useState(false)
 
     const { register, handleSubmit } = useForm<SchoolSelect>()
 
 
     const fetchPosts = async () => {
-        if(userData){
-            const postsQuery = query(
-                collection(db, `school${userData?.school}`),
-                orderBy('mm', 'desc')
-            )
-            const snapshop = await getDocs(postsQuery)
-            const posts = snapshop.docs.map(doc => {
+        if (userData) {
+            const folder = `school${userData?.school}`
+
+            const snapshop = await getDocs(collection(db, folder))
+            const posts = snapshop.docs
+            .map(doc => {
                 const {
                     image,
                     content,
@@ -37,7 +39,7 @@ const School = () => {
                     userId,
                     userName,
                     mm,
-                    summary,
+                    summary
                 } = doc.data()
                 return {
                     image,
@@ -50,6 +52,9 @@ const School = () => {
                     id: doc.id
                 }
             })
+            .filter(post => post.userId === user?.uid)
+            .sort((a, b) => b.mm - a.mm)
+
             setPosts(posts)
         }
     }
@@ -84,6 +89,27 @@ const School = () => {
         }
         setChanged(!changed)
     }
+
+    const didFetch = useRef(false)
+
+    useEffect(() => {
+        if (!userData?.neighbor) return
+        setLoading(true)
+        if (didFetch.current) return
+        didFetch.current = true
+
+        const path = `school${userData?.school}`
+
+        console.log(path)
+
+        const fetchSummary = async () => {
+            const res = await fetch(`/api/keyword?path=${path}`)
+            const data = await res.json()
+            setSummary(data.summary)
+            setLoading(false)
+        }
+        fetchSummary()
+    }, [userData])
 
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged(userr => {
@@ -133,6 +159,30 @@ const School = () => {
                     <div className='flex items-center space-x-5'>
                         <h1 className='text-2xl font-bold'>{userData?.school}</h1>
                         <FontAwesomeIcon icon={faArrowsRotate} onClick={reset} className='w-6 h-6 opacity-50 hover:opacity-60 transition-all cursor-pointer' />
+                    </div>
+                    <div
+                        className='px-8 rounded-md bg-[#DAD2E9] py-5 cursor-pointer flex items-center justify-between'
+                        onClick={() => setOpened(!opened)}
+                    >
+                        {opened ? (
+                        <div className='pr-5 space-y-4'>
+                            <div>AI가 지난 일주일 동안의 인천광역시의 트렌드를 정리해봤어요.</div>
+                            {
+                            loading
+                            ?
+                            <div className='felx items-center justify-center text-center py-5'>
+                                <p>요약중...</p>
+                            </div>
+                            :
+                            <pre className='whitespace-pre-wrap font-regular'>{summary}</pre>
+                            }
+                        </div>
+                        ) : (
+                        <span>AI가 인천광역시의 최신 트렌드를 정리해봤어요 🔥</span>
+                        )}
+                        <div>
+                        <FontAwesomeIcon icon={opened ? faChevronUp : faChevronDown} />
+                        </div>
                     </div>
                     <div className='space-y-8'>
                         {

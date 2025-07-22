@@ -56,6 +56,15 @@ const WriteSuspense = () => {
                 body: JSON.stringify({ content }),
             })
             const { summary } = await summaryRes.json()
+            const dangerRes = await fetch('/api/danger', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ content }),
+            })
+            const { danger } = await dangerRes.json()
+            console.log(danger)
             const doc = await addDoc(collection(db, searchParams != 'neighbor' ? (searchParams != 'school' ? searchParams! : `school${userData?.school}`) : `neighbor${userData?.neighbor}`), {
                 content,
                 createdAt: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`,
@@ -63,6 +72,7 @@ const WriteSuspense = () => {
                 userId: user?.uid,
                 mm: Date.now(),
                 summary,
+                danger,
             })
             if(img != null) {
                 const locationRef = ref(storage, `${searchParams!}/${user!.uid}/${doc.id}`)
@@ -143,7 +153,7 @@ const WriteSuspense = () => {
                         <Image src={imgURL} alt='preview' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
                     }
                 </div>
-                <button type='submit' disabled={posting} className={`w-full py-1.5 text-lg text-white text-center transition-colors rounded-md ${posting ? 'bg-gray-400 hover:bg-gray-500 cursor-not-allowed' : 'bg-instend hover:bg-hover'}`}>작성하기</button>
+                <button type='submit' disabled={posting} className={`w-full py-1.5 text-lg text-white text-center transition-colors rounded-md ${posting ? 'bg-gray-400 hover:bg-gray-500 cursor-not-allowed' : 'bg-instend hover:bg-hover'}`}>{posting ? '로딩중...' : '작성하기'}</button>
             </form>
             <NavBar route='un' />
         </div>

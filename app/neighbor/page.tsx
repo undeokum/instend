@@ -28,13 +28,12 @@ const Neighbor = () => {
 
 
     const fetchPosts = async () => {
-        if(userData){
-            const postsQuery = query(
-                collection(db, `neighbor${userData?.neighbor}`),
-                orderBy('mm', 'desc')
-            )
-            const snapshop = await getDocs(postsQuery)
-            const posts = snapshop.docs.map(doc => {
+        if (userData) {
+            const folder = `neighbor${userData?.neighbor}`
+
+            const snapshop = await getDocs(collection(db, folder))
+            const posts = snapshop.docs
+            .map(doc => {
                 const {
                     image,
                     content,
@@ -42,7 +41,7 @@ const Neighbor = () => {
                     userId,
                     userName,
                     mm,
-                    summary,
+                    summary
                 } = doc.data()
                 return {
                     image,
@@ -55,6 +54,9 @@ const Neighbor = () => {
                     id: doc.id
                 }
             })
+            .filter(post => post.userId === user?.uid)
+            .sort((a, b) => b.mm - a.mm)
+
             setPosts(posts)
         }
     }

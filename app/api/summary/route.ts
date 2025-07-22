@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     messages: [
       {
         role: 'user',
-        content: `다음 글을 1~2문장으로 간단히 요약해줘:\n${content}`,
+        content: `다음 글을 ~요 체로 1~2문장으로 간단히 요약해줘:\n${content}`,
       },
     ],
     model: 'gpt-3.5-turbo',

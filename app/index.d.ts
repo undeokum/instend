@@ -7,6 +7,7 @@ export interface PostInstructure {
     mm: number
     id: string
     summary: string
+    danger: number
 }
 
 export interface HeartInstructure {

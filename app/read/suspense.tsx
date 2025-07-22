@@ -208,7 +208,7 @@ const ReadSuspense = () => {
                                 <h1 className='text-lg font-semi_bold'>AI가 게시글을 간단하게 요약했어요 😎</h1>
                                 <p>{postData?.summary}</p>
                             </div>
-                            <h1 className='text-2xl font-medium'>{postData?.content}</h1>
+                            <h1 className='text-2xl font-regular'>{postData?.content}</h1>
                         </div>
                         <div>
                             {

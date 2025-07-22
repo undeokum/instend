@@ -9,7 +9,7 @@ import { useEffect } from 'react'
 
 const navIcon = [faHome, faEarth, faSchool, faUser]
 const navName = ['홈', '동네', '학교/회사', '내 정보']
-const navHref = ['', 'neighbor', 'school', 'user?folder=all']
+const navHref = ['', 'neighbor', 'school', 'user?folder=1']
 
 interface navbarType {
     route: string
