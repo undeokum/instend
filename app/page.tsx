@@ -8,6 +8,7 @@ import { doc, getDoc } from 'firebase/firestore'
 import { location } from './arrays'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { useRouter } from 'next/navigation'
 
 interface Place {
   name: string
@@ -16,10 +17,13 @@ interface Place {
   user_ratings_total: number
 }
 
+
 const Home = () => {
     const [user, setUser] = useState<User | null>(null)
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [restaurant, setRestaurant] = useState<Place[]>([])
+
+    const router = useRouter()
 
     const fetchUserData = async () => {
         if(user?.uid){
@@ -64,6 +68,13 @@ const Home = () => {
                 <div className='space-y-5'>
                     <h1 className='text-xl font-semi_bold'>{userData?.neighbor} 맛집 리스트</h1>
                     {
+                        userData?.neighbor == ''
+                        ?
+                        <div>
+                            <h1>먼저 동네 설정을 완료해주세요.</h1>
+                            <button onClick={() => router.push('/neighbor')} className='px-7 py-2 bg-instend text-white rounded-md'>동네 설정 하기</button>
+                        </div>
+                        : 
                         restaurant.map((place, i) => (
                             <div key={i} className='space-y-3 border-black border border-opacity-20 rounded-md py-3 px-5'>
                                 <div className='text-lg font-semi_bold'>{place.name}</div>
