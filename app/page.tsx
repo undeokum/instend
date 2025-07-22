@@ -5,7 +5,7 @@ import { User } from 'firebase/auth'
 import { useEffect, useState } from 'react'
 import { UserDataInstructure } from '.'
 import { doc, getDoc } from 'firebase/firestore'
-import { location } from './neighbor/page'
+import { location } from './arrays'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 

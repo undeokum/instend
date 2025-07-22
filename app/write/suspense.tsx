@@ -10,7 +10,7 @@ import React, { useEffect, useState } from 'react'
 import { User } from 'firebase/auth'
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage'
 import Image from 'next/image'
-import { FOLDER } from '../folder'
+import { FOLDER } from '../arrays'
 import { UserDataInstructure } from '..'
 
 interface PostType {

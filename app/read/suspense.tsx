@@ -10,7 +10,7 @@ import { faTriangleExclamation, faHeart as sHeart } from '@fortawesome/free-soli
 import { useForm } from 'react-hook-form'
 import NavBar from '@/components/nav'
 import Image from 'next/image'
-import { FOLDER } from '../folder'
+import { FOLDER } from '../arrays'
 import { User } from 'firebase/auth'
 import Heart from '@/utils/heart'
 
