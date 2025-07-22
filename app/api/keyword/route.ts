@@ -40,8 +40,11 @@ async function fetchCommunityPosts(path: string): Promise<Post[]> {
 }
 
 export async function GET(_req: NextRequest) {
+  console.log('✅ API 요청 도착')
   const { searchParams } = new URL(_req.url)
   const path = searchParams.get('path')
+
+  console.log(path)
 
   try {
     const posts = await fetchCommunityPosts(path!)
@@ -71,8 +74,8 @@ export async function GET(_req: NextRequest) {
       .slice(0, 5)
 
     const context = topPosts.map(p => `- ${p.content}`).join('\n')
-    const prompt = `너는 지역 커뮤니티의 글들을 분석해서 트렌드를 요약하는 AI야.
-아래는 지난 일주일 동안 인천 커뮤니티에 올라온 글 목록이야:
+    const prompt = `너는 커뮤니티의 글들을 분석해서 트렌드를 요약하는 AI야.
+아래는 지난 일주일 동안 커뮤니티에 올라온 글 목록이야:
 
 ${context}
 

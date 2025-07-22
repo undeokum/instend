@@ -93,21 +93,22 @@ const Neighbor = () => {
     const didFetch = useRef(false)
 
     useEffect(() => {
-        if(userData){
-            setLoading(true)
-            if (didFetch.current) return
-            didFetch.current = true
+        if (!userData?.neighbor) return
+        setLoading(true)
+        if (didFetch.current) return
+        didFetch.current = true
 
-            const path = `neighbor${userData?.neighbor}`
+        const path = `neighbor${userData?.neighbor}`
 
-            const fetchSummary = async () => {
-                const res = await fetch(`/api/summary?path=${path}`)
-                const data = await res.json()
-                setSummary(data.summary)
-                setLoading(false)
-            }
-            fetchSummary()
+        console.log(path)
+
+        const fetchSummary = async () => {
+            const res = await fetch(`/api/keyword?path=${path}`)
+            const data = await res.json()
+            setSummary(data.summary)
+            setLoading(false)
         }
+        fetchSummary()
     }, [userData])
 
     useEffect(() => {
