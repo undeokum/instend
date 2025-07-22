@@ -1,0 +1,1033 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14-1 Dalgubeol-daero 375-gil, Seo-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8623016,
+        "lng": 128.5702061
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.86365142989271,
+          "lng": 128.5715559298928
+        },
+        "southwest": {
+          "lat": 35.86095177010727,
+          "lng": 128.5688562701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "푸른회식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116745018914565478607\">chulhong park</a>"
+        ],
+        "photo_reference": "ATKogpckRwZbWGzIiKHjfNWhln1_3oP0o-tREm-7BPiPBEm_mEnhQsUdOBUsHnml0zZ1SdWZKAVEgQDOCA2txIN-9PE-L3-ghtfsMnMpSieHDZUNWxeg-bj2fwDb5PvGCZubJRORfZER80InLlsuYT4ltsfCyZ4rQyvZjvDL4766kVWYzWD4qnkyEaOAQv0E33EXPwpw_wg3mrKwonKwUMKPqkJIeWflITsgNyZkhcjpOjgjbRb3ZRMQRAlxVxAuHy0scz83kK0SHMHfhqdnizN6uW2Np_HZGvCLdPTej_ASSAQ8tHDh-bBMNczKZjoSpMSnC5iqY1SW4Ph4cYNqnkjRSSqC5lkhGaw0wZJkXg6LlqTwS6DFds1AmGRM8PkZYlFkjHV0LQI5YVys_p1aLV9xDo872diniwVegry7vYRCFjObLmkR051hsqjyicvglLRWdPDQlUk97xAkbopukcjaqXkTqZ39s7RKDc-r0OKWzruHOqt8CJLnYoPRAQHtOr6rsLxPR0M0zpEsdHpj6omwjohqEPyDLH4iBngSKOKhlJw8u4I76FMFD3PSWgMcCvZOLmHifkRev3CrGg",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ-bDw6IfjZTURSW_3602JnpI",
+    "plus_code": {
+      "compound_code": "VH6C+W3 Daegu",
+      "global_code": "8Q7CVH6C+W3"
+    },
+    "rating": 4.3,
+    "reference": "ChIJ-bDw6IfjZTURSW_3602JnpI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 930
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "410-86 Chilseong-dong 2(i)-ga, Buk-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8794253,
+        "lng": 128.5998824
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.88077512989273,
+          "lng": 128.6012322298927
+        },
+        "southwest": {
+          "lat": 35.87807547010728,
+          "lng": 128.5985325701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "스무고개 대구점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1179,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114494441961320108418\">스무고개 대구점</a>"
+        ],
+        "photo_reference": "ATKogpeBQ1CGvGN5idRi5n_a_22Rnxvxm8BT20a9zoElzXfrIARsPwnDDg_rpw5F0WT5C_gvtuzLk-OXW2Moc0ff8JhpouQ1ABBCl9wWbrEjYr4zBIrGKljvmbnMf8P9BOwwLF-7LoyAOvty7vNRyVSFth0KJr_9wDQ6QjMora9wjf38fVCgzXuOhBSGUerFLWyeu65nDqHa46WH9Y4CH-63k7AQWL5Hp20E5spziA_lSNMeRzKAQ3TQUfkHCLhM3eQ80Ibdghw3zK_W4oP4rRAofCpNK34H09f3UlzwSO2BWzPsGuaxLLI",
+        "width": 1179
+      }
+    ],
+    "place_id": "ChIJO6Sde9PjZTURawo7kaxQ1IY",
+    "plus_code": {
+      "compound_code": "VHHX+QX Daegu",
+      "global_code": "8Q7CVHHX+QX"
+    },
+    "rating": 4.9,
+    "reference": "ChIJO6Sde9PjZTURawo7kaxQ1IY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 172
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "59-1 Seoseongno 1(il)-ga, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8723521,
+        "lng": 128.5868349
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87370192989272,
+          "lng": 128.5881847298927
+        },
+        "southwest": {
+          "lat": 35.87100227010727,
+          "lng": 128.5854850701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "8(pal)-beon Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117943836441046091938\">이준성</a>"
+        ],
+        "photo_reference": "ATKogpe7JmmvJsOfrHqcFqOug4QgBlgEt4ugm-3OttI0IKyOz6uscHjZRXFPj3_GfUArVpPfkJ82kWA2svDJDa93NB0hr7pdTt9xoaZBJbZZ8Qz640QWSFqqPlyBaHzCdf9wNUMt4hTw9FAmWClTFrtwh9K86FaXh3ZVxA52wGAOz2yOKL4byw4mEn6ll7vbMT8XmZBvOTYu86p7Lm99zGNhs1R47zbJfts1Cr6yoWyAiQnCy_yIAgLNH9oRowVYueKhw5pjkj1gSmcCFdwRrPCuFcXvaL_yVa9uAdSrwOgHJchxyjs9dxnjKgNb3GGP_KiKM8cUGeVPThEh9vpdtwQaQjAKR2sTiLJDf5ADz2k8Tk6fZs3l8vcb-6wy2mNagaRI0kmGI9fAlopMQVCZ8BnDYJcGDyakull8MYYLL57wpUQeEfQ0uu8RQ2tDNbQPp17IPMpOS6lbUt09m-LLw__VHMQsRaW79yu_E9PAteZdpIZlMjnxhffGLt_s75Tl2zwUUp93HpivcMdEtgIZkkYeaFV5B26PgB9fI2xtou0ChCEROyiV8F2NuqhmIzxvtHUUcWjxgIkr",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJX2xdBenjZTUR_urJgO_bDwA",
+    "plus_code": {
+      "compound_code": "VHCP+WP Daegu",
+      "global_code": "8Q7CVHCP+WP"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJX2xdBenjZTUR_urJgO_bDwA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 765
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "844-1 Daegok-dong, Dalseo District, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.7933333,
+        "lng": 128.53
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.79468312989273,
+          "lng": 128.5313498298927
+        },
+        "southwest": {
+          "lat": 35.79198347010728,
+          "lng": 128.5286501701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dongi Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115367990448418249984\">송치욱</a>"
+        ],
+        "photo_reference": "ATKogpez8PstNel1z5Q7uUl62jdNHwhFo8YbOHrYDvXKTiSMJUOw02v_SRj_F3LQOCEiFriav0X1VNPr0YaKRVYwHpRWWM6zkrsmT5jgP_GDKcXN1tyIpq8PKyM9obikBBIpw5tDQkxYeo_MSH4mo84pdceytivgm0Dp5uwnXl5WpiB93XrQwMOSAmV4dDKmIo4DykAhn2inPBDhi_FfOSYTo_h04ohjhi4JGJMHN7U-mBg6KIjZClFEu4Y8XlxxVnrq_zKdo-U1IkaUSs8cVOxQ5-iDTUqi7WMWGk7kT7JXpUZgAzS0Xc95sG_hZVceZUrIaN5Pr_vFGtwHtXQ1Z8vpF17KYoCe9rkRYm4H_TvmcuV9iVbRkOleWMii0uns2GVNCQDj1vu4M-LHzGRV1Wco4kodsF8S1nJdcjtWbYim3SiAEJBdfmHjWnmtwl-47HCeJSTaxmWvwI9wXISAQm-jIVjjURfHW9yFqUFjeRiEULZ6FZVq9dTOGJB3puxffyMBiXPidsgqwVEKnQmL_cLcVh_Q9ZOD0TXgPtgI3rSl9RaE9z1xi1IT7ICbpNv34qw_xOM9XAyN",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJEdTXZqr7ZTURAyFkIQGFzuM",
+    "plus_code": {
+      "compound_code": "QGVH+8X Daegu",
+      "global_code": "8Q7CQGVH+8X"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJEdTXZqr7ZTURAyFkIQGFzuM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1388
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "60 Daehyeonnam-ro 2-gil, Buk-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8783109,
+        "lng": 128.6063822
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87966072989272,
+          "lng": 128.6077320298927
+        },
+        "southwest": {
+          "lat": 35.87696107010728,
+          "lng": 128.6050323701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Subong Chinese Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118399662112899096370\">Jung Keun Park</a>"
+        ],
+        "photo_reference": "ATKogpejrO-LYjENSGEFPlbYnmsHy7k7cSDeLkpLtzgSDOdbNuu3H64Bj5CqSm_ga16zp6Iq81LKkT51qymPGxU9Gx_PahhdY6vC6kQge8qECNWwDvuXy-GlPGdkMPXD10Ijo5kEDD8tbIY1YcpfozDiHV8e_TEab01PMafu3z6D-hsESsqYxziCPNmHtZIl0v-rUdemocJE0lkp-VEk8vrHVGe0Tp0BmNbesT_PSVzOih_AxLuYPJ7STuUluhpXQnc1Jpw84WTH3UJ9Ud9LqgH0kxACwy_-dF6pAiltsiyxmSOSBZiHD-9VV4yYiVjd68yap7kjNQ3foirBnEp_--kOkcQNN5fT7XIdXBrswpAaTMJqnRPtOxKM2cGBvp7rry1VxSkkvzzfGgG7JFYerlf2Tcy-zWB4OfyhVVgQb6ooUH5-xliMKfCAi7cN1ncrkeQxgVkMENgxsVLl6Kg7n1sR9RBzeYhu0DL_XRuD1aBUfg4WAnjdMM0yCTH0DJxj8yEt2_TBBcngkUcyYRnYA_zp7XBIF9SVLiDxe_5pUVV28rWsG5wyNPoI9fcd-TlCt-W1PGPNdTx9G4ow4A",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJNQsME37hZTUROvILZlotVzE",
+    "plus_code": {
+      "compound_code": "VJH4+8H Daegu",
+      "global_code": "8Q7CVJH4+8H"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJNQsME37hZTUROvILZlotVzE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 997
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "406-8 Jungang-daero, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.86932850000001,
+        "lng": 128.5942113
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87067832989273,
+          "lng": 128.5955611298927
+        },
+        "southwest": {
+          "lat": 35.86797867010728,
+          "lng": 128.5928614701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Silla Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112709189545159969906\">검은늑대</a>"
+        ],
+        "photo_reference": "ATKogpfT9ZcTJmjnXJKgzezhclQTVmLBLJwUOH1VV2EXWF4yfRhmIVKpYWgQvaeSmqYiBMero9V_J0vgp_e59L8Y31wA5R-z0SOKqTG2EGfkaFdcPT9S80a0vsqcA6qMexJthu4_J1NWCLp2X-yryypk5cE40IxsT5UvNbCEnZ4blOO513cXge8J609A0VhBE_LeQ8IreygAV3TGAWqbr4GKxcKuJFYTINxAl0hpJIZmVoWKJZ0_t_gerW5MiYwtqPA1MTRbckizYPeweA3S2EsJ3OhzaMQRE8YB6m_nXA3gVnlps6nohxoQwnSg2ACWrfXmvDJff8cenD_7LRyca4CTvZjRtz2cbEplTkrblAhFFOQaDdApDOawhT7X4rr43FTnvkzK4b_0WT6ejO4vDitZUqCS0fRS0aVUdQWKOASSDamhLx0fY4UddxdzIdgL9BIC6qCMxpNO_zqMI-D8eJ9IE5JGMkl1j1hCLqMXV5s_gIkvEClJuWGDd3Mfd0v0CZTP90Xa5SH3ZW6QwflIiaWjcfgsj7wtupc-bJDyp5rs6zrQWkjt1yKZ7Vw7Bqubtn6yPvxYa_GdlWHjqQ",
+        "width": 960
+      }
+    ],
+    "place_id": "ChIJH0cdkcPjZTURQtCH58-7Y90",
+    "plus_code": {
+      "compound_code": "VH9V+PM Daegu",
+      "global_code": "8Q7CVH9V+PM"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJH0cdkcPjZTURQtCH58-7Y90",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 707
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "120-2 Sijangbungno, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8721244,
+        "lng": 128.5817501
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87347422989271,
+          "lng": 128.5830999298927
+        },
+        "southwest": {
+          "lat": 35.87077457010727,
+          "lng": 128.5804002701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "YetJip SikDang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102904905095402685379\">KONA</a>"
+        ],
+        "photo_reference": "ATKogpdSb3eoAnULWsH9rQGAUG8KhCqnTCC-TAaTl50XmU41raYjW5JA6OGDM5XALT7hWd8IeJULLCXovOy6q4c14MbPd6GwKTsTo0355cfOwvW8aOSxRUMHfUKjDWVBgjO-m6amwXI7vG90UDh4VAjp9T5AfWebp-yHsAGF3WYV92kWXdiAD1gJga0mNfMv_sSwJU_rlwu7fDIfjtHXt6Dbda6q9WzEKZv_51x2Td4Vt9rNhHmgPBstd6LfHdZuoHRrdVCvMyRYLblx8m4M1iVIbU1s2CA9-ZX6gse1leFFWc3xtVuOjzow_P5OGCi9YhVax7g0HG9IDntpekvzaGF4npgGUhNZY2hDd_TgEnDLy6MnhMkaV4-8spgJ1rJXsStPq7bRO_6dHnrk_90i8lzRPdXTDMa09BdJdCa-cbo4M_Z8tVD5U7ZNjbktGWrMjo5ZHrZ1lcBCHsRBq81gna0grdQCMjmP-BKNUKYI4fLeczeYdJvqxgAi780Hw9dFXHTxneEL1FDPGXYfdiu50cKwuHMlwS_4BSMJv45sVMaO8a99V909M7Wh6Ad3DzBLxK91DE90_4Bn",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJkXWn0e3jZTUR95U8CpfYZT4",
+    "plus_code": {
+      "compound_code": "VHCJ+RP Daegu",
+      "global_code": "8Q7CVHCJ+RP"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJkXWn0e3jZTUR95U8CpfYZT4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 275
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9-1 Chilseongsijang-ro 7-gil, Buk-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8759689,
+        "lng": 128.6037046
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87731872989271,
+          "lng": 128.6050544298927
+        },
+        "southwest": {
+          "lat": 35.87461907010727,
+          "lng": 128.6023547701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dangol Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116992076102628808254\">Inhwan Seo</a>"
+        ],
+        "photo_reference": "ATKogpeYFgf-ql79VZA7e_BWzeyKFBlh5JvBALwYM7uPnDyw3KbFtLA8HjwW24oFCt4qgj_1P13oGLZPP5pSLQWG_mqWTRm33Law8TSwucyj_v3FaPrkue2ZsLZQbtrnG3WKmL7APmM2Drd8gqW0EdcTP-CQysU7qMmxcD5l9unOCLF4QE1zqjEEQifq5MiDW_iSkYb2TPkvZVtQ1iJGhm8wt8WbKpwLvdBF8LwGqGDLPX49AMC-3kpT0SnwG91TIxdgzanBVhjysX8Tl-gjlX2q6Y8ZhZGM6NO_Xk81KQsw1Hw7XSeO8siuly22Pbn1ake4FK0z6MtK8qUdT--3_3EXMcRkPgsFX4kwCB67VlHU6laKzu051iPySKRBdt9P2S8CuFwvC9FFA2mq8jMZPXJjCN3ZL7geiZQ5l4bZF_rHEwZ2AG2NtCaF11dTongBe71ONrngV80aE2pq5Ycaeap9Dxc6wyoQ6rv78hSmEXLbTTRef5YvmUd8a7ZlYKRLsgKPphqgN152js0YKxs1ENkhkqiQ7SfhmJpBh-7gNLEMic721JP1zjy8JQrsA6M3uFdWamikcotS6MwvPw",
+        "width": 5760
+      }
+    ],
+    "place_id": "ChIJO0lfWNbjZTUR5vYIuEBiprQ",
+    "plus_code": {
+      "compound_code": "VJG3+9F Daegu",
+      "global_code": "8Q7CVJG3+9F"
+    },
+    "price_level": 1,
+    "rating": 4.1,
+    "reference": "ChIJO0lfWNbjZTUR5vYIuEBiprQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 821
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "168-2 Dongdeok-ro, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8697077,
+        "lng": 128.604755
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87105752989272,
+          "lng": 128.6061048298927
+        },
+        "southwest": {
+          "lat": 35.86835787010727,
+          "lng": 128.6034051701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Hanokjib",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114150747743906457329\">no virusy</a>"
+        ],
+        "photo_reference": "ATKogpe1tMpMin2aqnwMhW__FRIJ1We_SeXPvKggafXg1lbFcIwh1qbe0X_7O6RTiSWR3-u4JWBc6VNwHAeRduWmtkiMtKgpFlTNov6YSOJCYQKoIfXLX0yMY14HYfmrch97s93iDwBptdZc3UYBm2187hMSuQyhxjPedZmt-OFB1QTZ2Uu02jmanpX5F9YRba7l1NBqtROfzqdfWAMR5_WyGnqMli4pxfBYe9E2WG8gNgZOK4JWldvUmjcapgMy2yw1Llt6BHiZF6W8dXGHqWpmwfecTjXkx7Hm863OCDISrxSbqOL796bl251g4M-BWsdOeCqCeha8SBfA2V_aZ1mqK07S3amZvkkMKNRbKcORuhjp0YqMvlGpQhN18brd8GevRJ4G9aFgUvQYfwAXZBrYqiLV2uv_FPIp8jksj7PqFeaWRaw8nOz6sw_XXxDtDt5lTRdxg2iaMd9Ey_sdirzUek3_xIi8K9WCEfepIVfT61UgH5sKxY94oHBi9Y9HGGkWMIq-2pinh0-Z5nt5mB0kVB2O2FtNcAdoRkZT6M4XiWRPCSZUDpI6-qiOaPCQZclBIgVNuA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ2cFklNHjZTURahDf5BGoY4U",
+    "plus_code": {
+      "compound_code": "VJ93+VW Daegu",
+      "global_code": "8Q7CVJ93+VW"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJ2cFklNHjZTURahDf5BGoY4U",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 815
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Daegu, Jung-gu, Gyodong-gil, 70 1층",
+    "geometry": {
+      "location": {
+        "lat": 35.8732385,
+        "lng": 128.5984071
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87458832989272,
+          "lng": 128.5997569298927
+        },
+        "southwest": {
+          "lat": 35.87188867010728,
+          "lng": 128.5970572701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Magsamga",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102720208218014436728\">daeguhiphop대구힙합</a>"
+        ],
+        "photo_reference": "ATKogpexv0JTyeDq_HJsvTAtiWPTSdu28Jua-LAVJ7TWLg3ccwG8ne8MHr3Z501qf8ulinA2JuhieBGHGTF9FOgb_jKDPk8NqW67cdrDh3DZSpQvy8MrrWjnhWE8jAEhcE-bkvZkefOF8Zj4PyCIHpdEo8WpbvSiu0r3nSkMFQO8cdOAb_hYW44SmdR-sV4nI8EwHj_AFEOb6uOfeh1ce3UdnO_odCVAijpgk3cv8Q2do7Luxb3yiG83nblrVN8IgIl3Muwgvss862wlEGQMKjSPouHeU8J32_qQkrKa9ajaW0-AZEJKh_4QZgwHsFwcQjGMdXb5ANfy8gAP_BAYXcRPLEMSz4_Dpc7Rr2kEXs379HYAUb6lMUGV6OCrtxL0qI7-mAWzHVy2ldDZ5jGLFilLcNP3nAlxFWPnftROyt7aiKiZ4w-FSqe69fADigfthktqwKUoK4GzZtgdm0tuQS1p8s4Mmojccr3fGJ__F3BaWZeIZrNgdgzQw0aYTOTAxJlD_VPTAgzL3YLIj6MFJW7AngibJ6l7isxAN2VcoEbHcnLD9SsWspT4C1UqVnFwqCpwIg2lb7q0",
+        "width": 2992
+      }
+    ],
+    "place_id": "ChIJ8dQRVAnjZTURvz9Z7Xs_Row",
+    "plus_code": {
+      "compound_code": "VHFX+79 Daegu",
+      "global_code": "8Q7CVHFX+79"
+    },
+    "rating": 4.7,
+    "reference": "ChIJ8dQRVAnjZTURvz9Z7Xs_Row",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 74
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Gamsam-gil, Dalseo District, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.850046,
+        "lng": 128.5387358
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.85139582989272,
+          "lng": 128.5400856298927
+        },
+        "southwest": {
+          "lat": 35.84869617010728,
+          "lng": 128.5373859701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yangpa Sikdang",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116410960211675462677\">KID K</a>"
+        ],
+        "photo_reference": "ATKogpfqiALmS0USQGUji0JYawVW-GI9uWDelrBojwhClX7SfwwAjB96yOcps3hsn_q4cIYX1_8cEcoXxpg-gfTgUvLMCu_k7OsxyUNrnVjdu0EfKhVCe-B-5CSATF8q0g5IL7aqYd8ZyX8MCSX_pHSEc3LVlJbgVxBgxk0fejIYDk1ybmVXYQ8eI1e_Bhd1okQyl-NywaYJAncMsuccxojELP-jv9-nYNDyqSXguNck7EEjkHxDrEhwevsGnBidlgPgL7UlCUzicJA6EjHBpdhgxrhupVjeys9tnWZVDyrpZJacullgYYD53DkN8YiTZDuwKkE3hvS13W0mq22y27oFdeCTH2zmmAIXno_jWGqaDQsENldRbgMEhE7JN5kX4IRpxy3lPeE6fAeL-NzSHYLJm7zhEJuQLnsOGIMUmKpUnMxrjUZ4b-4qYKMRRzI4Im_grJhvnGFBKthhKfEZJnxYXxEuHysgguuIw4QODjGRHDHtfWBwMEBJWG9p9GPzmCZLoLFP7JpQIwbH80IPXbp9_0FfzOIe_Ms9TqyKKM7awK0Z3IvdsUuTpf2IANY51MSMk8cpNb_V",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJ1ZlbjejkZTURItRo81EcEoc",
+    "plus_code": {
+      "compound_code": "VG2Q+2F Daegu",
+      "global_code": "8Q7CVG2Q+2F"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJ1ZlbjejkZTURItRo81EcEoc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 662
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "81-2 동성로 Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8740929,
+        "lng": 128.5955699
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87544272989272,
+          "lng": 128.5969197298927
+        },
+        "southwest": {
+          "lat": 35.87274307010728,
+          "lng": 128.5942200701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "초가식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115740726682231503988\">TEDDY KIM</a>"
+        ],
+        "photo_reference": "ATKogpft-wIguqyZ3NX_hjiysKsUXbJXfcBe46pYAu-6C1YbTpaNsmOzVsuOYbihFZjw1Ba2XEKXEN4yv2WW42KG51LdJYDKCeIWDnkLX0CV0E4I8HNTg1RnMsJscy5fzBhIabZBxmzs22H38TYa0syJPNFmyLAWM2PCDRKZbNT2ggngXww1PetcOYIcuLbfzbFVSV3AlPRaNLiQAEweosYCrvd33t3v-Fsu7o0pHVozsPhW04oXKzNfoDeWIKsbHomZc72C5pkEOpKM7w-3Wyb2pzw0DrIumTif_KHG7NRJQv_XV9T7Dob22zHl9Z60o6YqRwijxtkdClUxf2TJF68QOKArDriKkSL59ttLgeeiwXcK2meJS6iF9qhbTy_I3ozDS-Ew6QsRQp5dvt2upGMf60k8gg7DNNmdzMKFcSJ5Sq6oxQhvk9y8h4-JNOwDQRxvZL9-0uEqACMP3KXh6Fgmd8v9jn-A7wycKBELRw5nU0t_OITm5Bh5XFOOgKQamqB_cbbSZxsQQzIdpFQiOilzS3xrNtzuRTroA0h11JWijrQFdvOG01MPU_lFkdDibewZ8B-Cvov3",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJmWP0gtvjZTURFMAdAt2Hc6k",
+    "plus_code": {
+      "compound_code": "VHFW+J6 Daegu",
+      "global_code": "8Q7CVHFW+J6"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJmWP0gtvjZTURFMAdAt2Hc6k",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 288
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "103-2 Namseongno, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.867333,
+        "lng": 128.5909547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.86868282989272,
+          "lng": 128.5923045298927
+        },
+        "southwest": {
+          "lat": 35.86598317010728,
+          "lng": 128.5896048701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "거송갈비찜",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114075709067226503763\">Je Wa</a>"
+        ],
+        "photo_reference": "ATKogpenhW-LEIJqgQAFoMKB2__VZ7i3Wsm7ocFVfi6gAwGI8cYSBn4Zj0zIxQ8WbBamwn1ezFVF53zqy5bmgpTNbmD0xA2CqjMQf3NWXskqJOfREdnlg2d1xU1hSDvCFBQbcqc1RXjcH8q-rmQ7sQntslV_M23WRz-cRL3NRhErf_zmXHw-RrmOtvUuPasllK_rbwVvBRzk-vRQe4Sk4QabqaoX73HbwISawKYdeu7sngJmwfZmUVjqoDs6fWK3unZIQdF3DicvNOPX7_HXehs1x8qLPCV8sLwnFoumE-reRj1GAr4OvlScxACoCpBTZnmk8EydN0IMwCglIDjGCO-sK-Yge7TrWqC4QuEdgPLtr3Kby30kEHSUdIm29fZWuspdHVUxuMzF-OaGXpUzYVwQUdUS9GRl24RQgxqLoR0PiaKkdGHzldGhMVT7sSZBrLDqIDwTSvB6rVY6cVqSadXm0afP8GWlj_Q547DUv307GtqoSuDrRKvdppVBrS3azWc61REd-LP_VgcAzP9WSEoCYkaUf85ugMYbPL5q2zHgosA9tbvlxvVMXP1qUlqGWRilZiOcKCDwPGYVGQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJZ7_rxcHjZTURelbrnyKCoUw",
+    "plus_code": {
+      "compound_code": "VH8R+W9 Daegu",
+      "global_code": "8Q7CVH8R+W9"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJZ7_rxcHjZTURelbrnyKCoUw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 903
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "50-3 Jungang-daero 77-gil, Janggwan-dong, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8687559,
+        "lng": 128.590818
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87010572989272,
+          "lng": 128.5921678298927
+        },
+        "southwest": {
+          "lat": 35.86740607010727,
+          "lng": 128.5894681701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "약전식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114157139284377130278\">蔡緒賢</a>"
+        ],
+        "photo_reference": "ATKogpeGApzwygbVBCvQVwctsA2Cq2xVx8Q7ntfCWCmADQgP0mq8z2-hUrYAUx2vriczIYAYlFCvgrjOnE3V4kRPHkSgYVASyqfSZBnXkCgcJOlPrp6cd6HMegWQOuYCg1p39t7tZgqLmaSQWtDF3zz2u-d0Aig7I-WDUe8EFgkUU78AeN90kQz2s4qzJ2U7JVzCXPhq9PM6kAnM09OU_mSmnenyf73q3AegAlVzAdb238NRnkK-KpXqCXrLL2Nwr3rsdMkwZrajYwFHxCE10UNX07N-HTK6oTST4yNy7Hvg3DSnQPM_FCWhuVaj_dONVCFUNl7u0se_fGyBKHuTRUY-MyPP7V66y1dCYetRMbY1cqPAArV7gIRrlDhFIaxultOtV7x-UG2orqzIBW-oXyXc4q96ctiS-wIpK_8nbM5vl3c-RJ895hwGnvqxrZSkJqvrk0ZJTcZaPX0QHvKqgj2I1IZcmRlvEcdwRkvkex-Idh9VAcjlBrqfm_DYJpBig9y8qG-hIc9tB3K8fpxEen__HUK9WYQxr6ed9kLujfZMt4J65iUNUO2v2kLRyq9WnC4byWj1coco",
+        "width": 4896
+      }
+    ],
+    "place_id": "ChIJqQAdK8LjZTURwP3uV6jSEDE",
+    "plus_code": {
+      "compound_code": "VH9R+G8 Daegu",
+      "global_code": "8Q7CVH9R+G8"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJqQAdK8LjZTURwP3uV6jSEDE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 122
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2109-32 Dalgubeol-daero, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8667316,
+        "lng": 128.5941134
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.86808142989273,
+          "lng": 128.5954632298927
+        },
+        "southwest": {
+          "lat": 35.86538177010728,
+          "lng": 128.5927635701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Taesan Mandu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 9000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117681395361264711063\">날개가필요해</a>"
+        ],
+        "photo_reference": "ATKogpc8FQLMuq4GPfGNd3e4zp1zseWcRkChIkI1XPH06UUJdx6sR_85LnOi2jaHnVK0cZ9Rs9xDAt7vQckctok9NbzaphikGg0KFDrp8JqrY3bQHN2caMjiB39kGeGg-2N3tWcC5PrgLXhbIEjcA24LlQsqKtxXsYqt91yavxvUa-xA7l8d8y6On6oiLDXrJGMSFH3nQN9EL-YQJBcO4xgv7G1CeB88io2Q2LvFjKhZRbMGy3EHJUnBuQVJfJumolGBiHzEESOaaKq2la4ivKygcHtF9rNMqe5vbLyQQec6ijzJam6yh5zbrOXt0I2ikITouQq9ekbDg8v3XNuFK0iJKS8ePrumTXpA5PUOBDjHhItUUJP9vehOBA23IxeBbl4wFxn-14QrJ_0dSkS-k2Hi4gb1QP_nhJPTf5Hb2hAUCDIYpNMY1Utu822d85JRDY_Bh2R6lHzrmQ6toyBIrAtLXJMLYU5M4H6lctI3KoT-y3jLs1GV3wtM8JtGRXL5Y0qvt-J_uTkCtdJ0hhrgI5XFhUROz31UW0kgGHfmVtarD_Pkot9QXzidfdxwuGo7J15LdzJF2t2s",
+        "width": 12000
+      }
+    ],
+    "place_id": "ChIJP-1vQMHjZTURswninO3d92g",
+    "plus_code": {
+      "compound_code": "VH8V+MJ Daegu",
+      "global_code": "8Q7CVH8V+MJ"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJP-1vQMHjZTURswninO3d92g",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1120
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1595-4 Sangin-dong, Dalseo District, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8224362,
+        "lng": 128.5321432
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.82378602989272,
+          "lng": 128.5334930298928
+        },
+        "southwest": {
+          "lat": 35.82108637010727,
+          "lng": 128.5307933701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "라이첸 월성점",
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107443343320496791250\">selim jeong</a>"
+        ],
+        "photo_reference": "ATKogpfgbwkXJFHECmwtCxNNbWLK06jw1RLqcSCiXVvFQ9RzxP_TIDkTOvS_XnLeoaEGI2-CUyGqyIMtCstE9gkM05os-QDmPxQ1MfKgvTizXf_v8Rd3S5SY7N6Xw2oicY3UwA6mhQTZ6nSWSd67t_uWPmXySVCjGxErG1EqQNrhpuLv8FxXKZjlDZ0X0aKrkVri2eBXsZ5zAC1mqrobQjO0XQG_RrXQ9uHDxOujDDiCIFCtlP6ynJKwBtb6Eo6q225WmreXlPBI1hV4KEJFTQlIEzGSVbkXaYoNc0h-ubDI3jeU5X-XcKu7tmC7AYCSup1ocazBg0OJOTWD64Mkkt5qTezi5l_d720UtbmVHd8IzAbqhTBT0NmOdgP0QK_h-zQkbHFO2du-JEhTcBL5HGlH4IiIZ8u_mioxJLXy_NblfScie7OxKvwNo6z_2vl_UYdD_eCkqcyedlmJapsuwDt64ZUWlBAG2S7IXKIV31-FZCGFTmc5dlNjQmLrIzChZhEbekMLxk5d-T0AyhgHScn6yNiWM5XPnXVYmU0SLzVzanXohC6-TsJOoIuVlhyYB8dS8jEfDUxEuS5y5w",
+        "width": 5712
+      }
+    ],
+    "place_id": "ChIJmys6EpL7ZTURKyFvTcA_sSY",
+    "plus_code": {
+      "compound_code": "RGCJ+XV Daegu",
+      "global_code": "8Q7CRGCJ+XV"
+    },
+    "rating": 4.9,
+    "reference": "ChIJmys6EpL7ZTURKyFvTcA_sSY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 136
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Daegu, Dalseo District, Seodang-ro 9-gil, 47 2층",
+    "geometry": {
+      "location": {
+        "lat": 35.8560766,
+        "lng": 128.4930032
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.85742642989272,
+          "lng": 128.4943530298927
+        },
+        "southwest": {
+          "lat": 35.85472677010727,
+          "lng": 128.4916533701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Bowl Tonkatsu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100325030710760188570\">J Mean</a>"
+        ],
+        "photo_reference": "ATKogpcdd4qyQxDlNnnr6PuEd_HtNWC_C16Is-D0r_HyvphUpuUSNdE7klX39djJA-Aop77eyJbuc2vxDeg9zDA2j3qLe2AtIcLVS_Us4gxT-64vn1Xz3HM7JCtnBTw4N6iD3mLnAuySW395UkGcBpcd2dJEPcyeFgTraoXROBtcmC3ue4x0hm5iwy0PU70BSI-zU9oTUjHKJMrhEIdvVtHGWGyYC9PYpLIZFnwVB-hADoDvpfQOuLD-cMzdaWAFKRI0CS6_70rnVFiJkme5Y8bSjQp3myC6P-2Pu64ffdTXz4pD7sFK23BO4TOLxKqU2IPEOJC5fMvnhoH-l2DcnYy12FAeVkDMO1AzvN6B3wXVDW52Wbik-LQqtM7Q7R90RADJssnEQJt9_gQiBDQN9_9aYkbM-AUtiPP--Vi1yKZwTNZPRtc7v9EAz5LfpevS3ORK75VkQRpTcZtiB3gNQKS3YhKA7BImk-YCJAXAvaK-eBkiT-OM8xqPJNNGJWyAnAl1ssGX8KwlXbGy-Mlz26WPeiTCbsGrWm2GhgJKPbG843g-aaLGc46sHgjdpBvu4dD3BwLDpdJR",
+        "width": 1440
+      }
+    ],
+    "place_id": "ChIJgdy3cmjlZTURMlqeeEm-kgI",
+    "plus_code": {
+      "compound_code": "VF4V+C6 Daegu",
+      "global_code": "8Q7CVF4V+C6"
+    },
+    "rating": 4.9,
+    "reference": "ChIJgdy3cmjlZTURMlqeeEm-kgI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 83
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Daegu, Jung-gu, Pojeong-dong, 21-3 101 호",
+    "geometry": {
+      "location": {
+        "lat": 35.8723605,
+        "lng": 128.5930477
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.87371032989272,
+          "lng": 128.5943975298927
+        },
+        "southwest": {
+          "lat": 35.87101067010727,
+          "lng": 128.5916978701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "군위식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100178360359695858649\">이하나</a>"
+        ],
+        "photo_reference": "ATKogpcgZiFt5Zv25yXk52jnotSGlNyqfAcKbqP9MxZH1W7aAnHL0R_E5FW5IL-b1UP2yEQLMLg01sLW0dM0a0gkZT6P6kl9CBApo3eZEwVza645wh9LocyZOZJDnCnNXxgnJR3DlxKuA3HHjE3FD5uM47hNvtIhA_-acoomhVOvTJAJdLr74uAf7I8Q0Xx8sqNXZb3sq9j0NKpeJPFXlhru2Tr8pazLN60IMf7EHo0UFxXucMIPLLdQQs25k1kz9Bn1jz6gkJ29oqAMLbrdy5G6WsvNuBCKJGwJ59WHcV_PZZvRBzHVnLgrBl0HHd4QsWQH6NEBQWhmW2cr7mfVv-toLHT_dbEiQGjkSIOLm6Cz3ux9I4x0aYP_KQJySglQ2J9pU-b8hGVR6nOWyhQW5E10HDhOiM7sBhc3ZTFnElfkhk6Kl32AQ1cfh9LuazkKW8PAnjoWhARKn3YTJ2k60-U85TzqvXFKdVPynQzgWczbnLV2ImlfIamiGvABCLW_wdaiWL2Y6xKCfRvDYr186hE7WULKsGDHSzs2b9BWEeYwZIOasUA2fJjCihTgv9dZO0aPk_LHicip",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ44JtL8PjZTURfWzYAjvbYKM",
+    "plus_code": {
+      "compound_code": "VHCV+W6 Daegu",
+      "global_code": "8Q7CVHCV+W6"
+    },
+    "rating": 4.3,
+    "reference": "ChIJ44JtL8PjZTURfWzYAjvbYKM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 341
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "696-8 Gukchaebosang-ro, Jung-gu, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8685297,
+        "lng": 128.6067343
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.86987952989272,
+          "lng": 128.6080841298927
+        },
+        "southwest": {
+          "lat": 35.86717987010727,
+          "lng": 128.6053844701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Wanggeomi Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112709189545159969906\">검은늑대</a>"
+        ],
+        "photo_reference": "ATKogpcL_Q7SoMjve7o8LkvsmrPXLKvf6R9pBDf_tUlpOtn0mvuS_mhjT8HdctMyERxKw2Cztnjr3dLvu5Mz-M1ngoIcmBxrJ6LcDX48TC9jUIUEWjAatrsQHddq5aV9-e8pKJM8OTHqKJPl0bc8uz8C5WMJZECNr5ITOiGyXXa5u83CVpM11UgxFuPi2fIGXNhHVZFpF_WsMac-aoUcbFX5lMRQjO-YFpMb9gahEBGEDuZQ_jZnuZMXOD_c6DrlfybpJtJL87KhBbYq4U-zN_BL_-8-YL_W4ZdgT9HsK_YMkNcdPrWVoTlux8553PafPTekeCWAZ12qr_m3dLKaHQsaTZhHcwAaSI686JuPJ6R_LmT4_Qlbwk3xEFYCGGY1aXzAVzyZdzxcEMYeTq7pjuf3TQT5qTZdIbMDOy_ExSy03kp9bNQSzolN9F4vjotmnFztHkT_7ZGLaypNA3y5cEhk6pp9J0pVQ0Nop1GJ0ukseO2et8IDz4vWsORtiM6MPQVI1-vHMYv5pAHgPw_Q_eWa8Z2CCSBTTmfHf9Tw0xVtAtNlzIydJDwyrFynpH8-wh9lcRa9TwDF",
+        "width": 1440
+      }
+    ],
+    "place_id": "ChIJZVJqEdLjZTURcKVkwdPEqwY",
+    "plus_code": {
+      "compound_code": "VJ94+CM Daegu",
+      "global_code": "8Q7CVJ94+CM"
+    },
+    "price_level": 3,
+    "rating": 3.9,
+    "reference": "ChIJZVJqEdLjZTURcKVkwdPEqwY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 648
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2336 Dalgubeol-daero, Suseong District, Daegu, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.85927849999999,
+        "lng": 128.618057
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.86062832989271,
+          "lng": 128.6194068298927
+        },
+        "southwest": {
+          "lat": 35.85792867010727,
+          "lng": 128.6167071701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Daejeongok",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106763865440701764901\">Jung-hwan Ma</a>"
+        ],
+        "photo_reference": "ATKogpfD3L8Xd8AkiQj1hVc3LJ_CPiKmFtm-3Oo6cy1ROYSp-cRP_pFPJRJ5SlXZswlFOIyvZb-TVxBjktKwBp59EtCsml9P3fYsUwN6c3gXrG9Kj7-uqZMkZP-njstHTJ1yxNxUZxw9WI9SdX1baizQemRmRlBgb6_cpMMf30EAD031rw32NbfKnVoFZtjLZBu-qmg1HLt6gVFQvetzJJ_8KZoavlahGjhMrFxVuDVDltLpuEv9CmG57bFo2Cw_Te-bNA4m-6OrFmXwAlWBqn1-ObJUPOXUmt_4MLcUU2gB1C1gWlb3KAXaBjKPsFyAVM2FzVSSMcRNQPQVa71I8E2Gbj45yIa-wL4CTt9DTLwVZz9Lav59Luoda_-heKjx4uAaDkhqWSb2fUA2M_VF8bvjY7gsk32tWZrd9Ta8sIBfXSCXGWqP6HbYLmOfPxj3ftnK_kpggC1d9gq-JSKkx-020pZ32oc1CKzyC028o87kqapKtO-g_P1jcPIr2c0bGGdQCbevculGWVg9B-X-JJN_iqhcXg_E6F-eVK3NxCkBby2Lc-on0axkUOcuYkdvm2ZGKytkA6nZ",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJ7Q18OjHiZTURt6BX8jVKdPk",
+    "plus_code": {
+      "compound_code": "VJ59+P6 Daegu",
+      "global_code": "8Q7CVJ59+P6"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJ7Q18OjHiZTURt6BX8jVKdPk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 890
+  }
+]

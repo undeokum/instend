@@ -4,7 +4,7 @@ import { auth, db } from '@/app/firebase'
 import Heart from '@/utils/heart'
 import { faComment } from '@fortawesome/free-regular-svg-icons'
 import { faHeart as rHeart } from '@fortawesome/free-regular-svg-icons'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { collection, getDocs, query } from 'firebase/firestore'
 import Image from 'next/image'
@@ -31,19 +31,23 @@ const Card = (props: ReadType) => {
                 image,
                 content,
                 createdAt,
+                heart,
                 userId,
                 userName,
                 mm,
-                summary
+                summary,
+                danger,
             } = doc.data()
             return {
                 image,
                 content,
                 createdAt,
+                heart,
                 userId,
                 userName,
                 mm,
                 summary,
+                danger,
                 id: doc.id
             }
         })
@@ -59,7 +63,7 @@ const Card = (props: ReadType) => {
     return (
         <div className='border border-black border-opacity-20 px-8 rounded-md py-5 flex justify-between cursor-pointer hover:bg-black hover:bg-opacity-5 transition-opacity' onClick={() => router.push(`/read?folder=${props.folder}&id=${props.id}`)}>
             <div className='space-y-3'>
-                <h1 className='font-medium text-xl'>{props.content.length > 20 ? `${props.content.slice(0, 20)}...` : props.content}</h1>
+                <h1 className='font-medium text-xl'>{props.danger == 1 ? <div className='flex items-center space-x-2'><FontAwesomeIcon icon={faTriangleExclamation} className='text-instend_red' /><span>민감한 글입니다.</span></div> : (props.content.length > 20 ? `${props.content.slice(0, 20)}...` : props.content)}</h1>
                 <div className='flex space-x-1'>
                     <span className='text-instend'>익명</span>
                     <div className='text-black text-opacity-50'>&#183;</div>

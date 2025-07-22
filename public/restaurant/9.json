@@ -1,0 +1,1042 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "842 Cheongho-dong, Sokcho-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.202639,
+        "lng": 128.5937042
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.20398882989272,
+          "lng": 128.5950540298927
+        },
+        "southwest": {
+          "lat": 38.20128917010727,
+          "lng": 128.5923543701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dancheon Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114005550158616097490\">박제이크</a>"
+        ],
+        "photo_reference": "ATKogpdRP-NRrY_JbBlLoOLe6QcbemTC-gOWXzw_aeilufi590LOURWgrYNraWUaK2kXP9WuKnRAK52Hovn6FMryCZ9FrT7eVVR6gJsg0oQEGn1cgE_3hgclOdM_H0PXNym5cWvIpHPFM5oi_1zzLeI7xoz-19Lc1HeT_dgEREhjQDPzCH0nJ3wHUPFvUKE2fdJNNe57T49qSnK1ysorC9vF7D_7HiCtaT1vpuTDdHbeGaHKyotwy51jAEQeLQEkhwgFYE6wXLVVBfpwhePi_2i37WNU0LC7RBr53wdnoxq8fAqb_MXvy842aIe-GvzZl05uQesURIl1JSkhDjjT6nQ8T51jpgCjf248_2BfvDctjBFGveU2qaQqmobs0YPmCzKfJS6F8War_hPxKWatBznMI9XuCrH2oKpMoo40jFl48PXHkuCFqECQIh9qzT-L_F8Bkbv8-B54P4duR2JBbC72mjTZ0UvIGVq9s6REMgos2o-xfZToPj36E9nMF19moMB6RhCOUsnrIukCw35_BjmRL9kvh3AnI8qwP6QZBiJZZbJOtaxXU_sQJ-d9QZnuqNpeeoZE-08d",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJwc4-Ioi72F8Ryo7nmugM1lA",
+    "plus_code": {
+      "compound_code": "6H3V+3F Sokcho-si, Gangwon-do",
+      "global_code": "8QCC6H3V+3F"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJwc4-Ioi72F8Ryo7nmugM1lA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2213
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "446 Jinmi-ro, Ganghyeon-myeon, Yangyang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.1224482,
+        "lng": 128.5760884
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.12379802989273,
+          "lng": 128.5774382298927
+        },
+        "southwest": {
+          "lat": 38.12109837010728,
+          "lng": 128.5747385701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yeonggwangjeong Memilguksu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107325849519431087751\">l1l1l1lII1I1I1I</a>"
+        ],
+        "photo_reference": "ATKogpc6RTZuFhIMB6RTWPf4SD0DCjn3X9ztmMblGPekyLWxeXMlyPR0_cjVUI7ROcQg7dQKVG2HzuTOQoxgRCaSDptmLeBqy5ZB27WcVl2TMol_ECjIZMAw-YTiKxcu5uWEPFl-uJiJP82r8GvFOMqEA1mqUdOlWX-MKKal1KZJGzIVOA221YxJdkwoJ_K_zEHhasrYPyLanmfVudQx2zzRGXyJfi2QJjYeE-U88fQH3ZCHXzZmCNaTgi76KupCfunQBk40llRRhvBhH4s2-CvS-ApAQzUJdpaRX4KZvZ_xxQ_XUbs8YTqFzpEsrEaUkcV4rserHVGAk7tW1k2kqvnI3a3za5lqn_mK0FzCPo9aq1jgtOFWooNVwM2ROoNfbNc4GJfThmPjsrz8s80BN_JnpKeMeZ8MCZwIHSgYRqFG2EiFtsZtpyd2ppVbXrYdEUhQqMgzHM-_t3H7mFpT2Pvm1Ca_VnSO2lB9Gg8Tsw0BxKgNaZlRzbDzGUC5cDDBq-BlExTxj7UnYk4MxFnuzC6OGz0qFPIjh1-ymXC2f5wDkZBb-jX5fJBHxMhBRQU3rFrIDOspkg",
+        "width": 2560
+      }
+    ],
+    "place_id": "ChIJ_YjkyI-l2F8RpS8quJBifE4",
+    "plus_code": {
+      "compound_code": "4HCG+XC Yangyang-gun, Gangwon-do",
+      "global_code": "8QCC4HCG+XC"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ_YjkyI-l2F8RpS8quJBifE4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2303
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21 Gyeonggang-ro 2255beon-gil, Gangneung-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.7663141,
+        "lng": 128.9070025
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.76766392989272,
+          "lng": 128.9083523298928
+        },
+        "southwest": {
+          "lat": 37.76496427010728,
+          "lng": 128.9056526701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Umjine",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 577,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100615974208908146139\">갱스타</a>"
+        ],
+        "photo_reference": "ATKogpdTc12IBGm10gOYlUHTDaidiuGv_UR7g-V5aNOwefUcXdYQOzznhvMlsECeSJQcsueuo2atW8QqMBPEgOxHGkQ_AeVTgsuFUlgJ8wYOOm2PU9f3DJCkQ0MA_87Fsl-ZO3Veuvv11AcCjxGcjmVsYUQ8cbDKZ8h38Bb7LiCp4Xnl8D3GUj3M7McXGIuDiuVBou7QyPWFMjpX6gIl8fmjy4-Bcv161n3d0hyYxDmdi5f5McWU4FJAvzIctCGXdaf_oGwh2U2-5-iCB-sKYpDKuSIuk88WoVo2ExFCco607DTIkuTcTEzViPW22J5QyJg-sH-mcARJLXnuPCqderQd371lIT51xLh8Q-8sruG6qPrNdbyVsZcxP-em7r4pNi3XM3uo4_21xlfWvLkmT8e8brjNRqLDzzONMCvLhW1IsG2wXloWYfHRFY7tWpOIYerwQLpsWriyudWVQBHAv8fYFp8g2bogHwZJCC1v2D7nBEWamgbmnxuGXHPnmv5D6EVmcWX2stSUGNkx4f1M8ew9tzeRCGyY7YWiNnlEFE80gpWL_zZPM0icsKxMUH3J4eO39M6v_N27nrqAeQ",
+        "width": 866
+      }
+    ],
+    "place_id": "ChIJ9ZrxJznnYTURjrSP_d5tNa0",
+    "plus_code": {
+      "compound_code": "QW84+GR Gangneung-si, Gangwon-do",
+      "global_code": "8Q9CQW84+GR"
+    },
+    "price_level": 3,
+    "rating": 4.2,
+    "reference": "ChIJ9ZrxJznnYTURjrSP_d5tNa0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4598
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1731-5 Geumdanggyegok-ro, Bongpyeong-myeon, Pyeongchang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5489096,
+        "lng": 128.3916748
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.55025942989273,
+          "lng": 128.3930246298927
+        },
+        "southwest": {
+          "lat": 37.54755977010728,
+          "lng": 128.3903249701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "다키닥팜",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109242268153145086504\">이다진</a>"
+        ],
+        "photo_reference": "ATKogpch-uWZbgA9gcq1P-FQDweuuJ0OTBplMx4VgB5wWuQUPQADOlFXKi2sSlGmNih8M1ME-IwyfFvzc6KO3Ci_FDqLbpjjHJpMmfnafJHvfz8xOEjvf6_gn8cV6svpYBXs39gGUfNp9GJEOdSc4aMMaIl2SBEoL3cKj6h3JCm1w8VIPFq-1Or1-UWVGuiRz1abNWUIJmFzy3ohRfbgdiqUPMWNzrFgkrwkRIOOYtLqVMBYbafzkaDm1cR_TDf0CYx9mTO9P6XjCLjzY8lU6UMkNNpVsGEN3IL4duhhphCgJic41IMk-jDDjLj4A8ozwMoLwLWAN4lzCSHpbA_KYdGjh2bov_OkLK2NUar8L1Ixv9LGYTyZrx86XW0sNQWcF1eJ5-ZnGc1_VSmrphEs7b3APhQntPUQv_Qpb_GqvgfPl9IvcQO7d6z6NG-UkbDRNoXOOtQAjd2DMUdyWWeCyljsJsgwvszsHPC-wKAg2i1hz9lVqUkBAngGSUaw8iUiS3oDsiuN0Eeh2AJnTWLhDsxImVxlu9v_g8SNdTKp0JADj3o6EXiBGpXvoozjtiPhlnf7Wjqie3AC",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJRREtQHs0YjUROKSLXbPVfbE",
+    "plus_code": {
+      "compound_code": "G9XR+HM Pyeongchang-gun, Gangwon-do",
+      "global_code": "8Q9CG9XR+HM"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "reference": "ChIJRREtQHs0YjUROKSLXbPVfbE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1259
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10 Baekchon 1-gil, Toseong-myeon, Goseong-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.2929822,
+        "lng": 128.5417629
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.29433202989272,
+          "lng": 128.5431127298927
+        },
+        "southwest": {
+          "lat": 38.29163237010727,
+          "lng": 128.5404130701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "백촌막국수",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117719459291466559712\">Chel Won Jung (Brian)</a>"
+        ],
+        "photo_reference": "ATKogpexniFHDLBTuWNt-IJuALdBk6S_ozewdL0KvFHAK7PJi-GQo4tcDFvGyapAfN84P5U32PfTik4s6EqdZv8pORoip79rywO3AGiKMNz5fF_xc7j3Jdw7Xgu4CKvV_KcQnl6EPbvaIGNsbOstMY3XalGjtSHx_KrT3RDbt9Tg-9Ay3L8Rvpd6zmlLxXIlBtXkoy0TJxhwhfVMzinevDnmx9ThWfs4kRnoIWse4vM8Vjfg6aBi63RNojwO1K8nXRF8nlOR4tSGgF0UTiJSE6hOxHYv9492WWlFScrath3WlfXoPrM-IGm8bG6iaAh3XOZGemJ6DQDWV_0vF17C0bKwg9Batv2zciPND6aEFdoZEjxkZCHvCxQauyUFFaiM_n_c1p5XpI4mpmuX1hVzyQisfXjWa1isfnGptfIixllwpEGnCj9Prk6DGtbdbeyuL4-lbCGN5RseOdx6qVfDju9vE_nTSE035kJXxwa347dbOXhE79IdDuDBy3WX-aYaTIlw_tpPZ6AqaW5_zRY5ebhbH9nts0zQeQS7ZI_4LeLUEcZawvG1_ZzN5cnPSi5M7Dqj96nYS4mWhL0Bqw",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJA5wJZgOV2F8Rkf_zq6vIgHs",
+    "plus_code": {
+      "compound_code": "7GVR+5P Goseong-gun, Gangwon-do",
+      "global_code": "8QCC7GVR+5P"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJA5wJZgOV2F8Rkf_zq6vIgHs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2934
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "763 Sinsaembat-ro, Sinbuk-eup, Chuncheon-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.9331094,
+        "lng": 127.7932432
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.93445922989272,
+          "lng": 127.7945930298927
+        },
+        "southwest": {
+          "lat": 37.93175957010728,
+          "lng": 127.7918933701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Tongnamujib Dakgalbi",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116950508566640516625\">김인수</a>"
+        ],
+        "photo_reference": "ATKogpdt5WIHvroPjEx5YiTsuw5JcoiVMbx1hMHULGDuA9iyPw16c3X-jwi0tW2QLUeUWiB8cfMFuQwHIw4bTatto1PO8uraj6MFQXXXDcRE3cZReZvUMLopgXjDGbHyRCgLRp97rCGD7KVvjSkbBniGZqf2iIMnIwm1_bvzx8jhldJ_GlW32tHIIdgoCGihuzOHI-jU46fWayk8TsJTWv4R5Ae5nC8TsFzmA9lZzjjLOy6D_Y-jvEBaC9kcvtMeffxeRyTNG14KSWKuHtlR4n5NF-dmxUEpVxh4GMBmJsEyXq_eH2eJgkZb6vyF_tloDmXiwjpXhE37PFoQ9d0QcDCuwBNflApJfpi_42Wpm4KjhlwMSFKg5q5kQIrsJgLeb5o2OMkwg1T22u11do9f8qYNwxl2Z5f3RnXedlobfalroqi8C3VtF5zCasKUzaKBBfHYYsT0WWABD4qUarGWXQno4m8UF608tX-3J0Kwa6Q4RnMMu8Id9S-P1zmDskC9E6DfYlN2JZReJC1l_baL_NHgXhdTznHJCwV5s6KoG05mGgH5kyr5QSQdp5ZqtA9rP7Cxoq_9-Ubr_piE9A",
+        "width": 2880
+      }
+    ],
+    "place_id": "ChIJ3SY02j3uYjURRNHtzUOVzHw",
+    "plus_code": {
+      "compound_code": "WQMV+67 Chuncheon-si, Gangwon-do",
+      "global_code": "8Q99WQMV+67"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ3SY02j3uYjURRNHtzUOVzHw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 5969
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "71-3 Yongdae-ri, Buk-myeon, Inje-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.223843,
+        "lng": 128.3675774
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.22519282989271,
+          "lng": 128.3689272298927
+        },
+        "southwest": {
+          "lat": 38.22249317010727,
+          "lng": 128.3662275701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "용바위 식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2164,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105465155165707314005\">원필름(방송국)</a>"
+        ],
+        "photo_reference": "ATKogpej06jPY4395pp5Mjgs__p-YM3kUaOL1tFTUk8BzyXBpfCFubSLgjg2T4tSdfg1-VkghqX3-IP3OgTZGKNaBKDAFyIhde3S9z9Uw-3QGxTt1i0R9obVXfwI4RlgUQxrMGm_laUNczPUuUvp-7cIYGoKxMSA7X5rJVMMMdxGzeBP1WZcmZPzDSvVrC-cKKemNy_EhtDover9n6taxtu57gDYRQQW0mIKfMImgH7ZtdSSDLnbe1PZ9P52EXyc-hEFKeJbR-dAOgpzwOBP9R7qAsfLOAiOtAqE9NN0V6g_XBviFs-Phptk-3jFyPu9IAtKCea9h_-Fzwf2YdUdDebaUJep_bk49ju51oeEbb9wF4LkTZsuNvKS6s-lGEVMlHRAMHKFj3tfYqjwiNgydHz4WxddIdCzKthQnCkExTy271TrjqEwmOfdnQ0vA2bFpiUT6ZkkWxOPYP_uNNGpIWymWmLH2lWtxYPr5jlL9r9HbAVH7e21rXc1mDoay3D5GZoCtXjcFLEAZBaNxU4TIFGNd_OF2GWPz5tGoV53BiQQ94UdpnHEkO3FCwSxFOMrqwSlJoWBCyZU",
+        "width": 3883
+      }
+    ],
+    "place_id": "ChIJGfBSn-Cd2F8Rc7KuM4HhUc8",
+    "plus_code": {
+      "compound_code": "69F9+G2 Inje-gun, Gangwon-do",
+      "global_code": "8QCC69F9+G2"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJGfBSn-Cd2F8Rc7KuM4HhUc8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1571
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "223 Yeongnanghaean-gil, Sokcho-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.2188101,
+        "lng": 128.5932501
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.22015992989272,
+          "lng": 128.5945999298928
+        },
+        "southwest": {
+          "lat": 38.21746027010728,
+          "lng": 128.5919002701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Bongpo meoguri house",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118262677695269879536\">Meseon Jung</a>"
+        ],
+        "photo_reference": "ATKogpcyvL4Bd3a6tcoUltiZDNTxlvarUmWVGw-BEDTAK_hMymViwNEA-iUcbGWq6zsreh8EOjBhed3I54det96zUZMeTq1_9fIl3PIstQIaP1c2U64yczQB1BQVp-IVV8yswfnUZhOGpiAuAG0ArMnP0oIt4UnzZHKUtH6ZaM9lXfS8P_mDSb7i8xqFSnj4gh6Gya0JmJ737_HmFM0IpMoBQdOp5DR3WLZYLI9Z4bu5Mh9YrBUzUrI73DOy8N-GDcpiINvUsdYepieOFUFXtLUbQwAKvyO4OySkyZX_8cz3_wcoRZjM3hw_MpYumkpQyo8HcfqjwZC9-pPFYHV3xX0pextutn_apSnRLtTuuDkdsPM0xvMjNUvAFoKceiGr0M_QBNE5r5uyRxnvKUFE3H8kxfn2sTJpt0el6zRIirPM1jby7F7tB2AAIPopibOEef2GsrinF4zCYdSOmtPUEpVoktbXDB-enimo358YOupZyYMpRuSvUVE_Rwq5Z-md0ePGQ0ugjzMQsPlI8pwf78Fh6mD9AGtjtfD_8F9klA-_JAUxyGoD8EqHdEyU2dTcGyv5KtRyMETRirijeg",
+        "width": 3264
+      }
+    ],
+    "place_id": "ChIJ7-iUF3S82F8RxHKiDHWgFIk",
+    "plus_code": {
+      "compound_code": "6H9V+G8 Sokcho-si, Gangwon-do",
+      "global_code": "8QCC6H9V+G8"
+    },
+    "price_level": 2,
+    "rating": 3.8,
+    "reference": "ChIJ7-iUF3S82F8RxHKiDHWgFIk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 10344
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1731 Chiak-ro, Dangu-dong, Wonju-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.3369001,
+        "lng": 127.9561946
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.33824992989273,
+          "lng": 127.9575444298927
+        },
+        "southwest": {
+          "lat": 37.33555027010728,
+          "lng": 127.9548447701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Kkachidungji",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108125169667757828535\">이희원</a>"
+        ],
+        "photo_reference": "ATKogpd1WjB7FLxxMuuMb-6bWEJqpIN6ODaq3YpVxzEmReNpJzWSfBTc1MMcfedhHLovu1zO8rt0RaPgoonjBdNOErNAOhtcvnyYOQO9NztbYAb8pv4TV9206p0FbNd_9aSnQfZV9H3rjkKuLANybD9dKwJp-DqhBLwnHwmDbM7DfagJgwOQviHizUlMUnL60eUOWPlXkM_KNapVU3WGAqMBtpBV3awJ2YGcIsZGVpALOCRTmpgtHMs019F2OvaG4UAlAU1xGgDn7vGiVLc1bqesFN1jEqcDcvMh-3uIdaoAHsZGkcoItYEW650pfEM_VToJzBKkg_FGQtWtZBO1ql_hsGnwhMvrz0f4DO-rNchu79eytxDBIerXJ_3pMtPNlPQ1HqILhZe8sdW5LywsOLGzvwnflUCxoMTktlNvIKURtNOL6gPAxe4-1zrRbxf0yeDYu_4IjGyaCunyOqmiJomm18PGG2Z8voc63i5mhCj5Aboy74uOACiaPf0eX3GpYtswjcCwEB3ZaVsUdlSD7vt3NzMUw4t4pHmK03FnWk1_NcXays1k8HyS4qxKV7thb1ffHegJaNob",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJuUbOFKJ1YzURPXwBj_k5Xug",
+    "plus_code": {
+      "compound_code": "8XP4+QF Wonju-si, Gangwon-do",
+      "global_code": "8Q998XP4+QF"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJuUbOFKJ1YzURPXwBj_k5Xug",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2011
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gangwon-do, Sokcho-si, 노학동 Wonamhaksapyeong-gil, 183 KR",
+    "geometry": {
+      "location": {
+        "lat": 38.2060975,
+        "lng": 128.52786
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.20744732989272,
+          "lng": 128.5292098298927
+        },
+        "southwest": {
+          "lat": 38.20474767010727,
+          "lng": 128.5265101701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "김영애 순두부 본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112202434432022502383\">공박사의 관광이야기</a>"
+        ],
+        "photo_reference": "ATKogpe1faL_g7UOhWgIHZTnEEK0W1KLRfX1XxQUqjgUeYZd6gJlcddLE3tzwecgEPhDXYFl8tavqasgacHKT1lWte6xqYsAvt_2Y_NghzpuIMPay4WHULJQ-Syj67RFWfqIrPm5M9--IkhqFEyOdol_lSkDyw3mNJh2ENECqGZYyeUo9nQfsaRG2_xJVbMqA-WpeCnMknTOAKm8OKT4nwUnk9iSsxI8ioy15bLdw4TxvL-tU_NOm-NFt8XpnOeb0EmF77XwJIiN36ZxL5yiAIkAIiEeZSOpDhXkaKqBdWU_PRzuIolHqaRW97GvHdT5ty6Q9cgy-QhRGGPEGt0dHv7Ngm7xFuwtwiEYl4O2CXh_iSxHaj09HQlKM0_GKF6uklaPQuskAdt9MDSe6vaJiJVo-rrQFoio-vjhPGNFpM2vZGKdCTrTsDXzrb4VNk6cITV2tM0WjIodFoQt7-lI7NwC6W2mddznGa118LRY4mCFDM70cgLDpiC-1J8TWwCR9zqArVRuq4uENBd2R9PELRP_nih2F41RnSn_gChCtUVJsLDgzBqkb9qX7bdGaumXgKHzZJ98Ir9-",
+        "width": 4624
+      }
+    ],
+    "place_id": "ChIJM0arnh292F8RqVqjNvDoZS0",
+    "plus_code": {
+      "compound_code": "6G4H+C4 Sokcho-si, Gangwon-do",
+      "global_code": "8QCC6G4H+C4"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJM0arnh292F8RqVqjNvDoZS0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3507
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gangwon-do, Yangyang-gun, Yangyang-eup, Wol-ri, 339 KR",
+    "geometry": {
+      "location": {
+        "lat": 38.0652233,
+        "lng": 128.6211936
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.06657312989273,
+          "lng": 128.6225434298927
+        },
+        "southwest": {
+          "lat": 38.06387347010729,
+          "lng": 128.6198437701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Pine Mushroom Village",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107831282789014377760\">KIM GGUL</a>"
+        ],
+        "photo_reference": "ATKogpdGJj6QFBUoOzFftIU-qJGz0i0w3qIyXQCS9mTtnR3_1-n_kMPmIwJqvHZPkIdlI2TOuCNeRI4kNHVgjNntcxuu8ZmQuZhm1XidLii2l5H4D94DkeHNmUeyBl0W3e0HHh0Beg-EQHJmd9xvUvVuJEbA5leH-gpZWr4Ab_Z_Pi-KTg6uyOuSPte3AajHMyqDxuxffMxgMrBWYooE3SNm2Ir4YvSrP4e3f5oQCRz10V3_eqTkAOaM5ASUXn6Hnq5IFSKQxouRKqDcpSEx7_G1SOfe70B2qlGFP8k3n7ihQfTyYdkiEp8RrSPnCtyeLbWQ5C6CF76I_zJW9Wx-Nw2OXS3CJuVT9oDSeRl4RAxbNFI13N_NiuLiLyYnfKjVvgttwqynFukGm92y2GaGiuoFRa9Pk6ndMGElXd3IqFowej9ZNZ8-q7g46dlqR7Ird-ItBALjeW-ujg3Rh3Bm5z4pVjcirmRKp073n-LSUafr3K-oywakrLxMg4U9y9pK4uhE4r3zo7pkCLVwmEGBW-ywOHMOUlQ6d8SIuZcf_mTWUBWXM7dp6LCoKxRJ117HAmJEo63a7Q",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJHUb7oUyp2F8RVsPAOGqLSsc",
+    "plus_code": {
+      "compound_code": "3J8C+3F Yangyang-gun, Gangwon-do",
+      "global_code": "8QCC3J8C+3F"
+    },
+    "price_level": 3,
+    "rating": 4.3,
+    "reference": "ChIJHUb7oUyp2F8RVsPAOGqLSsc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1196
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Chodangsundubu-gil 77beon-gil, Gangneung-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.7911718,
+        "lng": 128.9146287
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.79252162989273,
+          "lng": 128.9159785298927
+        },
+        "southwest": {
+          "lat": 37.78982197010728,
+          "lng": 128.9132788701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "동화가든 본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115083185346975164677\">D.Y Kim (Deniz)</a>"
+        ],
+        "photo_reference": "ATKogpehV1SlTYNkpEFS-PvQwgtiM62BysShlPvwfIED3pHgeY31tjiznIlXjhBCA34UcWNJu3l1CPs8CmX8PW_taZ3HJXTZSwT6Tn3uC9Q-oNQv7qYOlBGw4RSpWjXBg5Sbvm8ua8Nh3Qff3XfQbhPg2DR_A3eA2f--NVfLiJ8x7yN4MBsZmyyWH7f2isO7xtfExacmhgeR68sMjyueXH3svZNll_sosp-9I0yZDtjS38bKZ1AMVKgRCK_2imadFFmiJmrpOdM-seumHvXENdQXz4HCGvQT1fzYF8G0mdiZCCylhieue6dnFd1qqxhUpfD3M9i_kv3cJtqlBE7XbMVDK2MqWQFyFu2A4_qtFmkr8QDsx6JeuwRx63ywHmjXBKDCyyvWvvCtLSqx4eepllT-vVqCaYNHJQaSc-Qe1gcJq5_m6Sq2Foa8cnIuhTzBRCMWkIDEQ75izyfjegPgtXa7xv7X2pGU6xAO8fmyBfrz1eHukPWp7b9u9mJiNa8MxR0_txmioGfn8hiMwlqwrAvm7ysaPmPkn9b6xJban2y8txb4xtpVTw5zNr-3uOgE6NDEWUIJMg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJhfzPVZfmYTURHriE1g5HNkM",
+    "plus_code": {
+      "compound_code": "QWR7+FV Gangneung-si, Gangwon-do",
+      "global_code": "8Q9CQWR7+FV"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJhfzPVZfmYTURHriE1g5HNkM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 6805
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2679 Jingogae-ro, Yeongok-myeon, 특별자치도 Gangneung-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.8586256,
+        "lng": 128.8319673
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.85997542989271,
+          "lng": 128.8333171298927
+        },
+        "southwest": {
+          "lat": 37.85727577010727,
+          "lng": 128.8306174701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "연곡꾹저구탕",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103034620237731828077\">sunghoon cho</a>"
+        ],
+        "photo_reference": "ATKogpdHBW-0Xr72506I6hDBwx4Z9WO-5f9yALoTRw3dJNM_bEBrsrIhlnQo_KM7jJtspuHrIZUTF6MwfrjrQYaKVVV59T-Uf0Yr_1p02F7xE92B32h4taaArkvGImlCKwH9u8hPBanc78RfGeJmb-nXCEIxkX2NnsBH47mYORlbvQ-Sm76MY_gUzQwTW433TVTAR-Bvdy8mHuuS7t4l7YSY1N-osj_tYGX44QgqooSeC4JTcCdjBoNXiCyEtSHn2NdU7ooR-vw2MS6jX3lY2htU07plydzCcqapZTrUnf4bbukax9UH5htMEVH3fUTMmJ3Ln460L1kUS-IGdcixZq4o9vMdeOEdQKDMeIkMZSPTr7nUU1K0GBCh-gHJq4-wzACAb0tlVTc_zI56BHjP4jFSxprW4UHRVY1hP_uGzV06WLZx2Lv_HveDznV1T38EyMLYKIabZON7rbhdkoIE5b2gAzqzc2b844ap8Pgp4cv7fWH8VIwW87nNIQUWeRzcq8J9x7nVElZpyEoSOBGWPQx72IZL_rPnDkX-XFLF8J4gtPr7wD2yfUxUC5rXX3pMG8w0OfYXjuvp",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJdckC-kXjYTURz8faSIP1tR8",
+    "plus_code": {
+      "compound_code": "VR5J+FQ Gangneung-si, Gangwon-do",
+      "global_code": "8Q9CVR5J+FQ"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJdckC-kXjYTURz8faSIP1tR8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1108
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "154-1 Wol-ri, Yangyang-eup, Yangyang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 38.0705977,
+        "lng": 128.6279995
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 38.07194752989273,
+          "lng": 128.6293493298927
+        },
+        "southwest": {
+          "lat": 38.06924787010728,
+          "lng": 128.6266496701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gamnamu Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109426681291827035936\">윤승현</a>"
+        ],
+        "photo_reference": "ATKogpfV6QgNOfDFsGgj4xD8brpg5rp-FILqhP_Q392bYbDc1ykb8JKa0bEvR8-XI_UlCVpXq_WtPauvsVvlqfaXvkX3YkdGG664spoLjeMKqo0uDvqSq20x03iIiUKjFMymiWLS3wG0CU7BFZfN4BOJ9ki7nHHT17_xId6xdPQ0mJuBOnA9Y_pw5PX_qCZyphB4LlewjD7ZnBSU4QhCKo-hIEbrp7XNSqSHWSeuaoUpZWCJp8Zm-fk68y1eIGarcqidg2PCsYpBK0uySHYBYuZFyrQERuw0cNdssal4O_iC7pF_IantOWtn39ATlx3FTH-xfuZYYn6X8sIgPlpAlYxz1EjmL42pA3OOzGT6_ul4A8lrcqCiw-V3d5jtOlTC8nPhxpZodBcK8N6U0VLjhjYdZl1gCxUrGsCg3GeLP0SpvgOQfr6ykXQnimLa9GxhmU-mX6PdPx88O7joAUlilOT2SzsJYUsVSgxc57iMDovKj0-J5y-rGZ3HGN8RTDEZ8XADc0tgfK484WAIxhhdnuq9KZVp8ue_MmbBcWm5DyexJbV1BHUoZkBmLu3dtSmHz3QUguFuGuuB",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJyUglv8qu2F8R4ZD8U5BhpF4",
+    "plus_code": {
+      "compound_code": "3JCH+65 Yangyang-gun, Gangwon-do",
+      "global_code": "8QCC3JCH+65"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJyUglv8qu2F8R4ZD8U5BhpF4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1835
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gangwon-do, Chuncheon-si, Sinbuk-eup, Maekguk 2-gil, 123 KR",
+    "geometry": {
+      "location": {
+        "lat": 37.946103,
+        "lng": 127.7783487
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.94745282989273,
+          "lng": 127.7796985298927
+        },
+        "southwest": {
+          "lat": 37.94475317010728,
+          "lng": 127.7769988701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yupori Makguksu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113323079963167261228\">사시미</a>"
+        ],
+        "photo_reference": "ATKogpc2rJf2DFwT2BAhSwP5Iae_GtuOP2mlTsru19ikxPb4oe5cjcPgX1GMGsPWgZ8vk-ixbmxjvN1PpwKzbtNDx-U0zfeZ-DAjE3upzFohreq9EzVa2TfyVGIIp7Jxe5i8S5yAxK5_FG4kku2D-O-1DkkeTDJf4Nuvw_h1w94nF8BiMy-5XrwBcgmpGvHSNzBlRsvTI1R2ZyMNACuX0Ej51hDcYe9XyKY78mKlusfaiiO9m7jJNmB16eQAgF6ZehLhzWObU8qw3AXOV6IfM8UH-pIP72UslO5xtRuVx8xhJIsxraeiV4LavBIeLkmQ1tYjb3xDNCtTxZwD5QekDDOm_OlsopltGF1LitBjr0-msprfJcjLsYlg6xp9CIGX2987rwvcSgY2qhZ9XNmxnir_9Drvkrlex1MVXTri0_EMnFHORGABiuFSaoBvDeULBLWG3oMzxpDhZLWSdPD4Mi87oUTLJLdhBM2OriNxKzgx4SGDVRIDvCn5bN50fr03s8nlJ0N1XdetlT9Vutz6zJuOrWggm0QOWj0u_MJhsYQp-yKQ6dsXLkfgdSOORBikHugLp5BFiUNY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ1wrE-GXuYjURGxXMMvlJaoo",
+    "plus_code": {
+      "compound_code": "WQWH+C8 Chuncheon-si, Gangwon-do",
+      "global_code": "8Q99WQWH+C8"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ1wrE-GXuYjURGxXMMvlJaoo",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1727
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gangwon-do, Inje-gun, Girin-myeon, Jochimnyeong-ro, 115 KR",
+    "geometry": {
+      "location": {
+        "lat": 37.9456954,
+        "lng": 128.3289461
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.94704522989272,
+          "lng": 128.3302959298927
+        },
+        "southwest": {
+          "lat": 37.94434557010727,
+          "lng": 128.3275962701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gohyangjib",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2604,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100717269435976085344\">kate</a>"
+        ],
+        "photo_reference": "ATKogpe1fTO24Wi4lpruJbbUjlMCh-EzNge36rIgf2WY2Jn-F4xpdMjiMmqOrOx-rOLqGxX6igYw3IodZbqvqtzlHni_jQv9fIwgiFWld6uCZJ05dITjds-R2IH4IN3Wbxee8KlBnd6Z0iTV6mwBpQFdFL6AvKX2yNbHqZnzTJd53YsPOPMTzPcFc_dlU1Y5jF7AouNao6mq8MbNHjMd4iM2FCB-1YSZRME-ICPrsYbQHkw9H0QhK07DyaJyyy-VqFNv9V1rk4yCvfzHlQIgF5M8D-Zj4TI1txZvV5fCzFG6BIm7dL0A0Qm7XC0A5aq12TjDqaSTkvB7hGloCk6h62LHtPOHW1z4uqaMs4YsSBMPwMS9lxkVLm-aeFZFkCkiSl1yBIkQASfcbeyZVhhzP3TgVmYkYn121zMTB2JpShgt6WhA_wFarH6LCj7VeX1xyhwb7h51qo7Bn72QONqPiMxHq-HVSb3iai2MVIDVpYz44g7CM5Jqdj8XMovRkB2hHd8RgvdXZIxuRHnTfA9R14IUhJh5i8qsd4W-2TNutpQJQs51o6ZkqLQGosPU5vumkll5ql9sEw",
+        "width": 4624
+      }
+    ],
+    "place_id": "ChIJi_0jcMYSYjURohwSF6f6ae0",
+    "plus_code": {
+      "compound_code": "W8WH+7H Inje-gun, Gangwon-do",
+      "global_code": "8Q9CW8WH+7H"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJi_0jcMYSYjURohwSF6f6ae0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1213
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "781-10 Yucheon-ri, Daegwallyeong-myeon, Pyeongchang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.6704895,
+        "lng": 128.6015131
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.67183932989271,
+          "lng": 128.6028629298928
+        },
+        "southwest": {
+          "lat": 37.66913967010726,
+          "lng": 128.6001632701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "유명식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114901002460259696928\">HYUNGJIN CHO</a>"
+        ],
+        "photo_reference": "ATKogpcZMvU2jXRlTwRVm0JUg3fO58cDfZbFShriwPTzG9ZSuKeRr5WiyMm-v5JcQ0q9mMGzq4iVuvCLqoG1dho0ptyTRdn1rDv2LnG-PrHFMmKwNszPlXeKn3XADabi2NjPdc_p5msLsBeeHRWbcJmLcSiHEykl4bbzY6tNgSxP_BMB4T2HvyXzRpXEKUr8jwdQDbDASzeIWIBFyNobHoqWHaraVVfkc3L3Jw_vZsclLLRdT6F3vhT5L0J5PGND7kf6B5dB3q6uBAsu26YlHAel84tLycidbG0oefePV4Is4NVTBJJ-nnFoOA2powP3G6DhKYcda-soDZo1sxwhs7UqNbwKyYXDnx-6Wd59qetkvWNupLfeDbIn5paJXhf4jCl10KkKVpj1KoVhY97wHOhbpCbkN8nVPNwnoPEV9CUi5HlRCs2LjMpJwN8HGmWgnI9kI-Rfr7vAMydp1H3M3Xu4Dj4JSIf0AGyO1OsnpxbB33Fygie7t87cniUii1569qeZB_INccegXRCfIWlR7dLtiZCZD2kha91AUscWzUazuVg48j1dDkp3SAp3NZ8WaA-Ucs0hJmzG43uaug",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJK-ISlhohYjURk0nvIDJBs8I",
+    "plus_code": {
+      "compound_code": "MJC2+5J Pyeongchang-gun, Gangwon-do",
+      "global_code": "8Q9CMJC2+5J"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJK-ISlhohYjURk0nvIDJBs8I",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 564
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "47 Okcheon-ro, Gangneung-si, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.7593499,
+        "lng": 128.9003935
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.76069972989271,
+          "lng": 128.9017433298928
+        },
+        "southwest": {
+          "lat": 37.75800007010727,
+          "lng": 128.8990436701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "독도네꼬막 본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103336648892649311517\">Minho Jeon</a>"
+        ],
+        "photo_reference": "ATKogpfOYi-GwIejYyUVH4KbmKGpmxIvLqCDFcwXsBBGrLi_xeDJ8MeOCy50dPRGr4-0lFNC25RzxkbU-Ztddd9c2Uf57ND1hq8IrSuDYy-sadnBXAjqYK3r5cXFk4JLTMFa070o4X5M9aWSw_1lg4W7RX1xU4BE5wG9UZXar2nPkmA5qz22Z1JuOksl_Qc4UxvFYpyLQNuCQaTlb9YqfwSJ5-cJC5j-eGXM5rUFjcP-NT1BXuKhjqinzUGeVmHeg6su_NYb6VJ02SRwkdj0g-OvVW61Mi4d2llbNyrTV0SzepTn22M0pA3AVqtss6vzUnQ5RL68fCsWMJyUzGeiwoWVeOeHq_QzzlWlB-jwwkLyMZL-oFSGyVNWWtC6c6rjB--YOvgbNzKDrzKd7f478jLAHlqm1c5bmOlq98ndPwKrlvv7BFVykjU_D-PqlmtSoXD9Lw2OtDOlPsVLHh7A_3akHg1OWwTvbnGmRZ_m8BFVmW9fl57M_lojc_e2z_bRhldHTMjcHLzC_5U64zaaTaGZJ-l2In2Es4EfEBIq2Tl1JgnhHzWyRpHsIK5h49ebQGkExP1GKEtuN7dTeQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJK0DY2pHlYTUR0toLkBRHthY",
+    "plus_code": {
+      "compound_code": "QW52+P5 Gangneung-si, Gangwon-do",
+      "global_code": "8Q9CQW52+P5"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJK0DY2pHlYTUR0toLkBRHthY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 874
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "35 Olympic-ro, Daegwallyeong-myeon, Pyeongchang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.6754594,
+        "lng": 128.7006303
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.67680922989272,
+          "lng": 128.7019801298927
+        },
+        "southwest": {
+          "lat": 37.67410957010728,
+          "lng": 128.6992804701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "납작식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115125637697838709115\">Jongwon Lee</a>"
+        ],
+        "photo_reference": "ATKogpcOTshU1KBd_ymKZpLcjhJ-gQditelu1UC1MOy_uqA4LZdQaWXBGKzHxkJxw6WkIl2VmfikGiilt2bmk4KxSkGkqZJQpTHWhM8rr6kKQSnrR493m-5Eb7P9S5Vviet8iAEQufqGgp3RFfehrzijS3-GIUy-qnCa55ZIRsn-H4nCFQAfpHmDpEEynJUFqjumcbHGfM8XmRryiuYj-rmEf2QZkoHIIMhCD8_cimOG6s8ihc9gwzeYB2ACmWxyMR5oCTvds-letIcMpSpotVSjGZ98YfeFfps_oT2stRFFT44jnLkwJZOOV8MOhUhR0nqcL8KAwHMSGuUMUzjNIvjJRCvYUQgn0CMVGJvTF3qUMjreUookKxu0FvoC03OmLVwN2-dX9pWT85FDznVQcSjf_Wp1EH-TA2doi2TvBfCosp3sEI16TBdDe0v3TIRMAiD2WXrrJhMQieoXZIMw3OYTi6gcFlsBrReMY3RmbwkL7-M6e_qzxFkxrOhkcgAAs7J16l-cmiiXh251WDUk9Ug7TkJXW5iegkgh3IGB6QcifByUY1HRDKN0DFGf-c-ZaeaSwdgDM12EVipssA",
+        "width": 3622
+      }
+    ],
+    "place_id": "ChIJh72CzzOLYTUR9KDyz8YiEpM",
+    "plus_code": {
+      "compound_code": "MPG2+57 Pyeongchang-gun, Gangwon-do",
+      "global_code": "8Q9CMPG2+57"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJh72CzzOLYTUR9KDyz8YiEpM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 943
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Taegi-ro, 봉평면 Pyeongchang-gun, Gangwon-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5943895,
+        "lng": 128.3201161
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.59573932989272,
+          "lng": 128.3214659298928
+        },
+        "southwest": {
+          "lat": 37.59303967010727,
+          "lng": 128.3187662701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "흔들바위",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104959700655528609517\">ILHYUN HAN</a>"
+        ],
+        "photo_reference": "ATKogpeJjAmqldGMwv7RfYX_xUhtj5JOoVxByDQvXMvdUXc4J-PnXpqmihNY_mTs9OvUi9DwCy8pCyvYyeubJTdc0Bv9mh75rNKjLA6nTQOAV0Zpp_rWOp5S9myoS5caRHX7mAPzhDJ3CCSyxTsMIKUgDmrlE2cu4vqnkDVI-AcW6QHEjR4SjKuFxvDuVBibTEP02AjTRLd1QxXIEn2KAuTgN7zkDcgcLWiy_ed8UblcKRW0cETAWul1qCzKvW9JGwtdlnG2kpNd21JnRTtii1rX_MjOdGS61LIwlS9rlPMJIkLF9r2B44DNVTx0QP9UfKiQJqqcUFiN3B8ciS16XDOhhGUyGerWELMh8BGJuV_xwSWpKR01XK6TeRU88bnixWmHBvV-66HbIkrLxXNnjZ10ZZNGUMGjt5jKeTNAFmkEaO5SU1NxY97sEEHn42vtpVMsHzDMUkyJljf_KSxwGuHAiCPO_H5I59M1dvJYL5vvYlbbXrKijZ9tbFdo08pOc1Q0vW4vGjG4YCPd7P6tYjujdGCUTVxl0t0GD08MYbVUOhGz3SXQ4nHV1i8irlhAsYcYl3mOoakj",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJGxyxk_Y1YjURTbvN8QNU4Rc",
+    "plus_code": {
+      "compound_code": "H8VC+Q2 Pyeongchang-gun, Gangwon-do",
+      "global_code": "8Q9CH8VC+Q2"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJGxyxk_Y1YjURTbvN8QNU4Rc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 808
+  }
+]

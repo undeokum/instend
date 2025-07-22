@@ -1,0 +1,1039 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "163-9 Bamsil-ro, 풍향동 Buk-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.161645,
+        "lng": 126.9343656
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.16299482989272,
+          "lng": 126.9357154298927
+        },
+        "southwest": {
+          "lat": 35.16029517010728,
+          "lng": 126.9330157701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "밤실마을",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115083811087911125617\">Kevin _Yun</a>"
+        ],
+        "photo_reference": "ATKogpeapCUwleVQUoWc20Iks1_E8_4Mt1jjUxQlZo5tVyxbCPW-SigDsw4QvE-K-L3zfzw5W3dSLjt83z37hkLF4BA9VJTMH5JMv_PPemm2zzQuFtIsIBAsWER21yx8TDXxq7sHXRr-K5ExMLTYjz55YhMUXhjEOnOh8qdWyPjwcUNh-kyQHO3SIOcFflu9Yupy9EQcgzE-QqLZsOtyxReh6S_lnu_u_pkXILyUfO-YegCixx34Xbxot1qP2AT-PK47t0CvHhOW-PdsPDOd3DtOIMjQsPQHA3_DdUNnqmAbITQWM9lAihRH9EBP7xg2S1XEr6Q0skcBwGOK2kSoDWH6KRVSoK03JzgAXlNexF7hsJ5ZN0lhYkEsE0XptquPr0633BFCvM1b3qwVCAUaAy4Ujl62jxMq_fVDdYpN8OTsc5qF1uZYec3Xmx3D-Q0MMw38_izSB8mpSw5mv9ZIDi7fvTzku9jV35QMvzFL3u9FTPrcp4yFNTdoCPja2ggIJHEydUrJJiKfihe4kct54qX_reB37EwGaL98RsWNxgpdXZ_ItALFFG5HgpaINBEbp8EAQ26DDKII",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJh_EV9sKMcTURiqSSKaycv8I",
+    "plus_code": {
+      "compound_code": "5W6M+MP Gwangju",
+      "global_code": "8Q785W6M+MP"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJh_EV9sKMcTURiqSSKaycv8I",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 660
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2 Donggyecheon-ro 53beon-gil, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.154253,
+        "lng": 126.9180276
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.15560282989272,
+          "lng": 126.9193774298927
+        },
+        "southwest": {
+          "lat": 35.15290317010728,
+          "lng": 126.9166777701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "나주식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106339696133852119328\">M nongyu (m_unongyu)</a>"
+        ],
+        "photo_reference": "ATKogpfkeYLv3nDEP_2nKZk3kJnlTlS1yZsZ50j-bo_AZAegdSpwINzQCjOsmD_fH4V4qsStA5rz7_Tw-ynDzqz8UxhlsIne-YB_WESOhL4TBhgMmKzWDS1kerqWVAZ8gmIacrS000CukWcD8k9Qm8Z70VQkzKwb5jXJ3Uxw9nNFbxaChNATSvCAYXr_EWTHy8UgTI5v8vjI2Tw_Xp9HVRX8qF0zvCxGG1rUIWSnKOAQW4N5iDQDHPo6bHlFukzjzjEm-nqqvOYIzYpoMClpvvmeFw3OYV4gKX6le49Fu8S4VDjFuYoY9zUm0uIP7kdp1CrGYK8LjnDhmp34B3gZsLrg32IJhm7EDjpU4ZEEt4_rDiz6PRC7uigwQP_ou1tmTklmpeONtu6Iy9cgr9zhHK4BhsAfBjUg8inn-5E1fOkjN8AuhL3HJUN5MLG4sLcsw1GuFjlBctf3Y0459OgKdeIdccJBDAf3RV5kPsh_UiZCfc7NAHZylaKeQhWC6_j4B396eQ0Svmk0_bIt6GpPNb0GmSXVCsiZJ_7ppb-gOz8hlf5iWl4EZh0ZM47dtmPM4_Ejj2QcMAnw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJjf4x646McTURNS6nDLYyDJI",
+    "plus_code": {
+      "compound_code": "5W39+P6 Gwangju",
+      "global_code": "8Q785W39+P6"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJjf4x646McTURNS6nDLYyDJI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 792
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Uncheon-ro 31beon-gil, Seo-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1353265,
+        "lng": 126.8573881
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.13667632989272,
+          "lng": 126.8587379298927
+        },
+        "southwest": {
+          "lat": 35.13397667010727,
+          "lng": 126.8560382701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yujinjeong",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102405958968252984222\">최시연</a>"
+        ],
+        "photo_reference": "ATKogpfnuMzX_w1IRlDr1LInfJ60h4iBMDZVknXtcCZeWtnzCBv4md3N14FTDlFGmi2F8fKfz0CGqg-DHID2FpbPQ4nelbzQf6GzSQO-Xbnm3wenmuNdJXXS-9Hsg0wG4ssTAxw6lkL__x279rwOTcWL4biQSg3MQ0eEjulO2gjLJ05QMx36eeIvq2gFKTWTuW20Kxwv6tm6TTjYibxxiEXxO6OulJj9A1nRiQSyKaw1TZZAo_dSjUk3maak30Pwe-jC8Klqc1ePZcDmnMz5JvLS3NJhOWfDnHz6tOwPRWmZpJvoQrBppaaNCtVXX2bJ-jOMaS_qJSKUK0_SlPwvgii-nOGi4wZBtiV9qBgDGgE7WUvxlFFpxDRPmPPsqlU85L3z6GjL9WlWuY6A4Sv3TgqB0goIaxDcvYBgI3YSQDleqQqsIdwhPYWnNm6qYNrduOUq60YqOx5v6nf1zILjkU3xr25OgSBJEvI5lGLwXJ44UQg7ZKN0My9qdySqdmcHbDVyKz0cxigNS2SGMY9Qts0M0nyIZIyLHm6hU_fIDaj5eH8g_IjjwkEn9X7yz-NsOu3i42X9BZyw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJzfoRYGWJcTURNRNiwtXmIsc",
+    "plus_code": {
+      "compound_code": "4VP4+4X Gwangju",
+      "global_code": "8Q784VP4+4X"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJzfoRYGWJcTURNRNiwtXmIsc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 256
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "39-1 Munhwajeondang-ro, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.146061,
+        "lng": 126.918785
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14741082989271,
+          "lng": 126.9201348298927
+        },
+        "southwest": {
+          "lat": 35.14471117010727,
+          "lng": 126.9174351701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Mahanji",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1868,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117183840594292240790\">Sulfurex</a>"
+        ],
+        "photo_reference": "ATKogpdtLuz2tADTFoZZQTLI3ppsShgdcsYAhtRAEzcoPosxv9-ijf-AYAf_tEIzy_ho8UK8yiCE53XHiEIKjNSrdQzIEpwaBi-_mzBGQ3X6z2u2oDgPHyrVFZEK_8Mg-geekx6eoB5fqjBvgUsWvLAPEa76BHzRxhI-9B5naYHToFx7eU8x7y7zSLt5He98L-0y9FFj2je9_i12nFcQhpWo9TvKZ1NghacOZbmFw3erKmS4HwG4HooRp1c1akN4TjQKOb3lgTHvmmU9DNFysaHk1UYIArGCChLK_8hRl6AZxNaBcg-wVbahISWh_d1ftB4kNNfOvgRjdgbeeY_04XyrRiCso-ou7k9bMFbceg2DAZBV9WWiv3He-Tg7GKCBgoz4X4Mfh2mrMcugP3FsVWysxwM-JurrOV3tPKHM2yjztTOi_S3INhEAHuS6V_yW15LA4j-wwa9ExuVqmNUlxIxmdn69gaFKZu77F9nWinq3LScXEahhVdu35KJxpn1psmsyyaFD4_SC5iiJzB9g7SsRZA0Fv87BEIwojH8ds1Zi2tpsKzACGsWiVcbjuyynKSdBgtY3uMpT",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJt03me4SMcTURuqh01q_4KBE",
+    "plus_code": {
+      "compound_code": "4WW9+CG Gwangju",
+      "global_code": "8Q784WW9+CG"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJt03me4SMcTURuqh01q_4KBE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 629
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "102-31 Yu-dong, Buk-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1613985,
+        "lng": 126.9055289
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.16274832989272,
+          "lng": 126.9068787298927
+        },
+        "southwest": {
+          "lat": 35.16004867010727,
+          "lng": 126.9041790701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Young-mi Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103166316656518167535\">Changho Hwang</a>"
+        ],
+        "photo_reference": "ATKogpeB9Z-CSgERqZ1jq4SN2rZFM_bje1y2TeEyINFXfJFRnOeMEpi9NbhVXOosET_u2gMPhry40sRUA4C97EK4yxZ8qxTXubHq9J6AP-3j2ElluhAKFH2LvCdDP76YvBsWL1KS8-z9mUQ8YP-rBWZLkzG6jETPT7UoeYYj4qNwozaCVVmLF8eWiv2MkDSU97af07ZHQf1wK0iDiKHONwkSalCXXgyotAp-w3YVFE0SCJidt8cYeWc6OHXV7TM4bjeV2gou_9uAdDsJd-8nOCizAMeUBHPpFBrNp78t7_fvTe_IAr8-HaUVXQFS55UyfFpYY6Gc8oo0Sqo9II5sLO-W_1aWwPMJ_N3iluBvpYWOAx_r4Lc3B_iFxeiLQ8ovgOtW4XlqnVjT1vCjW_pfY0mb0D-SDaliOsu3s5m2lIpiNhC5Bkp4CVLAvWf0QCl5QGhCx9ysP0XPndiAQsdVFc1sixZE2ap_f5Whz2BxYy5Py-CT9glsmg1JhafeVFpY4JtySrn6dPtO7nAnK6qk00wQjwHj0q06qbohU5qbqI5b05GtrzeCtWnqtGMrZu-AAntYpsuJOv8axzu8628e0uxn9pFgF_nn8A",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJhct-zGaMcTURDEpT2m9ZI3U",
+    "plus_code": {
+      "compound_code": "5W64+H6 Gwangju",
+      "global_code": "8Q785W64+H6"
+    },
+    "price_level": 2,
+    "rating": 3.8,
+    "reference": "ChIJhct-zGaMcTURDEpT2m9ZI3U",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1721
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "150-4 중앙로 Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1474246,
+        "lng": 126.9126946
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14877442989273,
+          "lng": 126.9140444298927
+        },
+        "southwest": {
+          "lat": 35.14607477010728,
+          "lng": 126.9113447701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "예향식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105465155165707314005\">원필름(방송국)</a>"
+        ],
+        "photo_reference": "ATKogpftAXagdbrSxumak3jBx_uMzQAEDE1Yk2Mzz4D-U5xsnSciNtaZ_MmWdYctFJB7IOPgrKSDEmCMvLIUY7Oj8J4oBNbFHtCxbAHeTe_gf0Rre3Gj9XSC4AU2gSt-96gnOTBjtHy4W_IGidW-tRgrhEcjsjfkP3f0Wa8aJfszIuTQIJHHcHRmgtaZPObLFYN58JTKzYTRCotxcL9-G4RQBT8QmDhnb_QgUvNMmfqLRrfySe23RJ1-ZYzgD96EabYfq4h5r_nYotwoZIQbbS57WwMbxoI3g9YM4tqU_Bvw8cKU39KrpDkQEVEFse6P1GY0o7RMfaK8zrPbWTrNDA7z3RJqyKB7fFgnF2I9q4Vg6de43c3-NeSxLq3spWKameb2EpuBrc2yH1mIbhwro4zUPTu5JGeK_wxGByw9Re1AuA2VBLn2roEfjjNe-TA5AU-FtTqyQ3EoJOOZRboCPwvtNF1c8jGZTALvnl_n53BwDVinHVLenKM7bSvN9b-raT5t5lfQpm9OR_wMIrarz6W3harxWWdALMNdbQbwyD9XQxxgLl7QWA3Nkg5Da22GUNFOS2_a7g-snDObgw",
+        "width": 5472
+      }
+    ],
+    "place_id": "ChIJvxciyYCMcTURwBTr7au7lZ4",
+    "plus_code": {
+      "compound_code": "4WW7+X3 Gwangju",
+      "global_code": "8Q784WW7+X3"
+    },
+    "price_level": 1,
+    "rating": 4.2,
+    "reference": "ChIJvxciyYCMcTURwBTr7au7lZ4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 344
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "421 Pyeongdong-ro, Pyeong-dong, Gwangsan-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1229597,
+        "lng": 126.7224635
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.12430952989271,
+          "lng": 126.7238133298927
+        },
+        "southwest": {
+          "lat": 35.12160987010727,
+          "lng": 126.7211136701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Myungwha Sikyuk Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117862956877316712536\">Chris Choi</a>"
+        ],
+        "photo_reference": "ATKogpdK7OWtpexN0WknJRw19kaOWVrss0FQ6qkxFp4rH_F3dPbyU2ZDWK8knRnIBql-8pAdWxGAEfqtuM8PJ-VEVW2Zo32d6e6u1MQDssXnpZhPzPkZCFZfGtMmzNSE5sF4SxTwsWhRBFTV5YFsrH6p5XYmoKKv3puzsA5Q0oZq1mLe6KecpuZya-UfRsueWvhvC0Nu2rJA_JTGrB-c3Xtfw8Crz9EzXtuFQlgDDpn52kmHkiYNzXUKzAQ5rRZTt90GmUUNSaj_xfd_qYYKny2KXhYi9wDgDQGBKqsGXLB5ODEAMkBEZoElq7RSCtijVoWmrSGYedoiwKgZDJHWNJmeAo1idnHe78OwzBGrvkqe90h5ffYBjN4RZ8202YubQWu34LAHagpQ5TKacjHsSQkTxR8P4Y5TMJ_1chcyUh_NhzGQH9bTncQMIVPxTkmH9XZeVT7a1jlMgOk-ZRFOVZrYiwnLw_sZpC6Oxaanynkww9wBlg1zb9i3F-joNmaBs1d7K762jC0oncZWJTu1DGqCPZk23OtVoQTx6QklMoT7rOHmqqrKxlmRL0MvyJcBiCmqRIRLWg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ9Wq-YcMpcjURMHRTkIUgt1U",
+    "plus_code": {
+      "compound_code": "4PFC+5X Gwangju",
+      "global_code": "8Q784PFC+5X"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJ9Wq-YcMpcjURMHRTkIUgt1U",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1696
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "143 Uncheon-ro, Seo-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1451629,
+        "lng": 126.8566414
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14651272989271,
+          "lng": 126.8579912298927
+        },
+        "southwest": {
+          "lat": 35.14381307010727,
+          "lng": 126.8552915701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "황솔촌 상무점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 9000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103532483148755431070\">김현욱</a>"
+        ],
+        "photo_reference": "ATKogpcmOlgknEyc-_UKZ5zSk1QlL7rVoKWxh6oI_zBH2nH2u7k9em90mCc-r6mM5Zwy1aOWlzn5gZrXu4Nf9cKlbCtXSx0KWSGlUoVTQ_dqu6qRhsBN1VEewLjKjdus_5ttlWNZ8arWx4KjdHaVWBS8YEeNQWUMhsV9z4-t2oOmE-wLZnJymbK72nup6sSborgnuFunkqgsIYus1PwWrZPQlLekn2eaJNDfZmraWcrI0I8SWuupKJw51iKJS9YA-gMRstlz-F3wYEbF3CLEcFzSWnAeH2FCg8uc_iKVC26Gitpax6LxDvbZkF4N7VV2hWyilnDQJFFEWZ62IMwt_ccIFjTosTLuBuoSunAqIpGzy0hbHXyrMUyTr9eks9c6zejtuuz7pxIliRrjcwr0QCPPmwK0tjo0f6MkWB-tff8aKSEP3Lo_dc5fh2ZEUECmXEPipboghf_jO7FC4fzRz24MD4L4l_5PdSARjwJ2crzzb5LUxn7rX1m7JLURHupYYcCURl8XYXpnCah-8ZLUXluNurXEJeQzNvU5gOua4Srw4l7Xj4nRDMnFvpDsv_tyuEu1t1hDglQNFrxd_Q",
+        "width": 12000
+      }
+    ],
+    "place_id": "ChIJkXOhyEKJcTURPgh14q47jfg",
+    "plus_code": {
+      "compound_code": "4VW4+3M Gwangju",
+      "global_code": "8Q784VW4+3M"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJkXOhyEKJcTURPgh14q47jfg",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1340
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "218 Baekseo-ro, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1470361,
+        "lng": 126.9264769
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14838592989272,
+          "lng": 126.9278267298927
+        },
+        "southwest": {
+          "lat": 35.14568627010728,
+          "lng": 126.9251270701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Mimiwon",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111801402344876951347\">Young Ha</a>"
+        ],
+        "photo_reference": "ATKogpeIOMcX4tC2IoMiPyyYtpMTwhOqE-VuJiyUYBqkPDOEaL4uDiSi7rbyvqEXhLxBI1_k8dCKCUnmSQ6MsAjB-nHp14decfm7QA5sgCnT43COhO8FpV2fRYcWdxZpQSMfkzTDeiUsPkrTF0xdh6a92fREPf3YFHvyuJ95W64qiheHnmkEPOCKA8S1nZtoCZpNP9DshlNvfE21yPjH6CoXsqWYPaPK9gDYigp_vqgC69M5sgUxXMnHYxBnPnGaVbg1QKZqkdbgHRallC1aOIMwfQFWT7sNoyA1UQz4BNM2H_FtePqEmQVolptnJVno_LRFDiLyE4x2zrXHkWlvpIYaxX4vEjynk5fmtwYXXKHOXkBn4Sx8vs-Egvu3j_D9IYBr87-gVKEu24vAO5L9C-Du4vwBl4znLBZfEH9tTY_b_4LWyM9b-ezGnQZxBEQVVHMXmwgCu8ANVdNRwxHy7frZ-wBCSrgzsSlJ6oYhI9J9lbF-W3o-IAQ4SPcEkyyoEkkj7TlJtTYp-B5-f53j8uXx0_8R0LTReJ2SzhGJ7SsY8zxdnPQdOcSrr4gjXsmZziRdL26Rjort",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJydZGEJqMcTUR9Ih7pNtXby8",
+    "plus_code": {
+      "compound_code": "4WWG+RH Gwangju",
+      "global_code": "8Q784WWG+RH"
+    },
+    "price_level": 3,
+    "rating": 4.2,
+    "reference": "ChIJydZGEJqMcTUR9Ih7pNtXby8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 626
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Sangmu-daero 695beon-gil, Mareuk-dong, Seo-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1440608,
+        "lng": 126.8391943
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14541062989272,
+          "lng": 126.8405441298927
+        },
+        "southwest": {
+          "lat": 35.14271097010727,
+          "lng": 126.8378444701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Daegwang Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107250868480535856410\">Young Duk Lee</a>"
+        ],
+        "photo_reference": "ATKogpcWej7g0eDfYa-E8ScByCfqKsJdaA2Pp0WmclmIFGPTvVBtYkaGnBC1Th3oa5UncpQyjLc3N-rvbSfAZMFcy6YJkYGWiDqhYztQZx3druLG5ocSu-9ZcZUhD_9w2V4_RYaOSHjXV7Ovu9a6r99qHd4zcu2PHuoR7T7PaRw4PE3QwLyJP1I1fKmAqVnWymTq-tTgMKxTmImb1jxzcKzQL2E0mRhZNOk58Mkge_uHb0jHUMvVf8dbALeP-qoeg-U9R3qbre3tQQHkldk-u_1ZqEsHdg79KOx7zYFfsdMTzWN54o82rovYfsoPhdXv91eqhD12tWiFaBdE3ernENGknk1Bla59oindnk5od72FOuR7Yj7J2A7c2vV1wKpBkaXUwUiYxg2KKK9lVlWdr_adhoGCQUjizahOCSS9gIDCCEQS3PhYx7stpcwLEOVX_Muqn7cd4Bn94_Y4fueMFjwp20Q-c6yNV0zgMwpD8eq4JWc5U9qcJ5IgXDBPj0u4QwRjC84frwsGFkYGDgJ7iARumHflliJuFLHw6DmQhLmI_i5yUi44CLI672uWDuxyC5NwMQ_YYuam",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJD3Tfg5WJcTURuTgvxU820b4",
+    "plus_code": {
+      "compound_code": "4RVQ+JM Gwangju",
+      "global_code": "8Q784RVQ+JM"
+    },
+    "rating": 4,
+    "reference": "ChIJD3Tfg5WJcTURuTgvxU820b4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 234
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "88 Jungheung-ro, Buk-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1636391,
+        "lng": 126.9038936
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.16498892989272,
+          "lng": 126.9052434298927
+        },
+        "southwest": {
+          "lat": 35.16228927010728,
+          "lng": 126.9025437701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Jin Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2340,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109292450324743354213\">김상구</a>"
+        ],
+        "photo_reference": "ATKogpevy93QjAVEgF7fFpmgmkqA-4VOHjv0RyszMMRK2an7wKGNJjB7ojzAjjlYdjt8v17EzeDwa_JSpAIFuEJdSOcg13RLleHVyKeIrYI7-maFHtpv30P_vX0yVy6X6T35M7j1xwz8LB-RUEDg1ambR6ZH610y6EXtQFL3-ChT9G687w4iy4tx8_aBnbnPFLd-iu7bkU2b9cqrSUMs_P0_ATFPrHyHcYdsMjrNF66ybKk1FRwkBUk_6jWK4fY1evBkHrFX3OhQfMnoaEArl7BlVB2pr1l8oAEynUAL72K5cNu9ONsrXLsN_mkCdVcKIMkXeW-k7vbA_dnd1RhkREi0OwCkIqOjrB1KSOCJbXdsCe648xhM4zzxmd0UGc10AAQ4JPm-Yroeey58uMa_BaHL6k116x1Uu-ueD9tLhMA15zulJyjCAqp641nW62ys0n-OxPSL7w7j2iY0oUu2WXMQv8q7fOT08bmCY_jHqbiBEam3bfwi0PpZVe4rePMkQ7eSvWu1kKO7MB2pP7d-AjIjRaXmklI52_XulxDoi-_SsINqaQz2owQ4zS9vNiEuJi63fZ7wI_mM",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJuRCQPWeMcTURrOtXXycZxk0",
+    "plus_code": {
+      "compound_code": "5W73+FH Gwangju",
+      "global_code": "8Q785W73+FH"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJuRCQPWeMcTURrOtXXycZxk0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 525
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "57-1 Jang-dong, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.150318,
+        "lng": 126.9226309
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.15166782989272,
+          "lng": 126.9239807298927
+        },
+        "southwest": {
+          "lat": 35.14896817010728,
+          "lng": 126.9212810701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Sotbab Sotbab",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114262226496158161047\">金津</a>"
+        ],
+        "photo_reference": "ATKogpfm_zD4LFo7hecvZLVwBWniOas6vILo3DI8evMJRgUnnHXwlhXVZdAsthamhIU-RCHcTcSatF-VhlkKSND0zRL7darewI-bjQZMIuoCwjs3KoB9GrSw-4OAfAykCQPfo0cbONClK6UcNUGNb03Wqd9eQY6Rgtridi-cHHSiEda7O98niz62vElSW3lGpl9YJfK8FTQAYBrnq9jTinqRZjCdbjN8a1PY9O7TVl5XjPjlE6CGle-_kyVi24rLiCpOVe1LXIvGQrWi5gGEemIDwp4YDlVz1slLFXSPiPrAXwWs2IhhvUSF1oM6WJgjHMRQEHhklA3BfXmJP7UUpWlh_91_iN2iZUr35ptAWJb7qkXWQxUqQOdlhNfdJEYjLvQ0k0f7qwpG9lAqCW_chy8KyfYuIUAJoPDR7A5xlUS7oCb_bg4vTE1j8tlPiFMZZPHXuXLxNhhC54DB3H5LODUaaOuH7e9poUg51akBeYeZpm27NUxSLHLVhRwTINUxekgch5imTsRQeEGteIWiYQRPKZ39iPELNVNg4QjtHER1QhaTbboCLCiN8pr3aKbQKZPTPHGuyoDHxqx5ogJc4kkaKnfv1k6g-w",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJk1TWO22NcTUR4EAODt6G8HM",
+    "plus_code": {
+      "compound_code": "5W2F+43 Gwangju",
+      "global_code": "8Q785W2F+43"
+    },
+    "rating": 4.4,
+    "reference": "ChIJk1TWO22NcTUR4EAODt6G8HM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 172
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Gwangsan-ro 29beon-gil, Gwangsan-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1390142,
+        "lng": 126.7948242
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14036402989272,
+          "lng": 126.7961740298927
+        },
+        "southwest": {
+          "lat": 35.13766437010727,
+          "lng": 126.7934743701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Songjeong Tteokgalbi",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102406444170676567013\">Kyung Man Lee</a>"
+        ],
+        "photo_reference": "ATKogpf3xV0s4b2v3T1H4aFTBNbpD_tKaJsWRF1uEC3CamL7DmamCL2qN55hYVzD2igZbNKnRG5i4od-STevatdp1a-7Yq8YS2KGS_Q7mSf1KDCokD4PJxSlzw2Me6wVEf2o3UbwDvrvUw2C2CaBEZsWN9eX7ynUWNt_t-KfZzdC0uxhOlC12HcPfJ3iO9ILFDwczJJX611FyEbeO4S7CLYn0qUg756FONi4PWZW3ItT3TDP095OBaTJzNvg4oIcPivFe_3yFENfRHb0p-lQ--b_dNFrXcn20h1j4zT01tUPRtRhKGsJAQXZdS5Q9-VlDDuM93zTdaTtPLmMOEsue-QUPgFrmPR7xCxCrTg--bcvKwje2m1B68lgpo2TZdrS5s5P4YMAdHO0LBlluYQzNwZoH7zVb93kSM2gaVVd1agIaB2QTf-Rtgwt9CrFwqlSprpGbsy0m0FP7E_dPXUUCMt8-9NdGCWGIEvtwFok_kfpb35t-lucVpAa9Zy0zo4h0ftsBCXeVK20zWfQ4_zgqpDhpXOYAxytkFflT7ugAjLXtVp3V-f4CG7W_2pBSb9FjxUH3frBe5FRyZfj_g",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ3ekXBWWIcTURDuLqiYXCTUo",
+    "plus_code": {
+      "compound_code": "4QQV+JW Gwangju",
+      "global_code": "8Q784QQV+JW"
+    },
+    "price_level": 2,
+    "rating": 3.8,
+    "reference": "ChIJ3ekXBWWIcTURDuLqiYXCTUo",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2286
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "37-2 Munhwajeondang-ro, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1458815,
+        "lng": 126.9188451
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14723132989273,
+          "lng": 126.9201949298927
+        },
+        "southwest": {
+          "lat": 35.14453167010728,
+          "lng": 126.9174952701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Minsokchon",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102346582023007866745\">오대교</a>"
+        ],
+        "photo_reference": "ATKogpe3VEgCV6njmk6AMFJClXBQ2sDsb-m-9sCSk95HkLWeGlEPkBPNMwt2zFvFgTpQG_J_eAKKB8YeMq410UuI60B8Cn0qDBKs0naTtI1PPLg-3bL5LPUPxvq0PCQu_UkBstJNGOWBYjscRd79kVqObhbj4F2K4drGXCF8gmIIAVbFKvDw9cOMA2dnsL_odZmKOuhzFfqhsYbtbaeCrLL9owZ9Iwv0i-wo_t45XybS9v80DfZsOx_4nssiNOZDbfvChsLw1q5AiMEjwrSHJ4118Ctx_wYABIR8mQCObTD7mgtNUnyVYD2Bde9_ydwLL2-0adL2cCuQlqDpIX3QSLhvsJTyA4qvtX6EtxNdb-l9L_Tj-afLaeha0CvLBq0s0wWC1dBHJCXMfwgCk6RWsS1b61Yd2fWwnkGtSqmqCykSjbU2jVOcJGw29iPy3SERM9ZuLBXHdVNdo3o_FSrN_5gyboM8mY9lSQkeiw0fROLXrR97VCzAY0NIL83AxlKXDfzrLkkKen5yUt6zLi5eKBR3JMsNaz4Nu99o-CYZpQt-bQfu8TRrXtB8yUTDsBtVf0s7CfbeLh3U",
+        "width": 3480
+      }
+    ],
+    "place_id": "ChIJF2DKfoSMcTURX7fYaHnm3Q8",
+    "plus_code": {
+      "compound_code": "4WW9+9G Gwangju",
+      "global_code": "8Q784WW9+9G"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJF2DKfoSMcTURX7fYaHnm3Q8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 807
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gwangju, Seo-gu, Cheonbyeonjwa-ro, 224-1 복개상가 2층",
+    "geometry": {
+      "location": {
+        "lat": 35.1542229,
+        "lng": 126.9030973
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.15557272989273,
+          "lng": 126.9044471298927
+        },
+        "southwest": {
+          "lat": 35.15287307010728,
+          "lng": 126.9017474701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "영창식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111605345994586673439\">kipyo choi</a>"
+        ],
+        "photo_reference": "ATKogpfCFxFBksC87LcDikls3sZCUOnA7Q21GhcU7h3KTF-pY6V_U__LF6bj2tJ6IoZRkW7ckl2cf9nDQJTn5xpRgDaniUFFmLQap27jNC-GGRBEM8rdXpVO9iZqFmPBICe7Jri6VcGon9qtqMXP3LNoG6f9cWz0qdQJnxbrONMp-bUFw22lZQpzV6Fzmrn3rVQmFHpcbm_8hNYX-lfohLumR22imqeWCgGJZR2MFoKb_hSCpLRez6tXtRA1tP1I4OZnddvk4_b_wgEkXSmZtdSXje4IQ3DbxkwlqjsbHDEiOUXGYA-lQzdgJNfW5NAEhs-uBwUxe9R5Yc14hXv1S3kHZy1y1tU6IyP3xyX1dqommRH9qd7lAzwuDkOC4l6heADnI-ZD-Oj9gBCVit-OtAtMa9yzNlyReQlWQaOVoBgrdhAHXyTpN4_l3AclQ2jZkAF6Q84VSlMTQNoOd8mdmZk0coqW-FYpe7Ta-RdRyRF0iD_ZxkxLxc6DhKY5V3pkAGyTP4Jv28Vu07xlU5-DIMizQmgaMyprS4hehP_TomzR08eLsytAKmEE98ExuctNxqLWzJLMc_JU",
+        "width": 4624
+      }
+    ],
+    "place_id": "ChIJ-ew4tP2NcTURuxqipywfTW8",
+    "plus_code": {
+      "compound_code": "5W33+M6 Gwangju",
+      "global_code": "8Q785W33+M6"
+    },
+    "rating": 4.3,
+    "reference": "ChIJ-ew4tP2NcTURuxqipywfTW8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 179
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "194-1 Buldang-ri, Namhansanseong-myeon, Gwangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.4560549,
+        "lng": 127.2060135
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.45740472989272,
+          "lng": 127.2073633298927
+        },
+        "southwest": {
+          "lat": 37.45470507010728,
+          "lng": 127.2046636701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Nagseonjae",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111065141386518408220\">Kicheon Ahn</a>"
+        ],
+        "photo_reference": "ATKogpeq9pbqbe7RGJ5pifWw1_DzoaYQrlHknddUZSsiFgjmc5SJKuCsIqmxLIXESyC6On90cUMyvqWmkFIuUgkDbyKI8LPZFTEPu2zPZBwZs5T2ojScNonqHLbEhsVb_hkaCo9drxzNIcb_4daZQwvmYkGNXyAADLK0sXcc3EZjAf66e4ZVIMzMd6QxhLWAWUL3a5P7L3yTgzC8x1cHJjkJk0qWaRKeat0LHV4tL1x2VBvAt4qInPxSjx-BHcCQewWILC8yVaXNTeMlq7SHceV3c0cn0cIss94LwUo2k3s0-82XT0UeVK9N4dyas-Iw8o4U5pfc2xLU38M5IOCaO3d1tXNP0XhCMPZiDNqESeYnC47tBZRiqFzfx6wdVQFL7OzhaBr5u3Gy17r5Yku4et-ZxoU5mS4W-V-c7fr_89EAgFcItFx6Y2aRWSnSZg7b22gTlk3Y6lnVmGa2e5_SMQPaFE0FpoZTHGsmAQUJ1PbvX2L18mU1LbT8CtHs61yrUBRcKGo2KCNJOFlkUpb91LgZKUQBCIy0OeZBMX06b4Jdq67DSeIGtNJ5AomyGcvcdC8mNGCvig",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ_9BsrpiufDUR1-FjOWSD208",
+    "plus_code": {
+      "compound_code": "F644+CC Gwangju-si, Gyeonggi-do",
+      "global_code": "8Q99F644+CC"
+    },
+    "price_level": 3,
+    "rating": 4.1,
+    "reference": "ChIJ_9BsrpiufDUR1-FjOWSD208",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2640
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2 Seoseok-ro 85beon-gil, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1495643,
+        "lng": 126.9205897
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.15091412989273,
+          "lng": 126.9219395298927
+        },
+        "southwest": {
+          "lat": 35.14821447010728,
+          "lng": 126.9192398701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Haeng-bo-kan Dam-byeo-rak",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2946,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109172480146750890982\">Y. Lee</a>"
+        ],
+        "photo_reference": "ATKogpehkgCU0GbFSJSX5Bav1QAWURIg5-olrr-2KKjXsme1fCFeJil8zVJ70NUT4hrL6Ao7_SVGL5XkSz7nwhQ3yzC8fwLZuRqf-NgLN9q16iBLJlXnA78tVu0rheiz6Oc2WPaBoIAteJHmNqHD0DhscvJa7xqDFzYL9O3G9JsjLx7fN2vHY2NSgluHMY42cGoZRJFoLhp2q7gvUZ8JRcIaqGbWOLtal7WgqeRwKnYEHDZL1ay06kDPh6BE9HPZdRUL8qvlKw_Y20K27VH02EXuADV30X0B9mKzdRvcgpYSB5IdNXKrbVJzFZyjmshh-qql7gRhtssoL_Z5vog3EwuqD1dzhoXn6qZFudX57tqwo3UW8z3gVFW9PijK0GcqqPJKMuUuyZxZgU19LoFbv-wuhBjz5DS99FzoyF5jIl4YGHGUE7pNpme6e_tBF6LkZU3mvLeWGORitT11l2cbNKAWjoLqOl9mrQtIG-M07ZaBi-n0DA9HFOY8WQrnGr5Fl7VzJ6x3yXRiU5RdKdVy0xXy5AIZ_nOGhK9p8U0ccgY4MvjjEqCBtgRFRmzf2OXp1UGbn6dHOjL6",
+        "width": 4017
+      }
+    ],
+    "place_id": "ChIJO4wUXoWMcTURQDQmLFlTF0c",
+    "plus_code": {
+      "compound_code": "4WXC+R6 Gwangju",
+      "global_code": "8Q784WXC+R6"
+    },
+    "rating": 4.3,
+    "reference": "ChIJO4wUXoWMcTURQDQmLFlTF0c",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 157
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gwangju, Dong-gu, Dongmyeong-dong, 200-155 1층",
+    "geometry": {
+      "location": {
+        "lat": 35.151694,
+        "lng": 126.9231623
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.15304382989272,
+          "lng": 126.9245121298927
+        },
+        "southwest": {
+          "lat": 35.15034417010728,
+          "lng": 126.9218124701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "목하식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110080997059675192955\">윤솜</a>"
+        ],
+        "photo_reference": "ATKogpde7WIbCcBzGRU8qO1LGumASXyxtWJHGiQDFfo0q_htdLGQOjFHFIgl9Q4OCL8cIdGj5E_WY_4_HK75u6XMvjKpq2Wgi8mkwwZ-Ye74mLvV0IMnfzM4Jxq0CrDeiknbahvKAntNzuUU8rJH3FqdD3Jgno7OrKbNoiRvrH1DNgj-szhuTjfDB724A1P7WoLZE5czzzH1DVhsFsQFJranfcHOwI5QmJhmHAXHd1NwC2y4sWgRqlZlfXn0AVZAP8Ntyzzdjo_AssjZA6Aa6pOgb-EWODjl07N1Ik4qLa51c_1cX4ci7nCz8upZER7OauW5-5BQiSkdgmgpqAosp8FJ9wNxtcxWyHzoa8gaOm4Mozkrkt6VbCpdPQTaS6ccZ01NXLYefvcdT2duU0fe7MCKZ2Neefm7grIbpXEWCh5vX6uCK5K6ox3fQw4BWDOmhymwvyTpzc7wJi9XkFWt-c-Ejm91gVy2UTj9M3Nozm2OPiYW3ChScI0G-rmMog-FYKiaBiHqYUKkmig_ilSC074Ek2F6CBIBc4Lk_Sj-r9HOkOJ_iBEajBNVTM89cLjBrHe_MoOpfdZw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ44O1AsiNcTUR7rJ04xJieWw",
+    "plus_code": {
+      "compound_code": "5W2F+M7 Gwangju",
+      "global_code": "8Q785W2F+M7"
+    },
+    "rating": 4.2,
+    "reference": "ChIJ44O1AsiNcTUR7rJ04xJieWw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 54
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21-9 Bullo-dong, Dong-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1461297,
+        "lng": 126.9141899
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.14747952989272,
+          "lng": 126.9155397298927
+        },
+        "southwest": {
+          "lat": 35.14477987010728,
+          "lng": 126.9128400701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "카페바리에",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112477473650085823038\">정일균</a>"
+        ],
+        "photo_reference": "ATKogpeSDYefhzQ50sN3-y0-818MPw2AlQqgaXFNVL6voNdHcq-tjGNxlBimQRiOi1aHJI98U7I2Z7_iol8OLd2oXMde1I62e3fFbu4DcqOOJKy1rMssMHxmvj9cwEADIk8w9lP00KGG5-2EuByl-sO0wC_gJDLevzmMRFva07N_XpwlnuQ6Uv1AjzN6MObNXeZsdyRpk7eZLTdmQ2SN4ECNMjAA4pE7HzKsYV0oH3BSqhUzsIvCLCO-6tc6VTX_SFwn39YN7TAG_oj7g6EAeQlTrw497F2Mc_o00RHP32fEuouVWE92btylHeC5AKRd93yApwiRWpITzp8qFkScTOciGISNAyNeNvjhZAs2V48fTFOwZ-_54VAx_4ijdS7LLbazd0C452xhAxSUeIQqmdGwgb3pfghFQ0k2R046l3YdxIuufzpRNoJ0_pULviGQttQzMaADsOguc8OzU9rAsAUMCa20jjuUm2q-q_Pdm0963mMu9yUIiA1SclxEySRei0iC2L7xrfrxVVaaIoC2B_KmClLQm-zg1C4lqwaZJLM-PZiYje3nwdSFsX7CPhPKZYmWXyquZQ",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJy9gLIoGMcTUR45B64Q_2y20",
+    "plus_code": {
+      "compound_code": "4WW7+FM Gwangju",
+      "global_code": "8Q784WW7+FM"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJy9gLIoGMcTUR45B64Q_2y20",
+    "types": [
+      "restaurant",
+      "cafe",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 230
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "105 Jungheung-ro, Buk-gu, Gwangju, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.1633707,
+        "lng": 126.9056112
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.16472052989273,
+          "lng": 126.9069610298927
+        },
+        "southwest": {
+          "lat": 35.16202087010728,
+          "lng": 126.9042613701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "진식당 2호점",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110643448546864936602\">전해수</a>"
+        ],
+        "photo_reference": "ATKogpdAZYevohzQXpoNIZXKDnzasHyfv9LJoioH4f5M2M3ARiFOKzLlaKNCkqd0a9P4WWdD3y3FkPO-3mwdddk70KM0Kb0da9PSTPPVV02KqurWSpRO4ncpNonYSHJLX7v02AVcw357n21HvPG_vLbUXhWciuIKTnEwz9lPgjhslSzQ8CaNPj9PJVHVD0k5Vcc2XUEhi46xK-IODNXyIXsWndH0jGB3zIWrlb0fT_9nb9LKOmBQL9tz9kn8gTQqLiOWScgHMI0bByzNs1xZCNAat17zo6VR4C6Ce5eFQiNMmar2N8AodJtR2QgNPRVPz8LRDrfyrzso36yGGi07RGYaIyfUxOm8IqPfEJIQYRu-vVDFO7Qxum7YY87lT1haaxTmKnCZ8dBGB5faSWfuSAsxdrYXWqyp2CvG-CuTN1HVIqwMwzO10NMzflMV8KQEGl4mqqTvX3QSh8y290Bkx1QeCxLv7SvexVLOR5XUdcZUcsGeuCuQ7vm3_3NGz30ueh7IVxVJ27aYpDi1zHMZ9FEnh8qdV2uHx09jxzlS-1UwqytNxnKWnZXC3-b-jyVDEBSzuxIBgGgH",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJI9hZzLaNcTURDIVPh5upwJM",
+    "plus_code": {
+      "compound_code": "5W74+86 Gwangju",
+      "global_code": "8Q785W74+86"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJI9hZzLaNcTURDIVPh5upwJM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 434
+  }
+]

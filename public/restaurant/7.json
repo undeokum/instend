@@ -1,0 +1,1036 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "39-10 Bugangsindae-gil, Bugang-myeon, Cheongwon-gun, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5324882,
+        "lng": 127.3612659
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.53383802989273,
+          "lng": 127.3626157298927
+        },
+        "southwest": {
+          "lat": 36.53113837010729,
+          "lng": 127.3599160701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "진성민속촌",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106561744834401175091\">smin Lee</a>"
+        ],
+        "photo_reference": "ATKogpdXLpfSYh7vq6ThkQZPoiRBLIjr7KT4QOvZ-4WJDOHZzx_QPvXM0eWBPJriFOGFXTe4soS9K4TpYjgROgYK3itTEBjQjHmVS4EOE3zu8TwhCNrTqLhTiG2EwrP0PvBJLoyLBHC7nURjiC8VM4MvKiL3L9w4zC0wyg4f_IkFQ411Bb6UxXn6IFJaSp1H3hTLywB5XxZD63in8C_QQN4rk9KXdIniciCGA3AdoFoy9zargp9giOQHHY_1rNwY4qF7DFc-Q7QDDhTof1NK2NQL2nvdBdCjYnGaLSlXMxBtVEYcHk1q8EH4thzLMAvaCiDgtlvZSOOlWfS1xKH268eHoj8R3Jh7dCRQhS7nKw38J-s70vLOfxP8oZGSNziXIKF3KC6-32ooWZd0BKp1haqR0ln0DfZj17wr9u-dtnXB-IiIWkkWNXhF_5mHLT7n09wWiRGdtCzH92s4KYeArneuVcETZRI1O3OgypT1H309Zpi3iIWpdONc0_kaURWL6p6yObHzXLEB6JeoZ5OSVUStQeYyKBXmiw4_Yd7qIOOYRtddBOBclUg3axtN8cxPw_J-nANRe1Wz0tB6JA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJDZpDHzYyZTUR15vvEbLdZZk",
+    "plus_code": {
+      "compound_code": "G9J6+XG Sejong-si",
+      "global_code": "8Q89G9J6+XG"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJDZpDHzYyZTUR15vvEbLdZZk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1093
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1131-7 Dosingobok-ro, Yeonseo-myeon, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5999697,
+        "lng": 127.2620206
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60131952989272,
+          "lng": 127.2633704298927
+        },
+        "southwest": {
+          "lat": 36.59861987010728,
+          "lng": 127.2606707701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "산장가든",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113888800629784891659\">M.K. BAEK</a>"
+        ],
+        "photo_reference": "ATKogpc0PiZWyoNswOMXzdsJoNnzaBtF84o4q-fYvYtZ2svVFfIaac-cBNWWWvP5GjH5q-Hx23Ktul0i33_i1RYphtUY13IMxBBig0VbkfF2b3ktSFFrGLdVxeT_Mq3N7nCRu5hRc6O4kZaNO8DZhatbCBBS_usmK9xz4l2AF2MOG5_AI5ByAL3fQZfGkekgHyPqVYKt5x5Jyk7wOpnI_4gWBtMP_Q1fWiULN7fVrrT6BLJ105j8H-X3piBrlabi7mk1kfH1L0X-7D2RnJ3AmsjiyFbHqNW-bClDw5UgumNEduviTylfkz5YBeK9BxNKN3JH8f5tg-3OAdOmDp_BSddSIKb1MoGAgDDiDAmgPlHKLvtYlQguDZe8vhhXcB7UlleEwDvaN0Kqw9eSeSxpqtDxseTa0yX3VsNOigmRS9gTIWSvkP4K7dv2f6ZwVIv__UNqMxw-YH6J8W3uL8Fu8pXJApfuCh04xxqQwBt9EklQxPbLf2hf9L-GD0ez2jzHn5CNQObfq1bVPnEMlCmcu03E9Iw4Nrup4tqf4de11sYAGNNQ2yOaRh_9zSIZkUJAiClZtUc-ww",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJPR_d13_SejURDuye_ASdD4E",
+    "plus_code": {
+      "compound_code": "H7X6+XR Sejong-si",
+      "global_code": "8Q89H7X6+XR"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJPR_d13_SejURDuye_ASdD4E",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2459
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "32 Heomanseok 1-ro, 조치원읍 Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5857903,
+        "lng": 127.2954301
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.58714012989272,
+          "lng": 127.2967799298927
+        },
+        "southwest": {
+          "lat": 36.58444047010728,
+          "lng": 127.2940802701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "장원갑칼국수 세종본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103582219893811886859\">장원갑칼국수 세종본점</a>"
+        ],
+        "photo_reference": "ATKogpfDx0de-YzEdL0pJIOKBugVNE1DtBIjWwT_FrcaXmeugeOCivpfhFF-nQDyyxV7IwssCoURUJFldObLjVnPvt8oUmWUbeolqrYVhgR1HVsGflQaBrN2tvdhCtnzcAwDO07GYZMmJaIMZL56aNJWa0hX6G-EthQvy1CUdUu1m7e4afOnkCrstL7g488a2XMEw8LuRgowDZNP2f6OvDWIo2WXkq7qF4rZpAMyCJlxSFR3AOU5LbgxzlOv2EbE_zHfrp9caNjAZSmLn_8J9RzSMLr8DzPWC6aGoprf2z8UqliPmsuB8_g",
+        "width": 1280
+      }
+    ],
+    "place_id": "ChIJW-gYzqzNejURdwIKjmUG6to",
+    "plus_code": {
+      "compound_code": "H7PW+85 Sejong-si",
+      "global_code": "8Q89H7PW+85"
+    },
+    "price_level": 2,
+    "rating": 4.9,
+    "reference": "ChIJW-gYzqzNejURdwIKjmUG6to",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 714
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Sejong-si, 종촌동 달빛로 43 금강빌딩",
+    "geometry": {
+      "location": {
+        "lat": 36.5028378,
+        "lng": 127.2500946
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.50418762989273,
+          "lng": 127.2514444298927
+        },
+        "southwest": {
+          "lat": 36.50148797010728,
+          "lng": 127.2487447701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "빠스타스(fastars)",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100482412083606871848\">S SOL</a>"
+        ],
+        "photo_reference": "ATKogpfUslEftngkqFvbn9N-S7wpd-OHAIEA_tRm0PyUyOWGqRczltAD8w5q6ChfdFdBhu0PB8yLQINR8hkgJatNRpjCk9io2IU9HCl7mofrjHQ59R2LHnbuyl9NlBv34o7eLDW1zjro4EUBJjoMYUZXi645thkHvjFNZz1tu7lT6MwCvRB4xjD0IxInFTDTtZO5UZnFk3Oysvw9W2gydd0YNtp3VrdN4MWyZgabgciQATps91emlnxtfVL9yMEi7Zd019AbnvZ8n5PiFjQLjJy0oP_4nZZaVIVkk13feCWvLZO65z4V00gI8jNKjcqiilcS7rHmw4zL3lME0QgZAvqEsTYRmoH7m_t2sZJTnE7k-MhSIFf1C4puRS-O0OSC84c3A5k_cer_zjwp1xxsalrB1oZ_kkYGhLS3dn9zqeR6dpQvoe1J0f4SIXHiz-S2n4SeCOOmlgS7SJCc51FBziMk61TzfZI9QWurpfH0_pUmgCURb8TrMQE-hlICiaKXOiouIyGn1LT21bcFs82kyheasxU9s0Vs6abG1AqMrg7U5kxVbVQRzQkkDeX468qUK4iNNKXc-l-whoSRNw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJPzcjEabLejURFZ56ergt2os",
+    "plus_code": {
+      "compound_code": "G732+42 Sejong-si",
+      "global_code": "8Q89G732+42"
+    },
+    "price_level": 1,
+    "rating": 4.2,
+    "reference": "ChIJPzcjEabLejURFZ56ergt2os",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 630
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Sejong-si, Jeondong-myeon, Baeil-gil, 90-43 KR 충청남도 연기군",
+    "geometry": {
+      "location": {
+        "lat": 36.675599,
+        "lng": 127.259186
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.67694882989272,
+          "lng": 127.2605358298927
+        },
+        "southwest": {
+          "lat": 36.67424917010727,
+          "lng": 127.2578361701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "뒤웅박 고을",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100171673017870218880\">MH L</a>"
+        ],
+        "photo_reference": "ATKogpfQAcH20DhubbKEWC8A71_axeHwClkOoATWTO2dyc9F8mUhu0kLY6eOGdfznM4fNFiGs4RxPLU0nNwWQVT2kfBXmJ5gPAFyXQ8IWsOChIigf0N859KQ3R6HgYsMhaEzQq3P0xA9GQVfm4dRxtI1b5bQ9i_pmPFz3zg34L6Scv4b2AEA--N3rx1WkUeOGP3rPh7GKwryBomNX5U-_d4ugt3bb4zPaR_BtA_HejFRZuydMDirkXDiYSK7OlsWb-sU57abvYg1TzpLBl9wTa9vDmM073vqjdB_hfnuwdjwFf4IOQ05YMqqliVSDuf0zv27pKZces3Id7SwQXTOd5bVDA_-ubdrnn8cZsZvkgUGrT9zfE-iOFkMX0mcCmQVgnbnIAzXklczIfYC4Imc5NGfX8nLNnbW2zL6iNVuFpIToaSdvAcTcjPzHKymufQS7-SUAW6n5LKR7OsBjH4buFQTjQA5xGCbaOeoMHKUeuOo3YDbQz7DBKbTpp7fcgCeJzKOK_3vorDJdWFUb6vLnHO-K4KSkdUnPHv-8tdmnADqcrUwivd9lef5uTAVjlowA_OAEy304R0TGErxWA",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJQUgb_YHUejURtnqgdqhtxj8",
+    "plus_code": {
+      "compound_code": "M7G5+6M Sejong-si",
+      "global_code": "8Q89M7G5+6M"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJQUgb_YHUejURtnqgdqhtxj8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1134
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "163-6 Taesan-ro, Yeondong-myeon, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5206423,
+        "lng": 127.355335
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.52199212989272,
+          "lng": 127.3566848298927
+        },
+        "southwest": {
+          "lat": 36.51929247010727,
+          "lng": 127.3539851701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "용뎅이매운탕",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106009627799117072404\">Seul Lee</a>"
+        ],
+        "photo_reference": "ATKogpfTvJy6AX2zuCtvJaLTYxws-W1sboN4zw7N2H3HRNeMaEhVYo5zo6ZsFRvQAJr2ZmvBtZ1hN9RWKven-UOf6bubtBTWZXozVBMeWMsYJxn4QHvLYtetFrCzeZBUapfILoDqdyY2uQ9BgAb23SrpzPGEfocqsnPX5aXFqBzn5poBvMNMkjSjSmdd9uogmUN0FXD4Pe7Mo0W4ZnPYsGsGfLO7mHKVBdvXrED2qjBgRefkm_Xh9v-PgFJDtdGDkqoA51xSVIlgoKU4ZxVCY8Rd4-MSaVU4pPoqfOjRPxGRdKNRCgpLgVwvElWN1XEJcuykBP0tpkFWjBuHaJr8b_qaRf7V_l1xdiL-V8W9Ey4rxcoRhI1orfvYgdmQKyzWpNIEL7tsAOojxCcNjFDYO2JqPh3kB5HY1v0rvYQ0iV6CeI9mZEoUwXFpkX6ZZPZBhAM1j6q5GcSeouIxyOIXt3LdXMWy3ETYKe2RCELAsHbJpHoTo4EJt3OMlAxEXqv_T2j_89mAyYvooslKD3S0uCj-_Cy35AahQg-KcSyUWsePqy4XtolZRU8_kOtTLM1H8UR-hv8LaWrO",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJQeu-DhIzZTURQF_z75k3bNQ",
+    "plus_code": {
+      "compound_code": "G9C4+74 Sejong-si",
+      "global_code": "8Q89G9C4+74"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJQeu-DhIzZTURQF_z75k3bNQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1612
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "585 Dosingobok-ro, Yeonseo-myeon, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.599979,
+        "lng": 127.2270213
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60132882989272,
+          "lng": 127.2283711298927
+        },
+        "southwest": {
+          "lat": 36.59862917010728,
+          "lng": 127.2256714701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dogane Maeuntang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109917274554989344125\">black sun</a>"
+        ],
+        "photo_reference": "ATKogpeYdyA2auSVo95OMfKVP7KQEOTCHn9nvfh4Eyjk-wi0PQEKY99DtUQNUvP-IPBdH_TAnjfHtUbVQkysc-0cOYf4D6-m_3a_axfXTPfZY8BuyGcjhj-pocgoA9byhs9d8wIReA9187a9z9IT8ErD3Ohl7YGy0fxvOoZFhIOn-5HZPai_Uw2UeA-87rd2FWdoi7K3tIv9sPGlEKPQ6AN2d3Nvy1DikMeQfyFDnk1sGXQ_xel5EIK-dadO0pUUMmYmOwdTN8-uVYCz1HquVHOiAeGSz7ZoCkxveRIb9p_ftteV5wPuU8j0PgxA9BeS8qQMXXaWOoA9Gy4Q2h75vdlT2FXAqko8rLRwLGmaqrRK-RK62Mnpb3tlaib0E1_hMa8H31Ajfwu4AIfeYmMQ7Xotc4CNHLUfnWu-l-4-d-8hC4Cyx7O_-cTaOcivMNGyg91Cb1y9M0SDcODUEnfsvSfz7OFmKQdz4UP8u2F1ReJrzIaQlJuefeXGxqBm8oQdl2EE8cujiZc2i6pX-cwYQRUi7PFgeMu_0KMr5wjclkM6jXbu95SWqtcKzYyaJjG_uWCDIF0CK1-vVDwddQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJAQAAAPPNejUR5pMjPitsABQ",
+    "plus_code": {
+      "compound_code": "H6XG+XR Sejong-si",
+      "global_code": "8Q89H6XG+XR"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJAQAAAPPNejUR5pMjPitsABQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1000
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Sejong-si, Bugang-myeon, Bugangoecheon-ro, 103 부강옥 세종부강본점",
+    "geometry": {
+      "location": {
+        "lat": 36.5274244,
+        "lng": 127.3789535
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.52877422989273,
+          "lng": 127.3803033298927
+        },
+        "southwest": {
+          "lat": 36.52607457010728,
+          "lng": 127.3776036701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "부강옥 본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102472761880174047086\">오대산 (해주오씨)</a>"
+        ],
+        "photo_reference": "ATKogpd7hJ1xUmQy0Af6AIpiAXlyVM4acfJeusgLxzVrGWEU6aH20pZcOs_eN-SBdFv9HvIva2Vr0J-B08x_azKv91jYSQLNcdRIjxRVeFLdaan09pTprF0tXISFWpXbtrdmfZMu1KZmMJ22XXWN7EQXUi_hnewwtF-2dxFmmZ4b5H-h7H9EdCfYjVbLJzcStNcv8US_7Tv6j4q3m3pkF05ihpZlFmd0nt2bcTligLT4OHByPvN4qb3spK_mUeJ_nTG-13bfJtrL0YUwoMRXLpE847qqkdRVTxl4_dUHHh_NW8aSrXrpPXH_spwM2tkYrfEjrNrcA2EdkLJrTLwY1z1demhk38G2pOG73Ap20PyC0dxy_MF64PJ0boMqNyUbwjiHo07faYj3aHeao6UzvemxPeIKO3y98Kqsr6m06Sj57AWImmpPWZ4byxGGJltV-KSq-KBtXMza7LKGZzJxcZ7Tek7wKkEcTAfH6oraILNZ9OCv7CIGb6b5qnY9KxZYlPw3xezXVlBLG_KGsRQ_R98xEtC1RkRChYVeWKbxYM-_b6RmlPAjIBH0XHwgiVuuGJNtZEXrB7EUtEMw0w",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJl4_9Rm8zZTUR-1i0E9ov94c",
+    "plus_code": {
+      "compound_code": "G9GH+XH Sejong-si",
+      "global_code": "8Q89G9GH+XH"
+    },
+    "rating": 4.3,
+    "reference": "ChIJl4_9Rm8zZTUR-1i0E9ov94c",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 882
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "61 Bodeum 7-ro, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5192725,
+        "lng": 127.2527004
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.52062232989272,
+          "lng": 127.2540502298927
+        },
+        "southwest": {
+          "lat": 36.51792267010727,
+          "lng": 127.2513505701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dangmiso",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101065406583605694947\">H. Park</a>"
+        ],
+        "photo_reference": "ATKogpf3Xn7ywkBM6cjrHBwtpwBz6oU5YEe1fW7l569nWPpOvIRACj1jl3b-Yf2y7Uw_E2kaoIy9E1OfO-pjZ6CxdwALd_rWKzPhiSadnNkwXUF_XxaU0KQw1eNKJqQAT_gXPhCNqdwgLV9QQf0TQTAdUpl2_TBjMndZk89KD-rdDA4Iirw9rTtUexx4mTCHofN0pak7NMCDYGQgnTn83NcFQp9lq84KOO5JDmFKm9h0uC91VsYsjS0-vmBbwNqy_WsNFMWysjrPrCedMRacUCbi6K8ll5bIACaCw_T3c5wf-yqOpzjes5ufDtdcaXNldVXJcjksgBYCGaaGuKEies_HyiaqwpYkyuy1zY5MosvEOzQN8WmrNtYB7Gq5qrAkM6-Q3J4VdSFlu6tgsAUCSS4DUOQw5EAwV3LQL9NqHa7iN29XGw16ch_XHiy4ZT6HmhxIO32UJltraKIL_5DZHUjtrBDYodcsqfqoauH7rdYGf-deAfidDdTNJAB49mjsClnL4tKAYaYSTSr05xKwYnRvuEQCai57GFLTqL_zYrohje1EnFdKdCrmgkDF2JhU2fzmZ6vksrxr",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ8c3NM53LejURb7wDdAnLatg",
+    "plus_code": {
+      "compound_code": "G793+P3 Sejong-si",
+      "global_code": "8Q89G793+P3"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ8c3NM53LejURb7wDdAnLatg",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 526
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "47 Wolhyeonwit-gil, Janggun-myeon, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5031177,
+        "lng": 127.2225786
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.50446752989271,
+          "lng": 127.2239284298927
+        },
+        "southwest": {
+          "lat": 36.50176787010727,
+          "lng": 127.2212287701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "곤드레말 추어탕",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113708082893258568550\">김주현</a>"
+        ],
+        "photo_reference": "ATKogpf2r9zZXz2Ed1HKXf385Gi9la1ohz_2pkQCAgM16r6nSH8zOchSoABYQZyFr6GXliEgZCLcy30uMT9I-M_myazmHfMGgZ1J7RzG1y1T7ti3I6hSZFuMCP56miwwlbjwT8iPkQ7b-AfaZwNUqWJd4YpglZ-Vxu6kGFKvKVoXVq2wDs5yWyReowOOXJp3onhwyEed223FEf5Xlxu7FkQR7Q-ZRo5qVzSAXwj0G6Ep0qSOPBfkAFa50l7xN6OGYNSwl-Qw6-5BUJi0B7LzKy0_KCbqvOGZ2pNASpH3APWVSgUuH8Eb3Z3vwqfX_PPAW32ZEGo05z7Oty72wUIQkyZ_ha9p6eCF5Hqbwd8iuWk7Hbp-8ilMa_MLH7uArZzwqqwDyTsny1WLXlErnBMtsf_tfdxiLwBWIbRLrTJw5l02-whNL-hiY2Dzo74s-Jbb2N6O4Y3ByrjXtCcj57wXBGZzPGv2izQAcmAcu13T1Hfv0w2SC4BFyWchGDnOemS6a7_8_vzNOkDiv1aClbIkzvQsZFv6g52wMUptwi9scNCt_3bwzlFsPMLJvdURSb45RHkQRBetUA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJB_G3Wc3LejUROC7VNEquWzc",
+    "plus_code": {
+      "compound_code": "G63F+62 Sejong-si",
+      "global_code": "8Q89G63F+62"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJB_G3Wc3LejUROC7VNEquWzc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1132
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "83 Nuri 1-ro, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.4779068,
+        "lng": 127.2491994
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.47925662989272,
+          "lng": 127.2505492298927
+        },
+        "southwest": {
+          "lat": 36.47655697010727,
+          "lng": 127.2478495701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "나주곰탕염대감",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111399959429559327604\">Samuel OH</a>"
+        ],
+        "photo_reference": "ATKogpfCYhI8IQobqN_jFdXYmRo9Djs2MqBpOWlbykOLCLkTSFslbI_GOhQovtwTPPflsV9_ByeWTYmQKjKYBOfmoTxjnZ2JJsjuw6rnIXclv7t3yzeMwyllkavEu6AGRijOrgYXJgqGRnw6PAl6-SSK4c7-CUmcE0gPhBZ-raqbPo1irsyHMAjJchGn4152d5nGRPoR51bBx3muVFv-MuTbt7fanZS4NeULk8TUBWN9-_pbel1dzIX-xyuzmGrsab2QIavxszREvD-lKtEkWCzmAlV7p6vKxAhCZMepyxbMJyAZkqFDLy622bmPmkFhnwY-Gm6t-4E6PCn6_7fEXy40KJiuGFper_cVwSL4Ev2xAyyPM7hYmPuQ0BGqletH__upGyFcUHShmlHt3_bskpuhMhwWb2YShOoFACHpi7AhJTX4Yj1P99MVT6N7S2c39qNYTZDurBtigRNvcEN6ucOCCI7DL5_Tf8_tFChCXMdsEMp421lpfq0IciZpkyahvZY6E7p1HmjOAif4Ody7CsDJgz4Frqu-u8BFWhxfcQLdNVco_nCmAMwL3fIXAUY26acfzNz4AQ9G",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJe7FYQsnLejUREJCGTHo5oyY",
+    "plus_code": {
+      "compound_code": "F6HX+5M Sejong-si",
+      "global_code": "8Q89F6HX+5M"
+    },
+    "rating": 4.8,
+    "reference": "ChIJe7FYQsnLejUREJCGTHo5oyY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 35
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "7 Dolmaru 2-gil, 조치원읍 Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6064776,
+        "lng": 127.2919547
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60782742989272,
+          "lng": 127.2933045298927
+        },
+        "southwest": {
+          "lat": 36.60512777010728,
+          "lng": 127.2906048701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Jochiwon Chambong",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112660448937544379055\">Sang hun Seo</a>"
+        ],
+        "photo_reference": "ATKogpd0btCPgNxSwwPbf0F-ie7XbmWBbXqGxO9dgSkcoUSeEMKavUAT4fg2BpRE-Y0NUCWAp3IU3uMPsoMS5QYp3x1z2Ri1xEZruom-23r9iHG0XpKr63imhOc5rG4Z9kGyCxJovCIbe2MuNpYZ5HYKt5DA5_KtRq7B3eQBCrJvgu2C44XiQeeuTgkLl4jYMWnajh08L6IK31t6-RGwAM9yqqW29_a1147CWD9gO3vWIeCa6j6QLgZ2KxS4ezl1erH5-T0OoGJHifZIkdpU-OtZLxhkgfmXRyDsBia-SsjhojPqQeyzi7g6HXBjYKBVr7Q8ki8lvHrBhVfeyynFBD2A-GoplW7SB12VV9Z9WZ8YJc-uKpllRElm6lofaRmUiUb8DxcgBQK9iQXxKP5evJ8RqqV6taOn_n3U2HkVBR75Xxs_AbQEQr3tX1MpDFdVhs8VQSMmRNnDuMjZMkHENMKmNcyrZKURzIjsb8hQwriTZ8n-ZiFLvOjDvGAD8CAr7Pz0aGIFovmsgbph-8XOqhr8AICUO1Acgu9N_m9uKxKzvK7HBJn_ynxzdfj2fx41XGhuRVPIlN-gxadwSw",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJh0vA2LXSejURDfXwJBF2mCk",
+    "plus_code": {
+      "compound_code": "J74R+HQ Sejong-si",
+      "global_code": "8Q89J74R+HQ"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJh0vA2LXSejURDfXwJBF2mCk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 571
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "38-7 Wolhyeonwit-gil, Janggun-myeon, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5024729,
+        "lng": 127.2232684
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.50382272989273,
+          "lng": 127.2246182298927
+        },
+        "southwest": {
+          "lat": 36.50112307010728,
+          "lng": 127.2219185701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "고등어밥상",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109115916968093840044\">Yim S.K</a>"
+        ],
+        "photo_reference": "ATKogpe5B_ZiQXOotfmAVvztuJcFd_VMj9Q1vz1wO-Ultff8o_aOvkrOrnDxVCJesgP4a0MaCaQY4EUQUvHp6rboH3WnC7Cl4kByOr_HGdy_LpkR4tp-1Twqy0fyTVBCKuId7mgO0V7l0hOQtfVP2JJaf2fO8J8MpMqk2P6TB5HltFSTIbWEGI3OIOl0b2vhCzWnrfS1ByrIntI45x1fIx1Jc5czO3FspjphCHAoUFMAW-6wTXzbnClC4RagBtt3Ltcp0_Pi8nLxKoxUA-xpZLhT1ybEuHWLeJlTcM0nYCNfmpbwuC1hap_1VHHb0GjKfog500QIutkaIaPxdRSATSA3Q5M2hqOhci5XtlQo7qhZDL-_sfIcET5Byt48ghv4f_b7FT1ARN_f2hu6JHtgzuS6vZs1qv60TvIELz-ooQy9TbdO8b1mBYH-xArVKuuNgG33QkH-AbizPUoz3e9239WsT_kMq2toZZIpRugkTQ0WfZMfu2V-P98qfex69CAOwLjSje3dCN-Y2VYXxfeNzHo4wcJdxCdO5_QURVatJ_UBVpuV6UQ0qDbd19xkGKz5FH8G6rPNSQ",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJz-cPPCfLejURcM2dWJySMNA",
+    "plus_code": {
+      "compound_code": "G62F+X8 Sejong-si",
+      "global_code": "8Q89G62F+X8"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJz-cPPCfLejURcM2dWJySMNA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 484
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "31-15 Geonneomalgosat-gil, 조치원읍 Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.606441,
+        "lng": 127.2758949
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60779082989272,
+          "lng": 127.2772447298927
+        },
+        "southwest": {
+          "lat": 36.60509117010728,
+          "lng": 127.2745450701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Buttumag",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105810248266581492231\">김진욱</a>"
+        ],
+        "photo_reference": "ATKogpeVXWG75-1i9K9bDofVpHftY9g6tT96O4ZdYzwvnceXUeA7U_e_KPu2B7S7mXSJCqTcdNMtiYImY8hXuAHws2BsKLo8HzJOA6WQUOKa41VxKVypsVg4TvqxJyXNMP1SpnZDqa0VfZ2kQto59dBlrBLU--Fv091u3XGfmGa37ECCH7si7YD1KJI9EuVezBvBvFenl5eIktdv_s4P01_LAeM3RQ_jyP9L5TeLbgMBiqATEIQ4odkoFI-lq9A4mDLL2bZ5bCwzMIUadC4kI9zCtZzfFr1rVXnNGpAfDkdf9MzlnbiWtjhkpwigD8dJF64xpO7Dw-r9gD9gPcRp2bX1WPZIks6y1erabPh4Ge4_ejPjBpLmFkIQEwSnPZ0s1ZoQxqtOgvmOVmVe56_CAx-LfDiEHri8AC6JsLGl99zGswtQB1VeIo0HOQNOhUzx6f8MVnnEsQhY3SdPFTLawCWCQLFCxURmMMIQVljRHDVQL8bxydO_IIxr1lsznFt4diJ9WfyPHxF0yEtmU85rTycJK906yi06CQBOoGtYauRAOLfKvbnZOtjAfG6eM6lNw43MNs9zGo_OMw5nBQ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJi8nopSPTejURuM1FG56WEDc",
+    "plus_code": {
+      "compound_code": "J74G+H9 Sejong-si",
+      "global_code": "8Q89J74G+H9"
+    },
+    "rating": 4.4,
+    "reference": "ChIJi8nopSPTejURuM1FG56WEDc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 45
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "247-4 Sinan-ri, Jochiwon-eup, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6357473,
+        "lng": 127.2884224
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.63709712989272,
+          "lng": 127.2897722298927
+        },
+        "southwest": {
+          "lat": 36.63439747010728,
+          "lng": 127.2870725701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "송하한정식",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115877460704840504000\">부유한TV</a>"
+        ],
+        "photo_reference": "ATKogpfKAlnPm4Y9gf36xvS6gkvsfX8pRUvJtFioe-aAH_YFKXttRmSwVdjgr7dGQJbsbdamPCAdYWo5cyqEybOwQinUsjPLx7n9XrE3_DTcD9yA-WtFtoRBjzEoquGfw1Op9WH46gMWuoqcw5rRfJKhCTtZNccqDlxB2aFXNCSlGxwOIz_HGrOSnY5-UVXF7_iHWpVbIK3cI_3SNstDAbzRVj0riD5lLxcedk_IaIetJZhgdhaVk3OosMzdyzfIEEhQDQedaQddsZaIqYL_-c56nBFJBVL-LCDM-SYouxyHrXSZ-5oHDk1r0hFqZNhWcr9ZgAg1Oi5pbnTuqOwTWkpeldb1LKe_PaNbxR9VJClzhTTe_gHI6AtlvCcdaFjUP1BlbzGTqQieRojkblR-bmVvB5w0Nr64hMmYIHBcxktzaXMQDsiT7WW1JX7yf6aJTDx_rL8FCF8z4WgMZ_chqRY81_27pQt6QmNDI4_wLZfMFCjNd6cMFKcQ-eHzxoy-Pfcms0Yl7Z-R-YUBulBHihReKP8c31sfO0cx5qn4oOtkZ9jv3iufkijJnLPBox9QmL8fuho8MA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJzzk9ui_TejURpSgQzZzsKQ8",
+    "plus_code": {
+      "compound_code": "J7PQ+79 Sejong-si",
+      "global_code": "8Q89J7PQ+79"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJzzk9ui_TejURpSgQzZzsKQ8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 369
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "6 Daepyeongsijang 2-gil, 금남면 Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.4658919,
+        "lng": 127.2823331
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.46724172989271,
+          "lng": 127.2836829298927
+        },
+        "southwest": {
+          "lat": 36.46454207010726,
+          "lng": 127.2809832701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "큰나무식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109376571078210570816\">조용만</a>"
+        ],
+        "photo_reference": "ATKogpfoyzxuc2I81VfLM-GyDODhPUmM28C9pRDHV16PEF3m2UQFOWUaiUltpgTucj6nQmGsSkmf7kfpskTmV2EqWj7uni7XoJdCyhz_1_3qxMrlVCq0jPa9cbKw_yNTq2Jdfzzn_hjesmtBez2ZrR2i6aixn5e6LmZjb7kea3E_nAlOosrltvEPpHSK5abhpZCndLmNF7IxqCKjAn6wwR54iMnWFP-G1E5tz82cQSUcmYDaPx3Hwe62NAVmyZOf6z80wNG9_eRFlwytQfl2kSCv9OOkhJsYk7mWAAPO2CPb6MpfmcJpm8mfI7tgooD2iVfKfdyi1_pRuQGgUq3mnWOPOEB4wpmtz4-ah-cqJ9TwR1nk7LeO9R8GxbM3z3wEq6aJmVEFeolUP8M7M4W3mWCWv6XrgQIGWDLfJYLEAG18yYNcDS-8xu-yTTGEE-sI2P8HneOIeMZ6LL-teAtZcWOvM21DA-fKBVaE8fZNMGWyRGgnox3zhzNYyfzW3ZHQVW6eJBkHyTIvAf14tid32BYWxBA8jcbOrFxgFQlTeYafajvS1BzFi2in2ciEHy1TAzafwDwvq6uw",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJvXEjwsbKejURSQNKI6YuLQ4",
+    "plus_code": {
+      "compound_code": "F78J+9W Sejong-si",
+      "global_code": "8Q89F78J+9W"
+    },
+    "rating": 4.6,
+    "reference": "ChIJvXEjwsbKejURSQNKI6YuLQ4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 20
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, 세종 특별자치시 충청남도 연기군 전의면 만세길 20-17",
+    "geometry": {
+      "location": {
+        "lat": 36.6787603,
+        "lng": 127.2051004
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.68011012989273,
+          "lng": 127.2064502298927
+        },
+        "southwest": {
+          "lat": 36.67741047010728,
+          "lng": 127.2037505701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Miraksikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105841552049601381976\">나무무화과</a>"
+        ],
+        "photo_reference": "ATKogpcYUF0jJ-8PsGb_ak7N0b7EjjxNYP9-FMlOTKTzUqv-9bLgh2agPwk9D_FB1-QMho6x6Zej6hsIVqkgykKRwrkYsvijTjA_fxiZHrTC_vuhL8ag5V3cOEml8vXvFZullNt7a5Nn7lbzIhKkRO6HVj8hgsYrPgfucXrSb4CS-iXnRo56T1g5iB5xBUXYyB2iW2MUHbCrmW3X7CWGVI_d66jVxZcksWll-2alNd5UFYgDfiImlxn8EXZ5mBsNDltkx14Tb7oan_vua35AsF5FBYPKnSsrAbabMB9gHp8JnEqimzIRo7ka4HuJJ2OJzwUjHs9rRcCKR42aXV2EkQOKLo4gnBrLQ60u6olsfR2eUo_fnMmlDbVJul4wKwTB5USzEyFKDSj52ZcMb2xHCWyKDUgqeQlhWcwSrKEMRya3DdewbspHME_VKAhkJ1Bt28ax8I5i8lktOOZlbfLM06OuUBdGgoM1Qc0EfI65DJuyMZ7y7lOk-UN_QoD1CDgdFrkTrYR5GTJBDLixmio0zIWzzwHH7R9heYuipxZl7CUYzJPq6DSZ3dO1Xh_rDuF8OKoXqY5iHbND70T86g",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ67jkyF3RejURf6fc_KPqneE",
+    "plus_code": {
+      "compound_code": "M6H4+G2 Sejong-si",
+      "global_code": "8Q89M6H4+G2"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJ67jkyF3RejURf6fc_KPqneE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 186
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "284 Dalbit 1-ro, Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5214348,
+        "lng": 127.250979
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.52278462989273,
+          "lng": 127.2523288298927
+        },
+        "southwest": {
+          "lat": 36.52008497010728,
+          "lng": 127.2496291701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Tteule",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104202690473121272042\">Byeong Keun Kwon</a>"
+        ],
+        "photo_reference": "ATKogpeDz3iBxHBHCNSaYuXJgxnOFtkoUPtNjwD6G3knVM2qZrsUccHh5VPFCfguQnvv6cE20njbFMU-bSNQLHxJymOGxkPn7r83cp0zBY7eBbYOl8S9L3PGSsQ3KolvsLTdkJXVwsNffFFCGYMCTEOWQdvr7Bmz5flMGZ24nmVw-rkiJhNMiwT96kao0rB625rcFndaqATbxTracW_RWXx_33MffOxca_7-CId5bhNlyrEjNxpDAt2A2HX-RZiL97sqzOPyPC441DGWOcEVG7Z5ZQUZdOtEbWtCH5W3-5weKuojrAjRb6WiWbuimRwQPZXBNxsssftj82BXTzART--9dBCMILagG7OMW6L4Its98QFAscH-sYYxUjdA4RU0YPnaHdUw7qCPa_xYlUYX0aiQX9ZhGjrviYfjbhlKh8yfjFovb0Ac5Rq21aHkE3Jew1jQAd42nunozMkqBHrplljRnktlDYdjqodrcp-J7ptcsQphH3dFBrjbU1oZdHGFJZqI4qMm1NKNf8hw5i3fLNvyAwv_BAHLI6C9JFYxKykCySloUQe1sh-3NdY5fmhmfw-VIK7QeUTr",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJPYLNXoPLejUR4WH4pSlZVUs",
+    "plus_code": {
+      "compound_code": "G7C2+H9 Sejong-si",
+      "global_code": "8Q89G7C2+H9"
+    },
+    "rating": 3.9,
+    "reference": "ChIJPYLNXoPLejUR4WH4pSlZVUs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 523
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "51-1 Gyo-ri, Jochiwon-eup, 특별자치시 Yeongi-gun, 세종 South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6056595,
+        "lng": 127.2970401
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60700932989272,
+          "lng": 127.2983899298927
+        },
+        "southwest": {
+          "lat": 36.60430967010728,
+          "lng": 127.2956902701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "먹거리식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112407279635805207915\">원동원</a>"
+        ],
+        "photo_reference": "ATKogpeKVV2JtBfWRoIqHYBJ2UPMbRjZRB4kmQgcGMHoNGt2g3cFTRirqmQe_2Rc62U1fjBYpx_641GRQ5nbxVmEiA0R5LIew7TjrV8YAD4E6Tv9c2Q-l_tUyffx_Y2oVg7b73m8ffZbj86PVpXyo8aMb3t4wfV0rsQ-XDu0bVe7ULORLeUR_pRzo0r5SvbMSXKR-rBrjPtP-5go38VouMwKW_DkY3cR8p-4leEjfaj3sj_nqZHA5AS7dQTzhK82iJHveGO1CLceaGjJNiwTMlA5jRDIJVVYedSDnfVwauXimulTihza-MzSsuPicspWtwvNskJTuTfjXD42twDih4lBPwo6uXwIQk6Rshw5ht4gUywu7kPa9gqoxSCy9t4_qzIP79PuVANmwUf9rKVOqc0c3eVGZudlBYFOOuG4HxvUexJSnfUtoqfPrQRlAfi2GeXsnAs96bfq_IW3m7HUIonndVgHH4HP2yEyTKiHeu6r0nFHnzxyy2j68TYAu40ZSvvxpdkRMGF5rhjyk1DhrKIrtuOceKgKMjS_4C_i4g9usZIJKWMEpK1k8cbe2_JQSuNFsLfo-Sxp",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJAcjrHQDTejURqiEg4psO1tw",
+    "plus_code": {
+      "compound_code": "J74W+7R Sejong-si",
+      "global_code": "8Q89J74W+7R"
+    },
+    "price_level": 1,
+    "rating": 4.4,
+    "reference": "ChIJAcjrHQDTejURqiEg4psO1tw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 47
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "110-3 Geumnamgujeuk-ro, 금남면 Sejong-si, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.4732862,
+        "lng": 127.2905444
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.47463602989271,
+          "lng": 127.2918942298927
+        },
+        "southwest": {
+          "lat": 36.47193637010727,
+          "lng": 127.2891945701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "명품한우타운",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115122665338257232324\">사광국</a>"
+        ],
+        "photo_reference": "ATKogpdzts2z4AZUbou51pI7GUd4L9-ZB044IPXsTeKH6DfWhF_A53apg6RE7v27GcxqiMHmR5MVRDBDs26M-lkzFwyqokXOh8dXP_0l0N05hlGCTTYJ_A2456AXGtlKxzBRaJW2KmtsjaP73bANIxZW-aqp5VUhq1OiKYzdi9YVBOwkfp0i6dSK0vcTU972tjQaEin6GKSIKjczsPTDeNNiV_BYEtLiae-Nux90yAYBK06Vw0DRgzpfUurQay-vQgpbmWNFquLMWkeuO4WjT3syp31M9fOjXUN4L5uK36-fxxlXAhObbowu-PeES5JwznrIdljeKT6n5EGBMbShiEdmPNDzJ5_5sHd5c_xGgc5dWa-MCOoynFlN2lA0PdTeHoPohNPk2kNjAr_MdcWA7mYXeZvOa9SetPdoZ6NwTlmMUIyszOSulBqoC7hBq7bYy53GapfSna_zRXuNvhnPUXq9sQZ3MGCo5fOHsWXu_I2B-_t0BDsuf-mI6z4koToc_kvHSsw7151EE7gS7Zr30f4CW1_LMn5dJ17bdSZAo18QDgd1rG7jWaURk1JD_MZr-ibTv98LtTQoFf5rRA",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJ5_oUytbKejURXgoYl43DeyA",
+    "plus_code": {
+      "compound_code": "F7FR+86 Sejong-si",
+      "global_code": "8Q89F7FR+86"
+    },
+    "rating": 4.1,
+    "reference": "ChIJ5_oUytbKejURXgoYl43DeyA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1226
+  }
+]

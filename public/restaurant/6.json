@@ -1,0 +1,1005 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "201-121 Dongbu-dong, Dong-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5415559,
+        "lng": 129.426686
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54290572989272,
+          "lng": 129.4280358298927
+        },
+        "southwest": {
+          "lat": 35.54020607010728,
+          "lng": 129.4253361701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "하동식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103595616133418237101\">개오리</a>"
+        ],
+        "photo_reference": "ATKogpcH8_wT-7L-3iSJlhIE28aBwh_NoCqgowUOcbHH6viEeLq8PMb2ZvA39dOpq8Dy2wC31Ke3y6BnzreY3qPUdy2dizxFhNGnsIIQ_GfYXdFoY3XJlsd_-qANnVNcoJIdpL3yyLJp6LWaZQVTa2QX7HsBea4BramCn4p1yYzqrViqOac-yfBpGc_zzG9TDStZQiBiBT-bBepvdk1mHtWBb4EYbwYMyfLoR4XMrSODrxk563oK1v0XD8MRE9QkMIyG4jihnuDUBrENUqwL2yCOie3hkDpyUdz-d7Hu0J0W0PQiyO2CSkYm80xSPcucZ0iT3GPJyrAesTXo_QyOQkGdmdI-Es1TL_TVxbz1zgFkgteAuCnuorf0y4cgdL7Qja2ckH0-tGWL4zJHl9UxDzFms2F_sQ4hqMNwgv8bkpm1TPobb6T95gOzc9alvA5LuhsS8TJrJYx5_UHbxbsCXEmJRezYf_3Yn1lTN9MOkbTvfWGOVrQNdrRwkCVA_OHyrZ58nmUzphRGJGVxYS8360YRiQtBFqtvmeqQLM9dGKtAUlxaX-o0TTuzZJThVdbSN1DJDd4Z0qE-",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJYy4o-erOZzURIggx3mHaVSM",
+    "plus_code": {
+      "compound_code": "GCRG+JM Ulsan",
+      "global_code": "8Q7FGCRG+JM"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "reference": "ChIJYy4o-erOZzURIggx3mHaVSM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1119
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "86 Heonnyang-gil, Eonyang-eup, Ulju-gun, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.565301,
+        "lng": 129.122482
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.56665082989272,
+          "lng": 129.1238318298927
+        },
+        "southwest": {
+          "lat": 35.56395117010727,
+          "lng": 129.1211321701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "언양기와집불고기",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105030734755648849719\">Andreia Carvalho</a>"
+        ],
+        "photo_reference": "ATKogpeRxaufZ2Drw6qd6_xGmL7LLmxw2LxU1BY4hbMI2W6YqjxVk8Tf3A798lsKkBFByio-9g_TJR1LfBobkOCv1QevYHdnAmCiINMSsRZiGCcb784P09yb0LTj1-XxmZwgofZ-gkMqfx06ATnTmSOAnyaE2EtlaapoPzp2aYI6x3YZ8lUNP2jeSWRIJzGY_ofA4DLUnnlSUUdsPW8WRjPZASSLpHZVbLbkuLfWxlv40WimLX1EzdxY4gsYf-RqeaN7I88hmxdTtKwXFpPDSy70xEairvGEeKCd9jYex5AXVzVOuiRqzU6HRsVZqZ70WQhH188j3l47v3Z7xk3feiUDfx88mN-gtnu74wNniPEOS5a85ux50L8ei3bC8N9Ca5mN5uj76qjsiViDDqd_MPI_iG2B-ZjEabFS0AHUGUkGSWfl6-yO_z-6zKccq7p2JqF8nQ0YerfsykM8r2Bn7y8RJdg_mWOmGzBmwPBL5QlZDyFzcKsR2bzNOGEaaOCpqHbY65uLQoJsCbA4sMLprl86OOUhoBzjlUHQTn4qzfs2H6NfGpBkf3Lj86QCxAqe2INknTEApVmJFpJKeA",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJy2welKglZjURm0NmyJ1Bvks",
+    "plus_code": {
+      "compound_code": "H48C+4X Ulsan",
+      "global_code": "8Q7FH48C+4X"
+    },
+    "price_level": 3,
+    "rating": 4,
+    "reference": "ChIJy2welKglZjURm0NmyJ1Bvks",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3526
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Bangeo-dong, Dong-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.4858945,
+        "lng": 129.4298955
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.48724432989273,
+          "lng": 129.4312453298927
+        },
+        "southwest": {
+          "lat": 35.48454467010728,
+          "lng": 129.4285456701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "섬뜰.전복밥 유명.",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111659218286455152309\">JayH Kim</a>"
+        ],
+        "photo_reference": "ATKogpeMgfVzineUI2f8vLGXz5XI1Jhp4wuc9cQlwyJQ_BRgdNGarQF8fOKi5Pmv7JAkrCtBYKzk7K3K4zatNQoBRm0Pw-fb3xbIpPJQUXRf8tES8FgMO96oz7ESun8VFqPwJH4borer7RxMeyBvusju8_nxRPvj_oA_wzl4SWqjq_zIYg_7aXTg6getxStzMFD9uLjzpUiu8uL8F9Uysb1ERsovFv48dxUoxAmpkguRgrNp0O0csF2uOK5yFLCqrBHD_LnBv4NC7aTyRZG6vQl7vU3oJHdCyeITpKZ7ViOHZX9w1UYqE5-CcGWX2keVMheQVQ7bsEiRu8lHBQ23S5Gpd1Jz6--i_CrVEWwFU-pAizQZs2xZFVjQ-FoweKv_X69_PQrZHYQshTfoO3vdZfuo-JqhlD4t4sENEMOPx0sq8MOqgcrVzYOD_GUEHrvqZ6ZEhT9wEsUvWTeQ2h-g_BeYy9H0ts7LlLIclKW_M6eV2RKGefeBei2_LQXY-Wu66prF1gVlgl9LrSKITl3b-c3UdeZWD-fmKXfflgs5NqHTt8yFmgzkFC0LfTKyE50I5sALV_PqTHi4",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ60prsdjRZzUR_mB9A2qfiWg",
+    "plus_code": {
+      "compound_code": "FCPH+9X Ulsan",
+      "global_code": "8Q7FFCPH+9X"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ60prsdjRZzUR_mB9A2qfiWg",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 622
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Nam-gu, Wangsaeng-ro 66beon-gil, 1 1 고우나동 층 고",
+    "geometry": {
+      "location": {
+        "lat": 35.5395005,
+        "lng": 129.3313595
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54085032989272,
+          "lng": 129.3327093298927
+        },
+        "southwest": {
+          "lat": 35.53815067010728,
+          "lng": 129.3300096701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "고고우나동",
+    "photos": [
+      {
+        "height": 800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106885313359936156987\">Gorilla</a>"
+        ],
+        "photo_reference": "ATKogpesWiIdGZShmhxImWfLG7oOQVoiOvDmbTQwofcSnq9vWHXtO3MtzRczlhLEu4LRjFkJ-P1GkFmvM7PL38fcB1FXo9h9Iu6tAylLUaceJuOyknFxHyMDcsgbUgIgVNZqIMq4CEPF2y53sNLOK6pCHgGR5XaCVJ35VXTQXCVtverYNCm5T8n0drTKSxvSC7nSJ3o6_TN55KjRYND1H0W74DGZC62FU7f9nnQ30YeQQSMvZFQNWVORSH0A93WPOiTuzy8B3ErO1K3Uy1fuTeDQEj7pz8EDfAtJqyEqGcgparo5HSLCyCFV4gsRzx_3TTGoZT5AQnmKmLewACZlN1ijyZwW8Xy2HEkosbC8a4IqNVwBPlrtwUwUWzf_8-L9Oqxt_2JU-l_wfwppIx6ssGF2_7SyHMvFAV20THS0FG2g-qrBUzaAyUJJMV7Y-ec3GGRdX09AUhGj_DIxloUomufll2TgkE8fbNd3vC_D-NweCuJiboyDhil-ISF8qM-nAZORMb4coMwbr7RXnI7wqjYDY3K1ZW7XdcyDsBXYmgPZo76cASdM5X3Azj5RCRjmaCYA6WF4WuJj",
+        "width": 800
+      }
+    ],
+    "place_id": "ChIJ92Wx6zzNZzURJgTCZR161dY",
+    "plus_code": {
+      "compound_code": "G8QJ+RG Ulsan",
+      "global_code": "8Q7FG8QJ+RG"
+    },
+    "rating": 4.9,
+    "reference": "ChIJ92Wx6zzNZzURJgTCZR161dY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 15
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Nam-gu, Dal-dong, 1402-3 101호",
+    "geometry": {
+      "location": {
+        "lat": 35.5343626,
+        "lng": 129.3186726
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53571242989272,
+          "lng": 129.3200224298927
+        },
+        "southwest": {
+          "lat": 35.53301277010728,
+          "lng": 129.3173227701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "스시센동",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118381559807895150661\">또잉</a>"
+        ],
+        "photo_reference": "ATKogpfHYW3W1RSM9rG9DBJNrfxOZ7U3H6jMyn9Rg6yFenDdKBiFA7ntS7Bdv8eHmQPuFyNIG2ytkJZPtnQPtBQqmL0YZ1OmK-T5ar4b-zuIgB1e0l3bubeu7k15C5iP_UCKmW8AxLvXT93Vry5GrMQDBIviDR9fuE7C5YH7qJzX0z8e3C5LO1cAUotrlR7VajM2QWjGcUEUSrMOrrodphYQYk1PeBnB8CNE7RxxiOEpEgnqxQuIZ0709iGyA_8vP0vu9qmDehPd1v7FOj9R6LP7ZdMlzgXa4eMbpCA5wqwj2lb9MlmwXOeMdMtl5ep5wISRnpx5xyQPAY_dvRwZGdI3LwGYTmUZJdEKC6agcdEIImv-Ej83u3cJb150a9UNfIhcuRT_zqbwNRrIuYRZtaRaD55f4toVtmn8v4QEpI9SIIf02prGO47I8ZDaHb8Gzy2J58We9MiZE70dR6nFf6Qicno19xcLQI607xbpQF22FQkFKgeGvX5hBOL5R9rHJt0zvIFIATE8uo-FhM9XmjV6t4pnME3Z_TE0dLY3bhoFkTwotpAMv2J7yjZh7Wc3xOhG2v3MbF_S",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJY-aZdRMzZjURIFYBwwaViCU",
+    "plus_code": {
+      "compound_code": "G8M9+PF Ulsan",
+      "global_code": "8Q7FG8M9+PF"
+    },
+    "rating": 4.7,
+    "reference": "ChIJY-aZdRMzZjURIFYBwwaViCU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 32
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1266-10 Dal-dong, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5361805,
+        "lng": 129.3319355
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53753032989272,
+          "lng": 129.3332853298927
+        },
+        "southwest": {
+          "lat": 35.53483067010728,
+          "lng": 129.3305856701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "보쌈집 울산본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111000504910943353772\">신재섭</a>"
+        ],
+        "photo_reference": "ATKogpcKblSiW-Bo4MajtZ3SnRPRdIIH7FCUnjdaUZpIWVEl7xvj8E6SUejA8Zd_NLiQJi7nHBvHlSrMsj4D61kQ_UMhcvoUMengK05achX0OFWgKxJ2V9gP7zdsi30g7uangOVjQ2l9LHIrv8JLWBczokgy-DuXWK_Yhv53il2fM3MbUPiqgTySGKXHv6mfO6Kozblklntnf8PBGNVDvuFONlugC8nfaePsBlQYd-H2iQSSY06rHQ2zLwZGdOEvj4qTvbKWXE-ditJeifCg4HV1T4DHN1q-lZLOdCnMPt6AjeQGuduBq1wEsCn3yJtlhi99jZyYUMfCc-3n7MkZtxYeB5woJHI2PnnDnWgZuF1D4nij9jb4I-XQ1G72ecbb9bqwNKVNvtCtKeWfJb1CxXipaZV9A_s2-EDvIV_ZaZmwvRTnfcXAgs7spIgsr_URbLpCwsM9kvOnx4zoZpu-QP6LQ2JZdGgT-AeQjAKc1QnXn6BaD35tD1isWImGy9ud2hFzsv3PoBIsSm6_DdNRFakLSbU6fNLOMjB2JJTRM6qBZhrxGiOu0Q3mo7JzgPIh5c0gPpP7LS0XySrusw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJd5f2dkXNZzURmRh0DM_TCYI",
+    "plus_code": {
+      "compound_code": "G8PJ+FQ Ulsan",
+      "global_code": "8Q7FG8PJ+FQ"
+    },
+    "rating": 4.4,
+    "reference": "ChIJd5f2dkXNZzURmRh0DM_TCYI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 225
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1573-4 Samsan-dong, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.54132999999999,
+        "lng": 129.3362967
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54267982989272,
+          "lng": 129.3376465298927
+        },
+        "southwest": {
+          "lat": 35.53998017010727,
+          "lng": 129.3349468701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "스시카이키",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104628468291210972642\">투루투루</a>"
+        ],
+        "photo_reference": "ATKogpf-AuA6NdEjzVJ3bAbLH9F-86t6GzJusTFKgRBY8iWPfSlXtJ6a-ZdUhuMNCb3bDv-8b2rdJzr_RKcCriicn4VAkFLKr2UK6hFGrLpU4Uyg_xhs72cQQC1i4mGjRZVB2pbljm4YfMxqGR_2WY7nzhw4GC4NsXsuWceHEn2eu9uKESMzTA8ao-7kfUd2s1vXD1lCFHGBodKP9vf-d9786fEA9UX9-2UmoE0Riz0w4Bk10kAOMON9xSnekg3Q6OwIcNp0NQrDl-PlZJAsspy9m7B0PxeEvmjYLY98GkIAwhoioJVSxxx_bwG3XOK9doAQI2an8X3PEL4NBWyiaPNQTXjbRrg3WYHAwO_kd9wDJI3pSc_gInBt7a1XIDPnx4NLGcsD6x-jtcdpXczkKSPRX7chgUgGr4HQtnvdh28T_rrzazcrbxDu8fsedhyRLisldvvvU36BX60-ZU6BG7ws5clV2cEg8wHMzjna16l9x3UWM1Z9RNZ_uwGCNbnBhvp5NMwpcQZpd0iIbKpKdaf4iYt9hMrLBYoOjOcSShzb4IDWX3xVOqUtOUPyaGLt5Raqr-4akEHc",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJYY51sRHNZzURWDOY32fKsio",
+    "plus_code": {
+      "compound_code": "G8RP+GG Ulsan",
+      "global_code": "8Q7FG8RP+GG"
+    },
+    "rating": 4.5,
+    "reference": "ChIJYY51sRHNZzURWDOY32fKsio",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 99
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "71 Wangsaeng-ro, Dal-dong, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.539758,
+        "lng": 129.3304173
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54110782989272,
+          "lng": 129.3317671298927
+        },
+        "southwest": {
+          "lat": 35.53840817010728,
+          "lng": 129.3290674701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "24시해장국",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100030067464949327072\">김나니</a>"
+        ],
+        "photo_reference": "ATKogpcyD-x6o1maSdQ9KhW9GJHuhNgkzwh-99gBjreSo9eA4VlkT6BIKIKe9tGwQlHfwyZPfEJQ5h0yWG9ILBGZWqogNUcxOVM_zEes_o-A26-hPYaacVP7DNlGr4mS4G7NgFM4cGWAWFaG7wvWdUX8u3CYvoxLyVfZwQy65_9l5mZHp4AYyc7kaGiziJi8mkas-2KXZSFnbHD3ZuHCqtEI3gWblEuY_7zWboH1su1DvXzIFylYqdv3HdLjr5vyW3HoZEm3KWl7wzv9rl2B50jV4kyccVad0TRQNJ9GQdJiK7GlTF8AO8-HRlzXVAJyjzXqBXq3LsICRCxTF06ZfhFzvW82CUIGRKx--lYpedZi0KWbnK4TxcneKdX6KPZMneAH7AwZFk2OmTXXJrcc3SNSf3NlU3HUe35Z3yJcWglNKlx8JcvRUKTUuPZHMlCJjOE0xvAF8K4MMIs9IdP3HCKAYCiWoephimd5d6IqkXDNX-ReaRZA2mSQi2QZEef5j_qKOa00eneyax9iG8wuTisVqcWRmUA9nlpKmqXgS8WvO7wPqYxv4yzK6Xqi_xiZf8KPbnEzHrpZ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ9amXo0jNZzURPHjgvt-O2dA",
+    "plus_code": {
+      "compound_code": "G8QJ+W5 Ulsan",
+      "global_code": "8Q7FG8QJ+W5"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJ9amXo0jNZzURPHjgvt-O2dA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 141
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "124-14 Jinjang-dong, Buk-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.574515,
+        "lng": 129.356272
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.57586482989272,
+          "lng": 129.3576218298927
+        },
+        "southwest": {
+          "lat": 35.57316517010727,
+          "lng": 129.3549221701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "한가위",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111525661167310388562\">네온핑크 2</a>"
+        ],
+        "photo_reference": "ATKogpfCJsPsHH2Vzw1oM7do3jHDyKwyMfy1RS2_tbpuUwHbSDFMowwsd2rTs7PynPhDBSZUyQNL3Gp2qW7Ruc3yPetwDx8IORceVHS0MLSxDFpP3-IGmOSifKOyJhV2sCKTDS0BtrWwDieUAawCfGq7Ny369zeppXk9I66k7N5HMabiwgLRv15xxHzW5W_zm9JjLsU1FxiAqPl616xol8Vpt0teAVzEwyC9Qn7UZaIYwY1aDirfoxfALLFT6aX5ZJBfOByL6PS-xZTgoYlZZIh1KPnn_if59aPQuSETzyN-SgJQLdJ3snLKVgT7mJEWVHeijep-6nSfziaxk8U1_N0L_5Sx6QRJ5OHJ1QEuLCRdvzJbHOa5MJEEh3s3TrrxHitD7KcRm4CZQvdEPCK-DxHte09d3yU_giGjADwCK1047nxBhY8AD6NC-HschOdjXvx4Hp5qfPLfNjZMYj-7hEeLKKA7-eU6AnjUS22cyINKCShGBSmUAMfkKd0VR-I9R4nyEsAZ11YvF7OWXjUtH4eOGhSZu1KRhMmP6pInJSZNHBrZqmSxQXWv9iJbJbJaHniCs4d8hUXZ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJd4KDEozMZzURo-uBaQ_2RcE",
+    "plus_code": {
+      "compound_code": "H9F4+RG Ulsan",
+      "global_code": "8Q7FH9F4+RG"
+    },
+    "price_level": 3,
+    "rating": 4.3,
+    "reference": "ChIJd4KDEozMZzURo-uBaQ_2RcE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2190
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Nasahaean-gil, Seosaeng-myeon, Ulju-gun, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.3564542,
+        "lng": 129.3356885
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.35780402989273,
+          "lng": 129.3370383298927
+        },
+        "southwest": {
+          "lat": 35.35510437010728,
+          "lng": 129.3343386701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "나사리식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1333,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102440825395724239232\">Sub Kim</a>"
+        ],
+        "photo_reference": "ATKogpd7pwSUgAIz2awO6oiqFEfDWCClc0mbozMqcBgo3ks3bT5hi2QwQZQxGgjKGvy29Hz1KEmuDDfAwbUnNJGGQ2dhOH89x8GJHOTUIdh4KMAme-PDvzRoWt-p74OFxZo1EcyQfMrc95C85BGktN1jWBQsQMZxvOh_ceaTclNep7MUDcSVDCIHmy7-uPKK0lNtaTyTMr6Gx3oV_tT3PpK-kDZffhvfTjO4evtRoStDiRd5vuxApw8mceSip1qsSJubnMrnRiY0c3gzATYL9J0zHvm6dBJP465NfQkK1gsFHtcONR6fBM_P2MqMnxL1JMMenCp16m5R7ITi0GNGN-csKFZd2Zyx9y7eWFJwRvlWVAWg647xVwzc7mpOarBEAnxpp4M_tz5szp3tur2u5VDb4r4Q_OOluTyVtCbzWU3JNp6AWjGBUeajxS1MTp3SpdZ0vyQf_SCqAXyzbFkO0h2IOwqSfhDcOmKyLCX74bd1YTAsGEGh1NCPXSTyPOk1zubVGkCxw-aBXpeTpq6azEyzjNcRvADyB4l9IFPcHG8uRxIPogjReLki4kcQAgMO9PmwPz-G10EA",
+        "width": 2000
+      }
+    ],
+    "place_id": "ChIJD91gYcZ_aDURQOgwnvn874k",
+    "plus_code": {
+      "compound_code": "984P+H7 Ulsan",
+      "global_code": "8Q7F984P+H7"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJD91gYcZ_aDURQOgwnvn874k",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 354
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Jung-gu, Boksan-dong, 번지 1층 394-4",
+    "geometry": {
+      "location": {
+        "lat": 35.5625444,
+        "lng": 129.3305971
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.56389422989272,
+          "lng": 129.3319469298928
+        },
+        "southwest": {
+          "lat": 35.56119457010728,
+          "lng": 129.3292472701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "울산맛집",
+    "place_id": "ChIJo1BN4gzNZzURGv71dzDV1wc",
+    "plus_code": {
+      "compound_code": "H87J+26 Ulsan",
+      "global_code": "8Q7FH87J+26"
+    },
+    "reference": "ChIJo1BN4gzNZzURGv71dzDV1wc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "17 Wangsaeng-ro 62beon-gil, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5395122,
+        "lng": 129.3338059
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54086202989271,
+          "lng": 129.3351557298927
+        },
+        "southwest": {
+          "lat": 35.53816237010727,
+          "lng": 129.3324560701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "미풍해장국 달동점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104861174144741539593\">김수정</a>"
+        ],
+        "photo_reference": "ATKogpc5ZcD-lNFji_h-kmhgNqC05j4uX3PKFm7pURYF7oN6HEZlIvqyztO84tgsIYIiTyLoL-9s_qruJVfaByk_a1DS3MlRS4oI2Ru_STGd5dMHeRtYIGysGuvOhd8Rvx8uJAZZQoDH9efPbXIlmL7tz5BifrznL3pEPurGEH-XegFNBt7JcB0F6x5rRDW4j28upOhfJA5KdG5K98_2hb9r-2LWqXEK1OO4elBvXFILyzCiRqqF4RuZzJgazBMS-ysQSr0nPlUSTBpnJACICj-6fwFJ6YQC48KL0wjnxECuWFiMcYC1a7pl9jC57Hlh1obgUOGUBdBcEGg2kazFQlJ_rn0ENA_GVt0tSfQKEXh_g9UDXVQzTLZfIrjHcL3diEEPUyOtvmZXpTYYjkeBNedJzdwkxlb1V9PwR9-ZQCqVTUhJ5XEN1Kta_ctSMe_-wUsraIaGeMp_V0HXweR8ekcR5lziv3pn_Tq-ExmL2BAGBmcg_fGAzwQvU59W7L4UUpvdtxXtivMvu1blWHzL4QvYqA8uX7NUH5LoF4-7nJZ2ZCxJiYewyqkDLpHQ3AWl01d_lqULEUEl",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ59ycMovNZzURQcuL0kQ0yHE",
+    "plus_code": {
+      "compound_code": "G8QM+RG Ulsan",
+      "global_code": "8Q7FG8QM+RG"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJ59ycMovNZzURQcuL0kQ0yHE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 136
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1363-7 Dal-dong, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5395213,
+        "lng": 129.3329857
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54087112989273,
+          "lng": 129.3343355298927
+        },
+        "southwest": {
+          "lat": 35.53817147010728,
+          "lng": 129.3316358701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "카츠애",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 9072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108664097814428339586\">연두부</a>"
+        ],
+        "photo_reference": "ATKogpdXuyT4HeU4vPGAz7pmV_SKhjCFBOM1q9WfoAe6coia_9ihvZGzP-anH-eTzwYPp7UMOXrpbvpWKAs-KWpBdgNzU6QxWmINULFcJVFykU-9__K0Sh4fKHZnF_UqjEohlEF4tprIaIAN9pN1Q257eQ2xMyvKY9bW5GTZlNQgfAXXIUeAwgA9s8PJ4TA2PhptiuQjUjq4Ax7_LKYrV7kdzmhNgAA84wHHoM6MQTTKsYaEBHAdkqvw4QXj4JlBvWP3co6yeHi3GLNBwXnqvCMNWyG9E3yMs5GeJPZbLv0SoS--mTLoAE-76lPp7kwLBKyLqVkBQ2MWUReclvJ15wDO4TNFrTf5ZzVezJCPLUpaAJXAo2OJxeD6CgdcoyyDhJ5dC-3l8thfFYCTXrdG6hXbHfgXqkXPH5JT36trf7Nv60d-JQ_wexW01dbblYUisE8o774ZJdZahnG0kNh2Ra8jA67AN2kDrW-HZBEqtnNO7M1G8E4XNKeV8Qovk4G7mBGsWYgCvaS7plzLF9PsuLy_jsw9prSYW5o7TvCp-faEpABu8TvzIvCDbyNXV0Y8O6jIKROn6Cku",
+        "width": 12097
+      }
+    ],
+    "place_id": "ChIJhVbXXEbNZzURSXGMUVQTVIA",
+    "plus_code": {
+      "compound_code": "G8QM+R5 Ulsan",
+      "global_code": "8Q7FG8QM+R5"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJhVbXXEbNZzURSXGMUVQTVIA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 297
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Nam-gu, Dalsam-ro 48beon-gil, 13-1 1층",
+    "geometry": {
+      "location": {
+        "lat": 35.5347662,
+        "lng": 129.3347842
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53611602989272,
+          "lng": 129.3361340298927
+        },
+        "southwest": {
+          "lat": 35.53341637010728,
+          "lng": 129.3334343701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "울산 달동 사골칼국수 맛집 교산면옥",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1132,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116318557604666987922\">재재</a>"
+        ],
+        "photo_reference": "ATKogpeQMZ69o2SzaBrqtRHEx5UzUUEfI5Irlor5wJeuFQfeBBO17yyraZdAXjeXsU_hSmuI3mQ73Ptp0BRIRtXItUwkUc7cfc9-9Z-urJ4ARXQ0FmFiibOg7-eRNxQPneUBn_kF1-mqBM1MuDuM9MPr0i3XeYf6mPCoc02CCLxZlBP17D8BtHmY7k37rxdnUAfe7ReZT7gQj5-9czh4BtSIlxGWfSPOHWZqSo3uv1Jnhb64-gqQlWLXm3Vuer2_KEyH_1_mGFpWs2hIYwQbzrbdlDxR-jm8wywSxCdB47Ynqp3xZIrZ-HYTzLWgrxSLe8KE9O-YE5nM2w41NuGgmW9z1x21e1flgp8N37VUioB31U4_o-KWGPJ6DAZEVMMT-FBLRf3tGWpEjJwduDepHzbnczgwE8obGs5sXL1wD16DfzPc0kwYxgh60wGrP9vxe0eZRB3gQmZLb8qmuIKF2_6Y8qoWniD9sWhdJ_0o_s8UvWmlUcnAgc5_-93vy5i09gvaCv-wHXD9Ef0WjvPqWfk3iFpi1wwNXe1v--4nxbapYzhC196VXbYwaEpl9tzNi2gW9_Ta6TkBN-BRLQ",
+        "width": 1689
+      }
+    ],
+    "place_id": "ChIJm8JbMFzNZzURO4-ExopYxjk",
+    "plus_code": {
+      "compound_code": "G8MM+WW Ulsan",
+      "global_code": "8Q7FG8MM+WW"
+    },
+    "rating": 5,
+    "reference": "ChIJm8JbMFzNZzURO4-ExopYxjk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 15
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Nam-gu, Samsan-dong, 번지 2호 1568-3 3층",
+    "geometry": {
+      "location": {
+        "lat": 35.5413793,
+        "lng": 129.3396979
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54272912989272,
+          "lng": 129.3410477298927
+        },
+        "southwest": {
+          "lat": 35.54002947010728,
+          "lng": 129.3383480701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Han-Uyeon",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116277152467146099107\">MH LEE</a>"
+        ],
+        "photo_reference": "ATKogpfS_neSwAXgxUeqsvGgTzAKF3UwLzKmDNJcnK_9GxtSj3-xpvEDUXSQy_9s0c2NkPsXSjC_xgAnHc52kSVYKkJVGfpR2JAT23316GEVAeq3NZ2q7khF5f4rGOh4WsQZ-6gdYsVCqdy1hb26OQ55GNE5nRuM-mRkE8e7PAqvA_1Q9zR5KIpL-nCCfWvEEer15fRyp8hoTDqUyUhIngY_WT1UE3vy_ZXmN2HdvS2WB7vzrq0jD2aAxVvmwACMhcK0QzvO0BM0U5526HJUEi34F3TWhSZQMctJA6wl-0L-NKrLpsVtymuGvwdFqFgg0tGHNZDq-6cPYa9LNxqMMhH1tZ7IPABibllxSHR_zcN1IIlGQ7mwHD_vsL8ODW_-zBEyRebyqITnixZ0pS7dgzh3ZAzBRQJyrKQoyOaWs7lsxHjaM2thblczXvUR0v3JXiFQsUUth9DE0NA9723prTHkauLrhRxS3yd4dMjmcsG_kLPkPkz29eaDu3rN-XJfrXC4TQJ7E9mSLTDpzGD17meAO-neLjR-ls01WZivRGhD27Dt8CaQOR55i2xJZod8MYfoASa8eyBn",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJrxMclj_NZzURr7QFcqMGo_w",
+    "plus_code": {
+      "compound_code": "G8RQ+HV Ulsan",
+      "global_code": "8Q7FG8RQ+HV"
+    },
+    "rating": 4.7,
+    "reference": "ChIJrxMclj_NZzURr7QFcqMGo_w",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 39
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Ulsan, Nam-gu, Samsan-ro 266beon-gil, 4-1 1층",
+    "geometry": {
+      "location": {
+        "lat": 35.5385214,
+        "lng": 129.3360346
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53987122989272,
+          "lng": 129.3373844298927
+        },
+        "southwest": {
+          "lat": 35.53717157010728,
+          "lng": 129.3346847701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Oriental Mugeo Myeonok",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101189922774525274722\">이두부</a>"
+        ],
+        "photo_reference": "ATKogpeYnAeb6OSrpEyU-zVciAumEH_IlZFT2EMLX6qlwkdP5rpm1cSlILb4lye0Vw1saB8GaaNNwyLqa3m0sKtUSoKj_YetE8JWnu2wiSKveRjz-iiXIGIlJqW-zOQcCrpRXjvB9NDShJghNfViQA_jNqmFiuqz2tlFb-npHEheSc8jAfffTzFqNFivZzvjwMGMpm5mWAdOIC5HGN10FBHZ9-nPfQbQ6-6Pj2ZVSwijVDNfNPmIP5uk7hYfm8aIHa0CLx-EajSI-FqPQnU0jXiB3TSQHCuZirD516JYOMGZpmWLmXFbjYN7gwrOkOV15NMj25rLFaV1MXJxYdzWTJMfIc0wOYT-4p-7f2qyHVe__0raSUZvwJgRDt7SyR4D_8DKjyaN5WPIWGGUHvIAE3NvfU9KY3yfTaHUjdyDuYbdgcSkNX670wnldabX07vqcq7F5kZponujxfl4pFbB1r2dRCIz4Hx6-708wEZgIJpZY8cdKG1cNWexubhkN7dDmJYidGx-ckzD6MfNTqz5guO_xdTNIKeMb1SqMyCmtb6HZGxhTlQIa4QEpLV_ehi-cGDCc-E03_Xayyw6gA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJXelMAnjNZzUR_doXBL5rJq8",
+    "plus_code": {
+      "compound_code": "G8QP+CC Ulsan",
+      "global_code": "8Q7FG8QP+CC"
+    },
+    "rating": 4.2,
+    "reference": "ChIJXelMAnjNZzUR_doXBL5rJq8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 107
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11 Wangsaeng-ro 62beon-gil, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5393501,
+        "lng": 129.3331074
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54069992989272,
+          "lng": 129.3344572298927
+        },
+        "southwest": {
+          "lat": 35.53800027010728,
+          "lng": 129.3317575701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Jung Noodle",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106574502793234460990\">kwangjae chung</a>"
+        ],
+        "photo_reference": "ATKogpdDcT9FUJVoPUV3e9k1EFhaBLqN1ITLRSMgwxJAGkfVzgkX60go9brzrKrICl4w6yn_5-L8oVytwU0Yhs6h6dM3h-S_-QzyD8qvh2Ogo9mM9WRr2M-4iYkFwEazuHLzIKrzxxO0XVeAA9KsA-xsKk1gVuBDU-Iz2NaU4-Y2zCO7llE8IaKzxcLuyQ5C2xG9zQHWlheeQv71sUESBbukbFmQ6hjhsmMzhgjeutLd1N-WcAdSo9J5H3R1UtBU2-Bb_Lye5NdcUDsd8p67ZTvP8wv2dPPrAH0prYoBYk4n9VzqSsDmK2WgmYbpgzbt15ChQ5AwTiUmrSs6QsO_iS7yhbTmkLSm0RZuxKGRcHkLkGyCTCgTRP5-uXs-aci9fxnHtx8qwxaeHh2NeNqT1spJTTAMbO_RHB-dwzw_CtmaFv3pUr-5PyS8ZnGUsGAC_vQw4E3fJhPVCQBGEEFa9I-3cu17w5671zUuUcank8F-AflZr6QRKmzsGupIpI7dSxteZjdSnh288BBLuwur300s0XmhqV02DnV4RRG_88QXMTwHGBqfWxOxXCZSCpOL5nrlyJJ_sCtE",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJQbKeXUbNZzURLqtm9o8ozJA",
+    "plus_code": {
+      "compound_code": "G8QM+P6 Ulsan",
+      "global_code": "8Q7FG8QM+P6"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJQbKeXUbNZzURLqtm9o8ozJA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 637
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "678 Dal-dong, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5349297,
+        "lng": 129.3211487
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53627952989272,
+          "lng": 129.3224985298927
+        },
+        "southwest": {
+          "lat": 35.53357987010727,
+          "lng": 129.3197988701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "봉호갈비울산점",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109344642753094387891\">손은혜</a>"
+        ],
+        "photo_reference": "ATKogpepYXcItBHGsscReMLmAiWjSFLwCQ5pUyeivTlEf_uAvo8nRfQAVPFaY5ruFPj-6iZVZ9cONeKeM89XgVbub6JsM69iKa_qQCifV2xMYfLG2k8327UUzfh9UlWuUJNvzBSOPe0tY2n1kGzKYnyoWGctMyNNtf1L7qZmBxVaI0aXRssumGNOAiwWLZ-zxUqUxL3bHDg-4eVY4_HfBI2XTBNAR8YVqgfwqWWtcIp0mJRenUYKlhq-orEOQKa1jy10Nb3cAobr6VVLFxXrTQLxsbjmwONq40Dg1rhTkErcIJZ9rJ1n5oM01KVkRZON8or8aMVDTlZwm8P5ZrTYRwZYzGsqjXu-EVdAVhLDEjElpAFo0q5cs1oc4kBIVRG_aRtX6ZQcDw06-r8Pf1va841zxowFMGu0XiAM3uiBA8X_VLHFJzve56ct3-9EjlaDMIWnTpbdBuEEUsaN5LPiVlI0d6xF8PvM4qZCGjrwWslVv83DmRxcCEvT3WscjRNKjspfB72kx6v4-OinT4uRnK_ZkoxMlCTrsIcb1kXcce_rpOy2x_MYWlK5an7P_eUu5KYg3uxXNelxE7vw5A",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJvY65wlLNZzURpE2RJKINFNA",
+    "plus_code": {
+      "compound_code": "G8MC+XF Ulsan",
+      "global_code": "8Q7FG8MC+XF"
+    },
+    "rating": 4.8,
+    "reference": "ChIJvY65wlLNZzURpE2RJKINFNA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 11
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "205 Wolpyeong-ro, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5463559,
+        "lng": 129.3274411
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.54770572989273,
+          "lng": 129.3287909298927
+        },
+        "southwest": {
+          "lat": 35.54500607010728,
+          "lng": 129.3260912701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "울산언양불고기",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2592,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110513451347947491116\">아리공주랑곰돌이엄마</a>"
+        ],
+        "photo_reference": "ATKogpeMzItZDEJsaEA0IXWUKLHQu4pK6ugx1aJ3vIi9_u2Z84zc2Rmx95QR560XV44DPDU8OYvSfFP-onJGkhIMviycgJ9-d4Itcel_bPGAbr10qQl-7S7Bofz_SwJ0_mCwlBH8u3O-uP_7Y0LZHkoXFRHiIznwvTAuw6GKsnjco4NViXxs0JUvzXIT5bpnBg6MCOnH_xWiN8IjfBadp3G1QhAeIhx9NphKX_S6SvYn7tEHwqsOxajKPwiAJkbQNXdaqqvm63BmquFG3BQaKhxS4yP-8GQYkwSqNTIGqLQXX-mo5qlB6N6lDW1o1HHV7Jrma5TxNAdAIQn5DgklnEFPwh5kkpla-Ea_cro3HUejNMhTK1GCgdd1Hi5v0yVhwQoP79UOMaRqSIpoL4mr0u8_sJn6AchoWZhDfDrQN6OUGpqfwd1hcJQ9goN9P6Gsr9Lr9FQEXi1g9G9bbsV7aheuauPOOISFlj6d8KsMVueVC-lG7ukL8QtSk501bKfI9EZRN92tuK_LWehw_3LZ52dP7hhh-vIW3oiXHtH-ny8yMx-NvDnXYbPR20Y78uQvvbKuSk0Tjw",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJSdeuq2rNZzUR0OcoKxQGPUQ",
+    "plus_code": {
+      "compound_code": "G8WG+GX Ulsan",
+      "global_code": "8Q7FG8WG+GX"
+    },
+    "price_level": 3,
+    "rating": 4.2,
+    "reference": "ChIJSdeuq2rNZzUR0OcoKxQGPUQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 451
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "5 Sinjeong-ro 38beon-gil, Nam-gu, Ulsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.5355598,
+        "lng": 129.3228583
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.53690962989273,
+          "lng": 129.3242081298928
+        },
+        "southwest": {
+          "lat": 35.53420997010728,
+          "lng": 129.3215084701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Jangdoggye",
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110873704438328319790\">이영훈</a>"
+        ],
+        "photo_reference": "ATKogpdmHtyMsoME8GVdWks2Xij3Cqd96-l5XyMTuA-rIn420fXI33WzrlriEOKN1B33oWk6vnzYUyv8wbELNWHYA3fSUsOODV8zmGnUp4fNqeXpcWuW3MkyC87Eg5tMKxqKZe1dY-d13FsS8dSEg03zZwYS5bmS6kTicJeZsx2KQmZlZfwNn6KWaTL74_hurdlT6Xib77QBCgvIgMYZrRbSPoBh7Uni1ngVlQhWFcgLgcCnuo4j3xyWNmy3pyEN2UmYtlup0Fu5tdzzDopJcHARUFNHIoT_WvU3zaD9aiHMaJqlstij3hqaAxdsfMs8-ga37wzLxqx9OMJRMCKibPjbBl5uKvuc3FUR7vW5MFXXNJmyqWw4RyzrQHBFGNVAdxiBXAUChpa5mp8Zz0GsaSrB47q2JEho9dVHG46MiKorgmYSh9bcgtU9UVtuxksr9O-8cDt9f4Gpcavc2kKR4lqcWDr58d27K5Y_ucIWyXHk_y5UBPp5Nx2Y2qMpw-fi1eBcGofCCmq20xLMDvfXgdEZBf-yGAPha3XDUt-BYzDbfGNoHsi4VKBxdMvSviO5LpbI05IUqCFn",
+        "width": 5712
+      }
+    ],
+    "place_id": "ChIJ8cei32LNZzURyLpIGHrPyO8",
+    "plus_code": {
+      "compound_code": "G8PF+64 Ulsan",
+      "global_code": "8Q7FG8PF+64"
+    },
+    "rating": 4.5,
+    "reference": "ChIJ8cei32LNZzURyLpIGHrPyO8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 24
+  }
+]

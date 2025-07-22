@@ -1,0 +1,1028 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "561-4 Yeonnam-dong, Mapo-gu, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.56103280000001,
+        "lng": 126.9204141
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56238262989272,
+          "lng": 126.9217639298927
+        },
+        "southwest": {
+          "lat": 37.55968297010728,
+          "lng": 126.9190642701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Hangong-Gan",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2980,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107232748644802455135\">한공간</a>"
+        ],
+        "photo_reference": "ATKogpdf0GMzG1nAKM--8qC1XeoyXB-zZK1c81kcu9hRjlZVpRy72wzpAmqYw1hcDspgCXOh6LeiI8opuoZrq2OQo-sZDTRSqtkO2mKDyLHRcgpjqD6swWyfUIN39X2gwBf-GGUBbqxv-OeU1OUzG-jQKbxSvaQxV0si8IbBegjUNlPntzezj1uUSvDeXnI9u50urAFv6uHZVk_VI86avxOLWOjR_SlYFXLJtofR0aobghLE2BKwcDyEWHrM2TMfXt_CfrU3rtdiT5Q52_8h6GTQg93HMwxuFuVxbZK26xwgMhd15-dXEck",
+        "width": 2980
+      }
+    ],
+    "place_id": "ChIJeTTrvI6ZfDURUj3EVtdv_hY",
+    "plus_code": {
+      "compound_code": "HW6C+C5 Seoul",
+      "global_code": "8Q98HW6C+C5"
+    },
+    "rating": 5,
+    "reference": "ChIJeTTrvI6ZfDURUj3EVtdv_hY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 822
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Jung District, Eulji-ro 44-gil, 6 2층",
+    "geometry": {
+      "location": {
+        "lat": 37.5658763,
+        "lng": 127.0065052
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56722612989272,
+          "lng": 127.0078550298927
+        },
+        "southwest": {
+          "lat": 37.56452647010728,
+          "lng": 127.0051553701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Seouljip",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103496185534297179600\">서울집 동대문 DDP 맛집</a>"
+        ],
+        "photo_reference": "ATKogpdUD82DrmyBuac3n0K7zn3-WtGU6vJOc3-hiLMglJYdG5P4hfzkN4FQllomWbyGTrpJm7LlgpXfOJ3viADLBTziTWebjWjyeWtNtjOyiUx5bdADMZQ1qDOHlaZuKmByZG13RO2fAcNpnpNxezb7aDe-lEeJ8N_qJlk5NTTAOvRrbb6t9dP8ZQ_LvHzulrv9hRVHHbJcL9FdJK2g5shS1FjZKoMnq9hbz8Z-Fj-3_Ndtu2DxZUXHNDy1aKWRrzMfUQV2s3zPlV_DABrRb4nQ-lCOrxFuDFK-BAFEhzHlNni5IRhcN2o",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ3YX6Zx6jfDUR8Q8o-HOBXFM",
+    "plus_code": {
+      "compound_code": "H284+9J Seoul",
+      "global_code": "8Q99H284+9J"
+    },
+    "rating": 4.8,
+    "reference": "ChIJ3YX6Zx6jfDUR8Q8o-HOBXFM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 280
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "18-17 Pil-dong 3(sam)-ga, Jung District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5610455,
+        "lng": 126.9980951
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56239532989272,
+          "lng": 126.9994449298927
+        },
+        "southwest": {
+          "lat": 37.55969567010727,
+          "lng": 126.9967452701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Oidkin",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114260479640691883544\">한민호</a>"
+        ],
+        "photo_reference": "ATKogpfDalHZFQCUK9PeVNec3m79NoRligmdrVoSWmBgj2LApviFytW4ZZMEmDzketKGKAwl86gaG7GDdz0i81-mmv6h4hWYaiR3VxJOVDmZJ16rLk4ZAW_G_Ro6lB1FyrOMHuF72aHucVBcg9vOlh550o_UE6VLkiU7lknrO832ixyZfrakvilgW2lld9qWuOsHBaMFx55AR6HK152tZkC2_wmNYPWQAKun5WMmUEblGBY2OIsnUX2jFkPNqk3GQ9w3MEuqUnpJUP-PGs2Q3YDzwb9GRrXkHAQkY_SJ0tn3pvtbrWqyh4r80hIGr11U8C4Pz38sWWS5WoB2sEyfdykl_iIS0nN_pjc7xBJS-_co1357pZpG0IXjJ2h4Ay59U1imRLohQeeQc_lTCYsqhzFRGzT2Uk8fg8osNWe0VoK639nWnHDtA0lBkNo-rT1lfcVWbQLRUtjd_IPkGD9BAvPH83QbIhB8UTnl1v3KoVTnfZtO3gyrxCC4tqUmZHgj4D_aZzT3pcMhSf-W0sKi5oQzXO5Je2i8c1xTzROSNcpSeqTY3xgMfbVbySk3ArX-vrBwi3MTUFIBER-RZA",
+        "width": 6048
+      }
+    ],
+    "place_id": "ChIJedPsIcejfDURKv6qkuXJnjY",
+    "plus_code": {
+      "compound_code": "HX6X+C6 Seoul",
+      "global_code": "8Q98HX6X+C6"
+    },
+    "rating": 4.9,
+    "reference": "ChIJedPsIcejfDURKv6qkuXJnjY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 354
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11 Seolleung-ro 158-gil, Gangnam District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5256734,
+        "lng": 127.0410846
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.52702322989271,
+          "lng": 127.0424344298927
+        },
+        "southwest": {
+          "lat": 37.52432357010727,
+          "lng": 127.0397347701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Jungsik Seoul",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1138,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112646126946345653406\">재클린</a>"
+        ],
+        "photo_reference": "ATKogpdBCT-QlVTUWIk0shW6E1IQ86xUUHv4mfsbFYpVLNaIaC813Qwxogm_flk0sLDIsSX17ATJzvZvC7BaXVZgm2v7Whby7cjd6B7q8e5UPdzmi91ln7bzz6xJE9SQKpC6YajhTjGsxtARCQuH04r3oS1VSbOZ0e-E91Mi1-LskvRxuZH1e3it4DcsvU65qxbkQPEzOSmswTToUj-riBg6f_Nw2L1BczJ0cVHfp5wv-aeawAJ3iEgL5Es7wiPBzAZRpVd_kmQwJ95NZTZYmkvBc_tBs_5t-b_YWY5hzMtzPcnkRhTuDb8dG7lRtlcc2AyUY7fnR6ERvTgeEktwG89S4DxtZaPro3paNiA3ERarO-9-ahoEI3vplP8u8n2W-8fP56LqBDSJZwXDph0IBpaLLk_KTAkW0bR9qgt5qZJHNETuVk86qMv2SB8qq_eB7epgqzIrBSTPDWdoh4O577ng2xbcZHUyRFw0-C-GUs9lbvydKeKpXxq10MrgcIvUZryDjLTRYKs2RTIS71IhGYTQW1bKtJwj1PuXeJ8Bw40YEl7jEPEmDyMn5SIZyjBtyZQp_f3aMw",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJLwsYxYijfDURiJD-QZw6MYU",
+    "plus_code": {
+      "compound_code": "G2GR+7C Seoul",
+      "global_code": "8Q99G2GR+7C"
+    },
+    "price_level": 4,
+    "rating": 4.4,
+    "reference": "ChIJLwsYxYijfDURiJD-QZw6MYU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1547
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, 지하 1층 24 KR 서울특별시 중구 한강대로 416 1호",
+    "geometry": {
+      "location": {
+        "lat": 37.5553535,
+        "lng": 126.973746
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.55670332989272,
+          "lng": 126.9750958298927
+        },
+        "southwest": {
+          "lat": 37.55400367010728,
+          "lng": 126.9723961701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Bloom in the Palace Seoulsquare",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4739,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114226001309800699472\">동화고옥 서울점(Bloom in the Palace)</a>"
+        ],
+        "photo_reference": "ATKogpcA2AYPzMuSCgNHRyJYTzOdI-7ZUo5HAChNzZ-rDcbCPE2nrXqhjQ_6HBUhWGCdq4Tfmr6QruQiebD18P_w_We1RLilUjYBM5E4BWMsKNeNXmt3OWm7WX5-OkoKgEVwjCTGGJdUNX5fDEdL0ipGaXdbb71zb0nAAedtW16h_jW2H6nOWOyXBisHXrfHjd00MQiu4FVQFdREv5hgFl-ewfaRqvpdqrKjF3e3m02n7GaLQ0ivKJjMctGJoP91hgiNo1Yi_T1fz4u6sowwdkNtOTH6kfH_jB-_NDNktpwlgLN2cYOha4Y",
+        "width": 4739
+      }
+    ],
+    "place_id": "ChIJ7wxU_KCjfDURj4bvqeHGG0Q",
+    "plus_code": {
+      "compound_code": "HX4F+4F Seoul",
+      "global_code": "8Q98HX4F+4F"
+    },
+    "rating": 4.9,
+    "reference": "ChIJ7wxU_KCjfDURj4bvqeHGG0Q",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 91
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "541 Namdaemunno 5(o)-ga, Jung District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5555215,
+        "lng": 126.9738608
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.55687132989272,
+          "lng": 126.9752106298927
+        },
+        "southwest": {
+          "lat": 37.55417167010727,
+          "lng": 126.9725109701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Seouloin Seoulsquare",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116992939704820321257\">임상현</a>"
+        ],
+        "photo_reference": "ATKogpe-PudTn1x-pRsweeagQEov7mcUkh537ijwbDE0VLAeOYonQeSCl3xKhkgE8blDAB7onRDyvitqlRUo7OXn50xl2P4iAAVPpIu6QxhxVuT3vGZRAs7EWND754AEDYswUDmxN83wZsL1jOlvvee0aqQMjPOEwa5nUpxZ_XzseKmcpR0x2LuCsH4kiV1pDw6uFSEibNtCVJjqxuc6TvoTojv6beJClz2ozJPhtK5BHE8pc3Z9Y0C7xsI-myp26glmkrXagZ8wFaeMGTUZtIDW1NnTpm9P3ZbLASBwqsE0CV9LLVACB9BwPYzVN_XQg7zsh6WwZdY2ygfWm3iCzhkCi3fba8VNcCwEbS25Y5-7CHbT9-LObpCBa2Tx1eny5Lqah7bU55oeexdPV4sNpr7P2lxeD_oDhtFRjj3FWEUotjTK8peDL1fNcHYWCv2ZVzgLuACX6vq4yZ0cX6Rv0X-bHLdDfYo0NwLfrxq9tHV7twXzsyaOJiS7arLdpUsHoDbUeku2ET_kZE6ewCXzLvkidAH9OwWemDpQ0pVsT7YF0gXjWEHwm0vY2gTC32Wn5nE_MS1FeNoJ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJKxBVHkqjfDUR2fBfZzj97_c",
+    "plus_code": {
+      "compound_code": "HX4F+6G Seoul",
+      "global_code": "8Q98HX4F+6G"
+    },
+    "rating": 4.9,
+    "reference": "ChIJKxBVHkqjfDUR2fBfZzj97_c",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 100
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, 2F 4F B building Myeongdong 8na-gil, 10 KR 서울특별시 중구 Savoy hotel",
+    "geometry": {
+      "location": {
+        "lat": 37.561567,
+        "lng": 126.9844925
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56291682989271,
+          "lng": 126.9858423298927
+        },
+        "southwest": {
+          "lat": 37.56021717010727,
+          "lng": 126.9831426701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "오다리집 간장게장 사보이호텔점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114282078319608161538\">Cassandra Chan</a>"
+        ],
+        "photo_reference": "ATKogpfC-cNFVhBTD5ZpK_zQrUsSARasqjCFhqLTU9I4Vf1r2aOgUUqEWnhPpjonX9hqByhQRy8C8qTLMRpyJCVr3Ah119n_v_aL7Q894OppUANSc_kfjQ3yWp-wXmIv5yPLe1S4HUqEy3MUlbAPzWFNZMvzmFP7-Y5FO9iQBihQiat6vlHJq5Wm1wMytKSEMMa2WiYJh5CAldfNVf6iramZj8vr6fkclPVcyQ6I5Q3SUkZMFdLuieiegLgarrdvz3QE-avEUm748dMPrKnz6fvaHg6oL1fSprPGdZA2eLGv9DzxjLkXWHfat8snnpBv1oCwWcjdG32extLrCIYWzgU3TUIY6UhNCNFsUMK1V_26zWQZbnf4W_8eJqE6i2FjH-uog9nRyxSNTbaYPysKWsig4aBtI9jP7uaM1fLMsPJ3EVR0oNSTwHlL5We1E32jGC2zGNgJESjqaJ2Z90Ys3wsECr6berGMGkJm5HITh7upNqeGvearnb09ewSKD5I961ExOSVkXMKjS3pxJ-M7Sqc6w14ESlFaQ5wFgcenbaXPQS2bGW715AqJwG4Zpwtg_S_BlwtQByNi",
+        "width": 5712
+      }
+    ],
+    "place_id": "ChIJ2e-pT3yjfDUR1VcUJAlrEGQ",
+    "plus_code": {
+      "compound_code": "HX6M+JQ Seoul",
+      "global_code": "8Q98HX6M+JQ"
+    },
+    "rating": 4.9,
+    "reference": "ChIJ2e-pT3yjfDUR1VcUJAlrEGQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1772
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "15 Samil-daero 20-gil, Jongno District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5697175,
+        "lng": 126.9887475
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57106732989271,
+          "lng": 126.9900973298927
+        },
+        "southwest": {
+          "lat": 37.56836767010727,
+          "lng": 126.9873976701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Soojung Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117478240223820466234\">정기백</a>"
+        ],
+        "photo_reference": "ATKogpedgxnpkMDpOGYh5wlKnLpdMtLxChJsChQb9MaZ_vgR-NAwc2PVnvyPb2vyaNsQLzSAc3hfMsQgFfSDSdmEsn58VLcIWt9JQhEXCRvjB4dm6j4DYSi4xaOnq-bUtz-3Hd6g7Obm-5IRudjJPlI4dinQNI0ySfdYzTpBaY1VcOTlDftR7uDhsG112IPGCGXRWPeiAd90XzNeRkvlLZLCU0nXUzLGM1GnFSLi2PX3Odv8-wxbUGq0qRUjvHdrtXeW1oCwCuXZcfeCcan0mmwtMXvnPrHaCn5wQKwzdVcqe7TiimR_IfoedccmGi1SdedsIzFx8fbjjsxaTi9wD9LNFuC2GWufgfBtHMfaurcoYTyaLyi5Ql-ecEdsHkkOPlyzRy9HAsfksROnnyKSsV6Xvxx0fU_FWvHXEAefnOKUO5jXAjcfXwAC8DIQcCz0FrrPVDICsi4oF-UqoopQLUXrTSFKCfIz22i0Wzaxp46WRzD3RjYXyIjPjtmfWKV0hKi6a2Pq525Lo1KSLX3FGhZnpwkimXCYxfMGKqfxutGEQIRtDX87U2c92LvvSvfdo-gkN4H6TN3P",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ7_7TUeaifDUR7ZipR2VphrM",
+    "plus_code": {
+      "compound_code": "HX9Q+VF Seoul",
+      "global_code": "8Q98HX9Q+VF"
+    },
+    "price_level": 1,
+    "rating": 4.4,
+    "reference": "ChIJ7_7TUeaifDUR7ZipR2VphrM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 677
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "12 Jong-ro 16-gil, Jongno District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5695341,
+        "lng": 126.9884726
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57088392989272,
+          "lng": 126.9898224298927
+        },
+        "southwest": {
+          "lat": 37.56818427010727,
+          "lng": 126.9871227701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Ttukbaegi-jip",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 540,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112315548776734601339\">Hong열대과일황제 두리안</a>"
+        ],
+        "photo_reference": "ATKogpfTWT_8AOim1Up-PKgnRJE91w0wXllPf2s_qKnAPnIe_E8DPsvJtT_54UrOTaCcPzFLBTWYFn-0hWSL_F5GlapkmrejbBsO2CPiJ9WnIAXB_8fu3t_ZIwoJ0zpSyuzjykax8IB-tVeeWqVzQa6KB6g0bGTl1ExclUG2eKJ-JxWJluIsSkiKwSEGg09d7Kv2ME3ObPOA8H3TNCAPFzI-NJAuYKVOZ-pawZcnD8k1PerJW0kCwClhhLQ7zhkqEHuz2oR-Xqq8UNKo37HGDlzxz6gVZdyZAeJ75XupEm9TN-l_Sdc5H4IvFHbG0DxN8NIIYf4bLsMrW-NwbUwaLjQ1WGnKcTTEatQrQuQksXruqTdaUzUb31JnLh6OPFG4O2gTsGQjAGO_CJBfJTCybb5EZzVc8nz0PiHSGPxYEKAC0r7NG0AYEcfs2dd7edKl-jWlHv5narEIHxJK-L2WLX2eG2ayMGDG_g183dNkPvro-prE19DAiWs1XFAb5vcuGKyDahhdtbYyFOlFhgrPzve29VgIE5EVy3RRVTMqFk-kBSdUjf911Fk_qEixeUVx0aXU5xS8cg",
+        "width": 960
+      }
+    ],
+    "place_id": "ChIJzRPTUuaifDURY-MJpPzA33k",
+    "plus_code": {
+      "compound_code": "HX9Q+R9 Seoul",
+      "global_code": "8Q98HX9Q+R9"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "reference": "ChIJzRPTUuaifDURY-MJpPzA33k",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1291
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Jung District, Myeongdong 6-gil, 15 한식왕비집 B1",
+    "geometry": {
+      "location": {
+        "lat": 37.56265459999999,
+        "lng": 126.9845549
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56400442989272,
+          "lng": 126.9859047298927
+        },
+        "southwest": {
+          "lat": 37.56130477010728,
+          "lng": 126.9832050701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "hansikwangbijib",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105572514532809439221\">Hyeon Jeong Yu</a>"
+        ],
+        "photo_reference": "ATKogpf5wIySNG4ZdoAR0ZaPngyG_-l4UBWKw90KDLvJhou7Ur2Cxbi-JKWiDWDBiJ_XHI2XcViO6yuwi9ljOhQeG9_2S9b1BBdD9mieNo8OGBKULgiikOKuWD90hdfWs_XnP19DemS7iW4YtgAzFmZ7lzU-8hjwxFVRYtFnxvoa4bU8DeOjvgxpEpiDEXNe9sX91pYr_wTB7UgBB1g7XoxA4lPyPu7pvqUxqhw9be1F7Ct0fZC5JDdjcmzBxDRBePw2iQMTCBXqy_TrCohTu6x80VO7qRw02J5g1pKbAfe5x8VMXaE85KsaAFdqn068yJqewLVAMd441INjo_cnILm1VUKQfelv4l-u6oSAair7r_MZ0mkbGRhqQ2XXmdtDyhBHM9B70I1O3KhfvaSut76aET9R6XmPrm6TnZPMcgxaqrRJ6dkdwMO-cFSzt2gNjWPdjG_FR7f_E-OY7uR-0giZUcxtbWZM-DduEz9lR7BjGq8V_LE7wa06EI36i5HqMxFULxcrfmZyCaScZhvunowzM6zYDF4uXxd6QQ1LfKpEb-Z-gll2BpLbQwZ0uZ2ny9naKdrpJoZu",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJR8HSy56jfDURF86-glq9V_Y",
+    "plus_code": {
+      "compound_code": "HX7M+3R Seoul",
+      "global_code": "8Q98HX7M+3R"
+    },
+    "rating": 4.9,
+    "reference": "ChIJR8HSy56jfDURF86-glq9V_Y",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1601
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "200-12 종로, Jongno District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5703409,
+        "lng": 126.999913
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57169072989273,
+          "lng": 127.0012628298927
+        },
+        "southwest": {
+          "lat": 37.56899107010728,
+          "lng": 126.9985631701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Buchon Yukhoe Main Store",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104116795799922477382\">Robo Tatoo</a>"
+        ],
+        "photo_reference": "ATKogpfQuD9_hge6veWbpC5L5r1qFpBETvloXBaes6OmoIu3qTqBTiZa51qlrFScv9Xc-qdptMXk3KCtzFdKlu3oUQq9re4ubgjfcagl4R-pOuHmiUK1NrkdeoFOl5Cm4x2Fkj4e1FAIHG_fwJz8rG0wgJllhHKSo_FeXoOHChGoIJ_QXk6f4z8gnse2Ly9EYAcI393Yb1lCHfm2ssN0Hb0liF7inAOGjGJIUw8115c1hLj1-ehx6fWDuPf2m3OoY7NN1eL7bvEAZoBCOjPAwVyTschkRUMa1EBHMIPiBmPd6dR0Phd4bA86Nj1yjYuIqf39WDljnkV45I9MR8RN3JhhE71ZARFFZQcy14NRI54LOtpcrFceSfYsVoHHT2D-nqTedKzQL2X6gUiY0BxVi9nNvR9xRDyru9-40zG7_RQ6fumplCQmrKu9Vq3Jzlf5VZrPwj1nGW69v1ZG5e2ynM6vAwsfUk_McxQC2Xv6pfUvqccSlBYH_sEYnaCGj8mYvaDbFbIIFF6zSb-3sQPraARcUHfqIwvvTmfQWRKkiubjPNjvC07ZvRcPnl6pI5rbmbAkMGduwwiD0kRFWg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJQR1ODmCjfDUREpgR7iCRQDI",
+    "plus_code": {
+      "compound_code": "HXCX+4X Seoul",
+      "global_code": "8Q98HXCX+4X"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJQR1ODmCjfDUREpgR7iCRQDI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1909
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Jongno District, Gyedong-gil, 19-6 1층",
+    "geometry": {
+      "location": {
+        "lat": 37.5783052,
+        "lng": 126.9862674
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57965502989272,
+          "lng": 126.9876172298927
+        },
+        "southwest": {
+          "lat": 37.57695537010727,
+          "lng": 126.9849175701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Shilla Jemyeon Anguk",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108686023237170645220\">신라제면 안국점</a>"
+        ],
+        "photo_reference": "ATKogpfnWbs5gUFxeAevgdhYJmz42KM0ILeJTf8wPhzR9cWIHxoLgCdVyEmyeEiqiK0aj166gfT-4WHYF6PovrvRw3TuqIqOsk36ZGE86Ja9O8gdLzxFeWTyb8eTq-xme9Ro3qnHE6NeYp91CToYyoepFFhghLW_AMlJ-UYYr5S4of8jPcyuzv5xtmfcYpDLWvkCjmhWZSJrVwwxp4AjHMmKY4zIvaFj15IjUYIE7e_RiqWvApB0hxVDUddQ8fbzLTXL4ihPoSvnxJy9U95m_C4j_cCJj6qmQC-gQXR-UdYbuWfvXIOAAUQ",
+        "width": 750
+      }
+    ],
+    "place_id": "ChIJP1fSbQyjfDURV4uTAngMcMI",
+    "plus_code": {
+      "compound_code": "HXHP+8G Seoul",
+      "global_code": "8Q98HXHP+8G"
+    },
+    "rating": 4.8,
+    "reference": "ChIJP1fSbQyjfDURV4uTAngMcMI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 136
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Gangnam District, Apgujeong-ro 30-gil, 17 111호, 112호, 104-1호",
+    "geometry": {
+      "location": {
+        "lat": 37.5263485,
+        "lng": 127.0293513
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.52769832989271,
+          "lng": 127.0307011298927
+        },
+        "southwest": {
+          "lat": 37.52499867010727,
+          "lng": 127.0280014701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "JIKANGNAKGOPSAE(restaurants )",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4284,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105535687762359957435\">봉봉</a>"
+        ],
+        "photo_reference": "ATKogpdLJEZW6glGG9K9cJaPq4HyyhP8CqPNfpCuj74pte2LLxuSILcm5oxD0CyZX2kHcFvlKOL7PCaCI_374ZtEUhlkCtEqeCpAdfCqstGq0Ke7kPqe7ZwMm1Ijm_5GGZFpUP_oZalJSTXB1I8EEIjhlR5wdL3yLMyck3cMm1zv6tPybZTZUV4IhrcYsJC4MYoTV0ejT90PS4y-ldVQbDM0ZO76roWiFSVlihMCalhjiR1II8r7WrhF_Rq6MvjAdGWQbofYxRNx8xfLB6la2Cc7QgTG591UqXQkhBUytp7af5tmQBEn7zWlgXd0nzJKZx_k50bysPrurtzXJR59dUSA3yWFS4gEIX-PW4zoTeEciEl5Hi2XQUZjOqsQzD2s4Bd0xtwo_UbmGlX5HRZ-3yFMjhDdFFHPIxdy10VAwb0tftHIY43gKQUAi_ul9_h8BFzRlrJFlQE5zymRV7oBuqxvgZH1z72AlCqUiFL7ARnWKFSnb1VTQM_g3PYZtCuRjYDpdC_yWSDa02QDC7y9_4P-zBEkiHjv4hr60wyDi3AlAT0CnTCUSYKiXNxEQLbqpkYnzQjAHRDMfrtPQw",
+        "width": 5712
+      }
+    ],
+    "place_id": "ChIJT0grpESjfDURjERxH-P8Yyw",
+    "plus_code": {
+      "compound_code": "G2GH+GP Seoul",
+      "global_code": "8Q99G2GH+GP"
+    },
+    "rating": 4.8,
+    "reference": "ChIJT0grpESjfDURjERxH-P8Yyw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 929
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "38 Eulji-ro 1-gil, Jung District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5677475,
+        "lng": 126.9798528
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56909732989271,
+          "lng": 126.9812026298927
+        },
+        "southwest": {
+          "lat": 37.56639767010727,
+          "lng": 126.9785029701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Mugyo-dong Bugeo-guk",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106340089796436040542\">mark YU</a>"
+        ],
+        "photo_reference": "ATKogpdHjldwsUQ9_u4F3hVjqqXsOAlFY3C7r91ySo8dBpeK_ceMXf48kfTInqxpENKvXXbTe6nOD0ElBjzGM4dd9O2AjLcNhFwUQ6M5aA5UdxqXlv6iXLNzyj07UngA0GxHWGmhdFybCLsHYoaBQEVdhUXE70JFPotwNLlJvqAezhEQGIsxNx9LZ6D5UDR1lM_v-HajyCBWjnZg0WBnGh4BxKObzTAeptmmF4s2cjLPuAi9lfrFEogvNyD7SbXvjcox6AqE7YqrIK5OlQvfgfuwtaHwoKOCz1gVToH17i2F_OM7mvdHwjm5YuKQ5t3P8axkk0jUPsZbvFx9LBDpQIOZjKzP-dXmdFdsLDq6MHY_2WuXN8xjse7OXsDbCbYYzr-gkYjYvizi96HQPpienSAdtTEsL01gthNMlyZ8ywzAkJCRNI4Av1UQxJ3Qs9HwhYVjy9yCIg0OKhoXHgW2xFMMbfeqjGg1quKMYJoq6UndyAtgk2OEeNNTwlcEQXVTrlZSlh1bwzLt9SgL62htrDomOQg0WpA8kZYLzplYBl2FkHTpBkLjc3pJtOi3B-6f-3kj9XpNEAYpPwCkyyMDVp7GAmSZhjk",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJPVESye2ifDURbOaGAstuwyM",
+    "plus_code": {
+      "compound_code": "HX9H+3W Seoul",
+      "global_code": "8Q98HX9H+3W"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJPVESye2ifDURbOaGAstuwyM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3702
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Jung District, Myeongdong 7-gil, 18-1 2층",
+    "geometry": {
+      "location": {
+        "lat": 37.5645928,
+        "lng": 126.9844215
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56594262989273,
+          "lng": 126.9857713298927
+        },
+        "southwest": {
+          "lat": 37.56324297010729,
+          "lng": 126.9830716701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Bornga Myeongdong Branch",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101407209778643566137\">Jia Yi Chin</a>"
+        ],
+        "photo_reference": "ATKogpcODZMR5rChZzZooz4Eklt6Hhki0ojuj4gTddR1SjIYc2uLGr1UMOenpo_QCIFvfMG0E499N9dIeZCgVJQhev6njrE3GLKtJfVsCMUJ3_i2I8h12LBZA5jhVeCdHUPpXmzDM731eH3ryiUP13HR120KK9Fu1qbBpU2CwC0ejmmA5VaDp4C9PbrxWqHgQKwz4Ios7_W_CVUTv4DyYWFY7TF9ds63PV0wrNYU7w8MMQPwTIRnm4Yl0fWRqWNVkIgps51lTTAIlPkjavdeGcQlKsotLtLL9i1bGstBcL31DeNBlnfq4zxMeog4lk4TQh5WnC3mbsOreCbbeYkhTh-taHEeaD4gsrL75WHC1bwrSfTvTfa6yyXd6hbq-Q7GMpLHXLkU_bdkgQd5nmWkGAY0YvxqejpBnYDweOB_M8tG8_SLj6UEk7GeUxpSisQNZo51nhT93KAat1vpeLlXicb5IOF54Y_KMbUDU0fX7uOr0F-y1B3zRt8bH04GCN0-PvOFpAiNCiN31X2VD2HmYSVsFhyeTiXrbtkOMSydvIyOvMmuQLRXKVg456ga7imTXRVH5jPYwitnPNE26WU0znqSzPZlhJ7__w",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJvcb1zZSjfDURQRGL2hcFP9I",
+    "plus_code": {
+      "compound_code": "HX7M+RQ Seoul",
+      "global_code": "8Q98HX7M+RQ"
+    },
+    "rating": 4.7,
+    "reference": "ChIJvcb1zZSjfDURQRGL2hcFP9I",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 182
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "39 Donhwamun-ro 4-gil, Jongno District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5701559,
+        "lng": 126.9945035
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.57150572989271,
+          "lng": 126.9958533298927
+        },
+        "southwest": {
+          "lat": 37.56880607010727,
+          "lng": 126.9931536701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gyerim Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104451865328878549579\">onion Kim</a>"
+        ],
+        "photo_reference": "ATKogpcoUmBwviy1yJGYwGceOaT-YTCIxZMajxPR9Rl719zm2IMUSRs9Mjv7xiIISUgFrK6big1PK1RKwyMspJnQVRDUkJVT033qSNePGW9XJKNQzh3HzqXJ1Wd2eqTEAHrygbK4oanLKHg7O06IxJa7lXq9ApAw2YrZ0FasQlU4NGbZlFXVx7LySB_7PGED6JM_awjqsHDqnVUtNW7M1fGL_Nk_x4BsEGm44rNQet3czB_nGP_Avdnipm4ZgCOeJtY0l_7X8QLVz3KRtQnL6xUVYPvGm5r3NLK8pToaxQBXcYYmM0pnoLi1K6MhGDl40YnYG5-pyQHjsRC7pdpCv89gbxY_BsrVOSU69oGPUUiH9jGBmvfIqLi-Eh69Rgsn7-p43Ubt9xcTl1aWaiwPM6P7JepfPAx0NKyWm7inU-2RHQfzqHbBxxe9kLVd-B-e8eRJKmO0NHs273MQ5T8yHlTbTH1z-ZPA8koTMLwu-NA5_VfLCg5TjokqhvFzdJ_FabtqQ7S08SHxJUVOWDZNRwv7-l1_kAp3uJiJRK9Yt4y632i3cwYnNVWjFdJgUbo9aJH2SJTpC8Qu",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJJyemnySjfDURH7QCM91Wq_8",
+    "plus_code": {
+      "compound_code": "HXCV+3R Seoul",
+      "global_code": "8Q98HXCV+3R"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJJyemnySjfDURH7QCM91Wq_8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1657
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Jung District, Myeongdong 8ga-gil, 7 2층",
+    "geometry": {
+      "location": {
+        "lat": 37.5617573,
+        "lng": 126.9854028
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56310712989272,
+          "lng": 126.9867526298927
+        },
+        "southwest": {
+          "lat": 37.56040747010728,
+          "lng": 126.9840529701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "무쇠김치삼겹, 명동 맛집 & 고기집ㅣ明洞 レストラン サムギョプサル グルメ",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111440658688121298622\">Kailing Chen</a>"
+        ],
+        "photo_reference": "ATKogpfJPGLgQ83gPZXKICNz5MBzjePIlBGMFWjCjiUjvFgxypEU42AirNZktVMov7-p4IjCWDhMyVwYSFWmHMbef_SAE1665kB5rU952LGGxJqwUtqPzgy1zY_VUG_oxiTng56QTxUZ6bHDjLLdumZFCRi9U2e8iKGNV-Zph7oxzTJCyV94B9wAxP4sgS0uQxBa9hc7fnQgiBFQgpqj_BF_flJz2Ft-52C0265iv_TgMDt4tbRFNQ9kEuGa6oLUSDUAVhRFR9_f9NAL4JcrVScF0-KAVLoJJ6b8ykWwZVpvnZ2av7KO_u0d7nEu4R0yJNpC4MliYmS9R6WMOM0AMUskeA_SsMAGi7StNXaMseWDvgUboynjjTwLKUrlVC8LDw0wmPhLND0T-b0pcX_yoQD8EzUxMYUTrN07m_IJYpINGsUDCbQ11zb0VUXI6MHo8waAWhxWV0hA8yA600s8_blfDSbCtF7rzqNJcvGVwJpWtTcWRSPwpJQG3IIBHptuA_dlTjQFqFYy9k6rYua7nMYsfOJl1F5PNAdtUfP5zHSNPMLSCPC9lpQ_kzuBwR0Ss2B1OZtQC0xLT2Jfg_QW6glbIHqRpOyu5w",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ-yVAt8WjfDURvSrg_e0dxRs",
+    "plus_code": {
+      "compound_code": "HX6P+P5 Seoul",
+      "global_code": "8Q98HX6P+P5"
+    },
+    "rating": 4.9,
+    "reference": "ChIJ-yVAt8WjfDURvSrg_e0dxRs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 640
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "23 Namdaemun-ro 5-gil, Sogong-dong, Jung District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5624195,
+        "lng": 126.9789834
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.56376932989271,
+          "lng": 126.9803332298927
+        },
+        "southwest": {
+          "lat": 37.56106967010727,
+          "lng": 126.9776335701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Aeseong Hoegwan Korean Beef Bone Soup",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103630851716485818764\">minjinna80</a>"
+        ],
+        "photo_reference": "ATKogpcXZ8MyVr1UOqaruMEqFTy_Ad89BQZcbUzjKGR109j0A-B4veVC6773Ws7zhbTZcXzNer0zrj0alt8eagIaWsiO2RjnOn8yL-AJQxUaSTjKN5evqpZrZaW0r9KzaiPDFEjKoPDKkD1ouNrCAgTl2L2fm7SE5aqhgLHaKKeWkpFdjQwVV7uW1y-q7_nNk1jYVccN2_KId_C6TQrJ3Ij19O1UxYAbSLwsVZS_kyR54chIKhF7jUx0C3EM-9zpcJDejVXMsqG9DJ8LMZsEuoOrS3lifnJk51kCB8LS5GQaMALrgB-Pqyus5KMT3SUCfzsplc4j9WJtGhf0yTpH0T5Tnn02nQENx7V1KMQwugCJrl54ciLaKm4bt46dDQhn7MytuYh4COSv7Pxzf99HJaDeaPmAAxPIsqLSuCzqB08s4Lq3gc6KhJYKauyu6sV18s3P0_28WcKUC1TD5ZV4QvcgO45f7EHcmzjfWT1QNgIxOqqLqjmTdfCCpIKwyK1XQ5rViNnm-X1S3jWXyafRCpAFzJ3SLq1ft9E8an0NibAvZdk8_wrxNW_fkssfcgTpaS3xUAczgCof",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJM8nvmfOifDURLiww9pEw8r0",
+    "plus_code": {
+      "compound_code": "HX6H+XH Seoul",
+      "global_code": "8Q98HX6H+XH"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJM8nvmfOifDURLiww9pEw8r0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1407
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Seoul, Mapo-gu, Tojeong-ro, 313-1 1층동",
+    "geometry": {
+      "location": {
+        "lat": 37.5400466,
+        "lng": 126.9437988
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.54139642989272,
+          "lng": 126.9451486298927
+        },
+        "southwest": {
+          "lat": 37.53869677010727,
+          "lng": 126.9424489701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Original Jobakjip 趙朴家",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113930570095524276099\">Sophia</a>"
+        ],
+        "photo_reference": "ATKogpdkNN7-BC_Fm0ev1ZevBKWNaLjJPHT48WZI-Tqr76_d426QauJUbMtNY3sVPJubB1GGX7htgjjFldGJs8xjASMzg43Yt9kltOzHPC4WY9x-90vigczJ4vUWxBc0RH8S-eNrtRg21NlpKbw6ZdO-ooqJUalQTHsMPbDG9YNCOBo1htJmm8wRVUfCqE06umR15gTODGf1DBSj3WBtmDZjNckL-312c0SYwdgSF65O9QZrlyuo7-qsecLRhGJG-GicOY_C8TO6U00aTNqO0Hi-4BkVbTteKtIoa8iBaXk1FvjxnSAcDJhllwT_PVoJN3g-aROrUQXwsQcoPVbGADBTk32Bc71lz3pzKp3Eslp5icU_9qQEExo8aGfDCIUfqcjHUGiXem94Pd27u1RAoTqASIC1Cjd_z-v0KNQTRpzNHYgDT0yuSCONyuAx0UZStq2P8BwxQEPyomTWnOxVMAY7kUspx3lD86iDEWltBKAj7FoIXSTMpE6VZ_2mrzEiKEiyM7PE6_F7Br7k8yd-f-ezlJoSg5Gbk21DrxCUt7_v22kD_YZL-2dbnyLERWOoBhdaMtjiPw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJzYUF0q-YfDURQM5ZnoQx9UQ",
+    "plus_code": {
+      "compound_code": "GWRV+2G Seoul",
+      "global_code": "8Q98GWRV+2G"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJzYUF0q-YfDURQM5ZnoQx9UQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1801
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "17 Teheran-ro 43-gil, Gangnam District, Seoul, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5044415,
+        "lng": 127.0436869
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.50579132989272,
+          "lng": 127.0450367298927
+        },
+        "southwest": {
+          "lat": 37.50309167010728,
+          "lng": 127.0423370701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Byeoryangjip",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112856904930874555100\">Lonepine (Lonepine)</a>"
+        ],
+        "photo_reference": "ATKogpdyeA3DVuKqWKo5TBpfvA2lhHWBYS0oj19UVTlVFoiGTINeeJZIvGIibhyd0dCVAxNnWFCHuosh_KJr4NlfxiXSwo1Hl759-q0_096FPoNDmW2TXZHI_S0x2kgFgmcB-HKSFjN5e8xN1aNnBK0Ju6i8p9nM3bZ97oChVbKzX4_co_3Vdh8gQDjE0c4tSHYzRbJP9xcvoI56NPvcgckwCr-Vaa9ERHMGBSvtNy-QbUyKDMa-MkLg9gpStYwm0HlKkkrY10VxfBgVki9H_5jRuC4yVpLFBm5UiP1EEQyxXzYhjqb9HBHpjWEOKfmkYOdMuwoaJZn-Dyr9ukbuTPL-XvNebiK4Ai00G4wtHUF3dL22icZ8g3XdCtCQLmZJR17jCE1KCliGSl90OLB2CCb453IdHZ8qCUOn0dCS5tY4hTvgQtJi1uDLD4uQRrlo5ulj4B3kZ_8tkBf-Y3E-IWpXFho_ZEygjQVV5wKygbsntKCsz2OwlSShKAOFNk24OYvjar0SwYzafomrS3ZWUJMMKSjLqWwvPucNveYK-8sCHMya-_dqJRh7cMg5RFZe8sdH16tiYA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJu_NuywekfDURvC4ZwgSawaw",
+    "plus_code": {
+      "compound_code": "G23V+QF Seoul",
+      "global_code": "8Q99G23V+QF"
+    },
+    "price_level": 3,
+    "rating": 4.7,
+    "reference": "ChIJu_NuywekfDURvC4ZwgSawaw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2308
+  }
+]

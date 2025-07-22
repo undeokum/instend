@@ -1,0 +1,1028 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "197-30 Masan-ri, Naesu-eup, Cheongwon-gu, Cheongju-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.7227874,
+        "lng": 127.5366594
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.72413722989272,
+          "lng": 127.5380092298927
+        },
+        "southwest": {
+          "lat": 36.72143757010728,
+          "lng": 127.5353095701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "자연의맛",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109021208910588388939\">김동호</a>"
+        ],
+        "photo_reference": "ATKogpc55gGXM1xjmzn8HOkDzFe0j2ldi1MWZ9i_z2VboymwWNkxPcliOg3NTDytIj7myabFIDu9vgrYfIS8aXlAWgiivH-CYm_efxZtlBey0Y6Op_kT6IDmczz1u0_0bh-VlNhHR9_UxvkZp-J_suTNso5XH9PS7EOSHYKuh0bFMeeIwYIUNevLsxSPVMqyFUGobTTJLwLnO5RNDG5urqOMNlZ40XypTg81QpJMnWg9RHynmgs8yOMcL6BKYfWSn6nRtg3SlmWybgOfQXsGag5Z_9tRBkyM6CiCV2u7hZF9GQffHHAGlewH0iPklHFW-5i-Z2u_MQy8imVGbudf_cmdSziE5fzRrgtcoxbr1lf22HFN4uZPVHrfWR7mhNU--g3VrcwkNuxfePpEbb29T6mF6FJL72tQXE_s_RJMmLZL8UzQO94nmPxqRTXxNYJ70LXg-jjvSkIjoh6PZrlmWN3aar6R7xeEkPO8ih1LQCZL1mLBjBDrfq5KemVI8gx75pQHbxWF2QGuYlRHXyYSERr4lcFVb3_fALxFMA0CpUcRtrUv8FrlkKHWXPuPbxv_2A4NsALY5McQ1oAs3A",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJl3KbWV_ZZDUR7MPgEcoIZwo",
+    "plus_code": {
+      "compound_code": "PGFP+4M Cheongju-si, Chungcheongbuk-do",
+      "global_code": "8Q89PGFP+4M"
+    },
+    "rating": 4.7,
+    "reference": "ChIJl3KbWV_ZZDUR7MPgEcoIZwo",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 54
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Chungju-si, Jungangtap-gil, 103 KR",
+    "geometry": {
+      "location": {
+        "lat": 37.0175284,
+        "lng": 127.864274
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.01887822989271,
+          "lng": 127.8656238298927
+        },
+        "southwest": {
+          "lat": 37.01617857010727,
+          "lng": 127.8629241701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "메밀마당 충주중앙탑본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108863510582245688477\">Yujin Jang</a>"
+        ],
+        "photo_reference": "ATKogpcS5fsEcx1Tbf4QeMXl6pL3KK4bjy1eYCrXedPVbCyr9PqZeOB6Jr33BO-UMuZ7VK3jaKq0iLHpdtkenjsK-bluf7gprS7d6HJdB04zSQidYn-z8P12eua6DeMJoIwDo0VoYjmok8JHKgo_FbmH9wq3vBi9uYEjHKo4_Im44zqIKPXEz8_IBCxEcj_ErwFu0kSkeaAizdzRGME_mrhCWlPeGX7GWKdK60MjIEdi245PfzJyoBCcbE_m3R271_dMVSRsgGa7Xgs4w2hPRAyJXXt-bClKKThhiWZdWRm0mqfYDYJhLtRpYOuJDM5KjpO0XLNWQYvin9n2Oi97zJBG1nKa6b1AjWZt6pc3Q0HIjRah3ljlDI2bQbi7cJthSNRt3IqMMZwQUDDbQXEIFXk6l7Q3DQ9KgfzVzOujkQqz-FIV4PEtM-ThtPedWu_3zDDOHZ_jX-crxRGEyWG2t61bWzF21vlMa4EFol8w7UA3Kgx89eJVyk0Z5WL70sSQsOpZ8E4xG1mMuZCVrCm2IxSMhleWTw7cZOPGGajQuAeydmuikul1RusCj6KoDGzr9SpByUMpZY0MWxs3Fw",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJsRvigk-EZDURAtH5qu0bUpA",
+    "plus_code": {
+      "compound_code": "2V97+2P Chungju-si, Chungcheongbuk-do",
+      "global_code": "8Q992V97+2P"
+    },
+    "price_level": 1,
+    "rating": 4.2,
+    "reference": "ChIJsRvigk-EZDURAtH5qu0bUpA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1244
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "21 Uirim-daero 20-gil, Jecheon-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.1415621,
+        "lng": 128.2148299
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.14291192989273,
+          "lng": 128.2161797298927
+        },
+        "southwest": {
+          "lat": 37.14021227010728,
+          "lng": 128.2134800701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Dukkeobi Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114701853455743597031\">DongWook Park</a>"
+        ],
+        "photo_reference": "ATKogpe-8nOhLTqc9rPYVMltXstQrkXZu4cMk0XLZeZBHG1NbnCfOlaGh2E4dM4-h9hDLxbErTBfrtU0tp13GU_KDhHhvRzg0xRe-k-4EbdVKUZm2TeLLkYlwyy2v4auHeipojq0r0n_lpafBshe_KcTCAEft22MoOPmzNo5y8uvjk_ie-qOy6pr6sUdRaD1IoaVHn6IgNJcX8RNML_5_BLNn1dLdRSJSz2vGinssVFv1HmczusIh0DbtyZjMa7YHELw5iGZs7XULQyrRVD59ycE1ANZMOj82Y7333yiKpCC0C6E2q9VGN5EFCWJQ9PFazsl0t8CbNP8Hkfl33QJ5FLpmq9hR5sZb9ImE_tlBOqYFWJYuRQGEM3BOnFvWcvtrovDd91By88VjJMYspm2lHOvf_nf9eMjfHSlojiwHe9u5_r70jjQT0UrR-bnNgUa1mgAYM2KrqNDekbs0gn4zkXU4K07WXeuJsC46bR3twa8FnumbEcYZ2GJl8_bJ-oFn7VCMhsMqfqplAGRM8yIA9oENaUbvRjw-2sQYs7uGpMxQ2YtAyshfXdOeNYUyuUsehq74I98G_r4",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJN1MmQ-CRYzUR1YZ5R8RNklk",
+    "plus_code": {
+      "compound_code": "46R7+JW Jecheon-si, Chungcheongbuk-do",
+      "global_code": "8Q9C46R7+JW"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJN1MmQ-CRYzUR1YZ5R8RNklk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1266
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Jincheon-gun, Deoksan-myeon, Yongmong-ri, 611-9 KR",
+    "geometry": {
+      "location": {
+        "lat": 36.9107631,
+        "lng": 127.5095475
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.91211292989272,
+          "lng": 127.5108973298927
+        },
+        "southwest": {
+          "lat": 36.90941327010728,
+          "lng": 127.5081976701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "신궁전",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2951,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108293651807567139687\">신궁전</a>"
+        ],
+        "photo_reference": "ATKogpfQMnWiRwk5OioULZ70CsMV7cjwEXCozHheR58ZJsNRxKojpto-FpxZqIURo7kCoZhCzto3IQFaqU8lH65sbLY5dS2us_-XRbVuFiLHoGJe1tpT3CKQ14yRYwgaeGsLfLDmWC7rtA0UGf2dRuhoCxYa_xg7Jt_VpgBiGalxHgenvm2V83Lom2Mc0UPSqWSA3AeFBrSpm7Y2mNkCjlYJSx6jMAr7uYOtBX8BNv0U2k2cg57JDNjmU2DIb26YTyReBFzWYXAF6ZlO0vOsZI8pScGa8f3dtrgbksmCfbUvUvSD98Civgw",
+        "width": 4170
+      }
+    ],
+    "place_id": "ChIJiRjhxlfGZDURE_E8z9iELx4",
+    "plus_code": {
+      "compound_code": "WG65+8R Jincheon-gun, Chungcheongbuk-do",
+      "global_code": "8Q89WG65+8R"
+    },
+    "rating": 4.6,
+    "reference": "ChIJiRjhxlfGZDURE_E8z9iELx4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 495
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1273-3 Annaeboeun-ro, Suhan-myeon, Boeun-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.47839,
+        "lng": 127.7045445
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.47973982989271,
+          "lng": 127.7058943298927
+        },
+        "southwest": {
+          "lat": 36.47704017010727,
+          "lng": 127.7031946701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "용궁식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115987108865236384185\">M G Seong</a>"
+        ],
+        "photo_reference": "ATKogpczvelUNs6G-YA-yzPSNR518vVhefSsglx7kb4LxfYKI8TGvB_G9_OqfjlAKlT-8rhr2zVNhvOBZSeRiq3qC2ArVxG-KN2TLFICOvPhWTv9_cRAJBpr6ottIG2Jq9NLMlRRDhLFbl7O1y4PmD2tSXHXdsrni-vvsQWYD-U_I-Ib6aKAcSpOcyWa7jY9k5P-a8Ly3RLbXYlFhrhoqgrVSfrGqgJ5BChelgony2Pt3KUJDcr_jMlolEhTl97Plib1UnZEAfXLhEwFs-lqGcoNcy9dXnhO21qIilzKSJgaMHVzl4p-MVAl1DpMM-7u1VjmIwYgzwbDFcB48LF-A3f4iLWnWqyWrG-4BgkQLOu6F_YakmzJn0VRys_ZNuwbJphZwIgB3yLAETQqev9mIc2TJm_q335qj9Kza7GX7-Lu3xtfmpVzAV_5Y15Lr7XBR_TCQtuAx-8_jqd8ZobzAwK3U4VvrCwZeRzLEb1ux3uOXZvyY9vJQrxPAbaoSdNgOVdE7q7NvOQ68pwXDDNNOSPBimVVwSFBOej8vsLItAbOfJejd46V3s61WjpHvHNFnqbHKX_53O3q",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJIWoB8nQZZTURN13kSa1ndZI",
+    "plus_code": {
+      "compound_code": "FPH3+9R Boeun-gun, Chungcheongbuk-do",
+      "global_code": "8Q89FPH3+9R"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJIWoB8nQZZTURN13kSa1ndZI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 290
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "131-4 Uam-dong, Sangdang-gu, Cheongju-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6466195,
+        "lng": 127.488441
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.64796932989272,
+          "lng": 127.4897908298927
+        },
+        "southwest": {
+          "lat": 36.64526967010728,
+          "lng": 127.4870911701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "봉용불고기",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1868,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107864232863647154208\">원호재 (Ye칸O)</a>"
+        ],
+        "photo_reference": "ATKogpeSHqzIZH9CwQEeBHzKH0D4SqurPANHVhcufZtG3iSEYRA0Tucd3TaTfusQ4sszcbt2y2BsjDaYs-rkF9xtu28xfnck02S3a05GSKqx-JCoibzshJ_zsiv8wjTE7ZuvBEfs3Mp__lmttuOdUlmc-SXcdapfl9nqd4PqmnqrAEUgpPNEi82WIk6YpD1NNJWmjKsLldS9vZNAKwzAPIhvwghkTymQ_amIUnowPQDX0HO10HSPW8iLmAUrwUWkrKe2bT47MbSNlzM92hVq_1JBSjo4mKcFMDpMJyyKZNNhrwhWecSj2xbTYJSejLcMWnSaDdxd0YP0QYzHAjLko7IbZvbhgijWYGOpUGAstrhPORB4K3E-E1mwYeCQyLtAxYSFb1DrCGY_aNLeyBRCBvNeWgrk3yqE62hU2jjovzxS_7UnRxG7cd9l8LTvrCFij_xdNy6FYqxnLD3GvP3e-2tRTnqcIbd8H0hLJds37bqEjdsoO-XQflajWBjS8lC9Cq-FziymdOB9dztWbXn72fOKkAulNcnSrhhxf6OJB1uK19zmoGc6j3ft3CRhsKeQNF-B23ie8BFo",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJu_tja8AnZTURypa25N-ZXKQ",
+    "plus_code": {
+      "compound_code": "JFWQ+J9 Cheongju-si, Chungcheongbuk-do",
+      "global_code": "8Q89JFWQ+J9"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJu_tja8AnZTURypa25N-ZXKQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1586
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "74-54 Anbo-ri, Suanbo-myeon, Chungju-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.8418644,
+        "lng": 128.0160823
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.84321422989272,
+          "lng": 128.0174321298927
+        },
+        "southwest": {
+          "lat": 36.84051457010728,
+          "lng": 128.0147324701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Daejang-Gun",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3492,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109498543028235826354\">조정환</a>"
+        ],
+        "photo_reference": "ATKogpcuQyBS0Z0aSUhrfBOShqtNFQvTKGcykvKTvOGX593vzdbPiJKq1yOdv_jEEhNWEscizoRFhxfTt3qQrR1Ufm9UHXRmS-EFIOBWsuCKCTWBoKCL5RW3v1CddiK5RR6UGHdLKwgkuv4atTRH5Tymtkc_IhKXWgNfNhFrdHCK8zIfE3kS_CIKftJzY1shrF-kAfKQkLouHH0586MTL6xC9AGEO_MA9-x_u35iavbg6Zapiuc0D489PVwxymnbR5MIqo3VQJ13UzXzBAE6O0h9y0NgohAhYFJdmhsh5cWo-ed9oVxubnHTkfsjr4ZwpeW6_oPJOxSdy-GT17UY37pvKZSy9m15Kt9hnJh41gOim65xei7dXAvCClwafyBp2y29ZjujPUGQpfkQv4VWF83HYnZjD551o28eOqwY7pCrohqRkN0bVMCsIJybMVXLQabRZqzyhh6VxEDxjhnf7qPg3ZK5qzyuXUZYJSaC8-rKrspagO1BCCqmOxDMmTX0MJJmuDOk1ZqjYv6EkOPYt74lU8XsP0gzaGbtIf4ZUmmzMGpWdJ8TYLiKJBW7jCxk9HBjkKoFVAqC",
+        "width": 4656
+      }
+    ],
+    "place_id": "ChIJ5T7eOoxjZDURkKT1wscDDQw",
+    "plus_code": {
+      "compound_code": "R2R8+PC Chungju-si, Chungcheongbuk-do",
+      "global_code": "8Q8CR2R8+PC"
+    },
+    "rating": 4.5,
+    "reference": "ChIJ5T7eOoxjZDURkKT1wscDDQw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 334
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "165 Uibyeong-daero, Jecheon-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.1340049,
+        "lng": 128.2188732
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.13535472989272,
+          "lng": 128.2202230298927
+        },
+        "southwest": {
+          "lat": 37.13265507010728,
+          "lng": 128.2175233701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yongcheon Makguksu",
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113155250309547510562\">Linsey Je (Linsey)</a>"
+        ],
+        "photo_reference": "ATKogpeHqu1x_68FnKBNfMYtuPqISqO-SUhQpzYh699R20QoK-wFrrxk-Hr-cwQVzNj5cYrKBfhyXcdLAFl16OiJGDf8cVgR0ed2DWM72k_tizROCDtMuoQxoXXvO-_JzH2gW3bNppymYbDup--2bHvEzhMjQynxV_MkFW4UpjCL7FKnIODQnILTZpRBgHF3latzcD_AFYOpOjAh08aLpozcgHae1I-l-siZRzwlcxKYkQkx5wTqZmzUoiNNyKr0WBDQ5ZxobEix7d2tNy_3yn2nVUWnuLQRexQF103JynHZF8XIAjYJ0l2n9v3XZe3K-p-f0spfvAkZGJp8z1iLzPYqtVBpNBc2_5Kx3DZWdubgAJgLBl6WoLIr8qZiJXDGphAOtFmTgjm_DlYqrSZ_YpzVRR8pYKmbl0jBS7hsJEE7N8B7x9AcdQcvsZ7OUdXRwo-UI4MNp4ZWfC-_mbjt5u_J6IS2keJwET3oVX_TrgPP-mqGUXO8oazYPsPqgHs-XBJoRyIeLeTkwLq0u67pBrRTz6moNWXSpuimfC4OlxEVKUuU3DlWUkY70WsL28jX4-pnSjIrBtgs",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ8xj_2x-OYzURgd0TCK3yMDQ",
+    "plus_code": {
+      "compound_code": "46M9+JG Jecheon-si, Chungcheongbuk-do",
+      "global_code": "8Q9C46M9+JG"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJ8xj_2x-OYzURgd0TCK3yMDQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 829
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Danyang-gun, Gagok-myeon, Eouigok-ri, 61 KR",
+    "geometry": {
+      "location": {
+        "lat": 36.9938452,
+        "lng": 128.4301427
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.99519502989272,
+          "lng": 128.4314925298928
+        },
+        "southwest": {
+          "lat": 36.99249537010728,
+          "lng": 128.4287928701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gamagol-Shimteo",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100771188643245457496\">여행스케치북(귱)</a>"
+        ],
+        "photo_reference": "ATKogpfgROvVun0RKrCeBUXhwomdzccDZNPrxZCU-zdZNAEJ5liGxEGURxI1-bH3n1FIppMxo9uZXpxgXVOM2ESJWmtYl0SFxlLNQen91IkaYjt6a3lqcmQfEDLOObon08-EqF4hGKias6-pV0hqd5gAylAn-Ft1MLp9Wmdy1AFZIvg1SMFqSj4UYEXe-vtx_u3PnJAwhtOhUql5c3C3Ay4V4oKsnNsPFdB74d6iYHjworLz4CeaJ98UvReUudUdY6deEM8NX_vDjvGGilb6aPKCR3tnGQP4mUQY23ZYOFAXValtEokXQ2nwdlbIwc2diqUknf3pwheSco1e1-IrUQxaWikkIP3BYe2DPTHsrCaRQXVW_DKJsi7v89rGCb9UWkloYVHKiKs_7quX1pRZIhcCp9C3i89d14jmVC-YE9oiB2nGl_na389xiwwcM6PEGkGXmMprqqEfLq5pQolyyWTnwiW2rffqXtrvF32Skhhwm--CC8rf1DvjhvREsnSJ6RBCZtGtgip3iGbLv1BcmbLQjdOX94QGtDDdE7CKzt0Yd760rGZSHRwNvhY-8RpU_aGz7pnTZrDK",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJbc3Lj0PxYzURjBmUmAHOCpw",
+    "rating": 4.4,
+    "reference": "ChIJbc3Lj0PxYzURjBmUmAHOCpw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 258
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "26 Jijeon 1-gil, Cheongsan-myeon, Okcheon-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.3460426,
+        "lng": 127.7925031
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.34739242989271,
+          "lng": 127.7938529298927
+        },
+        "southwest": {
+          "lat": 36.34469277010727,
+          "lng": 127.7911532701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Seongwangjib",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109749032151708306652\">MAX JUNG</a>"
+        ],
+        "photo_reference": "ATKogpd7kzQH-fCzi9FHHqUaHNJVFCPsv-weEzihRHE8I4UqG0HSPTfleIRy3jO7PZSWByCf1hRuWtnC4ZAeTMXTandhSkfOJALtlKInh2egB1Nz7fpGUN1SGbbq2fTLfS7NPIf8WrOXXqkJFp3RAP2yb9EOpd5cxBwjP0MsDegW47xZx9NV18aozv_zdQE_J2qM7tvWbnrp25A-m2eID7e0QlcjJ3MgeddrfOFJxZKRSd7oiu9t4K0caAfpRtoPEcKMC-HsDYUZUypgfWp_K4GbC-U_T7FQR_WbU-pgH_0hKZUrPVNIS3dQw67SvJs21XJKlofDg6MRbGGJkLN-ANt3H0CijqaYQqOVdlbs2KP-AUUb9Jq84qnIIPkjYDyucO21wrCfR-aFsdeNCVf4wV6ICM1S89p34HkIQ4cIPpLO6X64fTxZ1zHB6TlrMgOauHR0HBH9qseqGyiO_Rqfwlz6240zPtxyaSAJmPqWJSbkZCff5CzCxt4SQvYRdjmePiT6TbZzLcWlENUDS0SpuhNXS0nkl4uqGg8UeQLIOdLVZeRvchm81HgekdyAmrJDlUnYVff1EvRj",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJB6n0YusRZTUR9ZI0Nl5GQT4",
+    "plus_code": {
+      "compound_code": "8QWV+C2 Okcheon-gun, Chungcheongbuk-do",
+      "global_code": "8Q898QWV+C2"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJB6n0YusRZTUR9ZI0Nl5GQT4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 554
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "991 Cheongpungho-ro, Geumseong-myeon, Jecheon-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.0665902,
+        "lng": 128.1683674
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.06794002989272,
+          "lng": 128.1697172298927
+        },
+        "southwest": {
+          "lat": 37.06524037010728,
+          "lng": 128.1670175701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "금성제면소",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108995844428340639022\">뭉구</a>"
+        ],
+        "photo_reference": "ATKogpdvSlBNOt6ZYlB-HU7SNuU8iLjB8AszcEBxRjS3X6y8k2ebbn_u0VCZ1nYdFz5xeMc-6GvfZhSJ2eF4xEhMxwXKRbHTqSx9vsqZluvr61LyfWg-jJc-rJu2BrttgJAWkfnBGjwNGKISX1bBMYs30SAuYx3iZMiP5_r0hmEQbT_nkSKCzgiEEjqHPoJI66gtw2ErdtmaRWVLwsYmSE8zTSF_pTMvoCYTxCgqm94w6C9RD057CptAJOW5iLph7ygdAhPSMYdYWsF-9M_cly16dOeGRBaAtO5xXc0_KsYSUDfZQe3gaxcujjBFeQzMaSnqlm3Xr4J1CVoIlEgZeddAf2whMW38hZpCqApF8nIXWfTZyh-QkB4idLJjJEDPXyykAm5Frndyr4qEyjBr52wfojNRct2dqq-2AzdqvqSOvhGjbelq_te6mmgKiSqsLr8m-8-D6jPMDsxUhYim8iK29E23VGpQxdjHQiflGf05rMswY7MNy4fo3w1LJQGO1sGNxdcO8sNV0KYKTcRD4xXDai9l-hVfBWVC3teLocr7KGpwxhhWQPsk9k3_DVj3y1EA48h10A",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJccudC_CJYzURnb7gsdOx6GI",
+    "plus_code": {
+      "compound_code": "3589+J8 Jecheon-si, Chungcheongbuk-do",
+      "global_code": "8Q9C3589+J8"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJccudC_CJYzURnb7gsdOx6GI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 464
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "667-12 Dongbu-ri, Goesan-eup, Goesan-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.8095121,
+        "lng": 127.7917873
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.81086192989272,
+          "lng": 127.7931371298927
+        },
+        "southwest": {
+          "lat": 36.80816227010728,
+          "lng": 127.7904374701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "별미식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101125967719253628638\">최진호</a>"
+        ],
+        "photo_reference": "ATKogpdtcP4XaruM48rgCX14TKiSgrLWp8FRzhMO9ZwRCdh8Wnjz6NC0j2zesJn2T_LPB2yYGrrC563Zc2ZxfFy2HS7k-Va2T1BhrXCoTaV9V8hPGbQK1eh-VLnFxomNyI2SjXuM3y_YzA-RA507w28jUXkLmkGuMZb92EbqtbjMVnlWxeX_JzuZf6SkilQCj0ehTE_Nbu2iwgtepRgeSsHASct2pDz4oWtv12VZnGrcI2yP7tLJmEUuOjSKiMAHuQG0WccP7KD90JT0fwECdoSokTmasy-_AApM8zGpvqfcrvZS3xMBDztplhxAlsNWInZkaYk4AE-AthvnMC4bLwUdUlXfhBGhPcfjH7RnmzbSbYxoawhRsbEFsv31UDfr7GlqL-lZwzq0cvETcQAkk9tg1f6ngTfX6NxWgaBMJBdhtLltaNZDdLZN-5fFPJn_UElbyOdZvYUgm02LmJXaAD8Co_FcJupxISo8jMf8F1l-Rvmsq0dJSuQ0kh0Pew6MlZxnUhAqCb4aIFkIuJ40va1s8rvDIXPnPJNP9d7xeera4VHO3HZAg-keoySjkw-mvbslPlQH_m3npAljfg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJPZOatJ7tZDURu-iLq8whSXk",
+    "plus_code": {
+      "compound_code": "RQ5R+RP Goesan-gun, Chungcheongbuk-do",
+      "global_code": "8Q89RQ5R+RP"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJPZOatJ7tZDURu-iLq8whSXk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 46
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Jeungpyeong-gun, Jeungpyeong-eup, Gyodong-ri, 70-3 KR",
+    "geometry": {
+      "location": {
+        "lat": 36.7859839,
+        "lng": 127.5845173
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.78733372989272,
+          "lng": 127.5858671298927
+        },
+        "southwest": {
+          "lat": 36.78463407010727,
+          "lng": 127.5831674701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "교동식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1176,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101497959549630659586\">교동식당</a>"
+        ],
+        "photo_reference": "ATKogpeBUdeHxnNXBd2gJ-ktTxaQ5_qH_m0A0TcokrO2Heaw9tuKvw6ryBhBpz7Hk6wVINLhiqmj6t15Q2KhSH4A5HvQk0ArWz_dQtEVIPZi009j1BWuks-fCkwyD89YSZ6hVAHN2ipPsxgh0JG_RyY9C1WTqa2nRhs5cJHcUQvBL0ksohzRUjg-ahUD2mtDoB2krSqT8hHRysOFFGlVebjX9od3beHpk5L3PeTdDShY_CnvWIkxx9pTx_roe0TVwf7pwtRp-idmdWixhisJU-kkunuz5gQunS-UAbzgwj-6M-qEL5TrzlE",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJ-fZcwjHDZDURJM3mFkvgaaM",
+    "plus_code": {
+      "compound_code": "QHPM+9R Jeungpyeong-gun, Chungcheongbuk-do",
+      "global_code": "8Q89QHPM+9R"
+    },
+    "rating": 4.5,
+    "reference": "ChIJ-fZcwjHDZDURJM3mFkvgaaM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 120
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1 Seongnae-ro 118beon-gil, Sanseong-dong, Sangdang-gu, Cheongju-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6634876,
+        "lng": 127.54235
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.66483742989273,
+          "lng": 127.5436998298927
+        },
+        "southwest": {
+          "lat": 36.66213777010729,
+          "lng": 127.5410001701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "상당집",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2620,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115827793958806110407\">유희종</a>"
+        ],
+        "photo_reference": "ATKogpcsCOj6EKCw8LmrM4aIYq0VUiW_kp6_zDa_gxXO1Lf2nYkxCZFETTUIgLUQfNnB7KwVGLkV4DRcAnONM8qQeNL_6I56xR1wVtV1O4701GIoqWPg_4GAVAiyQYlTk3KiNzGmdetP0rgvDrVJEUHTbR8rE-HvVL8xG6cgQqYdkv9RpsAERDRUqZhgA6QTp678SAvQB6gWKdyeZEvXBtt4tN9gAIuTgtuS5b2aiVIo97NoLMK2pnFhclmsPgubJC70dF7Oor5kRibSt92EIk8Uj8vQyCubnTCi9AXzOBUmS0Y5OLUOfIQbXJS2oZxM26nwMJobwRjaLy2A5a-9nTfXTAVHVvljlmPOBPdET4kiyEKAXdSf4HoUntqqxxmh9AtA-4ozK09-RaF_gLrOtlFEjBU-bYfvcC6Rqx2bMaIZbvqAviXbYlI0d1NncS_CdR0FIFnhGfM4-7p5Kt-ekwl5soUSPMHin1nkvukaMpZ8WfvFxy7T5hHbH_B0qxsDh3gJDpK17wIzr7uTWiDi-LW5ZpoIuzi6Bix9zq5ehQ6gThgr4Nciw2MtkZNpBBueGoPXZaiHvA",
+        "width": 4656
+      }
+    ],
+    "place_id": "ChIJk1yvkF8nZTURXjr6lSmdMXo",
+    "plus_code": {
+      "compound_code": "MG7R+9W Cheongju-si, Chungcheongbuk-do",
+      "global_code": "8Q89MG7R+9W"
+    },
+    "price_level": 1,
+    "rating": 4,
+    "reference": "ChIJk1yvkF8nZTURXjr6lSmdMXo",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 553
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Cheongju-si, Seowon-gu, Yeche-ro 1beon-gil, 20 1층",
+    "geometry": {
+      "location": {
+        "lat": 36.6261544,
+        "lng": 127.467821
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.62750422989272,
+          "lng": 127.4691708298927
+        },
+        "southwest": {
+          "lat": 36.62480457010728,
+          "lng": 127.4664711701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "스시서울 청주점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1468,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116512345333135008335\">tae young Noh (아테나)</a>"
+        ],
+        "photo_reference": "ATKogpe0VnxShUUx4kgzToF_s-7d_VfLTx7xRbSz4YhceJsBPQdeGHoVIgpEtjf7EMLZ0mHSiOAkLNw3Z8dwOJPbnIOl5io7lSVDdCS2bjWK-6N9dRrs2Ehlz_UrQjOQOJlbnCfzbb9fmWEgStk9L0DYMItdeTNx9-zwWvIcKCnVrX_zlY8NOhwBcbGASfLiBUJrYCZOK7D45mQ4yYL1npPQZT9e7za2-Tvht-NqqUJbXUqmqH9_QBRQTKer94e7vim7DsFi-JPB6bYpXDjkbfEeT_8YCRn5Ng9F2uNNefmSFPNkPn7iYaba0qf56Ek4rh3Gk0PUwRdV_3pxUu1uzRAjjMfS7b8ShTg-U7lH2fSvpdzhsYGfmye_vD5_XNXg-5yf3rDdDThChAM9LHBY_HMlrhnCvq9mQDnj1lG1hhOBuBhWdxV4tp2X6DafYTEgG8Ux7pO2NWtC4B1KlAUSUftm31M_VNVYaHu0hBNa6FX_LLomyNo2NmGwj1WhyPcxJml179A-ofUevv1-RJO2bMqngTHBNXaXpdtCkZiystK19dZHFCuAEXWyKvUPRNGjPEJplPhHvbu4S26v1w",
+        "width": 1169
+      }
+    ],
+    "place_id": "ChIJP1wo9tkpZTURVTIH19X63j0",
+    "plus_code": {
+      "compound_code": "JFG9+F4 Cheongju-si, Chungcheongbuk-do",
+      "global_code": "8Q89JFG9+F4"
+    },
+    "rating": 4.8,
+    "reference": "ChIJP1wo9tkpZTURVTIH19X63j0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 11
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14 Sajik-daero 82beon-gil, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.6338359,
+        "lng": 127.4561638
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.63518572989273,
+          "lng": 127.4575136298927
+        },
+        "southwest": {
+          "lat": 36.63248607010728,
+          "lng": 127.4548139701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "햇살왕만두",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2218,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114320732349306564892\">김지수</a>"
+        ],
+        "photo_reference": "ATKogpcacyfQA3YDDnrc9xcO7k08FTtCcmOLjc_sDCeFMutyPZLVf4KKMw1ck7pKcSHxn0cd2_UFeW6Ltr0yXHhIfWCgpxCMvURST8U8J66pqs13GydbKRT9oZ53xrziYDK78RlKrY3klyb5UOpbA6TQ1A4HicYfrxJyPBoj9LCXr6X4Zdphg7rK4j64r2sAIK17df3ehJOZf8j_tPjAen5JR4-DJDb2r3yFhcdLLOvQXnOt8xAPjvBxAv8f8Tj9XxylArujm18CLF6ymNQMMagy-DA1AyPKge2Pl5J7vWONq3swSsQrtZCa-6T1yt8g2X6SyMENF96_RQPMXBlqZKTBjHy9P2tgaxd_l1xQ_DiZcTVe0yy7AKjPVrjnYmjGaZs3C5G98OmeU3CBCEsjrqzrnD_LBv9WM2TY-pukRTL7J4VND3FTuS-xYFsiMHtmpv7IgFnCBrYegNpcMflr5Ffrjzvw5RhEIXkADg-f5_kkoQQp4JcrMsAvfwSkK9R-CZNSTuW_S0CBU_ukJG34_Gt6whI0VqWWXBi2KcPbfJQ_VTRjZMcFnq3CW-lFAsLV2b_e7iK73XxDenbY3Q",
+        "width": 4656
+      }
+    ],
+    "place_id": "ChIJVVVVVY4oZTURT311uXFumCU",
+    "plus_code": {
+      "compound_code": "JFM4+GF Cheongju-si, Chungcheongbuk-do",
+      "global_code": "8Q89JFM4+GF"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "reference": "ChIJVVVVVY4oZTURT311uXFumCU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 120
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "27-1 Witjangtteul-gil, Jeungpyeong-eup, Jeungpyeong-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.7829176,
+        "lng": 127.5808597
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.78426742989272,
+          "lng": 127.5822095298927
+        },
+        "southwest": {
+          "lat": 36.78156777010728,
+          "lng": 127.5795098701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "장뜰순대",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101697742691272885581\">서인환</a>"
+        ],
+        "photo_reference": "ATKogpcKE0K1Mun_2gjcdi4oS-n_qDK85s7ruC5Pd1UAxoyyfNUyuMxHYubvfMXrAt6fSTiZpBGuzj4spppdMpg4s1xVIDsCmDaM-U-ciYmb_AwlGdtpMMayEnbv8OpcF_YwCnCIijcilWl59mAARjZBT7sartcXsEo9OTYOvkwhrpBiWqKZv1dhRa6kuSvasJY9C-4gXVDNYuUlzxiaWtJXWIzzkv87QFuwBonsFlv8B0w3z04ZYscSvPRCOCCsxRPKqH30S0YjiDZkBn1T6BGLx3sPvb14lSeK-tlrNUc8819YLuHPCtO1I78JfUCSK7I_CY8kCAZVP-pnQFOgqSw5EWEs0nWzO2fudE_83TeChQKICMYrPNREYxW_XfuW7xPCI8NStXDnrCvJPQaarf_yMMdCGTvpy6tAGKE8HEsYOyYRx-QL0NBSSprDZz5FiQ98yW6jlZvQERthzCcCRLmkvzF_kBS_v0qicED2T71jgVAvjyfwNnXjkx7InkGnt3Yqo7r2r83SnXfLM-bIpZu33sVhDy-0_bxhk-J-t8C9TpwtCtccsRcpzY7-z4_sqVBzmID-2A",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJr5a1XVPDZDUR_hM_dI52HsQ",
+    "plus_code": {
+      "compound_code": "QHMJ+58 Jeungpyeong-gun, Chungcheongbuk-do",
+      "global_code": "8Q89QHMJ+58"
+    },
+    "rating": 4.4,
+    "reference": "ChIJr5a1XVPDZDUR_hM_dI52HsQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 77
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Chungcheongbuk-do, Goesan-gun, Goesan-eup, Dongbu-ri, 638-5 KR",
+    "geometry": {
+      "location": {
+        "lat": 36.8090901,
+        "lng": 127.7957545
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.81043992989272,
+          "lng": 127.7971043298927
+        },
+        "southwest": {
+          "lat": 36.80774027010728,
+          "lng": 127.7944046701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Mas-Sigdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100234900050925846832\">희동이</a>"
+        ],
+        "photo_reference": "ATKogpeFmmu1qvgKGeEcNWKChiZE_Z2NWta9psUIF65MJz1WAkMsdypKWMDdW50cXsMtJlHkpTmIynBotYZYWrZ68P4jAZtcAcdccV0-f881UfoMSAfmmbyP6OQOZ2RbC1IUIXIOamxtIflrtEBa8mVx38FGDyj8O8z8aXYINlqiGzVty5ABq0iw3viqA1MKOTzTZu3TLi-wJdNSMMKaZfRHYAWMZvx3zCNGjvXu72-X-11lkhlaDzKJ3ROhPomID8MiGRBadlxIXG684PASnZ7b6ZGfLyM3viYatNorr3saRCPYgzW4Km7mkWMnMX5hgyy1lUBKSx-5OD3B7O17UNRgF_09tslOWxDcSuS_PZvI8KucJcrpdTrPGis2kbVcAhZ9nVzSKxpaGCLCpf_qtlvN2LuBQ0aQlsu2JqKiBp-WkrjCj7KD_00GuygLYtmESTCJS51EGu9OUQW5WBAS-O3zghKvuXgyliMZZw63B44H-yEaXPawFXMvCT2rHP8xUEu6M9rOmI9u8WHvnrQMgHP3rTIoPW6E-SCCCOw8GQX9u_GZOTwWb_aeDH9znt-Gx9z-FEOdHVy_",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJnR8-i5ztZDUR94UaTv5dUKs",
+    "plus_code": {
+      "compound_code": "RQ5W+J8 Goesan-gun, Chungcheongbuk-do",
+      "global_code": "8Q89RQ5W+J8"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJnR8-i5ztZDUR94UaTv5dUKs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 264
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "767-53 Eumnae-ri, Eumseong-eup, Eumseong-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.9321473,
+        "lng": 127.6820005
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.93349712989272,
+          "lng": 127.6833503298927
+        },
+        "southwest": {
+          "lat": 36.93079747010727,
+          "lng": 127.6806506701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "무너미밥집",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115819125160764280755\">yongse kim</a>"
+        ],
+        "photo_reference": "ATKogpfnK3FkgI_GBsZN-tirfghzV0geRMv2JG-OMT6HaD2_oa6hDvYATzBJMHnhQ6BYz8eQ4fx9d8s6IM0S-i6B2DAms5C6Q2V6ILF8nIvh7k2t4iEp6QcYn3DmXKBmW17jc8Wfh2UjrRv96OiHKpK_UWleefXp51AmTdh-HGF4fgQctqw6nTXqvewjEGj-JkBk62xamsI1xS5UXLcSrgeftk8DSs9QvA9OvBC4SmtM3dU_88nkeAQzxA2DfezloBrdZjvbq46a2ybL4mT10rWBLg9uPnrU5xGtv0h5AtWtRQvM4VRGPG9aT5Z_wtzXZhABWwHIZDWAmwZLypndpJYX6VwgehXl13Lv0W49XK8xvijCCk7ViJFwjjJYbvdQVS_9fq-qPDZ-OzDYL-yVhAvvL4m9aFiWeKUHr1vsj84y349hrrcNy7DvNlD2obh9NHa0zVQJ1ycy98v4uRs7uNqvASdh-9Lwd3aF8sLgKFgjrUDY54rW5EoAjd68OlsU71rUWqZSWQ4fpPwxPlXOAl36Q1V00IIo0oWPYBr7-eg81zVLMG2-6QxmflRcEFxjo335Vygt8tlsaDQLXA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJefFFxlSUZDURxVxrpNgv4yw",
+    "plus_code": {
+      "compound_code": "WMJJ+VR Eumseong-gun, Chungcheongbuk-do",
+      "global_code": "8Q89WMJJ+VR"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJefFFxlSUZDURxVxrpNgv4yw",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 138
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "14 Jijeon-gil, Cheongsan-myeon, Okcheon-gun, Chungcheongbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.3442126,
+        "lng": 127.795192
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.34556242989272,
+          "lng": 127.7965418298927
+        },
+        "southwest": {
+          "lat": 36.34286277010727,
+          "lng": 127.7938421701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "찐한식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115158996111178275107\">박종수</a>"
+        ],
+        "photo_reference": "ATKogpcClP-5Egholfoq1s8Fw31He4g4RP5rAFkFFRkxuvMUuZQ1GIIn-xQ9dS8bomTe0rVkt5q757OUsN4zl-FDrxm3tUDQOa9l48IaCDhxOuf441xwMbKvrvWY8Q2LrRlSmxVQmCDQtafkhel-Jv9qcu4QJggx3oFuVt0-nTnuWTgri5h87SIxG5bl9svcuOP0BXDJEGxyLyxj71ES_8VsG9h1SU27eUR5J4ZNtYDVvbIkNXOziA0q_ugAauQVYiyv2blnWqdNsrG3T2yKpMu_oy35-U_-lgrmqUQS7yV51msP9Oh9xs5iZA7f7cgz3xbo4hJ_KHf2CfcuQWWUhP1ueAYTnAsFqWDfTJGzOLg7ZNUuWwps49L7U9sDd0Sbt2a1e9csUqxaoNnJwncRy5Z8BogbRrlGj41uzUSVqGvoymFFT9SlOcPf5NNstc0NDSmXJ3TeofRm15qB3CdxI4gyStX_p0wS177j0LWB5b4jbg3w5Uk1rMAsXrLuAjMMB63fBz8Arxc1xmTnroB0IK-iwNg9F3lDBqt3niqMVBdWpjvsFO_XTK7V9HvgwSjpza1XI7St37oV",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJyZswKekRZTURhkootWZIdIU",
+    "plus_code": {
+      "compound_code": "8QVW+M3 Okcheon-gun, Chungcheongbuk-do",
+      "global_code": "8Q898QVW+M3"
+    },
+    "price_level": 1,
+    "rating": 4.1,
+    "reference": "ChIJyZswKekRZTURhkootWZIdIU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 714
+  }
+]

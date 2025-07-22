@@ -1,0 +1,1034 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "610-3 Ijo-ri, Naenam-myeon, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.7514593,
+        "lng": 129.205848
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.75280912989272,
+          "lng": 129.2071978298927
+        },
+        "southwest": {
+          "lat": 35.75010947010728,
+          "lng": 129.2044981701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yongsan Hoe Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116812216326492410670\">No.29 oWL</a>"
+        ],
+        "photo_reference": "ATKogpdNaoSZ4CizBWKKIZMiu0QzRZXzF1eBbD-K5JDRxvhk2728DP8Urn6lLDVLje9JpOIUwL7BuQtP4yEjQ8NYTscnzv7a9GBQyOyiHU18NIzo71SpwX459vITqapJNbWnlSv9j7kWsq8vhDnQBErJ7UFSZ-t6PXVZ2dfCmpAOqe0-zvy-Vgk7kAR5HGZHQKSnJj5MFXABeVnhqCMkG_wjkIrIJYymLocpGwyjL1AUK8QvgpRd0Mpg7hm_oIBXBQzpD5JUPIqJTtP3XfZ_vTT2SkTgBPNTwKYojMRBdH5xoq4QMjNxyVECPZRNY94lJ598lE0cKRW3tW2YkqJx64TP43gVdYUnffMPYUmcXC81Y4a2O1cAHGgLTO4fCQO7k9BSjuOjKnXCeK69cE4OZI8KPTe1qSDTxKJhDa0LNNcSfVrWl8S1gUKQwRWnIegILHYyxl1fixYVht_9fPU_U8LmKCG8MJuh_tr5PhYtc7uCQN4ZJhnrkI2EjhfaIOUkYYDz-Di7r11l4rpFL1fBxwmuLJUCNDh22wQPGzVTV8E27RDgVmJvB9U7EN_o61kDooBjLgY4MbOI",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJFxAOha9JZjURxXE2xxaLaM8",
+    "plus_code": {
+      "compound_code": "Q624+H8 Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FQ624+H8"
+    },
+    "price_level": 1,
+    "rating": 4.6,
+    "reference": "ChIJFxAOha9JZjURxXE2xxaLaM8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1444
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10-1 Bukgun 1-gil, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.85204290000001,
+        "lng": 129.2621826
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.85339272989273,
+          "lng": 129.2635324298927
+        },
+        "southwest": {
+          "lat": 35.85069307010728,
+          "lng": 129.2608327701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Hamyang-jip",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114706792637946983660\">이승훈</a>"
+        ],
+        "photo_reference": "ATKogpeU-TXD5Wf0T_2QBgkfCvZM4LpYEWzyJqY-8Sg2JI_F-s34aYk7CKguZmEeba3E3u116qSObGtpfb9vOlsVTYUsy5DqtU8q3mw8eOX4TCg9XsaQqlg3t-IcqXpRKeqnqChMxtX-0v-CiPubxMlb-ww_797e_kFLDcjyUuMVwYiXZEbbeR6E4jhUpYrEjifMAbeGNfJrHyzUduceznZ_KBCKbfSdmoW1Abc6U9_L4XxwEBL6bKfhD_82xJW-GGsdUuO7XLQb_Y1gAjp0kbds0HGeK2I2caTKFQ6jxBR_chmQ25sPhPpr62LB--eKs364XskPL3MwUTgqIosHo12LZ5KwsMw2MqAmbXVoaXpweY1XCxRYpkUVflNA6geUlw_zd6bD_0EtjLSZCp2u6Tpgw2vdkplTJn4YtvLqHSYY1_-f5IfvJ-psFOUbir4yaFoUvh128K3UBbrvAwgjOmZOYYrxNfSlpc1gYCkdXginydtuOnXHR4SX3Fw-PkXDvMYOJuAg7XANG4IXqA39jhSocoo5MpI6jctBy3JWWHJR92LSZe3yxu-sjrH9D8-aoXw75Zu0Zg",
+        "width": 6000
+      }
+    ],
+    "place_id": "ChIJNUwybXRSZjURNLiMAIqlyQk",
+    "plus_code": {
+      "compound_code": "V726+RV Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FV726+RV"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJNUwybXRSZjURNLiMAIqlyQk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1959
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "9-10 Jukdosijang 3-gil, Buk-gu, Pohang-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.0358663,
+        "lng": 129.365633
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.03721612989271,
+          "lng": 129.3669828298927
+        },
+        "southwest": {
+          "lat": 36.03451647010727,
+          "lng": 129.3642831701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Janggi Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117017796351076893355\">황재윤</a>"
+        ],
+        "photo_reference": "ATKogpej-ukuhfZWO7XxVE8vlK3Am7XeExDEDroAhcteCS160dEdPRD4BnejpO2XtWLXeNxDHVxEkMcERVQqgsVfkOJYhfnrPTaaKeOP-iGHRv_0rA3e-_FoHvNPYFPX81NnM1Roqpz9g5bsAQ2NoIRqlEcUhM4fDHXWsDW3PpJ-ebAqvIRXJUtt03n5cMkZIKAyqDlQYhcwfFFDxb1ht-YSSCNI4tj9-ggPejdEevkxGv2-3VpiZG2S1T-C3qVxasPGw7PFO5HaIcyHbm7uyIUYyLYTiN_ybhmesuWcIBGuygIonU_moyZwxf9GxpktciYejXsDI4Qm8VVM2DQjNBUWSYYAD3qu47rQQBjml7v_2zRTAsmR277ls0Kr7DhoV70UZ5spdIpWldaYzByylEOvdNqrP8vzBzhoHsuecaPvkMmejmmqUV9InQRXubkXqMpzrjZc3gDOfKfhs2bClyIMcd8eWePdXQVRCPQxn6H72Ya2hd-uJN-DknPW49kqc1d65xvQSkgRoJ8HkWXsUqjMnOl89YoIHNB57omxgYr-KKkppY4i_OtQ4EOPKVWNRi_kbae2Z59z",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ3VO2gtMDZzURDHTdIqnimvo",
+    "plus_code": {
+      "compound_code": "29P8+87 Pohang-si, Gyeongsangbuk-do",
+      "global_code": "8Q8F29P8+87"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJ3VO2gtMDZzURDHTdIqnimvo",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1359
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "30 Yonggungsijang-gil, Yonggung-myeon, Yecheon-gun, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.60703609999999,
+        "lng": 128.2776662
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.60838592989272,
+          "lng": 128.2790160298927
+        },
+        "southwest": {
+          "lat": 36.60568627010727,
+          "lng": 128.2763163701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yonggung Dangol Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2340,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106852292589356876565\">HYUNSUK KIM</a>"
+        ],
+        "photo_reference": "ATKogpeR_34mPrD81i9B3SdREHTjglIQf47ypWotZh4tc4vyrNb5g8Q08cZPpVZe2Nb5nNBoeXegG0AWWV1W6d3Nyc2VATSCK1i3FsKrHEBcK8lthSwZv3_QcwY9BX70rLrYpRKsjjaXcm5YSU8DnDAqGsWbq-tP1RzeUxxFL6421aROUqS6yBk1_nKtoGxBTH5zz1HwAQQ7lb6TTzyPJ5VKXxngVRjSB5EpU81aOR4xll4t723bj9oeb4EGxB9h_6ZfBOLupLev4WnmB2o40XL1f5Ug-U1rgy3Ug6N2XXPtta2vv7EOuQ1z6FKuuv1qZp7s1SoGNuSNVHZi5lTKn0W9W11sSwT7fZX9_NWxVIsKy_u0L_JoYo4GpLsVs8xdIfiPuE9LMYnp0wWvxJOYEdeAcKAL3EsC_43Y8-nCWtQy4zx_5CQUcKZE1rwLh_la4yVYZaRu7KXHlPn_mM1GQgkb-gw0kZqrpB434bXBwyRfxllV0LsZeSu5XoUz12I1M2PaTfRV18riU6EkQ6lwsc1_n2EWxzT4YQrigP_JeZk9w54NR7hl1aPClLvZvtjfGhAPMVmDn-yJlvfQ5w",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJg9bLGtlAZDURK2e1N8t56c8",
+    "plus_code": {
+      "compound_code": "J74H+R3 Yecheon-gun, Gyeongsangbuk-do",
+      "global_code": "8Q8CJ74H+R3"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJg9bLGtlAZDURK2e1N8t56c8",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2359
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "113 Cheomseong-ro, Hwangnam-dong, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8334295,
+        "lng": 129.2147573
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.83477932989273,
+          "lng": 129.2161071298927
+        },
+        "southwest": {
+          "lat": 35.83207967010728,
+          "lng": 129.2134074701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gyeongju Wonjo Kongguk",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1917,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117171590389298368120\">Patty PK</a>"
+        ],
+        "photo_reference": "ATKogpdtIG_5iLAuXYo1eEbBWDkno0A78wGXum8shdYVhHqdjY_y__3FZ78C9B0RomwBwefKPYw_h2ne7wvtAn0NuShOy-PrNQUQ9xi55oga6wZ1a1s0tRZvalcX-2PKhcIXszOXu-Pl8THJbwcM05Va66YqwaE1947lRmcqJcyb3so2JkwDUcxaOvvMWTTVUsOZdD5OR38cJqqYbzgw6MXVIjm6GtDHigwWy_IB7P0J7CtINWXT3iUy_7vhXE2zs-JB0auuGFm-XJ0lMAX1ZgVItBmukTYETznTVGFvoyEA54BBtMrpNCChxp5HqXH6lEEhQbd-gQmCLEJRfCpBD4MiZcS-z4w9PUBdTFqQXOgXAbwLNIzPEut1tcsgxlUn7mgYQCoqHgF8XKUD-6I3sISpaV8E5Gd2WsObfKfcTciRI0PKxqDQtZJCYz17sOZ1Qhy13slcoJVBPJyt8_XZnZ0iOnV_qiut1v9A_qxJUe0huCC2MblGvDBX80kRbNVuxcfjYu1bGkdkhrGO1r1OG8PyUTx71EZ8_tRQufvHPPcIzP_ODw-dG2nrSzv4W_mABVJM-LPWN8-d",
+        "width": 2556
+      }
+    ],
+    "place_id": "ChIJIayEZV5OZjURBa0nhl-1w_Y",
+    "plus_code": {
+      "compound_code": "R6M7+9W Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FR6M7+9W"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJIayEZV5OZjURBa0nhl-1w_Y",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1272
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "176-20 Unheung-dong, Andong-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5629632,
+        "lng": 128.7319615
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.56431302989272,
+          "lng": 128.7333113298927
+        },
+        "southwest": {
+          "lat": 36.56161337010727,
+          "lng": 128.7306116701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Iljik Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113896417457608362699\">jungyun koo</a>"
+        ],
+        "photo_reference": "ATKogpd4sc4cB4LKGBO2EYMtGYir0kNgsM2AheNVf2XfVGnMiioQAoSqB0Rj8GOhDK5xnw6zeXE08NgHg6u5y_l9y55-aYd5lrBgatSWCF52-lbAf_ZNxa7z067FEDk_9S_7Ik8ENthIvWU5nEbdyzHJLzn1eJHRSgF8QYi25T6kuBZOaww5LC0EgyiMaYERkDm-juSrZHHav5md6S-m3zVJd5MUE_hEIsjM3YqdWyBRNT6nkznQ36DZnBJkfBJ9ex5gHxfp-_mYji_wbjdKTlM70WpDNVobPTrp0KjTXh8nuvpUOVbC2lgWACgCUGJ_MdZj6pxVzbpTYG7S_7eu4ZkRQUMLYuOePPXjS6widWq3jReL4dE9Q3jPUQT1ftsVOVdO18JWeC9KLs1EF2CzdOZxrFWuZZmKcGkuVB_OGc-HMonnqr07cJ0aP6yN6C3Smi5geGrqqF-t6vhaIDGnuRn2CWu3efFbRcCVFnr0v-CtQ02Zm-wkhrTqSCP5w3LFvqm6UhWgjlkDhQipPLDQ_iGijiym_I3oFHD_KdtSz3hwsJJOVnjQoroEP7wTEAS8cIvms-d4BGpA",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ0xdN0VahZjURb_miB1uMaxc",
+    "plus_code": {
+      "compound_code": "HP7J+5Q Andong-si, Gyeongsangbuk-do",
+      "global_code": "8Q8CHP7J+5Q"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJ0xdN0VahZjURb_miB1uMaxc",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1524
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "217-1 Haean-ro, Buk-gu, Pohang-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.0647011,
+        "lng": 129.387207
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.06605092989273,
+          "lng": 129.3885568298927
+        },
+        "southwest": {
+          "lat": 36.06335127010728,
+          "lng": 129.3858571701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "마라도회식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102660294350979468230\">*꽃비*</a>"
+        ],
+        "photo_reference": "ATKogpdtvR6Nfr-2SOke5pDe5ElkuDBTkdQHhWfcKAzlg9lBXFKZuoAj70ub2BXrNVgNokJjgt4YF-45dIDBdrPrGNJtTPg3ypmXu37Sd0DlTR7rXSJulwMlDjlDe0XfrF_RgfKwalFmlSHy8UBsqzRPyw4QAF3pAsi-JIzE5DtALkD3kKO18B1o7n5ZonUa5EULMzneQnrGMyfTCZ8aIWWOiTITRgnmtWrfaqfWktMEuuzwf7ceOHdpd4PH4cOvWQMmY8s6J2DbRp0X2vq7rawaoqZ3P3oTg7XDglDREiGCWSEgxWgEYyHanfsPO9FWKzjV2kQORkHa601pVzvEUkJs6yE8wKSOGiHBvyM6jXEMNBy4X5Z7DxEuOB8MIJVFwMohTkHk7dIejKsfF4sGmJYneba0GAxF286m-xmXUldRI0z88P9cxa9SQaH6m-zlPJTvtutHN5bX8u2Rwew1ppbow4YWnbn2iqefNuLx0__MN5Rj6p24tigosQDUPJw322sroJAaFPMZHwd6Xhb03xiIqE56verfYLTft9mJ0bL_57K5zdxo2W7iO8aYW4v1jVEF3Bp51r1atVEvXw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJgSnAzHMDZzURxfwwDQsJq3Q",
+    "plus_code": {
+      "compound_code": "397P+VV Pohang-si, Gyeongsangbuk-do",
+      "global_code": "8Q8F397P+VV"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJgSnAzHMDZzURxfwwDQsJq3Q",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2685
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1058-1 Poseok-ro, Hwangnam-dong, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8356106,
+        "lng": 129.2097418
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.83696042989272,
+          "lng": 129.2110916298927
+        },
+        "southwest": {
+          "lat": 35.83426077010728,
+          "lng": 129.2083919701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Ryomi",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115347052879290356019\">송애니</a>"
+        ],
+        "photo_reference": "ATKogpe4gexI0XcwwSwNBd_YyzOG2_6xt9ZJrrQGK2UsAuxjynnbEHgAUzmptO3EmozaI69GNWEw2aA1Ump9B62AA5oqTBp7JrulTbMZZMO0jPX8fOD3NhoE8vs39sT-1FdxAUyfMgD9pv219-KhHQNzQxNLXQLUm3TJsqbixuTAYoEMQL9MiqK79k23nI5yPj4-IcdvenYAnY-ACKuZZ2oRyHvZunGPSalpmZgyy-g9P3aPXHHzV6LQ4IimXQ9ZsGfo3b4zekMb1pSdU9AXl1ZBquJ_bWK1i39nJtr7r5LZ7dFZgtbHjSv4atWNVvuKEZT0uc6vBOkMMd9yhwotxMF71iXdc7mgNOt7RkCDyYy3I83EiG6a5ArEZAxVm4qnBGK_0PAtZbOsjgH7NRzBb1ecjJY5SorgK9m5cirDmGnFJNB7m8jVizdBmkWW4_Tm_QUQZQNFS-Yl5TXPswFrBkchgXDrcFoYop4MGw-xRD15pi819yPhrWFeCWmiaQV0rRTgmnfYX07d1J1DIxgBZT6egCkbFOSkgVPBfTje5w1EmtbYubsW1vXqsYGYOCROKT-9EBzSKfx_",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJdQLfXMtPZjUR9YfQUBI7MAE",
+    "plus_code": {
+      "compound_code": "R6P5+6V Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FR6P5+6V"
+    },
+    "rating": 4.4,
+    "reference": "ChIJdQLfXMtPZjUR9YfQUBI7MAE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 872
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "948-3 Bae-dong, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.7908333,
+        "lng": 129.2058333
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.79218312989272,
+          "lng": 129.2071831298927
+        },
+        "southwest": {
+          "lat": 35.78948347010728,
+          "lng": 129.2044834701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "남정부일기사식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113631807474486428515\">JACK HWANG</a>"
+        ],
+        "photo_reference": "ATKogpf7bvlf-ZQnFxnrTUpRV8hPlpJtAgtq9BQekXvPwVziY5-KsNJEslW75zHwPwXu-_jHJc8e7bRk_ooRpVmPMSwZ9vkWHysnF1j_2p9EG8ggx9FNPvVMk9yUNEnowpm0Wp1q8I9H_vZsmDMDtFRzx7GG7QfgbBwDvSQ3tdc3TiKW3MCbuE1qvwbEllGz8kEWy4wu11to-wZh_36uSmLEv6LO4bISq04JB3T65p2ufpyowk64BHUg89BTIIkruk383t5hk5cnTSuISonwYZDki_RyxlAizUFHD4XtqHUB-x4JhETeXSR38XhH_S8krfSnWO6alBPx8mky_XWHEnrlK7Nf3QowHyAppAYCnig718CptqZWlrIZSIhsZvF_1GJlYiZbmBO_Uj7fnXuVmtRS1gkaY0f9TtwBwgkq5leEfMdBEfdmgTcV5WduLgaReimsvMURz141V-KwsMfmR7ZZhtINLYKp-2MWAORm174GG6mHQwyqNPLERhIkB3yERqHKsYjiQNy0RZLzD1TdyQNvOSpeDAX0_1dnZ72Z3TrTOc5MBB-YtdOg6YmNbmiOwwPGvBqloUE3",
+        "width": 2560
+      }
+    ],
+    "place_id": "ChIJTdNdBS5JZjURnLUCxM8UrxI",
+    "plus_code": {
+      "compound_code": "Q6R4+88 Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FQ6R4+88"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJTdNdBS5JZjURnLUCxM8UrxI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1187
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "189-1 Haean-ro, Buk-gu, Pohang-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.06433,
+        "lng": 129.3839924
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.06567982989272,
+          "lng": 129.3853422298927
+        },
+        "southwest": {
+          "lat": 36.06298017010728,
+          "lng": 129.3826425701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Hwanyeo Seafood",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112941030914198858694\">YDH대륙상회</a>"
+        ],
+        "photo_reference": "ATKogpdb3veWl-wq6tvaVPwNk7MsCGdpx960KyugtW8qkaRsDCCR8_pOQpF4OuiTOHDAVO119kNm49Qe_bRR2Ldjzq-Iny8Aukc2JuTyWT6OuXpOGlQfSQkJ4Q05YVvke55UC8wvhPjJUheBPuWUPCUQV2THSl_LiY9dsXzxmRZcKabsrI4IvXsRlqYpZOTzdwSSKS1yhHL4P5hSyxNrCn3dWMREOcbzIgVYxMc1sNC9aKGEWSsXbs7cw1kOHizc76PJzrDhfgOTF3guCKuU8CyaFrQjWbUNiCCB9GyA8tGg4bdBSgsbDf-SNiAQClYZYhdfNozu-OZnh-N45srHhQfZfiE1NBwImDGIfT5V_AA68TUBtn79EGmisl6mXlUzO9XA4CsBsXiaTYwGli-kfGWasz0sAy6eRFMDfifB_1cHPPrAV_O1WYn0rDdFex3OudfGOKjSdsiRSj2ZGLQGN9hYxcS0pEqUrKTypxgDuWHDT0cg__1vyJnVr0nsOpdxzfK7hOYu_l7_OsKjSTkKhtZ7TYzCaK8BfoigFnXrElVph0K0AQU5cCoz2eEaJQteSy01zcuS733dDdmk1w",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJQ8neQnMDZzURzsCRmsGWXzg",
+    "plus_code": {
+      "compound_code": "397M+PH Pohang-si, Gyeongsangbuk-do",
+      "global_code": "8Q8F397M+PH"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJQ8neQnMDZzURzsCRmsGWXzg",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4089
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "168 Summeori-gil, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8428778,
+        "lng": 129.2541206
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.84422762989271,
+          "lng": 129.2554704298927
+        },
+        "southwest": {
+          "lat": 35.84152797010727,
+          "lng": 129.2527707701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "우마왕 본점",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2328,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111760261672643553475\">재승파파</a>"
+        ],
+        "photo_reference": "ATKogpdopGu_oX5ydPOAim-h0nIwNElrxeysk4y80GPMmUTklfHIKAVz0Ie8UXcUIoa-EApQi9UCAVyoWCn33Vz-EgKcbMifClWgNBeiAOdctKxnulsiN0h1p_oWutyVeljwA3g0B4-LKMiK4zsUy9DQscL_gyhjZdD7uxGUN7fEK0uwgFr6cbzMmIsoujrzCw_LGDXRq7DqLmEmujSI1AuE9xLMuaz-0DtDC0ewkYy25T9YspOPjVHJ7SMzfdt1z1w_u4lLQe2iiI4rPd0drNBjHcMEqTlvH0bSnOEaV53ISWdijmkTlK5TVMyELpOyS04zofMQIx31XGQKsGkmQEizYHkc8rzat4kiaxTn3kRFjAO-VKVf_DZqv-JwHGqEDCrt4L3bHfPLarsPkRG3vopcg_1Ock54yfLB53jRdzs0f_d6rIxUO6tx4CHWPcnjrKXmAwx8kmpLmvdkQfHNkuYgYtYYRPAvD3yZh1Y-BXlUTJ_9Bq9UPYjBWOP25NoYeY60nMdK5_wCFkD5Itud8M0cYcwoWGNDfBxUUI6rYo01pTQaSV3F3PMpgIBI3lbzfbo6GpU6ThCr",
+        "width": 4656
+      }
+    ],
+    "place_id": "ChIJHz584PFNZjURIrjxDvQ4O0I",
+    "plus_code": {
+      "compound_code": "R7V3+5J Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FR7V3+5J"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJHz584PFNZjURIrjxDvQ4O0I",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 735
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "8-5 Poseok-ro 1079beon-gil, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8376128,
+        "lng": 129.2088054
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.83896262989272,
+          "lng": 129.2101552298927
+        },
+        "southwest": {
+          "lat": 35.83626297010728,
+          "lng": 129.2074555701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Cheong-Onchae",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117464983631570678288\">sungpil Yoon</a>"
+        ],
+        "photo_reference": "ATKogpcnEIJ-PKDSSz9xZ6kniIKsY3rKZJtI095UAuoik1x6l7Hc8-EXNij4WxxC0WmWONAc1X-ZwHIINHk4FoKq5RxYImguRcBoRQyBDmPG79AdDTOOgGwpuwcB3Ck_jgH9_ATWnOCSxf-fSxYkLH2RF-8sO9aGMeLA5IQbOhJ8lf4GdUQhPBbCMPTS5eJBz1nP5jFWcvd8fe0L80v7gpIDoZ9c7mrSgJD76qeq3a1yBCRBv4Z9DY-ws9nZG-oscEudvvPzDC3VKdaN0LtPmhSVqM8oVAIqX9goin7XUCT8_cc80pJ_-MzUWEcWZSpRy1AlHBAFeDOqm9Nwxs9Ow2xnFsYX7nknmOMur_96oHxXY-oQ4Ef_PErqYLbTJh5tgSsk75LmkgOHJl4_A2o_l7g4fbga658Dl_leJqDf4yq3_XwiukA-YAqZ-z0kBjGtv4QiVnn5XxiqA6DAgMh8RWofn23nbOUys9lx-uYBQIXqZ-g55Y4IkFrwF4DOVQVk1oCTvGsyB4ZF4m96EpkV40hMdTU6qVKDobPM3Qh4ilff-P59R0RTPRlm2rEbMMrWWY4EgNLJYwDaktcbcg",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJO3iaxCpPZjURunfZxmOnXcI",
+    "plus_code": {
+      "compound_code": "R6Q5+2G Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FR6Q5+2G"
+    },
+    "rating": 4.1,
+    "reference": "ChIJO3iaxCpPZjURunfZxmOnXcI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 113
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "205-4 Unheung-dong, Andong-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5641887,
+        "lng": 128.7339679
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.56553852989272,
+          "lng": 128.7353177298927
+        },
+        "southwest": {
+          "lat": 36.56283887010727,
+          "lng": 128.7326180701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Seongjeon Sikdang",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103219731607921081013\">youtube choi</a>"
+        ],
+        "photo_reference": "ATKogpfc9qZud9LJnzJsIy4t9lqJzsf3pmEWgMflYX9AmHJt5HRhbfi8035mEZil_0t_1EEs9cwMBJq1dZU6yUdjdpIQwCi082kYeSlJSGaIj4p_gcZVV0oOy8bZ1P1xY5ox9UbmcdpmIzF9fXg3a7fLAu-JvULy079RVjpaXUuX0SiToVDUkzIWNj3ELDO92E9xCpaC6uxVOcB-Vb9AzJNy-hI4uzwDiU_EftlVtmjDcvg5In7MhSBnY_8m2rO9CW4pb4C0v8MfZ9cRbwlZlokk1uIYTRrj3jjTLBEyJ105rtOe7sTAur8lzvvldFD1FQvVfQo2x5QwScqJFn6Hl8IFxebwzLobxNr3w1K2v6X-05dasH8Wh7ukhtmAtHc7JyZbseHwoNyATcg6FugnpLrg3wkavGO8YOoE_CECdysOqFERUjgQKiJY9iSBGVOxgnvNT2u3s7iD_bH5NvcaVd-_bFPbUur8LvbiUgEPk35P-sMyhXWSqcKZn3QnwtavSHkMoHZC6isEkf11FOEzv_Pk8XlH1ezUB4tw8FtcH2SizbF9M-0izycfjfDG3N3R-NZX82kllg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJHzzDgVahZjURIH_33tg4ocU",
+    "plus_code": {
+      "compound_code": "HP7M+MH Andong-si, Gyeongsangbuk-do",
+      "global_code": "8Q8CHP7M+MH"
+    },
+    "rating": 4.1,
+    "reference": "ChIJHzzDgVahZjURIH_33tg4ocU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 224
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "783 Taejong-ro, Gyeongju-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.8408476,
+        "lng": 129.2136762
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.84219742989272,
+          "lng": 129.2150260298927
+        },
+        "southwest": {
+          "lat": 35.83949777010728,
+          "lng": 129.2123263701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Hwangnamppang (Hwangnam Bread) - Original Store",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100747971635228021660\">최재화</a>"
+        ],
+        "photo_reference": "ATKogpdHoN6hnBotWvECLqMTRmYm8VtU6VgnCOMSNuMJf4dxBDJ47NHm91cK8jommN_mME-i329_BfYticUdkKdq23QVCrp0fz7owYwmWHTQ2uUmeo2qpEKoPHyzr0KuF40Wgx6WTyUnesV_ZkFAFuj3RmdChe02x1aQ4y_exvuasUjQmnnoBvfLa8b3u2ln3tXGgOdlCDF4qXiLmUtgzA7d91VRC-Wh0YdjZpULQYKmvD0xfGDkDBWZ_iAwBR6Sid_nb3hqGJlKtV0X_E5U_ElOFIfWagjcxhICczo9HFCt1xXFJORV3Rp4UE4LMyfXgu1u9moZhwJ5W6gmwB3lNTsy_vYMXlvMB6osMjYMdvWQMx5xVPMxg3VKfySUIEIV-Ak6rMT4WmZnw5DTc2kFyd88_cn-rmAF4WYNKVygL4ijc7ak6b34JdTWxuRr9L0eAl7xLYaGMwGhDap2tZh8F5Ximyk5R9zPR-w-vDnMTdzIlNXx626Uhgk7TmYdq43DCcXYcJa9HOW-ZgLZppnUtjD7lmboxRHU6mSTux6xTNM5fMcazBXqT0cpy4xj6W8iUZ_NXovvItRE",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJt_beGkNOZjURuYxSUlN0I0o",
+    "plus_code": {
+      "compound_code": "R6R7+8F Gyeongju-si, Gyeongsangbuk-do",
+      "global_code": "8Q7FR6R7+8F"
+    },
+    "price_level": 3,
+    "rating": 4.2,
+    "reference": "ChIJt_beGkNOZjURuYxSUlN0I0o",
+    "types": [
+      "bakery",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 3689
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "18 Sinchonyaksu-gil, Jinbo-myeon, Cheongsong-gun, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.50670849999999,
+        "lng": 129.1207249
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.50805832989271,
+          "lng": 129.1220747298927
+        },
+        "southwest": {
+          "lat": 36.50535867010727,
+          "lng": 129.1193750701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "신촌식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116487597014775506339\">소수점도자기ceramic_studio</a>"
+        ],
+        "photo_reference": "ATKogpeo7inRY3BMpc9GmWL3S47PWkP5wceItQwlaRqzqn4f_5ajflC9JQVypaUDvKKyHlvYt-0OZXK_aLlFR0c_4eMJuDzWxT7BhjEN7Idz471nmPASvoVmxscnnKLaZn7r9DJ9tBTV212SAPaKbZd9A4Pu9fQ7qc-lJ3ZEsUWHwDPpYtEMcfUunn1r_0k233iRkNcP53-WjDkgbWXJdguLyo_cZzODa-kABs2rGpxsXRsRD76RiOu5Fq7ncDuMNYmW2mUn5xsOSn4_xMOT25oKcqVp_A4VQkf6q8DzcpvAF9rZ07Jt9-xbgj03FfvwtGElKbZg_CBoNCmQcqW1jPAePMFfj0xLfcD6ToOCHl5l3wpvRqdz3dDtyPCkzRKXDoQ114qToXZJ3TNxMRT2DqwT7jjRlbsM1Hyf9utyYrSkdHjNyWdfEmC6reQJjNg5q7IFhoABEIogxvccg416nwZ9rV3PWx_jbxEzQhTH9Pbd-lwbrvT0VOwAOtpfyJaXBYCaCujSCDC33YmcEDk3Kqxb9zPGMZNrCAXnVvVXQF5Ni8I51kT_z5L-Fc__2TD83NjJl_PEXebf-24VRQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJxXsa15vPZjURWxv6JmuXMcQ",
+    "plus_code": {
+      "compound_code": "G44C+M7 Cheongsong-gun, Gyeongsangbuk-do",
+      "global_code": "8Q8FG44C+M7"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJxXsa15vPZjURWxv6JmuXMcQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 937
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2-1 Hyobugol-gil, Pungcheon-myeon, Andong-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5560142,
+        "lng": 128.5376525
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.55736402989272,
+          "lng": 128.5390023298928
+        },
+        "southwest": {
+          "lat": 36.55466437010728,
+          "lng": 128.5363026701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "병산손국수",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102785335840167517793\">강남까치</a>"
+        ],
+        "photo_reference": "ATKogpe9FeTuM_AEYO9UFmFuilL1lPsdQRvd-tDjY_GyN7m8gqZqmlABmgZYkD7lrvHTMAG5wMnT16PQjMNA2LkpgOA349novbhcuL1k3cGNNpbr0OIKMlmlsrlWX1k_JS4j74Hauvvxs_UX0QLyZDCYdNTgHs8jUkbXNq65p0D6HwT4JDluYsGdKkjy2OhgEHfVbvhDNHgQC2lrBvB9DWmjcuBvClth48Sre7FEAQ9s359VI8-9JoGPDgEh0KOz6hZ-pI-i8JwRa1fAwHvkQnaHovk7X9hmApKQK94mbaVzKoNnvr3Q8trMMsoaPrXJove8Gpuk4-4bIhI7Mn36weHP8VF-Sp1g_cRXCf5NhQAQsEnV6oPjJBnPhmD1538JhUZ3fwbcLR4pmgrLur7DA46qU_rkI7UvpHEl-xp2sgLSoD8OU-9TbwFu00egb523VUbLuwaIBNkccDcmy5z04dTQ-NCTGUm6P1OFebi1jMSK35eQXU_d_S9F_9glZUhICpo92AJ-H9zrcVmMnOLqs-NKvhYIh7sFxyy5fcVo0IKTvSJW6JKsKwk6plutpWdLT3qi1yH_mIDCvISgC548gepi5wIDfvcPVQ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJVQw45OsjZDURxuGuBt2l8HE",
+    "plus_code": {
+      "compound_code": "HG4Q+C3 Andong-si, Gyeongsangbuk-do",
+      "global_code": "8Q8CHG4Q+C3"
+    },
+    "rating": 4.5,
+    "reference": "ChIJVQw45OsjZDURxuGuBt2l8HE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 67
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "592-16 Songhyeon-dong, Andong-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5756419,
+        "lng": 128.6844394
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.57699172989272,
+          "lng": 128.6857892298927
+        },
+        "southwest": {
+          "lat": 36.57429207010728,
+          "lng": 128.6830895701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "진식육식당",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110236336851513932531\">배성우</a>"
+        ],
+        "photo_reference": "ATKogpfQLK40xNkYu5c-ELwjahO5dmSaXz2g0Tvr5wWKtTNa2Y1skYnierrO1z8aPg9MpNWuOK5lCdZfcyxDdGqbYl6ZO_AQBy8XNAihwMAdDvUXjDuxH2w-QXMZkE-ZVLqyw8XvdSnkw0I-eZZu8K3-fSm8QVhf1-TRKBOJ93rSKZQ1ydBNb2lHoQohHCR6Z4XKpJGvscOxMe6KfDl6KkmnoPOVIkoVUh5TKEwbfnYFcNC6hI9s-rlS7jdGTvdoqtGnnaallstNuHURcIs-CrAfD4Q_kdim5DP03fx7UOW56ucyqoQmlAJaFsOMYeitkV8ru8LsYEKfbYWY9ulyR30Ct14Mhqj_QJpF19EZADJ7OBtLB1udExCQX176eYy5TW6saWIiyQ1-VNToJ6hP_d5hpxJGqEPpBepJlNXAgtPOkkZbLwZskzCkuYY-k-MZK8drXAABEz7OI4kofV1LL74TS3UBN1TDgGgnmOZ31NEku6yDrtIzq7KXdej4S62ePDPRgSfGsUyVtGEOL6fJKXPBE9gglJvaj52FfCwlg3aNw9KpD6nwBJ0bNiXVI5gtWQPRWvIyf8y1",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ42tDhdmgZjURYeuKvEf31D4",
+    "plus_code": {
+      "compound_code": "HMGM+7Q Andong-si, Gyeongsangbuk-do",
+      "global_code": "8Q8CHMGM+7Q"
+    },
+    "rating": 4.9,
+    "reference": "ChIJ42tDhdmgZjURYeuKvEf31D4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 14
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "828-1 Ijeon-ri, Pudong-myŏn, Cheongsong-gun, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.3568548,
+        "lng": 129.1589065
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.35820462989273,
+          "lng": 129.1602563298927
+        },
+        "southwest": {
+          "lat": 36.35550497010728,
+          "lng": 129.1575566701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "부동식당",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103190402074790517481\">HyeongKook Leem</a>"
+        ],
+        "photo_reference": "ATKogpdZ7-J8NOEZWAJ3beHnrZFolBbNwOQqGqlOBBmYdKtEhXdxh6MJBW5YoAAypJR_gHXsHRh3jU9WSrbpe4zOcxIVG5cfABkjvGrqitNZVQ4clFzicJ8D8eSkk1riZdZAdyA7D294K8H3ow2XiKq5fh6BHIMfb05aFDwzXYFnCnVAN_Lc1TgWYpyfcmumVK2TGiOJLLUq-vAHE33Bd5BkcGfr57vE9FORVSR9q7Rk-KzA60GRbgBRs_8guvdmVATurNHmVdX-sVuY9kumPijs7wOeQVlk17yW05u-p0AtD_Qq6AQCzjNr29mMuULbXMViHaaJbyLZp7K3kNDTCCs2zLB5c98B64nLPXWvk-ot10F1DRnmZDPLRXyg-dmwkE_20dqFCzawobi3L38K0EkA91AQq2F5AZ4EX6OfbWzSeD3MgpjwDPIbkePzv31KPE_vG57tYAOgHoskwbSGGvFOE8YqSIEQ3eh39gQ1Gl_844BZrCkEFMqzsVwvvLmJok8XyKfyQRClYWBdlZPJyc_WKgZ5sZU3nCOoNfNg6VUY6x0Fha3OMp9y-mnTAJikd4S6Amn6C5wB",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJs93wLzLdZjURCjVPSU0yoWM",
+    "plus_code": {
+      "compound_code": "9545+PH Cheongsong-gun, Gyeongsangbuk-do",
+      "global_code": "8Q8F9545+PH"
+    },
+    "rating": 4.4,
+    "reference": "ChIJs93wLzLdZjURCjVPSU0yoWM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 29
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "460-4 Sangni-ri, Pungsan-eup, Andong-si, Gyeongsangbuk-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 36.5778237,
+        "lng": 128.577013
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 36.57917352989273,
+          "lng": 128.5783628298927
+        },
+        "southwest": {
+          "lat": 36.57647387010729,
+          "lng": 128.5756631701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Daegu Restaurant",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110101183582229522023\">베짱이</a>"
+        ],
+        "photo_reference": "ATKogpdqz-n3Vug_n3d9DjC3ZOVA-CjLnPt00Uhee0aQu4lJ__4JFSNZfM9k0S9yg07_PjsJt6_13oRvim8dxrR0-ofUb9wxIoIOvyvSQyFbktcGpZa5Ud23SimQskArHed9TcgQCXxo-pSP4qngKOxZN8_OcGlfk8eruSCBNJ4L7Gju_aalGIUmLx99zWgprzB3gg_zLNprwmso6YioiWKeLlfGQYUD8gmMJo0gJN49MkbdtAF19uhtkcTnNej6pfa3Gu7oQcG4g58983mmN25ix_GunrMrCybD3xil3DaeMktGME0GX63AoaEReP51Wn40iphb2uJedcVmOFNZHcYpIemuhtfvVkAt8Dj9oQ5ypena2gfOLYwm4OzEvxOEg2v-j3-rLPYBEZT5O9gy7bmfKbYGzEuXVSE4OYvxHRJNiDBpzZbjPBML-AGNuk1aJifxO3YqbGHl4VKim-Rcku_Y40WYUm5Q6uxHOk2JwKIuQVZ_wfu_82F6CKX5Nc71PfLHUK39HdX6iiZym9kmVGcgc3DQUI5gFubLU6lsip4W9RNJaxEMf9gLTcP04RuBU37HVzycObJy",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJIW2GMjcfZDURNsHk4nZKHWA",
+    "plus_code": {
+      "compound_code": "HHHG+4R Andong-si, Gyeongsangbuk-do",
+      "global_code": "8Q8CHHHG+4R"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJIW2GMjcfZDURNsHk4nZKHWA",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 612
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Gyeongsan, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 35.9567631,
+        "lng": 128.8198383
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 35.95811292989272,
+          "lng": 128.8211881298927
+        },
+        "southwest": {
+          "lat": 35.95541327010728,
+          "lng": 128.8184884701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "박터진흥부네",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1868,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116470247635602548063\">Yeon woo Jo</a>"
+        ],
+        "photo_reference": "ATKogpdy0pvZtFU01jZgD6FBTVEmcNxMtXe_p4nFqQFKv008QhlfYs-dF_9ad21vgnDt4CiPndhOlXxhVi_2DiUcCFB5j68lepOpA6ygwnANT98f5GW7PHQvBEbMdg43jUY8gLrURMYBrP6bXdKLkl2pC4PzTwgwrH3pJ1qwPHhqbSzswRf7VSKeaCQQKaZZP6zZSc7V7AbRsgLGEn-rE_NAwqYp9fTx6oN9LHsYr9ziwGmhYvcCtIdXAdC-26vPbqJEtax6BnIZl5FOY7N_lPE_LfFCMwUhwd5as9BVKxyHdR2qeGP86P_oWbQpiLltppF_hEiMEnjFbDegWHgf2b6aMWT65qaC163IK3nOLbnTL5w6S7oFc2sZkeoGMN0BS40-oS_DoJrXvH_xhs6MRZGovyrKvYUUo846mvdwhlxftgo3EeLWA9Qiq340i2hyVAX7loLd23FgLgp0z3sZmGaA7IJ4Yj2fsErTW2kHbF5KYvYG6H8vmAVZ6L6_qpSq78WMpGqPqZ0VDrxDVPhMu9oLigupgTmkoInUKGHY0fAonPmkr5FtCY6o9b-hwBJJnGul1f-bPg",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ8X-kaeJxZjURrL4z9egD-oI",
+    "plus_code": {
+      "compound_code": "XR49+PW Gyeongsan-si, Gyeongsangbuk-do",
+      "global_code": "8Q7CXR49+PW"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJ8X-kaeJxZjURrL4z9egD-oI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 233
+  }
+]

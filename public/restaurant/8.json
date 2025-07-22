@@ -1,0 +1,1036 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "157 Leejongmu-ro, Suji-gu, Yongin-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.3599874,
+        "lng": 127.040088
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.36133722989273,
+          "lng": 127.0414378298927
+        },
+        "southwest": {
+          "lat": 37.35863757010728,
+          "lng": 127.0387381701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Gogiri Makguksu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 9000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111136886507183596565\">김영대</a>"
+        ],
+        "photo_reference": "ATKogpfKNMIxU4Hrnt1-hPQ7uN1U4lllAan4MDItviONWPUY0obdEIQ29mt_y0B06F_GlZn5ZrWHMy15TBP7BI82HhIcfWFaRAGj7yz39xu4Gp55nDoLD-4-yswo6_dDKddBfDQDNGvQ47a3MxHIkALVtMiP_rMbPND1WguhdE_eMMitIZkvO5OMPYQrU9VGcNeHTe1ioaHDKuGUYGlsXbRMCdRYTpA8wcbmK8pqDpO2QU0Av5AwzQvfHibBXx4sap_fWWd2cDd9j4sIpPDTYP2UzaSaYcqO0IUeBu1PL51nYBwGv1YnRlIRDXHLPj94tqA2UZ1l7DsghzWLilIq4w2L0UNP7pLWLSuI5i1BR0bt29YiVwVlrjYV-F0gAekVuh1He0mwrbgw2oXngG-9E08MI5B0iSKerERVMyvR547Ec6I0ggzTpQPfpxuJb09IpAQubqnSTtIZBLNt_Rw-9FUuWSUEy0LmWyNFiyTfDl_okT6DAnqYAk8j78PbcFZgLZKcPOF4-n08bRZQDvx6rtttJ2qIpOFXxxNACqioOeQ_MYpfCIC99SPPDpj8wMMAdTSj2izYAg",
+        "width": 12000
+      }
+    ],
+    "place_id": "ChIJxc7Hx01ZezURX6MUPqyXn5M",
+    "plus_code": {
+      "compound_code": "925R+X2 Yongin-si, Gyeonggi-do",
+      "global_code": "8Q99925R+X2"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJxc7Hx01ZezURX6MUPqyXn5M",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4635
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "11-6 Wangbaesan 2-gil, Hwaseong-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.179782,
+        "lng": 127.1256548
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.18113182989272,
+          "lng": 127.1270046298927
+        },
+        "southwest": {
+          "lat": 37.17843217010728,
+          "lng": 127.1243049701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Yeogbugjib",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104415479565200044243\">juyoun choi</a>"
+        ],
+        "photo_reference": "ATKogpdRXlrCLRG5OHevZo5YSwmN5LKzd5PgVRBeu_fPCFh81e6L8tE7TD0r4f6hgZMLd3-EeAWAyYGjQqapyKlyps4ita9Exc01I3O3tLAWNT1wE-fJZ0-KYrTNL-jIFxIDaRSQhCI-aClznhht3H2RrgeUkfFDLeWaKDZPBaZl_IOaJGYM0zsOWMjIlIbW0xRaBHMtjngg_1DBn-_ke2NejXc_hrIXg3z3kcAQ4sCLllRj2fIX0CdRBmvuipoFTy6gUJaToZaFgvqO7UMKu2NFdOJScTJHcBpklsyHhRVeaitL_fyUgmDASAsvF_RrRvrgjPLnJOXYmAImvDWAfJiBGxePrud3tuWZ2BpyM3XZZtLjywFMfB6_6KnOxuLI5_HjIjwiue_XdaLcmjnIvnVEN-mqv1Wr847x7_wB6MkNblJBcs_6Kqs_EmQdrmDeOC65rN-4b6PLoCPyFKI-oBm5pg-qwHkPozRsXWxxtRsHM2dL63dTe_0BbHD2zB_PYzw4FmMRtpFwhVF-pJKA57lpGCX-7jiJmlx7lHVA3MQr07VlmXqmoQ9NqPnZIrwXCosMeb9mUu9-",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ35XCJL9FezUR2Ct2UwrIORs",
+    "plus_code": {
+      "compound_code": "54HG+W7 Hwaseong-si, Gyeonggi-do",
+      "global_code": "8Q9954HG+W7"
+    },
+    "rating": 4.6,
+    "reference": "ChIJ35XCJL9FezUR2Ct2UwrIORs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 48
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gyeonggi-do, Yangpyeong-gun, Gangsang-myeon, Gangnam-ro, 661 KR",
+    "geometry": {
+      "location": {
+        "lat": 37.4995604,
+        "lng": 127.4544954
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.50091022989272,
+          "lng": 127.4558452298927
+        },
+        "southwest": {
+          "lat": 37.49821057010728,
+          "lng": 127.4531455701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "오찬회동",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111354815245600513197\">Days 7</a>"
+        ],
+        "photo_reference": "ATKogpfsHft-ZXMqpHwDqYdez_fatnCFkplFD56ZVU4CrP3lq5cptp_QnHqGyX1pByNNUcDLiG8aDnzPICfT9k6bL4974mS5K60gLsGkQV1bU9BRy1XRrsAeQ0JKD6NIVEX05l8R8lFxQvT6JykwdE26F7oknh29aZqH29FUnEL9TgqaSuZyNtRQCmDsZu1JTmZF-8mq6unB6elTWA9tQv1F5h9WJBWBHe5U9KvEfTHvqVDCk5ECoW0wTiJ6eRsBiSCo8oFy3bnHd9N_mQGdfBc-wdhQn9oQT41xlk1RYXBBbdWfIbJvwXQ78dMa56smG485ac2axnHem8j_MRDsAa7Wjx54v72vEeD5w26jly8Sc3vlJc8gOUbEffYhs8JiNjRCrM03xAolVRlLxSMTGHJy4ecwkH9Nnef_QdJ-aqBBUlKIq-28waU9scjaK32CMESr0d7yYNA1o1ae0xwk5WHHzSEDsoUakcTDlj0HzNp1jc_LhVJ5nV2FDkUmn3WXN0Q1VrdST8-WI6vVEHFQTC1rxVxQdzgOMwrbLXWs195QkTEl_tEg28lJ0LWNWP_Ri9eCLGt9uJHQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJVwvvhDZJYzUR-hc9LjHWIPI",
+    "plus_code": {
+      "compound_code": "FFX3+RQ Yangpyeong-gun, Gyeonggi-do",
+      "global_code": "8Q99FFX3+RQ"
+    },
+    "rating": 4.9,
+    "reference": "ChIJVwvvhDZJYzUR-hc9LjHWIPI",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 94
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "34-11 Deongneung-ro 1071beon-gil, Namyangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.683507,
+        "lng": 127.1013583
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.68485682989272,
+          "lng": 127.1027081298927
+        },
+        "southwest": {
+          "lat": 37.68215717010728,
+          "lng": 127.1000084701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Moghyang-Won",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115240314620153478903\">아삼331</a>"
+        ],
+        "photo_reference": "ATKogpcmog22CDxuDmm6PgplGa35T9UeWaPqmx2hkvUVl5P_XbABIS9QIsS99BVzPxENHBftyC_b2yzL8EhcPanSO8Lb_E5eUNoNuDtmiuwUDmAerCuTuGZ31C8RJJqA6-LHrfilMVDptPKSNEXwC88mKkV57zL1ExV51Rfbs2r_Z67RHdT17UZZNH6RhVjmJ7CjTMm6mVlKF5EK3v7QlBvCJ-wGmkhvT19-oytLJG-J9k1mKQameCcNRWRzZtipEtluApKAtYAQtn1TZ-6iv7ZJcZ7a_rUbjMk-kYWNGa-_6zjcoButEkUjuiFUEQHkvftm7fOsqlftv0tKZgix7u4jOz5Rp5qjRA29Kq0UMQY9j0aWhoWKLxfytN-pnZSl8ZI_3s9JCJQNibHd7dG4aXSE7u02Pm0VZ4aJj30oPREXKqPg0AAftJ8gA5G8PyH49r4aFTW3bmTvjU8uFapyBQT8pjipGjs9IumunXJ3uzVRn-hjEycJ3FNaEigFo5fryII6mfth2Pcxu40hHEeUkZN6VGcMLbBaOO8ghEmthfHla4lTwj9QRqyg_T8wsE2tdkjWAZDe16P6ZAPn5g",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJPZXgb2y4fDURGwcpO7cd3Jk",
+    "plus_code": {
+      "compound_code": "M4M2+CG Namyangju-si, Gyeonggi-do",
+      "global_code": "8Q99M4M2+CG"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJPZXgb2y4fDURGwcpO7cd3Jk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4261
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "126 Gogi-ro, Suji-gu, Yongin-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.3475526,
+        "lng": 127.0905502
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.34890242989272,
+          "lng": 127.0919000298927
+        },
+        "southwest": {
+          "lat": 37.34620277010728,
+          "lng": 127.0892003701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Mackerel that crossed the mountains",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2316,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115375105258735193753\">gyoungju Ma</a>"
+        ],
+        "photo_reference": "ATKogpemZDXdfDyW0gSfjZ8RNGBzpFg-EbzRgRgxVcwUvOAkX8vMWI34fgz1HxO8PzvhWfEFX68EDNYPXlA52TGmdWmONKALy5Vo3z90VNvB4hVH9nGe12zmHHrcHftDA93DWRh9fBqp4jAeHRzr0kAKwzcIVfidw-PQW_K8lLIYj94A8J-LSKXDx14OnZy7zFUhN4MXn29Gf1q4SbM_8E_Lv9NXc4mWz_UuSjIGe9uvu1NGOQpTDOtRNgQfUfT1Nb_u6KPbECbEKAH1Ut7jGMoZ8hjXRc1YyM4gtYiQizCOKCAObtR5idfdSPqXYxHm3nZ3p-6gC2pLMVJ0Ec_KWdUrW2WmdYSsHTC960Ol6nsHbITtB1S77cH8boK4OTDOZgbnEdOu_ox7JtGuMmKx1jIo8Xgt1CvR9hlI_HEfY8O5r7300vQSGimKBe1UGhl5Adm8qyliHc2drrizmGSffeJEXX2VypUaWwx7-KYa2eTT61K2uQDJevq9wgGG7gO81lijizCgX6ZK4Mpfg1t1fgEHFcE5vTR74Y2NVQatydRYWLnhR68OlaTHh_JDvX3LE4IDV3ilkzZPFW1J6g",
+        "width": 3567
+      }
+    ],
+    "place_id": "ChIJJY4uA5lZezURIAb_GE66o3I",
+    "plus_code": {
+      "compound_code": "83XR+26 Yongin-si, Gyeonggi-do",
+      "global_code": "8Q9983XR+26"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJJY4uA5lZezURIAb_GE66o3I",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 4597
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1070 Okcheon-ri, Okcheon-myeon, Yangpyeong-gun, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5271805,
+        "lng": 127.4766177
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.52853032989272,
+          "lng": 127.4779675298927
+        },
+        "southwest": {
+          "lat": 37.52583067010728,
+          "lng": 127.4752678701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "묵그리고",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104735100263582611401\">rider eye</a>"
+        ],
+        "photo_reference": "ATKogpeh_sxuLduLcn_VJLCZ_mSschIYu2mQl74sbYW9yC9_V3EH8XAN6eyQVjnkpVncUoO9aspfeSrd7v93pKPcxdvwu5fyd2ig1tqpn1v7DFCpcvvgL79NBTIJf0EYM_Qd4fIhOI13Q9DS67i-zqeG2epeiEXxK_x44fHeAXATcP73AkdIJVIVZ4HakFnnH-OxNXRdAKeNBgZNL-TCM0dVhGSM1oWKYujsRYpHa4AbpO2bhOw9w6r7JuET81KXTnG3XERGIjzGsaLF8ZH5TjqC7At0OUeMDCcDO1wgK4IejorMDKJEfcqblcZnG1YwOOm5ErFFRYNRp4cIClQp4Y90Mw0ufQJKvcM4TQrDpecInVBWYdH9rO_0irXOqJBQCmGQ63rKQB4wHBrYHF4M0TvlW-QvKR1nVrrWIHBhZvm3hK3ZPUVyWHUoRUcSxQIwBFI2pb2uSOXgVi-Bo_7QPxowOR8dnmcJRFRZN2h_3keFlqLqteIl2RwH7gGdhJCgG4PgVtMQv6m6kQ4uBq2DFPK0KvMBLzD8ooET6Q-QE0xiAtBtWaCx9uaqUF3wNk_qwMKIxdGREtJ6ncgxVg",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ2xCku4ZIYzURcyRWB2NJXb0",
+    "plus_code": {
+      "compound_code": "GFGG+VJ Yangpyeong-gun, Gyeonggi-do",
+      "global_code": "8Q99GFGG+VJ"
+    },
+    "rating": 4.8,
+    "reference": "ChIJ2xCku4ZIYzURcyRWB2NJXb0",
+    "types": [
+      "health",
+      "grocery_or_supermarket",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 322
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "38 Hoban-ro, Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.7276909,
+        "lng": 127.4140042
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.72904072989272,
+          "lng": 127.4153540298927
+        },
+        "southwest": {
+          "lat": 37.72634107010728,
+          "lng": 127.4126543701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Myeong-Woljib",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107177831098308851716\">Melgeum</a>"
+        ],
+        "photo_reference": "ATKogpdQbU6y-vA0QIKjWWqXQieeitJWP3739me6BmgazjLa70UaehK59TLn3kvcFQr1jXMPI6caa46rWN1HKjg5hWYu_0pGpbBZBoiG1KYW2-Z-90wUuV_qbxc5HiZcHtyT7LWrJMqyPJ_3a2MYKuZL54kGdiuEtf0jAb-G-VCJD0JtngRvfVf2nvekpZaF1rXaXyejUza5trmmZMtwvuUIFkr4aheAoeNfgyVfVjD7s51wHVOIgAoCKZhADYhICeX0ZEA36pkcc1ODZ-Pw64_koe7rENHidHit6TAvMR9iEHceiS5e3SRSUgXVUHzzJHYO_6-FyEC2M5fjpdjUGPwfu2HUZGICgfLuYRHYFSAu9uJGNepFuigeccPFME9qtZeeyDuAQXbaVQIGCY0nBLZFvdpKnf1KchI1CTHiWMttj1evvh6hcDht-UvrtE8Dy6gO_0UMcY6oj_mmRMppqNIi4W_EyBGJRrG6Zs5ne6lNQOnPJEYz3lLi6Q2hk2wvbPatfA4wynaWw43pCzJOz-kc8fC57mr2XLpwwWp0zHXGeQkB8ONVULgc9Vx3wz255ovwqaE",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ20PV5p4xYzUR2JLgUmyCJ0A",
+    "plus_code": {
+      "compound_code": "PCH7+3J Gapyeong-gun, Gyeonggi-do",
+      "global_code": "8Q99PCH7+3J"
+    },
+    "rating": 4.7,
+    "reference": "ChIJ20PV5p4xYzUR2JLgUmyCJ0A",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 126
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "65 Dopyeong-gil, Chowol-eup, Gwangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.3959421,
+        "lng": 127.2969588
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.39729192989272,
+          "lng": 127.2983086298927
+        },
+        "southwest": {
+          "lat": 37.39459227010727,
+          "lng": 127.2956089701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "명가 재래식 손두부",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1868,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107795591099089980060\">비갠뒤무지개</a>"
+        ],
+        "photo_reference": "ATKogpeMlNjbV9PdrpkgBJhWk8eOnz-QV1bwrkreemQsVmoPJyb58YdDvxHJMCO8Z1gkAAaew6SCETCSGc7fBG2DTeD_W848mkn0tvA6NcbuGZffiTI6ATjIkbp5lfnWXJXI3QsaCOSwNi3ttRqytzcAEhgSmIbG7XMPR_0dYUhQQ-1w-eEGa7eDv5CE20nGsNvwwmb3JZekTpj8dsVgHf-oOcg2zJat_lnDJhTXMV55fWhZH2-YMC43leQabuntrB2WPizkFwVv-Wm-dF4O8WDJQxDVI4P_jj5Q19duF21r5h01yKAJN_E3SSCVULJWfLeORTohPglUotOXo134DAeyw1PFsjZvSzA9UmBVltJj4huHpjdhqxt0YoEraNqZrJOj_v3Ep-gjTQBMOOwZkx4l-BCsE3M8A3r3aekE9B-OEaVX8GpIPrNgBHH8SDPl4ZGd-MNnDfKsRNzzU1LxcNAgtnKRReJByc7YrALrjeLJgVovlwEZOg8rUaxS9_Sq1Y-CxEeeALS75T2rKsmNGcoVrEOYvMdsTCnmxTmxGvrC5TqhiWWLJiAA5KBDTSd7hFYzF6NIoZB2SSaMMA",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJ4efC-zerfDURwShSj5gtVQY",
+    "plus_code": {
+      "compound_code": "97WW+9Q Gwangju-si, Gyeonggi-do",
+      "global_code": "8Q9997WW+9Q"
+    },
+    "rating": 4.4,
+    "reference": "ChIJ4efC-zerfDURwShSj5gtVQY",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 107
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "133 Bukhangang-ro, Joan-myeon, Namyangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5372294,
+        "lng": 127.3024064
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.53857922989273,
+          "lng": 127.3037562298927
+        },
+        "southwest": {
+          "lat": 37.53587957010728,
+          "lng": 127.3010565701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "기와집순두부 조안본점",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106237047546885754137\">Cheeyoung Kim</a>"
+        ],
+        "photo_reference": "ATKogpfiTdO4BhtgE0c8FTOAnhLTWaFfteOUEf331pZ4D1L_jhPcwKOGMNIqidIwEI-iWhu4XJdVJOq79NYgL-NyOggy0ogK90wENeDPeeCpZzPVH95DsmnQ6QVdVbg_JvJ62-eYohRjTN3OmgCIc4-bDet9L4tgLAA6aUX7psX3ifk9rnowNqxS3xnCmCGMW39DcbLRi_7pUdyfJ36nxedA3cJxRW5QPgKLnYO4f7nIfoBQtPNJFL-WHQ9uS-NKgI2tN9sMBhgujVsnYAJO812VeJ8gC5IZjFsPbTVJ2c6JLqNLzLrPyNZKrsw8PrinEOIiwbJhjygs4BySACl58oy6_x4fRBfX3EzcAeOOHHoICVfyP_INbdgyABLLAy-cfJAstNIpbq1j-M0rMVV0tMQEzXz1biezfeEEK7R1L3XUmNgF5L6Q0XJjK_8P5127YIdm8yBZe3zK0LbGQ-YU2bJFvOtEgPPxw89_z8VfkkED-HXr6xSc_CehCnLuOMfweRF0fHGvAn6SYFH9TXzwwybJ6bT_MDFfAi4MkGM69aJ4WCxRwbfMy1XXXMbuSACIRn5ErjwGzFfW",
+        "width": 5312
+      }
+    ],
+    "place_id": "ChIJx30vVd1FezURyblSBuS_xGU",
+    "plus_code": {
+      "compound_code": "G8P2+VX Namyangju-si, Gyeonggi-do",
+      "global_code": "8Q99G8P2+VX"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "reference": "ChIJx30vVd1FezURyblSBuS_xGU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3797
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "908 Gyeonggang-ro, Wabu-eup, Namyangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5571194,
+        "lng": 127.2365918
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.55846922989272,
+          "lng": 127.2379416298927
+        },
+        "southwest": {
+          "lat": 37.55576957010727,
+          "lng": 127.2352419701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "동동국수집",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111925448482793390875\">마리오</a>"
+        ],
+        "photo_reference": "ATKogpdlPlsVeBeOWiJ6s0U0Ufedw280AH27kBEEaYjsZaDPn7FrK-__v-ueV67wi3CcKM-UAuxOM3pbR3sY5sCVKZAdWBH6NJiarv-i0eVHDe17EsdpLmrAJCsmmMI-7nwYAlLyyZQbNon5DZ-DnfdRyGOr2-qvTgdFgoZcDnDBkqhBLA_xpeF6FuP-C9kmHA-K41O691IyfpdacYGb4o--4KOd7gJMGQxmI6LsOG_oWLgLRKYRo8hyb2cLVCZVWgyTYSxlUu66Fa99MgWNCB987DRRojLk_Srllv2vs1otu3lj_f1OfD_Oz96WSW4xbtbn00w-yGff3uEWXXFM_yrqu7TDFHO9qJ0-0PJbp33JFvgKNbyqsgeFc6q6c2AD_Q0i78qJrLp_uQdFFAZ3MAjhEK1OYnqgL73vwUj9z8Hd_kAkjo2-LJsvAmr5ryyomO2rEFpZe5tGhDNfDZ9CUic7Y3KF_FUg8th8lks8KeLusA54gez0aka57ZbZyTlpZ0Abz2GobGR0eBxg36n1VPlWq0QfEhepSfsNwXAx_ZFy5mDtebfAmGTOShbbs7oHLlDOlfxUXJS8",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJL2xwC6mzfDUR1rpZC41y8T0",
+    "plus_code": {
+      "compound_code": "H64P+RJ Namyangju-si, Gyeonggi-do",
+      "global_code": "8Q99H64P+RJ"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJL2xwC6mzfDUR1rpZC41y8T0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 656
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "49 Heungsin-ro 239beon-gil, Yangchon-eup, Gimpo-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.6765919,
+        "lng": 126.6103161
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.67794172989272,
+          "lng": 126.6116659298927
+        },
+        "southwest": {
+          "lat": 37.67524207010727,
+          "lng": 126.6089662701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "꼬꼬오리주물럭",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101745481193671377899\">김뿌꾸빵</a>"
+        ],
+        "photo_reference": "ATKogpe2SkWms0NcAtNkDdM5-OEvX7cpkQUD6LhwH_9KtHBRaT6hR5ZeHyDfOJ3qu8Dc-ZwPFFiWuJl-vLOAbD72b90wuEAYRyZsCsIRaejzdXG0-TfYHGPhZr-fspkwNuVVyCUkZ6SsUVI7in-CiGUGydUu33M3kLUCwTck_FfV6wZrzCgB4LzKoBhy93ptdsO5i6Dm9yjGIttS4u3hFq9cyZtjJo1WF8GLNNr5vfaWUXI5XUugrlw-Tuvy5YdLlYdbaHGuv8vmWnCYW1ZCc-9Cho0FsUy5KlZ5oQY9HQEmHhhfJdM-W1QTBTY1n_ULE4QmElSgXjtr0SHIlEWK2YLcGZHzTg_aCx9qxkD9ZJkEFMyO_8RJgeuydE6x9n7Y8PulB_snKQFqJpfr6JRC0h2S-wOZcsQLAlr4gFZonGR4f17XbB0hhxIRvPDc6tVNk0y2oy0sIggyEwCHIl1qo3r3gmPQSu5NV3ADv7826dSPZcEKFbM7KsFyTtX-OY9CW9jV-GN6bNOyUqwGcVO8ToUshLBIiJJvhmx2HHmVj1evn7_uYAy2WYlOUU4SZC5cHzQBpIM_phbRpz2DOw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ_XiNkYd9fDURze5iMLVcuxk",
+    "plus_code": {
+      "compound_code": "MJG6+J4 Gimpo-si, Gyeonggi-do",
+      "global_code": "8Q98MJG6+J4"
+    },
+    "price_level": 1,
+    "rating": 4.3,
+    "reference": "ChIJ_XiNkYd9fDURze5iMLVcuxk",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2043
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "2354 Sansu-ro, Namjong-myeon, Gwangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.5302809,
+        "lng": 127.3427127
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.53163072989272,
+          "lng": 127.3440625298927
+        },
+        "southwest": {
+          "lat": 37.52893107010728,
+          "lng": 127.3413628701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "검천농원",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112058157648341412111\">김선화</a>"
+        ],
+        "photo_reference": "ATKogpeC0QKBRum7-xzUhgLvzCBaVcfYIMHNcpHaa3OMiLBsdLoS2A5lSxE1obbD-yG9HbWiNmx-Bl_BwIBOk_syoypG3mvu2VsU-UhUYRI4mUVBXgRYwq4_xA9--C0P8nNIW72DGg8leBBB_IMN4XChftgo8f9lL-aABHZMur3Db7-keXMDgNm2UsgQpNEgs3sCZPbhCJ2oH0IUKFsS-CiP_eMqzosJJLxeNmcc8wc99s6C-YH9lY7ZNQZuqGX-qbC8h7pBLOakdMDbVx4zZL6RKv1j4uHRfBkz5QxJnlUm6gFndOGkiQCuwuPUpgy9AkcwDtAU3B8l1ZWWmbWEEVJfzvCSmz_J_pIgaKxXrlonfAZWlaiJebY32oc2hAxyabUzjJVDOyw0qWh7H4Zn7pGldgBZ3Vs1MYXQUp-F5BTyVLGqDvbnfEU7M97HwK5GvRkEnUsfQ88pbv6qxliRuuzcWmxgdxWu4vt2WZJmHvMU-i_90Y2n2D9Zi4PGWaTZ4nrN4T2v2kT-kuhW-RXAb6sK0uPHim04nMTTwjj4MNSsVlFnVXo7KLcbMK8ZTx97IJamGmcIrI-yw8S8xQ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJmbhaoihNYzUR8OYniR8PCYU",
+    "plus_code": {
+      "compound_code": "G8JV+43 Gwangju-si, Gyeonggi-do",
+      "global_code": "8Q99G8JV+43"
+    },
+    "rating": 4.5,
+    "reference": "ChIJmbhaoihNYzUR8OYniR8PCYU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 24
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10 Haengju-ro 17beon-gil, Deogyang-gu, Goyang-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.6015468,
+        "lng": 126.8277127
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.60289662989272,
+          "lng": 126.8290625298927
+        },
+        "southwest": {
+          "lat": 37.60019697010728,
+          "lng": 126.8263628701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Wonjo Guksujip",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109930329235565047881\">Wonbo Shim</a>"
+        ],
+        "photo_reference": "ATKogpf_MXvRx09MM-_2_Yehz6aUnRobM3UyIHykqYmZ6Xn6SNhYp6Boh5w-8LkAWMjFOLNiPX_KSJZcVY5TZr9EknZDm5gr1J_gXmEKxhAzIpRkTkYKZ2PI4wjz1R1D-YDXPQwS2NFor044EN81KXiH3dKaOh_JWiLyondDmlNo2kLaN0EK3u6PlpPkSAGVEB4Jg9nz-bVYAZNljM0_QlVVgOmkXSBIo19lYqPI3bxLZptb2Go7rJ0ZGr6PKa6fackQ568h4Z9NmYd591wtDH_W_GIFMoMBYsbHRfyjH1DfwTtLayxquZD5R5xiSOMk58CZqfAKz7L9HSv1l3KGkdsiG_oQtBYLq5icCacDYTOg_j9J_dmLqBlqwGBECNjVKrKie3XoG5xlpGPyD7RlKELnTKq-Nl2Il2GxU7yOZPcQC1a8UK4ePEs4bSm4kg80oPIZgJq7megmH9VTJsLknS9jUuUSnLugtPopX7MeGE9oHtk2E1uivu_D4X_COStNrC0h16kIwdEwwYe7SXXYBxPvLG2ERYmtD3riPGPAvSFKO3kAtoOjlrHn7gR0XZvaI3PQyRoRBc-FsF4adQ",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJ9-zcyqebfDURNhsb_F5be5c",
+    "plus_code": {
+      "compound_code": "JR2H+J3 Goyang-si, Gyeonggi-do",
+      "global_code": "8Q98JR2H+J3"
+    },
+    "price_level": 1,
+    "rating": 4.1,
+    "reference": "ChIJ9-zcyqebfDURNhsb_F5be5c",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 6739
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "908 Bukhangang-ro, Joan-myeon, Namyangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.59718,
+        "lng": 127.3390003
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.59852982989273,
+          "lng": 127.3403501298927
+        },
+        "southwest": {
+          "lat": 37.59583017010728,
+          "lng": 127.3376504701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "North Han River makguksu chicken chops",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101052761877636305812\">A-Reum Hwang</a>"
+        ],
+        "photo_reference": "ATKogpe72Net0mqABwtx2rCTk9F1YPSrd-_mrJAJqvFTP7beN3xdgaPh-FE_BR7gPAGsi-caaffLgO6TnMhpVif44CaLIDC_Xih1TI71xLFK3RFoDGsM47uqjDQ4BjSXPVaqchEdvfGQRM0NhblAWMvRzfHE-t25FuaCG7LetX1i4IBKqhBy0C5vS0yLzwI9O5nsctLN1-ULJfOSexO0X7knKHJJ4-UEVFXhnS4NMeJ8TO2Q8Z2sfFp34o0T_EBl4YC84Yf_4ZIRLVw38OcGhg-5XL_-7Co0BeDhvurTj0hfJGgRb1HYD8VX_zG85p9J-zo109Q-37v7WpaLXkVRK9nlOw_ePX5HHNw3XQLS2nlXh8-S38eRNofwqXx5rGZIWgCfE5ThXQ7Tv08hJIvJHBAK9Ws5it-q6GLD_ytpMSpNbW8EE0LQ9vzQp4lzr7s0gKs_OjYgplEi9Wew9hKuNlIK_DLE2u8tUUt86N-rd44xsJrTCrqLZwcomNqWX2sQSVfP3qShul51fWLVyl8p_HAEQkNzSjmkfB3Dz_58U7Uux0z7u4DCYuL2Zn9tPg52x-yhzKqOPIfX",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJDWdWz4lKYzURCKS1Dcv3_OU",
+    "plus_code": {
+      "compound_code": "H8WQ+VJ Namyangju-si, Gyeonggi-do",
+      "global_code": "8Q99H8WQ+VJ"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "reference": "ChIJDWdWz4lKYzURCKS1Dcv3_OU",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 881
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "South Korea, Gyeonggi-do, Gwangju-si, Toechon-myeon, Gwaneum-ri, 662-2 KR",
+    "geometry": {
+      "location": {
+        "lat": 37.4637906,
+        "lng": 127.3250467
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.46514042989272,
+          "lng": 127.3263965298927
+        },
+        "southwest": {
+          "lat": 37.46244077010728,
+          "lng": 127.3236968701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "송탄식 오늘부대찌개",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116597850952859720611\">오또ke</a>"
+        ],
+        "photo_reference": "ATKogpfq9RpY49Hj2fkGQvhLH5ikpT1Si_6tVTMWrNnSwm7lr7wOUg4blt71TLjd7b-3kNR7AjwEK4aKp_AYZDXbO91YnLxpUDuxspJmzCGDvmtuHqrKESyICuNwCt5aHW_0i2l28mYPBwijGtuoFwMNAcHIKIjoHbirLUhM2QP9mOS19C-y_DnNyd1Zn8lI8OL8HxnP7Y9IfMIGIJbtROqeoIdwxqgYm6cLBB3Fc5uwf6z5n2pO-SgMF6ZeI7C25O-DSdhrlV6DS0mP-sqWwn4KxZSP9EeV_WaJ82uEu1OCBtHp5R6gLFgyZFGiRbuaBHCLlvqqb_Xg3vE9uSawIq3qZhNNQP6V1z1pFPLk-RFCYMJFMbEWjkLFUoXeG20zSaUqY50toTWyVSjJVpOt9GWryf8Jqszwso1fL7IL6oo9w3KwdPgT8lOlq-QZnegQgsyFmQE8uN4pMGUd3aVn1tMYMZ1gNdywiW8cnRbbF2jPCeN4YDm5tLjZkTXCNwRc8d8tlvvzxAQu4j1LrcLKUG9ox2EObK4BS7r1lygU9dTFtqka2BfxQtbsxo4YbCQwYi7yLnL-wY0L",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJlQL0PpxSYzURgluszLQVTfs",
+    "plus_code": {
+      "compound_code": "F87G+G2 Gwangju-si, Gyeonggi-do",
+      "global_code": "8Q99F87G+G2"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJlQL0PpxSYzURgluszLQVTfs",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 89
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "366 Ilsan-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.6679214,
+        "lng": 126.7825631
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.66927122989272,
+          "lng": 126.7839129298927
+        },
+        "southwest": {
+          "lat": 37.66657157010728,
+          "lng": 126.7812132701072
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "초이스스테이크",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110265929496939715536\">Jooah Lee</a>"
+        ],
+        "photo_reference": "ATKogpecnpRWsaCt9XrccBuit9lUW_VRbZTzgx5-CbBtZeQkcqg1yck1fKIAkd85zu8vfvQnuuRyCwpdHeFIw60bhR3wN_SAxs4zBJwbop_khCkQJuT6bDAkqaF_z3eghjvs825eThENmAmRc9b6ilN4KDBnYkRcRAHpg6ZY61EOEtSvj8OLiaP71jlmpzLmHbOpDvRktG-8BEoyh6oolbbgW9NCN-1_p4bsuUt2BWW6hV_ookjw-TOXJzFYW25WgEChjx5kBfewhWljslR4TYxKE863L50d_wch7wYR89FJ0Zm48PAN_s5Vpt5k4Hem5_LJu-uU61kQRqWsakdoFnarCd8RlrC5f_RpkbfuxoPKT0RpLUb-dJTpT_dpscKfJHo8kTPdW7Se1K8NdXz5gs3GGAa6kk2g0US6ja7JfRvQxJHLFl1-zG420ldP9rxbZjgthUMfkNcs6sB0kMh1OuSdrSBOAWx2IEEMW8sWJ47dBu_RFVmIV2geHnC_h9EBVQsxg3QIzkizXGBUWwX9tI9IUOVfCHfC-Ldp7_EBwrcT5nqn9m2u5DpCnzkg8QRXF6Yk8aqEwmUN6fcj9A",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJG5Ra3q2RfDURduDwGeobES4",
+    "plus_code": {
+      "compound_code": "MQ9M+52 Goyang-si, Gyeonggi-do",
+      "global_code": "8Q98MQ9M+52"
+    },
+    "rating": 4.6,
+    "reference": "ChIJG5Ra3q2RfDURduDwGeobES4",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 79
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "3 Seokdun-gil, Toechon-myeon, Gwangju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.4778844,
+        "lng": 127.3719957
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.47923422989272,
+          "lng": 127.3733455298927
+        },
+        "southwest": {
+          "lat": 37.47653457010728,
+          "lng": 127.3706458701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "흙토담골",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103891327289711134552\">정준현</a>"
+        ],
+        "photo_reference": "ATKogpcUEme4TLvCHAv3EqK6Zgu7t6oUZEkbk4H1zy6YaY2KfLAkfCgXN-hsw3AijbKNBhJ90wZLE6Ip1aqig1UhxOmgyU5NXxCFdppSRCr0l71rsl2DuHC_sR9OeY7ni9b_yKTKcxtYqx0iB9TnA5TU1q2Vf554Xe0L98-rLW94zkQn_ECWixBooDSOX8HBOqF9pEoixEbNGUwCWuQdUvlVG3DckKsylpdZNOpSoLyw2FoXNvHkObBhovKnEjmtJrIAUazNPgbJSrW0hpRBmvdx4yMel4m5h_7JJkKOMJJ0fVVaEJdX_WDEiBiRsAV7KnqzXhzJqTdzH2Of41IlOW2yi4Kpc0--B7OvhMFHydfETBWIzgQC4bo4HIqQX1Hw3u7ek6MZa4e-x864rQm_gySl0jJW5XUnboyfrd6YU2oZzyvLD126PKITA7jAqM_0R97gAerhJsqizfQ2mbrnpjkVcnQNnzNaPfPJ0ui7W7NqTlexi4dPSs7cmQ0wpzNUFNQYrH8xF_HP_Hebboce4FOapnumdcnD7Ze1ZweLruFCFqVq3p7fVS_1cjo_yTcFoMolrgGdEvA4o2E9hg",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJXynoBNBNYzURIHWtDATKbI0",
+    "plus_code": {
+      "compound_code": "F9HC+5Q Gwangju-si, Gyeonggi-do",
+      "global_code": "8Q99F9HC+5Q"
+    },
+    "price_level": 3,
+    "rating": 4.2,
+    "reference": "ChIJXynoBNBNYzURIHWtDATKbI0",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 925
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "12 Yongmunyeok-gil, Yongmun-myeon, Yangpyeong-gun, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.4830106,
+        "lng": 127.5936875
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.48436042989272,
+          "lng": 127.5950373298927
+        },
+        "southwest": {
+          "lat": 37.48166077010728,
+          "lng": 127.5923376701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "용문원조능이버섯국밥",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117361720724474609231\">유승찬</a>"
+        ],
+        "photo_reference": "ATKogpcsDLhbwTp9JZYnAo-NANnIse4RDWNVkSVAO9Oh5KWdTPYEGocCso9vGmp-Zp1XG2HCz8tDtczU2vakVLIquGJT9q4fsqohvreQDG9C6Z7TMz6ZRVBI4zTY7IIMS6W6VyHoNcDtgzAAOrTGATJrTTguQXDzP0SayNLIec0bUxTKjmlZ1U6GpcndufxtIUhbXUx-IBAf3R9KGdKWBaOSkYj87cfDyxAXLQcNQd2Hoqf0Y9NRo_W8sDtXgTRUZ04uqBiGfBk-MtPghrtQhT2TCINaWOMH2EWfhnfdZQIpThq2TtDtowrvAkRR8LRBG_r9ZSgIbLgLjWT4Fem2Khdxax2NDFGwCTd-z6PMWFVgVqFyBPmT8tt3PQpqd3mYZrMrjdu3QvDSfVp_GMC-Wh8P7iGwVBj2sW8qPd-4-Pk2KrBM-JF3YqtQyg9zgLG6N4rUb1oUYXxwOPsoRT2OCKLAS0vO-XNPs37xReNJv4LdsjQOVaOv4t5r-gCuHYTCi72K6LUea7ageNdjRVP0hWDf-o1M2cKUTo1NCNbqniqJb6j7QvN0kDolD0NnAD0nDuVOilO7rNzY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ41Ya1PhAYzURm88eeEiCqLQ",
+    "plus_code": {
+      "compound_code": "FHMV+6F Yangpyeong-gun, Gyeonggi-do",
+      "global_code": "8Q99FHMV+6F"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJ41Ya1PhAYzURm88eeEiCqLQ",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 446
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "391-2 Sangsangok-dong, Hanam-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.4771112,
+        "lng": 127.23974
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.47846102989271,
+          "lng": 127.2410898298927
+        },
+        "southwest": {
+          "lat": 37.47576137010727,
+          "lng": 127.2383901701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "만두집",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115419446491684997067\">이만수</a>"
+        ],
+        "photo_reference": "ATKogpfVtVPEPTU6b3Mb_T4GHSP3DMrz5H5AwFQZJUQDnD_Ki-gfS_WM9D6UG1YDA28iHyK__OKwoZxXhW5Qd6C9kNULvabO3g6liLDaJa5dbXOgEXSlHKPgwQzaySMaG7XYbaGxD1qREZq7rEk_OMbCM_ACVprjKdUbigy8z_mB53py6dq4e_9HI-VWzRDXGImMyj0ouev6VZh3CySS1rLjkmjUk4c0mwQQLysZ3_Z0YLZPgSIndXKJEK4hXzAU83ozMp82u6i2vlBYS65k5jvldcXELGixDXBfHHGJGTgbMME9Lk4PnGP8V5HaOHGl-0LrfihXJ6s_QUjfE02khltguwB_23V4AU4uEJtyHQaPDEnHM8qf8a1-hpZBAGPceFyCpXkjf2YwoTPttYNuPz6IlL5aIkdYoz3nHZsyAonhuDX0czCnN060XOazSyTTBx67PlFGb3kkcqCR_ya96lf-6PBaoL8t9arXt1YFii4HRnjB6tR2gs3xFdv3UyIueQitMCx80JqxWorwy9r618tSVnltCqVRKFkD7c4a2CusmMRe1C1chZ3ALp7e2nsVYo4T2X0rfA",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJKZG-R7ytfDURhdBERW_7CqM",
+    "plus_code": {
+      "compound_code": "F6GQ+RV Hanam-si, Gyeonggi-do",
+      "global_code": "8Q99F6GQ+RV"
+    },
+    "price_level": 1,
+    "rating": 4.4,
+    "reference": "ChIJKZG-R7ytfDURhdBERW_7CqM",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2013
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "1196 Bangchon-ro, Tanhyeon-myeon, Paju-si, Gyeonggi-do, South Korea",
+    "geometry": {
+      "location": {
+        "lat": 37.8361296,
+        "lng": 126.7458094
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 37.83747942989272,
+          "lng": 126.7471592298927
+        },
+        "southwest": {
+          "lat": 37.83477977010727,
+          "lng": 126.7444595701073
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Galilee Farm",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107405404259212415544\">Satoshi TATENO</a>"
+        ],
+        "photo_reference": "ATKogpfdWFgUwrJx174NbADgkejtlwE3G7jpNAXH55p5CshIHV62-JCBfnmqhHqwSxg9i-KjWmy3_deCRgaqGR_n00T4V5tY9LWvKF54xHyb6Ik76nabwlAXbtxucn9mCBGSvEB4iOIXtAhlNyxk3oqbwzCHKykn66M8Z65lFYcLML2qpYI0cw84CZPDiRABw5XdCTR37Bjf8eV_6Blo_EKHc6eq528sxzWau7u1yIXp47O1ajETpZrP4A5y9zOEf2ll1X0Amxt0ZPFCThnhrKF5TCVM2_ncIffgm7xxqZaLT5G5G11ipww7JHq-4_bCYZQR9-OMBKIKcsbUTboi9N4EMIYOhNobcGN7ypv7PiWXGbYMucmLOHcunGDGYuNCLjZyO4j6hf0LoyOdKYmn4alpj5PkTBGmtJSQ86tlma6xDnwrif2hRF_7Wj2EH5NJZRhPqBLURqMwt2u9n6uFz1t_s_hCAEv2xdjATXI1hkw13LmLHVrd_kuuo7zBiJIf_pbep7Tc-K3AAtphi_TTzQ_4t0Q8XnpYKV_hTzOksAdyOzRgFqb2u6GyP_lXw9ZSrXA15wdI5vKx",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJMdjIctryfDURgJKN2qE98-A",
+    "plus_code": {
+      "compound_code": "RPPW+F8 Paju-si, Gyeonggi-do",
+      "global_code": "8Q98RPPW+F8"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJMdjIctryfDURgJKN2qE98-A",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4612
+  }
+]

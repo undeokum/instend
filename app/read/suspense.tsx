@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import { HeartInstructure, PostInstructure, UserDataInstructure } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
-import { faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
+import { faTriangleExclamation, faHeart as sHeart } from '@fortawesome/free-solid-svg-icons'
 import { useForm } from 'react-hook-form'
 import NavBar from '@/components/nav'
 import Image from 'next/image'
@@ -33,6 +33,7 @@ const ReadSuspense = () => {
     const [hearts, setHearts] = useState<HeartInstructure[] | null>(null)
     const [userData, setUserData] = useState<UserDataInstructure>()
     const [loading, setLoading] = useState(false)
+    const [ok, setOK] = useState(true)
 
     const getFolder = folderName == 'neighbor' ? `neighbor${userData?.neighbor}` : folderName
 
@@ -61,6 +62,7 @@ const ReadSuspense = () => {
                         userName,
                         mm,
                         summary,
+                        danger,
                     } = docSnap.data()
                     setPostData({
                         image,
@@ -70,6 +72,7 @@ const ReadSuspense = () => {
                         userName,
                         mm,
                         summary,
+                        danger,
                         id: getID!
                     })
                 }
@@ -99,6 +102,7 @@ const ReadSuspense = () => {
                 userName,
                 mm,
                 summary,
+                danger,
             } = doc.data()
             return {
                 image,
@@ -109,6 +113,7 @@ const ReadSuspense = () => {
                 userName,
                 mm,
                 summary,
+                danger,
                 id: doc.id
             }
         })
@@ -176,6 +181,13 @@ const ReadSuspense = () => {
         readDocInfo()
         postHeart.countHearts()
     }, [userData])
+
+    useEffect(() => {
+        if(postData){
+            setOK(postData.danger == 1 ? false : true)
+        }
+    }, [postData])
+
     useEffect(() => {
         fetchComments()
     }, [loading])
@@ -189,93 +201,106 @@ const ReadSuspense = () => {
                     <h1 className='text-3xl font-medium'>게시글을 찾을 수 없습니다.</h1>
                 </div>
                 :
-                <div className='space-y-10'>
-                    <div className='space-y-16'>
-                        <div className='space-y-5'>
-                            <div className='flex justify-between items-center'>
-                                <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
-                                    <div className='text-instend'>익명</div>
-                                    <div>&#183;</div>
-                                    <div>{postData?.createdAt}</div>
-                                </div>
-                                {
-                                    postData?.userId == user?.uid
-                                    &&
-                                    <div onClick={deletePost} className='cursor-pointer hover:underline text-black text-opacity-50 text-lg'>삭제</div>
-                                }
-                            </div>
-                            <div className='px-8 rounded-md bg-[#DAD2E9] py-5 w-full flex flex-col gap-3'>
-                                <h1 className='text-lg font-semi_bold'>AI가 게시글을 간단하게 요약했어요 😎</h1>
-                                <p>{postData?.summary}</p>
-                            </div>
-                            <h1 className='text-2xl font-regular'>{postData?.content}</h1>
-                        </div>
-                        <div>
-                            {
-                                postData?.image
-                                &&
-                                <Image src={postData?.image} alt='image' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
-                            }
-                        </div>
-                        <div className='items-center justify-center flex'>
-                            <button onClick={postHeart.heartChange} className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${postHeart.heartCheck ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`}>
-                                <FontAwesomeIcon icon={postHeart.heartCheck ? sHeart : faHeart} className='w-5 h-5' />
-                                <div className='text-lg'>{hearts?.length}</div>
-                            </button>
-                        </div>
-                    </div>
-                    <div className='border-b border-black border-opacity-20' />
+                (
+                    ok
+                    ?
                     <div className='space-y-10'>
-                        <div className='flex justify-between'>
-                            <h1 className='text-2xl font-semi_bold'>댓글 ({commentData.length})</h1>
-                            <select
-                                {...register('select')}
-                                className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
-                            >
-                                <option value='anon'>익명</option>
-                                <option value='name'>{user?.displayName}</option>
-                            </select>
-                        </div>
-                        <form className='space-y-3' onSubmit={handleSubmit(onValid)}>
-                            <textarea
-                                {
-                                    ...register('content', {
-                                        required: '댓글을 입력해주세요.',
-                                        maxLength: {
-                                            value: 200,
-                                            message: '최대 200자 까지만 작성 가능합니다.'
-                                        }
-                                    })
-                                }
-                                placeholder='내용을 입력하세요.'
-                                className='w-full border border-black border-opacity-20 px-5 pt-2 pb-16 rounded-md focus:ring-2 focus:ring-instend focus:outline-none resize-none'
-                            />
-                            <div className='text-red-600'>{errors.content?.message}</div>
-                            <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
-                        </form>
-                        <div className='border-b'>
-                            {
-                                commentData.map(commentInfo => (
-                                    <div key={commentInfo.id} className='w-full py-5 border-t space-y-1'>
-                                        <div className='flex items-center justify-between text-black text-opacity-50 text-lg'>
-                                            <div className='flex space-x-1'>
-                                                <div className='text-instend'>{commentInfo.userName}</div>
-                                                <div>&#183;</div>
-                                                <div>{commentInfo.createdAt}</div>
-                                            </div>
-                                            {
-                                                commentInfo.userId == user?.uid
-                                                &&
-                                                <div onClick={() => deleteComment(commentInfo.id)} className='cursor-pointer hover:underline'>삭제</div>
-                                            }
-                                        </div>
-                                        <h1 className='text-xl'>{commentInfo.content}</h1>
+                        <div className='space-y-16'>
+                            <div className='space-y-5'>
+                                <div className='flex justify-between items-center'>
+                                    <div className='flex text-black text-opacity-50 space-x-1 text-lg'>
+                                        <div className='text-instend'>익명</div>
+                                        <div>&#183;</div>
+                                        <div>{postData?.createdAt}</div>
                                     </div>
-                                ))
-                            }
+                                    {
+                                        postData?.userId == user?.uid
+                                        &&
+                                        <div onClick={deletePost} className='cursor-pointer hover:underline text-black text-opacity-50 text-lg'>삭제</div>
+                                    }
+                                </div>
+                                <div className='px-8 rounded-md bg-[#DAD2E9] py-5 w-full flex flex-col gap-3'>
+                                    <h1 className='text-lg font-semi_bold'>AI가 게시글을 간단하게 요약했어요 😎</h1>
+                                    <p>{postData?.summary}</p>
+                                </div>
+                                <h1 className='text-2xl font-regular'>{postData?.content}</h1>
+                            </div>
+                            <div>
+                                {
+                                    postData?.image
+                                    &&
+                                    <Image src={postData?.image} alt='image' width={100} height={100} className='h-52 w-auto border border-black border-opacity-20 rounded-md' />
+                                }
+                            </div>
+                            <div className='items-center justify-center flex'>
+                                <button onClick={postHeart.heartChange} className={`flex items-center space-x-4 px-5 py-2 rounded transition-colors border border-instend_red ${postHeart.heartCheck ? 'text-white bg-instend_red hover:brightness-90 transition-all' : 'text-instend_red hover:bg-black hover:bg-opacity-5'}`}>
+                                    <FontAwesomeIcon icon={postHeart.heartCheck ? sHeart : faHeart} className='w-5 h-5' />
+                                    <div className='text-lg'>{hearts?.length}</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div className='border-b border-black border-opacity-20' />
+                        <div className='space-y-10'>
+                            <div className='flex justify-between'>
+                                <h1 className='text-2xl font-semi_bold'>댓글 ({commentData.length})</h1>
+                                <select
+                                    {...register('select')}
+                                    className='border border-black border-opacity-20 px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-instend'
+                                >
+                                    <option value='anon'>익명</option>
+                                    <option value='name'>{user?.displayName}</option>
+                                </select>
+                            </div>
+                            <form className='space-y-3' onSubmit={handleSubmit(onValid)}>
+                                <textarea
+                                    {
+                                        ...register('content', {
+                                            required: '댓글을 입력해주세요.',
+                                            maxLength: {
+                                                value: 200,
+                                                message: '최대 200자 까지만 작성 가능합니다.'
+                                            }
+                                        })
+                                    }
+                                    placeholder='내용을 입력하세요.'
+                                    className='w-full border border-black border-opacity-20 px-5 pt-2 pb-16 rounded-md focus:ring-2 focus:ring-instend focus:outline-none resize-none'
+                                />
+                                <div className='text-red-600'>{errors.content?.message}</div>
+                                <button type='submit' className='w-full py-1.5 text-lg text-white text-center bg-instend hover:bg-hover transition-colors rounded-md'>작성하기</button>
+                            </form>
+                            <div className='border-b'>
+                                {
+                                    commentData.map(commentInfo => (
+                                        <div key={commentInfo.id} className='w-full py-5 border-t space-y-1'>
+                                            <div className='flex items-center justify-between text-black text-opacity-50 text-lg'>
+                                                <div className='flex space-x-1'>
+                                                    <div className='text-instend'>{commentInfo.userName}</div>
+                                                    <div>&#183;</div>
+                                                    <div>{commentInfo.createdAt}</div>
+                                                </div>
+                                                {
+                                                    commentInfo.userId == user?.uid
+                                                    &&
+                                                    <div onClick={() => deleteComment(commentInfo.id)} className='cursor-pointer hover:underline'>삭제</div>
+                                                }
+                                            </div>
+                                            <h1 className='text-xl'>{commentInfo.content}</h1>
+                                        </div>
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
-                </div>
+                    :
+                    <div className='flex flex-col items-center justify-center space-y-3'>
+                        <FontAwesomeIcon icon={faTriangleExclamation} className='size-14 text-instend_red' />
+                        <h1 className='text-2xl font-semi_bold'>민감한 내용이 포함된 글일 수 있습니다.</h1>
+                        <div className='flex items-center w-full justify-center space-x-6'>
+                            <button onClick={() => router.push('/')} className='border border-instend text-instend text-xl px-5 py-2 rounded-md'>돌아가기</button>
+                            <button onClick={() => setOK(true)} className='bg-instend text-white text-xl px-5 py-2 rounded-md'>내용 보기</button>
+                        </div>
+                    </div>
+                )
             }
             <NavBar route='s' />
         </div>
